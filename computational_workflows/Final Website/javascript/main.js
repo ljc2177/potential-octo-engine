@@ -1,6 +1,27 @@
 console.log("this works")
 
-//history restrictions
+// ------ save submissions
+window.addEventListener('load',pageLoadFn)
+let building = {
+    "buildingList": []
+}
+
+function pageLoadFn(event) {
+    if(localStorage.getItem('building') === null){
+        return
+    } else {
+        building = JSON.parse(localStorage.getItem('building'))
+        building.buildingList.forEach(newBuildingPost)
+    }
+}
+
+// ------- remove buildings past certain timeframe
+setTimeout(() => {
+    localStorage.removeItem('building')
+    console.log("items have been removed on delay");
+}, "5000")
+
+// ------ history restrictions
 const historyEle = document.getElementById('history');
 const theCountEle = document.getElementById('counter1');
 
@@ -22,7 +43,7 @@ historyEle.addEventListener('input', function(e) {
     }
 });
 
-//Additional info restrictions
+// ------ additional info restrictions
 const addInfoEle = document.getElementById('add_info');
 const counterEle = document.getElementById('counter2');
 
@@ -52,7 +73,7 @@ function resetCounter() {
     const currentLength = 0;
 };
 
-//Set image size restriction
+// ------ set image size restriction
 var uploadField = document.getElementById("photo");
 
 uploadField.onchange = function() {
@@ -62,7 +83,7 @@ uploadField.onchange = function() {
     };
 };
 
-//Post new building to website
+// ------ post new building to website
 const form = document.querySelector("form");
 const buildingPosts = document.querySelector(".buildingGroup");
 const imageContainer = document.querySelector('img');
@@ -78,7 +99,7 @@ const adInInput = document.querySelector('#add_info');
 
 var button = document.querySelector('button');
 
-// render image
+// ------ render image
 uploadField.addEventListener("change", function() {
     changeImage(this);
 });
@@ -99,9 +120,7 @@ function changeImage(input) {
     console.log(input.files)
 }
 
-const building = {
-    "buildingList": []
-}
+// ------ post submissions
 
 const addNewBuilding = (e) => {
     e.preventDefault();
@@ -128,6 +147,7 @@ buildingObject = {
 }
 
 building.buildingList.push(buildingObject);
+localStorage.setItem('building', JSON.stringify(building))
 console.log(building)
 newBuildingPost();
 document.getElementById("address").focus();
