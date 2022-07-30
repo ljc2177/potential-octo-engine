@@ -62,15 +62,14 @@ uploadField.onchange = function() {
     };
 };
 
-const addr = document.getElementById("address");
-
 //Post new building to website
 const form = document.querySelector("form");
 const buildingPosts = document.querySelector(".buildingGroup");
+const imageContainer = document.querySelector('img');
 
 const addrInput = document.querySelector("#address");
 const statInput = document.querySelector("#status");
-const imgInput = document.querySelector('#photo');
+const imgInput = document.querySelector("#photo");
 const histInput = document.querySelector('#history');
 const link1Input = document.querySelector('#link1');
 const link2Input = document.querySelector('#link2');
@@ -78,6 +77,27 @@ const link3Input = document.querySelector('#link3');
 const adInInput = document.querySelector('#add_info');
 
 var button = document.querySelector('button');
+
+// render image
+uploadField.addEventListener("change", function() {
+    changeImage(this);
+});
+
+function changeImage(input) {
+    var reader;
+
+    if(input.files && input.files[0]){
+        reader = new FileReader();
+
+        reader.onload = function(event){
+            
+            result = event.target.result
+            console.log(result)
+        }
+        reader.readAsDataURL(input.files[0]);
+    }
+    console.log(input.files)
+}
 
 const building = {
     "buildingList": []
@@ -121,19 +141,21 @@ theCountEle.innerHTML = `0/1000`;
 
 function newBuildingPost() {
     const newBuild = document.createElement("p");
+    const newPhoto = document.createElement("img");
     newBuild.classList.add("flat");
     newBuild.style.display = "block";
-    newBuild.innerText = 
-        "address: "+addrInput.value+"\n"+
-        "status: "+statInput.value+"\n"+
-        "image: "+imgInput.value+"\n"+
-        "history: "+histInput.value+"\n"+
-        "link1: "+link1Input.value+"\n"+
-        "link2: "+link2Input.value+"\n"+
-        "link3: "+link3Input.value+"\n"+
+    newPhoto.setAttribute('src', result);
+    newBuild.innerHTML = 
+        "address: "+addrInput.value+"<br>"+
+        "status: "+statInput.value+"<br>"+
+        "image: <br> <img src="+result+" style=width:300px;>"+"<br>"+
+        "history: "+histInput.value+"<br>"+
+        "link1: "+link1Input.value+"<br>"+
+        "link2: "+link2Input.value+"<br>"+
+        "link3: "+link3Input.value+"<br>"+
         "additional_info: "+adInInput.value;
-
-    buildingPosts.appendChild(newBuild);
+    
+        buildingPosts.appendChild(newBuild);
     buildingPosts.prepend(newBuild);
 }
 
