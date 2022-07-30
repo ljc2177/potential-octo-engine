@@ -7,10 +7,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PreserveNYC</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v2.9.2/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v2.9.2/mapbox-gl.css' rel='stylesheet'/>
 </head>
 <body style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif">
-    <form id="buildingForm" action="">
-        <fieldset style="width: 20%; background:#ffe15e;">
+    <div id="map"></div>
+    <form id="buildingForm" action="" style="width: 20%;">
+        <fieldset style="background:#ffe15e; border:none;">
             <label for="form title" style="font-size: 20px; font-weight: bold;">Add a Building</label>
             <div style="margin-bottom: 12px; margin-top: 12px;">
                 <label for="address">Building Address*:</label>
@@ -33,7 +37,7 @@
                 <label for="history">History*:</label>
             </div>
             <div style="margin-bottom: 12px; margin-top: 12px;">
-                <textarea maxlength="1000" id="history" type="text" name="history" required="required" placeholder="History (optional)" style="width:500px; height:100px;"></textarea>
+                <textarea maxlength="1000" id="history" type="text" name="history" required="required" placeholder="History (optional)" style="width:450px; height:100px; border:none;"></textarea>
                 <div id="counter1" style="font-size:10px;">
                     <span id="current">0</span><span id="maximum">/1000</span>
                 </div>
@@ -50,17 +54,21 @@
             <div style="margin-bottom: 32px; margin-top: 12px;">
                 <input type="url" id="link3" name="link3" style="width:300px;" placeholder="Link 3 (optional)">
             </div>
+            <div>
+                <label for="addin">Additional Information (optional):</label>
+            </div>
             <div style="margin-bottom: 12px; margin-top: 12px;">
-                <textarea maxlength="1000" id="add_info" type="text" name="add_info" placeholder="Additional Information (optional)" style="width:500px; height:100px;"></textarea>
+                <textarea maxlength="1000" id="add_info" type="text" name="add_info" style="width:450px; height:100px; border:none;"></textarea>
                 <div id="counter2" style="font-size:10px;">
                     <span id="current">0</span><span id="maximum">/1000</span>
                 </div>
             </div>
-            <button type="submit" style="background:black;font-weight:bold; color:white; border-color:white;">Submit</button>
+            <button type="submit">Submit</button>
         </fieldset>
         </form>
         <div class="buildingGroup" style="width:600px;"></div>
         <!-- javascript behavior -->
-    <script src="javascript/main.js"></script>
+        <script src="javascript/config.js"></script>
+        <script src="javascript/main.js"></script>
 </body>
 </html>

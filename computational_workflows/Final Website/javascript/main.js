@@ -1,5 +1,18 @@
 console.log("this works")
 
+// ------ hide API keys
+const token = config.MAPBOX_TOKEN
+
+// ------ call map
+mapboxgl.accessToken = `${token}`;
+
+const map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/mapbox/light-v10',
+    center: [-73.990593, 40.740121],
+    zoom: 12
+});
+
 // ------ save submissions
 window.addEventListener('load',pageLoadFn)
 let building = {
