@@ -1,0 +1,200 @@
+#counter {
+    color: blue;
+    font-weight: normal;
+    float: right;
+    padding: 0.1rem 0 0 0;
+    font-size: 0.875rem;
+}
+
+body {
+    background-color: orange;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    overflow-y: scroll;
+}
+
+button.devsubmit {
+    background-color: orange;
+    width: 130px;
+    height: 70px;
+    color: blue;
+    border: none;
+    position: fixed;
+    left: 23px;
+    top: 23px;
+    font-size: large;
+    font-weight: bold;
+}
+
+button.devsubmit:hover {
+    background-color: lightblue;
+    color: blue;
+    border: none;
+}
+
+#navbar {
+    background-color: blue;
+    height: 120px;
+    margin-top: 0;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    position:fixed;
+}
+
+a {
+    color: orange;
+    text-decoration: none;
+}
+
+a:hover {
+    color: lightblue;
+    text-decoration: none;
+}
+
+#headerLinks {
+    position: absolute;
+    top: 50px;
+    right: 23px;
+}
+
+#title {
+    position: relative;
+    text-align: center;
+    top: 180px;
+    font-size: 5em;
+    color: blue;
+}
+
+#desc {
+    position: relative;
+    text-align: center;
+    margin: auto;
+    top:200px;
+    width: 50%;
+    font-size: 2em;
+    color: blue;
+}
+
+#navtitle {
+    position: relative;
+    text-align: center;
+    top: 38px;
+    color: orange;
+    font-size: xx-large;
+    text-transform: capitalize;
+}
+
+#buildingForm {
+    position: relative;
+    left: 300px;
+    top: 170px;
+    border: 3px solid blue;
+    margin: auto;
+    width: 40%;
+    padding: 30px;
+    text-align: center;
+    background-color: lightblue;
+    color: blue;
+}
+
+#loginForm {
+    position: relative;
+    top: 170px;
+    border: 3px solid blue;
+    margin: auto;
+    width: 25%;
+    padding: 30px;
+    text-align: center;
+    background-color: lightblue;
+    color: blue;
+}
+
+#createForm {
+    position: relative;
+    top: 130px;
+    border: 3px solid blue;
+    margin: auto;
+    width: 25%;
+    padding: 30px;
+    text-align: center;
+    background-color: lightblue;
+    color: blue;
+}
+
+#formtitle {
+    text-transform: capitalize;
+}
+
+button.formsubmit {
+    background-color: orange;
+    width: 130px;
+    height: 70px;
+    color: blue;
+    border: none;
+    position: relative;
+    left: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+button.formsubmit:hover {
+    background-color: blue;
+    color: orange;
+    border: none;
+}
+
+#profile {
+    text-align: left;
+    position: relative;
+    top: -400px;
+    left: 70px;
+    width: 50%;
+    color: blue;
+}
+
+#profheader {
+    font-size: 2em;
+}
+
+#headerLinks {
+    color: lightblue;
+}
+
+button.loginsubmit {
+    background-color: orange;
+    width: 130px;
+    height: 70px;
+    color: blue;
+    border: none;
+    position: relative;
+    left: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+button.loginsubmit:hover {
+    background-color: blue;
+    color: orange;
+    border: none;
+}
+
+#create {
+    color: blue;
+    text-align: center;
+    position: relative;
+    top: 200px;
+    font-size: 1.15em;
+}
+
+#create a {
+    color: blue;
+    text-decoration: underline;
+}
+
+#create a:hover {
+    color: lightblue;
+}

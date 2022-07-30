@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- css stylesheet -->
+    <link rel="stylesheet" href="styles/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Builds NYC</title>
+</head>
+<body style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif">
+    <div id="navbar">
+        <div id="navtitle"><a href="index.html">New Builds NYC</a></div>
+        <div id="headerLinks" class="headerLinks">
+            <a href="about.html">ABOUT<a>&emsp;&emsp;
+            <a href="faq.html">FAQ</a>&emsp;&emsp;
+            <a href="contact.html">CONTACT</a>&emsp;&emsp;
+        </div>
+    </div>
+    <form id="buildingForm" action="">
+        <fieldset id="form" style="width: 20%; border: none;">
+            <label id="formtitle" for="form title" style="font-size: 20px; font-weight: bold; color: blue;">SUBMIT A PROJECT</label>
+            <div style="margin-bottom: 12px; margin-top: 12px;">
+                <label for="address"><br>Build Address:</label>
+            <input type="text" id="address" name="address" value="" placeholder="Ex: 154 Carroll St, Brooklyn, NY 11231" style="width:300px;" required="required">
+            </div>
+            <div>
+            <label for="number"><br>Anticipated Build Year:</label>
+                <input type="number" name="year" id="year" required="required" min="2042" max="2092" step="1">
+            </div>
+            <div>
+                <label for="lot"><br>Lot Number:</label>
+                    <input type="number" name="lot" id="lot" required="required" min="0" max="1000000000" step="1">
+                </div>
+            <div>
+            <label for="file"><br>Build File:</label>
+                <input type="file" id="file" name="file" style="margin-bottom:0px;" accept="file/3dm" required="required">
+                <p style="margin-top: 0px; margin-bottom: 22px; font-size: 10px; color:black;"><i>.3dm files only. Max file size is 60MB</i></p>
+            </div>
+            <div>
+                <label for="use"><br>Build Type:</label>
+                <select name="use" id="use" required="required">
+                    <option value="Residential">Residential</option>
+                    <option value="Commercial">Commercial</option>
+                    <option value="Industrial">Industrial</option>
+                </select>
+            </div>
+            <div style="margin-bottom: 12px; margin-top: 12px;">
+                <textarea maxlength="1000" id="add_info" type="text" name="add_info" placeholder="Additional Information (optional):" style="width:500px; height:100px;"></textarea>
+                <div id="counter" style="font-size:10px;">
+                    <span id="current">0</span><span id="maximum">/1000</span>
+                </div>
+            </div>
+            <button class="formsubmit" type="submit">Submit</button>
+        </fieldset>
+        </form>
+        <div id="profile">
+            <div id="profheader">Profile</div>
+            > My Builds<br>
+            > Settings<br>
+            > Notifications<br>
+        </div>
+        <div class="newBuildGroup" style="width:600px;"></div>
+        <!-- javascript behavior -->
+    <script src="javascript/main.js"></script>
+</body>
+</html>
