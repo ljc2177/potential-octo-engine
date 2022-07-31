@@ -7,6 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>New Builds NYC</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v2.9.2/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v2.9.2/mapbox-gl.css' rel='stylesheet'/>
 </head>
 <body style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif">
     <div id="navbar">
@@ -24,7 +27,15 @@
         Find out what is being built next in your area and how it affects you.
     </div>
     </div>
+    <div>
+        <button id="launchMap" class="launchMap">Launch Map</button>
+    </div>
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <div id="map"></div>
+    </div>
         <!-- javascript behavior -->
+    <script src="javascript/config.js"></script>
     <script src="javascript/main.js"></script>
 </body>
 </html>

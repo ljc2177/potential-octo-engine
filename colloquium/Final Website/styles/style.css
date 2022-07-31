@@ -11,7 +11,17 @@ body {
     margin-top: 0;
     margin-left: 0;
     margin-right: 0;
+    padding: 0;
     overflow-y: scroll;
+}
+
+#map {
+    position: relative;
+    width: 90%;
+    height: 90%;
+    left: 70px;
+    top: 40px;
+    z-index: 1;
 }
 
 button.devsubmit {
@@ -25,6 +35,24 @@ button.devsubmit {
     top: 23px;
     font-size: large;
     font-weight: bold;
+}
+
+button.launchMap {
+    background-color: blue;
+    width: 130px;
+    height: 70px;
+    color: orange;
+    border: none;
+    position: absolute;
+    top: 500px;
+    left: 45%;
+    font-size: large;
+    font-weight: bold;
+}
+
+button.launchMap:hover {
+    background-color: lightblue;
+    color:blue;
 }
 
 button.devsubmit:hover {
@@ -73,7 +101,7 @@ a:hover {
     position: relative;
     text-align: center;
     margin: auto;
-    top:200px;
+    top:250px;
     width: 50%;
     font-size: 2em;
     color: blue;
@@ -197,4 +225,31 @@ button.loginsubmit:hover {
 
 #create a:hover {
     color: lightblue;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
 }
