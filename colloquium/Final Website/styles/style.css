@@ -7,7 +7,8 @@
 }
 
 body {
-    background-image: ;
+    background-image: url("https://raw.githubusercontent.com/ljc2177/potential-octo-engine/main/simplecity.jpg");
+    background-size: cover;
     background-color: #cccccc;
     margin-top: 0;
     margin-left: 0;
@@ -26,11 +27,11 @@ body {
 }
 
 button.devsubmit {
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.2);
     width: 130px;
     height: 70px;
     color: white;
-    border: 2pt solid white;
+    border: none;
     position: fixed;
     left: 23px;
     top: 23px;
@@ -39,7 +40,7 @@ button.devsubmit {
 }
 
 button.launchMap {
-    background-color: blue;
+    background-color: rgba(0, 0, 0, 0.2);
     width: 130px;
     height: 70px;
     color: white;
@@ -59,7 +60,6 @@ button.launchMap:hover {
 button.devsubmit:hover {
     background-color: rgba(255, 255, 255, 0.2);
     color: white;
-    border: 2pt solid white;
 }
 
 #navbar {
@@ -94,7 +94,7 @@ a:hover {
     text-align: center;
     top: 180px;
     font-size: 5em;
-    color: blue;
+    color: white;
 }
 
 #desc {
@@ -104,7 +104,7 @@ a:hover {
     top:250px;
     width: 50%;
     font-size: 2em;
-    color: blue;
+    color: white;
 }
 
 #navtitle {
@@ -120,37 +120,37 @@ a:hover {
     position: relative;
     left: 300px;
     top: 170px;
-    border: 3px solid blue;
+    border: none;
     margin: auto;
     width: 40%;
     padding: 30px;
     text-align: center;
-    background-color: lightblue;
-    color: blue;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
 }
 
 #loginForm {
     position: relative;
     top: 170px;
-    border: 3px solid blue;
+    border: none;
     margin: auto;
     width: 25%;
     padding: 30px;
     text-align: center;
-    background-color: lightblue;
-    color: blue;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
 }
 
 #createForm {
     position: relative;
     top: 130px;
-    border: 3px solid blue;
+    border: none;
     margin: auto;
     width: 25%;
     padding: 30px;
     text-align: center;
-    background-color: lightblue;
-    color: blue;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
 }
 
 #formtitle {
@@ -158,10 +158,10 @@ a:hover {
 }
 
 button.formsubmit {
-    background-color: orange;
+    background-color: rgba(0, 0, 0, 0.2);
     width: 130px;
     height: 70px;
-    color: blue;
+    color: white;
     border: none;
     position: relative;
     left: center;
@@ -170,8 +170,8 @@ button.formsubmit {
 }
 
 button.formsubmit:hover {
-    background-color: blue;
-    color: orange;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
     border: none;
 }
 
@@ -181,7 +181,7 @@ button.formsubmit:hover {
     top: -400px;
     left: 70px;
     width: 50%;
-    color: blue;
+    color: white;
 }
 
 #profheader {
@@ -193,10 +193,10 @@ button.formsubmit:hover {
 }
 
 button.loginsubmit {
-    background-color: orange;
+    background-color: rgba(0, 0, 0, 0.2);
     width: 130px;
     height: 70px;
-    color: blue;
+    color: white;
     border: none;
     position: relative;
     left: center;
@@ -205,13 +205,13 @@ button.loginsubmit {
 }
 
 button.loginsubmit:hover {
-    background-color: blue;
-    color: orange;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
     border: none;
 }
 
 #create {
-    color: blue;
+    color: white;
     text-align: center;
     position: relative;
     top: 200px;
@@ -219,7 +219,7 @@ button.loginsubmit:hover {
 }
 
 #create a {
-    color: blue;
+    color: white;
     text-decoration: underline;
 }
 
