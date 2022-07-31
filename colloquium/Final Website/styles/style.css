@@ -7,7 +7,8 @@
 }
 
 body {
-    background-color: orange;
+    background-image: ;
+    background-color: #cccccc;
     margin-top: 0;
     margin-left: 0;
     margin-right: 0;
@@ -25,11 +26,11 @@ body {
 }
 
 button.devsubmit {
-    background-color: orange;
+    background-color: transparent;
     width: 130px;
     height: 70px;
-    color: blue;
-    border: none;
+    color: white;
+    border: 2pt solid white;
     position: fixed;
     left: 23px;
     top: 23px;
@@ -41,7 +42,7 @@ button.launchMap {
     background-color: blue;
     width: 130px;
     height: 70px;
-    color: orange;
+    color: white;
     border: none;
     position: absolute;
     top: 500px;
@@ -51,18 +52,17 @@ button.launchMap {
 }
 
 button.launchMap:hover {
-    background-color: lightblue;
-    color:blue;
+    background-color: rgba(255, 255, 255, 0.2);
+    color:white;
 }
 
 button.devsubmit:hover {
-    background-color: lightblue;
-    color: blue;
-    border: none;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: 2pt solid white;
 }
 
 #navbar {
-    background-color: blue;
     height: 120px;
     margin-top: 0;
     width: 100%;
@@ -74,7 +74,7 @@ button.devsubmit:hover {
 }
 
 a {
-    color: orange;
+    color: white;
     text-decoration: none;
 }
 
