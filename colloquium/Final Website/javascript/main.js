@@ -8,10 +8,36 @@ mapboxgl.accessToken = `${token}`;
 
 const map = new mapboxgl.Map({
     container: 'map',
-    style: 'mapbox://styles/mapbox/light-v10',
+    style: 'mapbox://styles/mapbox/dark-v10',
     center: [-73.990593, 40.740121],
     zoom: 12
 });
+
+// ------find yourself on map
+let geolocate = new mapboxgl.GeolocateControl({
+    positionOptions: {
+        enableHighAccuracy: true
+    },
+    trackUserLocation: true,
+    showUserLocation: true,
+    fitBoundsOptions: {
+    }
+})
+
+map.addControl(geolocate, 'top-left')
+
+// this is an event handler
+geolocate.on('geolocate', function(event) {
+    // create new variables to store the attributes we're interested in from the event
+    let lng = event.coords.longitude
+    let lat = event.coords.latitude
+
+    // debug
+    console.log('geolocated:', lng, lat)
+
+    // format lng lat values and display them on our 'info' element
+    // document.getElementById('info').innerHTML = lng.toFixed(5) + "," + lat.toFixed(5)
+})
 
 // ------ modal map
 var modal = document.getElementById("myModal");

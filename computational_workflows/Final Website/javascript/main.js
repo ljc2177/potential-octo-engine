@@ -13,6 +13,42 @@ const map = new mapboxgl.Map({
     zoom: 12
 });
 
+// ------find yourself on map
+let geolocate = new mapboxgl.GeolocateControl({
+    positionOptions: {
+        width: 40,
+        enableHighAccuracy: true
+    },
+    trackUserLocation: true,
+    showUserLocation: true,
+    fitBoundsOptions: {
+    }
+})
+
+map.addControl(geolocate)
+
+let nav = new mapboxgl.NavigationControl({
+    showCompass: false,
+    showZoom: true
+});
+
+map.addControl(nav);
+
+geolocate._container.parentNode.className = "mapboxgl-ctrl-top-center"
+
+// this is an event handler
+geolocate.on('geolocate', function(event) {
+    // create new variables to store the attributes we're interested in from the event
+    let lng = event.coords.longitude
+    let lat = event.coords.latitude
+
+    // debug
+    console.log('geolocated:', lng, lat)
+
+    // format lng lat values and display them on our 'info' element
+    // document.getElementById('info').innerHTML = lng.toFixed(5) + "," + lat.toFixed(5)
+})
+
 // ------ save submissions
 window.addEventListener('load',pageLoadFn)
 let building = {
@@ -98,7 +134,7 @@ uploadField.onchange = function() {
 
 // ------ post new building to website
 const form = document.querySelector("form");
-const buildingPosts = document.querySelector(".buildingGroup");
+// const buildingPosts = document.querySelector(".buildingGroup");
 const imageContainer = document.querySelector('img');
 
 const addrInput = document.querySelector("#address");
@@ -111,6 +147,24 @@ const link3Input = document.querySelector('#link3');
 const adInInput = document.querySelector('#add_info');
 
 var button = document.querySelector('button');
+
+// ------ get lat lng
+addrInput.addEventListener('input', function(e){
+    const target = e.target;
+
+    const addrInfo = target.value;
+
+    const ADDR_URL = `https://api.mapbox.com/geocoding/v5/mapbox.places/${addrInfo}.json?access_token=${token}`
+
+    fetch(ADDR_URL)
+    .then((response) => response.json())
+    .then((data) => {
+        array = data.features[0];
+
+        latitude = array.center[0];
+        longitude = array.center[1];
+    });
+})
 
 // ------ render image
 uploadField.addEventListener("change", function() {
@@ -162,6 +216,7 @@ buildingObject = {
 building.buildingList.push(buildingObject);
 localStorage.setItem('building', JSON.stringify(building))
 console.log(building)
+console.log(array)
 newBuildingPost();
 document.getElementById("address").focus();
 document.getElementById("address").select();
@@ -173,6 +228,7 @@ theCountEle.innerHTML = `0/1000`;
 }
 
 function newBuildingPost() {
+
     const newBuild = document.createElement("p");
     const newPhoto = document.createElement("img");
     newBuild.classList.add("flat");
@@ -187,9 +243,73 @@ function newBuildingPost() {
         "link2: "+link2Input.value+"<br>"+
         "link3: "+link3Input.value+"<br>"+
         "additional_info: "+adInInput.value;
+
+        console.log('this works')
+
+        if(statInput.value == 'Existing'){
+            let marker = new mapboxgl.Marker({ "color": "#32CD32" })
+            marker.setLngLat([latitude,longitude])
+            marker.addTo(map)
+
+            let popup = new mapboxgl.Popup()
+            popup.setHTML(
+            "<img src="+result+" style=width:200px;>"+"<br><br>"+
+            "address: "+addrInput.value+"<br>"+
+            "Status: "+statInput.value+"<br>"+
+            "History: "+histInput.value+"<br>"+
+            "Link(s): "+link1Input.value+"<br>"+
+            link2Input.value+"<br>"+
+            link3Input.value+"<br>"+
+            "Additional Information: "+adInInput.value)
+            marker.setPopup(popup)
+        } else if(statInput.value == 'Demolished'){
+            let marker = new mapboxgl.Marker({ "color": "#f15060" })
+            marker.setLngLat([latitude,longitude])
+            marker.addTo(map)
+
+            let popup = new mapboxgl.Popup()
+            popup.setHTML(
+            "<img src="+result+" style=width:200px;>"+"<br><br>"+
+            "address: "+addrInput.value+"<br>"+
+            "Status: "+statInput.value+"<br>"+
+            "History: "+histInput.value+"<br>"+
+            "Link(s): "+link1Input.value+"<br>"+
+            link2Input.value+"<br>"+
+            link3Input.value+"<br>"+
+            "Additional Information: "+adInInput.value)
+            marker.setPopup(popup)
+        } else if(statInput.value == "At-Risk") {
+            let marker = new mapboxgl.Marker({ "color": "#ffe15e" })
+            marker.setLngLat([latitude,longitude]);
+            marker.addTo(map)
+
+            let popup = new mapboxgl.Popup()
+            popup.setHTML(
+            "<img src="+result+" style=width:200px;>"+"<br>"+
+            "address: "+addrInput.value+"<br>"+
+            "Status: "+statInput.value+"<br>"+
+            "History: "+histInput.value+"<br>"+
+            "Link(s): "+link1Input.value+"<br>"+
+            link2Input.value+"<br>"+
+            link3Input.value+"<br>"+
+            "Additional Information: "+adInInput.value)
+            marker.setPopup(popup)
+        }
+
+        // let popup = new mapboxgl.Popup()
+        // popup.setHTML(
+        // "<img src="+result+" style=width:200px;>"+"<br><br>"+
+        // "address: "+addrInput.value+"<br>"+
+        // "Status: "+statInput.value+"<br>"+
+        // "History: "+histInput.value+"<br>"+
+        // "Link(s): "+link1Input.value+"<br>"+
+        // link2Input.value+"<br>"+
+        // link3Input.value+"<br>"+
+        // "Additional Information: "+adInInput.value)
+        // marker.setPopup(popup)
     
-        buildingPosts.appendChild(newBuild);
-    buildingPosts.prepend(newBuild);
+    //     buildingPosts.appendChild(newBuild);
+    // buildingPosts.prepend(newBuild);
 }
 
 form.addEventListener("submit", addNewBuilding);

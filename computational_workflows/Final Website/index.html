@@ -23,14 +23,14 @@
             <div>
             <label for="status">Building Status*:</label>
                 <select name="status" id="status" required="required">
-                    <option value="existing">Existing</option>
-                    <option value="demolished">Demolished</option>
-                    <option value="at_risk">At-risk</option>
+                    <option value="Existing">Existing</option>
+                    <option value="Demolished">Demolished</option>
+                    <option value="At-Risk">At-risk</option>
                 </select>
             </div>
             <div>
-            <label for="photos">Photo:</label>
-                <input type="file" id="photo" name="photo" style="margin-bottom:0px;" accept="image/png, image/gif, image/jpeg" />
+            <label for="photos">Photo*:</label>
+                <input type="file" id="photo" name="photo" required="required" style="margin-bottom:0px;" accept="image/png, image/gif, image/jpeg" />
                 <p style="margin-top: 0px; margin-bottom: 22px; font-size: 10px; color:gray;">Max file size is 2mb</p>
             </div>
             <div>
@@ -66,7 +66,7 @@
             <button type="submit">Submit</button>
         </fieldset>
         </form>
-        <div class="buildingGroup" style="width:600px;"></div>
+        <!-- <div class="buildingGroup" style="width:600px;"></div> -->
         <!-- javascript behavior -->
         <script src="javascript/config.js"></script>
         <script src="javascript/main.js"></script>

@@ -7,7 +7,7 @@
 html,
 body {
     height: 100%;
-    background-color: #ffe15e;
+    background-color: #f15060;
 }
 
 .container {
@@ -36,7 +36,7 @@ input::placeholder{
 
 .search-button {
     color: #141414;
-    background-color: #ffe15e;
+    background-color: #f15060;
     width: 100px;
     height: 40px;
     text-align: center;
@@ -75,4 +75,20 @@ input::placeholder{
     line-height: 1.2em;
     color: black;
     font-weight: bold;
+}
+
+.title {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    line-height: 1.2em;
+    color: black;
+}
+
+.description {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    line-height: 1.2em;
+    color: black;
 }

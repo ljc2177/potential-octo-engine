@@ -24,8 +24,10 @@ fetch(API_ENDPOINT)
     let weather_in_celsius = Math.round(
         local_weather_data.main.temp - 273
     );
+    let weather_in_f = Math.round((weather_in_celsius * 9/5) + 32)
       // manipulate the temperature content
-    TEMPERATURE.textContent = weather_in_celsius + " C";
+    TEMPERATURE.textContent = weather_in_f + "\u2109";
+
       // add icon
     const WEATHER_ICON = local_weather_data.weather[0].icon;
     image.setAttribute('src', `https://openweathermap.org/img/wn/${WEATHER_ICON}@2x.png`);
@@ -38,6 +40,8 @@ const getZipcode = e => {
 e.preventDefault();
 let ZIP_CODE = input.value;
 getWeatherData(ZIP_CODE);
+document.getElementById(".zipcode").focus();
+document.getElementById(".zipcode").select();
 }
 
-btn.addEventListener('click', getZipcode);
+form.addEventListener('submit', getZipcode);
