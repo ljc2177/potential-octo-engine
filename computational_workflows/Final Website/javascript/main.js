@@ -322,7 +322,7 @@ function newBuildingPost() {
     newBuild.innerHTML = 
         "address: "+addrInput.value+"<br>"+
         "status: "+statInput.value+"<br>"+
-        "image: <br> <img src="+result+" style=width:300px;>"+"<br>"+
+        "image: <img src="+result+" style=width:300px;>"+"<br>"+
         "history: "+histInput.value+"<br>"+
         "link1: "+link1Input.value+"<br>"+
         "link2: "+link2Input.value+"<br>"+
