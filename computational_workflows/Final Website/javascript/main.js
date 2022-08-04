@@ -65,7 +65,7 @@ function pageLoadFn(event) {
     }
 }
 
-// ------- remove buildings past certain timeframe
+//------- remove buildings past certain timeframe
 // setTimeout(() => {
 //     localStorage.removeItem('building')
 //     console.log("items have been removed on delay");
@@ -208,7 +208,7 @@ const addNewBuilding = (e) => {
 
 const newAddr = addrInput.value;
 const newStatus = statInput.value;
-const newImg = "<img src="+result+" style=width:300px;>";
+const newImg = `<img src="${result}" style="width:200px;"></img>`;
 const newHist = histInput.value;
 const newLink1 = link1Input.value;
 const newLink2 = link2Input.value;
@@ -322,7 +322,7 @@ function newBuildingPost() {
     newBuild.innerHTML = 
         "address: "+addrInput.value+"<br>"+
         "status: "+statInput.value+"<br>"+
-        "image: <img src="+result+" style=width:300px;>"+"<br>"+
+        "image: <img src="+result+" class='popupimage'/>"+"<br>"+
         "history: "+histInput.value+"<br>"+
         "link1: "+link1Input.value+"<br>"+
         "link2: "+link2Input.value+"<br>"+
