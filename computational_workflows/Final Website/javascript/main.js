@@ -208,7 +208,7 @@ const addNewBuilding = (e) => {
 
 const newAddr = addrInput.value;
 const newStatus = statInput.value;
-const newImg = imgInput.value;
+const newImg = "<img src="+result+" style=width:300px;>";
 const newHist = histInput.value;
 const newLink1 = link1Input.value;
 const newLink2 = link2Input.value;
@@ -251,6 +251,7 @@ function addMarker(bld) {
     let longitude = bld.longitude
     let status = bld.status
     let address = bld.address
+    let image = bld.image
     let history = bld.history
     let link1 = bld.link1
     let link2 = bld.link2
@@ -265,7 +266,7 @@ function addMarker(bld) {
 
         let popup = new mapboxgl.Popup()
         popup.setHTML(
-        "image: tbd"+"<br>"+
+        image+
         "address: "+address+"<br>"+
         "Status: "+status+"<br>"+
         "History: "+history+"<br>"+
@@ -281,7 +282,7 @@ function addMarker(bld) {
 
         let popup = new mapboxgl.Popup()
         popup.setHTML(
-        "image: tbd"+"<br>"+
+        image+
         "address: "+address+"<br>"+
         "Status: "+status+"<br>"+
         "History: "+history+"<br>"+
@@ -298,7 +299,7 @@ function addMarker(bld) {
 
         let popup = new mapboxgl.Popup()
         popup.setHTML(
-        "image: tbd"+"<br>"+
+        image+
         "address: "+address+"<br>"+
         "Status: "+status+"<br>"+
         "History: "+history+"<br>"+
@@ -327,8 +328,6 @@ function newBuildingPost() {
         "link2: "+link2Input.value+"<br>"+
         "link3: "+link3Input.value+"<br>"+
         "additional_info: "+adInInput.value;
-
-        addMarker();
 
         console.log('this works')
 
