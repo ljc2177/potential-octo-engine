@@ -73,6 +73,15 @@ button.devsubmit:hover {
     text-transform: uppercase;
     position:fixed;
     z-index: 3;
+    background-image: url("https://raw.githubusercontent.com/ljc2177/potential-octo-engine/main/colloquium/Final%20Website/Picture1.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #cccccc;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    overflow-y: scroll;
 }
 
 a {
