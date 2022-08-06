@@ -103,11 +103,13 @@ a:hover {
 }
 
 #imgcredit {
-    position: absolute;
+    position:fixed;
     right: 10px;
     bottom: 10px;
     color: white;
     font-size: x-small;
+    z-index: 3;
+    background:inherit;
 }
 
 #navtitle {
