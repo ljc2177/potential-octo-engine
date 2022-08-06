@@ -8,6 +8,8 @@ mapboxgl.accessToken = `${token}`;
 
 const map = new mapboxgl.Map({
     container: 'map',
+    width: '90%', 
+    height: '90%',
     style: 'mapbox://styles/mapbox/dark-v10',
     center: [-73.990593, 40.740121],
     zoom: 12
@@ -46,6 +48,7 @@ var span = document.getElementsByClassName("close")[0];
 
 btn.onclick = function() {
     modal.style.display = "block";
+    map.resize()
 }
 
 span.onclick = function() {
