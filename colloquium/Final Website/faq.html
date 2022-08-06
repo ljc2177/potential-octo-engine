@@ -17,6 +17,137 @@
             <a href="contact.html">HISTORY</a>&emsp;&emsp;
         </div>
     </div>
+        </head>
+        <body>
+        <button class="accordion">What is New Builds NYC?</button>
+        <div class="panel">
+            <p>
+                New Builds NYC is a web portal launched in 2034 in conjunction with DEBUG to better protect NYC residents from misregulated building developments. 
+                As part of the approval process, all potential builds must be submitted through this site. 
+                Once submitted, our computational model will assess building metrics and publish them for public and committee review.
+                The public can use these metrics to reach out to their committee members and inform their vote.
+                Elected committee members then vote on which projects will advance based on these metrics.
+            </p>
+        </div>
+        
+        <button class="accordion">How is New Builds NYC different from other building analysis tools?</button>
+        <div class="panel">
+            <p>
+                Prior to the implementation of New Builds NYC, there was no requirement for assessing a future build's impact on the local community.
+                New Builds NYC sought to change that, and has been implemented in policy as the first tool of its kind required for approval which measures future building impact. 
+            </p>
+        </div>
+        
+        <button class="accordion">How does New Builds NYC measure building impact? What metrics are being tracked?</button>
+        <div class="panel">
+            <p>
+                New Builds NYC collects public data from NYC Open Data, P.L.U.T.O., and other historical data to create the most up-to-date analysis metrics.
+                Metrics include average daily summer shade, average daily winter sunlight, average building age, and anticipated rent increase. 
+                Developers upload their proposed 3D building design files and they are imported into our model.
+                Our tools then determine these metric results using a combination of Grasshopper and Rhino.
+            </p>
+        </div>
+        <button class="accordion">Who developed New Builds NYC?</button>
+        <div class="panel">
+            <p>
+                In response to the tragic events of 2029, NYC Mayor Hughes commissions the development of New Builds NYC and the creation of DEBUG, the Department of Equitable Built Urban Growth.
+                Computational modeling professionals from Columbia GSAPP and NYU CUSP were contracted to complete the project.
+            </p>
+        </div>
+        <button class="accordion">What does New Builds NYC do for me?</button>
+        <div class="panel">
+            <p>
+                As a NYC resident, New Builds NYC gives you the power to know and have a say in what is being built in your neighborhood. 
+                Updated daily, this site includes potential future build metrics and visualizations, background information, and committee member current positions.
+                With this information, you are empowered to selectively choose your DEBUG representatives and contact them should you disagree with their position.
+            </p>
+        </div>
+        <button class="accordion">Why did I get a notification?</button>
+        <div class="panel">
+            <p>
+                New Builds NYC harnesses location technology to keep individuals updated on future builds in their area. 
+                This technology allows us to notify you when a new build is proposed in your area, and send a notification when you pass by a future potential build.
+                To opt out of notifications, please contact us at <a href="mailto:help@nbnyc" style="color:blue;">help@nbnyc.gov</a>.
+            </p>
+        </div>
+        <button class="accordion">How does New Builds NYC protect my personal data?</button>
+        <div class="panel">
+            <p>
+                We make every effort to ensure the highest confidentiality and security for your data. 
+                In this context, we take all necessary technical and organizational measures to ensure our network, infrastructure and information systems are protected. 
+                People only have access to your personal data if it is absolutely necessary. 
+                Personal data is treated with strict professional discretion in compliance with all technical requirements to ensure confidentiality. 
+                In addition, we want to prevent unauthorized people from accessing, processing, modifying or destroying your data.
+            </p>
+            <p>
+                In the case of data breaches, which may entail risks to your privacy, both you and the Commission for the Protection of Privacy are notified in accordance with our legal obligations. 
+                In such an eventuality, we will make every effort to resolve the breach as quickly as possible and to limit the consequences.
+            </p>
+        </div>
+        <button class="accordion">What are my rights?</button>
+        <div class="panel">
+            <p><b>
+                Right of Access
+            </b></p>
+            <p>
+                Would you like to know if you are registered in our database and what data we have about you? 
+                Do you want to know how we collected your data? 
+                To get answer to these questions and more, you can exercise your "right of access".
+                In accordance with the GDPR, you have the right to ask us:
+                <ol>
+                    <li>If you are included in our database</li>
+                    <li>What we do with your data</li>
+                    <li>Which categories of data we have about you</li>
+                    <li>Which recipients or categories of recipients we can transfer your personal data to</li>
+                    <li>About the shelf life of your data</li>
+                    <li>To confirm the existence of your rights (see below)</li>
+                    <li>About the source of your data (if you have not shared your data yourself)</li>
+                    <li>To confirm the existence of an automatic profile about you, the logic behind it, its meaning and consequences</li>
+                    <li>If the information has been transmitted outside the European Economic Area, and which safeguard measures have been taken pursuant to the GDPR</li>
+                </ol>
+            </p>
+            <p><b>
+                Right to Data Portability
+            </b></p>
+            <p>
+                You also have the right to the portability of personal data that concerns you and that you have communicated directly to us.
+            </p>
+            <p><b>
+                Right to Object
+            </b></p>
+            <p>
+                In the case of a dispute regarding the processing of your data, you may request the limitation of the processing of your data. In this case, we will not use your data until the dispute has been resolved.
+            </p>
+            <p><b>
+                Right to be Forgotten
+            </b></p>
+            <p>
+                You also have the right to request that your data are completely removed from our database in the cases listed by law (illegal treatment, treatment useless for the purposes pursued, if you have consented to the treatment and you withdraw this consent - among others). 
+            </p>
+        </div>
+        <button class="accordion">Can New Builds NYC sell my data?</button>
+        <div class="panel">
+            <p>
+                No. New Builds NYC is a government organization, and therefore cannot share it with anyone. 
+                If you have any further questions about this, please contact us at <a href="mailto:help@nbnyc" style="color:blue;">help@nbnyc.gov</a>
+            </p>
+        </div>
+        <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+        if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+        } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+        } 
+    });
+}
+        </script>   
     <div id="imgcredit">© iStockphoto / Jackie Niam</div>
     <!-- javascript behavior -->
     <script src="javascript/main.js"></script>
