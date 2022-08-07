@@ -10,7 +10,7 @@ const map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/light-v10',
     center: [-73.990593, 40.740121],
-    zoom: 12
+    zoom: 11
 });
 
 // ------find yourself on map
@@ -65,11 +65,11 @@ function pageLoadFn(event) {
     }
 }
 
-//------- remove buildings past certain timeframe
+// ------- remove buildings past certain timeframe
 // setTimeout(() => {
 //     localStorage.removeItem('building')
 //     console.log("items have been removed on delay");
-// }, "5000")
+// }, "5")
 
 // ------ history restrictions
 const historyEle = document.getElementById('history');
@@ -267,13 +267,13 @@ function addMarker(bld) {
         let popup = new mapboxgl.Popup()
         popup.setHTML(
         image+
-        "address: "+address+"<br>"+
-        "Status: "+status+"<br>"+
-        "History: "+history+"<br>"+
-        "Link(s): "+link1+"<br>"+
-        link2+"<br>"+
-        link3+"<br>"+
-        "Additional Information: "+addin)
+        "<b>Address:</b> "+address+"<br>"+
+        "<b>Status:</b> "+status+"<br>"+
+        "<b>History:</b> "+history+"<br>"+
+        "<b>Link(s):</b> <a href='"+link1+"'>"+link1+"</a><br>"+
+        "<a href='"+link2+"'>"+link2+"</a><br>"+
+        "<a href='"+link3+"'>"+link3+"</a><br>"+
+        "<b>Additional Information:</b> "+addin)
         marker.setPopup(popup)
     } else if(status == 'Demolished'){
         let marker = new mapboxgl.Marker({ "color": "#f15060" })
@@ -283,13 +283,13 @@ function addMarker(bld) {
         let popup = new mapboxgl.Popup()
         popup.setHTML(
         image+
-        "address: "+address+"<br>"+
-        "Status: "+status+"<br>"+
-        "History: "+history+"<br>"+
-        "Link(s): "+link1+"<br>"+
-        link2+"<br>"+
-        link3+"<br>"+
-        "Additional Information: "+addin
+        "<b>Address:</b> "+address+"<br>"+
+        "<b>Status:</b> "+status+"<br>"+
+        "<b>History:</b> "+history+"<br>"+
+        "<b>Link(s):</b> <a href='"+link1+"'>"+link1+"</a><br>"+
+        "<a href='"+link2+"'>"+link2+"</a><br>"+
+        "<a href='"+link3+"'>"+link3+"</a><br>"+
+        "<b>Additional Information:</b> "+addin
         )
         marker.setPopup(popup)
     } else if(status == "At-Risk") {
@@ -300,13 +300,13 @@ function addMarker(bld) {
         let popup = new mapboxgl.Popup()
         popup.setHTML(
         image+
-        "address: "+address+"<br>"+
-        "Status: "+status+"<br>"+
-        "History: "+history+"<br>"+
-        "Link(s): "+link1+"<br>"+
-        link2+"<br>"+
-        link3+"<br>"+
-        "Additional Information: "+addin
+        "<b>Address:</b> "+address+"<br>"+
+        "<b>Status:</b> "+status+"<br>"+
+        "<b>History:</b> "+history+"<br>"+
+        "<b>Link(s):</b> <a href='"+link1+"'>"+link1+"</a><br>"+
+        "<a href='"+link2+"'>"+link2+"</a><br>"+
+        "<a href='"+link3+"'>"+link3+"</a><br>"+
+        "<b>Additional Information:</b> "+addin
         )
         marker.setPopup(popup)
     }
@@ -339,13 +339,13 @@ function newBuildingPost() {
             let popup = new mapboxgl.Popup()
             popup.setHTML(
             "<img src="+result+" style=width:200px;>"+"<br><br>"+
-            "address: "+addrInput.value+"<br>"+
-            "Status: "+statInput.value+"<br>"+
-            "History: "+histInput.value+"<br>"+
-            "Link(s): "+link1Input.value+"<br>"+
-            link2Input.value+"<br>"+
-            link3Input.value+"<br>"+
-            "Additional Information: "+adInInput.value)
+            "<b>Address:</b> "+addrInput.value+"<br>"+
+            "<b>Status:</b> "+statInput.value+"<br>"+
+            "<b>History:</b> "+histInput.value+"<br>"+
+            "<b>Link(s):</b> "+"<a href='"+link1Input.value+"'>"+link1Input.value+"</a><br>"+
+            "<a href='"+link2Input.value+"'>"+link2Input.value+"</a><br>"+
+            "<a href='"+link3Input.value+"'>"+link3Input.value+"</a><br>"+
+            "<b>Additional Information:</b> "+adInInput.value)
             marker.setPopup(popup)
         } else if(statInput.value == 'Demolished'){
             let marker = new mapboxgl.Marker({ "color": "#f15060" })
@@ -355,13 +355,13 @@ function newBuildingPost() {
             let popup = new mapboxgl.Popup()
             popup.setHTML(
             "<img src="+result+" style=width:200px;>"+"<br><br>"+
-            "address: "+addrInput.value+"<br>"+
-            "Status: "+statInput.value+"<br>"+
-            "History: "+histInput.value+"<br>"+
-            "Link(s): "+link1Input.value+"<br>"+
-            link2Input.value+"<br>"+
-            link3Input.value+"<br>"+
-            "Additional Information: "+adInInput.value)
+            "<b>Address:</b> "+addrInput.value+"<br>"+
+            "<b>Status:</b> "+statInput.value+"<br>"+
+            "<b>History:</b> "+histInput.value+"<br>"+
+            "<b>Link(s):</b> "+"<a href='"+link1Input.value+"'>"+link1Input.value+"</a><br>"+
+            "<a href='"+link2Input.value+"'>"+link2Input.value+"</a><br>"+
+            "<a href='"+link3Input.value+"'>"+link3Input.value+"</a><br>"+
+            "<b>Additional Information:</b> "+adInInput.value)
             marker.setPopup(popup)
         } else if(statInput.value == "At-Risk") {
             let marker = new mapboxgl.Marker({ "color": "#ffe15e" })
@@ -371,13 +371,13 @@ function newBuildingPost() {
             let popup = new mapboxgl.Popup()
             popup.setHTML(
             "<img src="+result+" style=width:200px;>"+"<br>"+
-            "address: "+addrInput.value+"<br>"+
-            "Status: "+statInput.value+"<br>"+
-            "History: "+histInput.value+"<br>"+
-            "Link(s): "+link1Input.value+"<br>"+
-            link2Input.value+"<br>"+
-            link3Input.value+"<br>"+
-            "Additional Information: "+adInInput.value)
+            "<b>Address:</b> "+addrInput.value+"<br>"+
+            "<b>Status:</b> "+statInput.value+"<br>"+
+            "<b>History:</b> "+histInput.value+"<br>"+
+            "<b>Link(s):</b> "+"<a href='"+link1Input.value+"'>"+link1Input.value+"</a><br>"+
+            "<a href='"+link2Input.value+"'>"+link2Input.value+"</a><br>"+
+            "<a href='"+link3Input.value+"'>"+link3Input.value+"</a><br>"+
+            "<b>Additional Information:</b> "+adInInput.value)
             marker.setPopup(popup)
         }
 }

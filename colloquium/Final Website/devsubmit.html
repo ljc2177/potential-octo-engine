@@ -18,11 +18,11 @@
         </div>
     </div>
     <form id="buildingForm" action="">
-        <fieldset id="form" style="width: 20%; border: none;">
+        <fieldset id="form" style="width: 100%; border: none;">
             <label id="formtitle" for="form title" style="font-size: 20px; font-weight: bold; color: white;">SUBMIT A PROJECT</label>
             <div style="margin-bottom: 12px; margin-top: 12px;">
                 <label for="address"><br>Build Address:</label>
-            <input type="text" id="address" name="address" value="" placeholder="Ex: 154 Carroll St, Brooklyn, NY 11231" style="width:300px;" required="required">
+            <input type="text" id="address" name="address" value="" placeholder="Ex: 154 Carroll St, Brooklyn, NY 11231" required="required">
             </div>
             <div>
             <label for="number"><br>Anticipated Build Year:</label>
@@ -46,7 +46,7 @@
                 </select>
             </div>
             <div style="margin-bottom: 12px; margin-top: 12px;">
-                <textarea maxlength="1000" id="add_info" type="text" name="add_info" placeholder="Additional Information (optional):" style="width:500px; height:100px;"></textarea>
+                <textarea maxlength="1000" id="add_info" type="text" name="addilInfo" placeholder="Additional Information (optional):" style="width: 100%; height:100px; border:none;"></textarea>
                 <div id="counter" style="font-size:10px;">
                     <span id="current">0</span><span id="maximum">/1000</span>
                 </div>
@@ -56,10 +56,45 @@
         </form>
         <div id="profile">
             <div id="profheader">Profile</div>
-            > My Builds<br>
-            > Settings<br>
-            > Notifications<br>
+            <button class="accordion2">Notifications</button>
+            <div class="panel2">
+                <p>
+                No current notificiations. Please check back later.
+                </p>
+            </div>
+            <button class="accordion2">My Builds</button>
+            <div class="panel2">
+                <p>
+                No active/past builds. To submit a new build, please use the form to the right.
+                </p>
+            </div>
+            <button class="accordion2">Settings</button>
+            <div class="panel2">
+                <p>
+                <a href="login.html" style="color:#9adcfa">Change Password</a><br>
+                <a href="login.html" style="color:#9adcfa">Update Email Preferences</a><br>
+                <a href="faq.html" style="color:#9adcfa">Privacy Settings</a><br>
+                <a href="faq.html" style="color:#9adcfa">Cookie Settings</a><br>
+                <a href="login.html" style="color:#ff0000">Delete Account</a>
+                </p>
+            </div>
         </div>
+        <script>
+            var acc = document.getElementsByClassName("accordion2");
+            var i;
+    
+            for (i = 0; i < acc.length; i++) {
+                acc[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var panel2 = this.nextElementSibling;
+            if (panel2.style.maxHeight) {
+                panel2.style.maxHeight = null;
+            } else {
+                panel2.style.maxHeight = panel2.scrollHeight + "px";
+            } 
+        });
+    }
+            </script>  
         <div class="newBuildGroup" style="width:600px;"></div>
         <div id="imgcredit">© iStockphoto / Jackie Niam</div>
         <!-- javascript behavior -->

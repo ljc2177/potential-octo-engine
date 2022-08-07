@@ -76,6 +76,12 @@ function pageLoadFn(event) {
     }
 }
 
+//------- remove buildings past certain timeframe
+setTimeout(() => {
+    localStorage.removeItem('building')
+    console.log("items have been removed on delay");
+}, "5000")
+
 // ------ additional info restrictions
 const addInfoEle = document.getElementById('add_info');
 const counterEle = document.getElementById('counter');
@@ -97,14 +103,6 @@ addInfoEle.addEventListener('input', function(e) {
         document.getElementById('counter').style.fontWeight = 'normal';
     }
 });
-
-function resetCounter() {
-    const target = e.target;
-
-    const maxLength = target.getAttribute('maxlength');
-
-    const currentLength = 0;
-};
 
 // ------ set file size restriction
 var uploadField = document.getElementById("file");

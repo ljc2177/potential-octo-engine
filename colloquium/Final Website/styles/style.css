@@ -1,5 +1,5 @@
 #counter {
-    color: blue;
+    color: white;
     font-weight: normal;
     float: right;
     padding: 0.1rem 0 0 0;
@@ -96,7 +96,7 @@ a:hover {
     position: relative;
     text-align: center;
     margin: auto;
-    top:350px;
+    top:100px;
     width: 50%;
     font-size: 2em;
     color: white;
@@ -134,17 +134,18 @@ a:hover {
 }
 
 #mainpgimg {
-    position: fixed;
-    margin: 20%;
+    position: relative;
+    margin: auto;
     display: block;
-    height: 250px;
-    margin-top: 100px;
+    max-width: 60%;
+    max-height: 100%;
+    top: 100px;
 }
 
 #buildingForm {
     position: relative;
     left: 300px;
-    top: 170px;
+    top: 130px;
     border: none;
     margin: auto;
     width: 40%;
@@ -166,26 +167,46 @@ a:hover {
     color: white;
 }
 
+input {
+    width: 100%;
+}
+
+.form {
+    width: 100%;
+    position: relative;
+}
+
 #createForm {
     position: relative;
+    margin: auto;
     top: 130px;
     border: none;
     margin: auto;
-    width: 35%;
-    padding: 30px 30px;
     text-align: center;
+    width: 35%;
+    padding-left: 30px;
+    padding-right: 30px;
     background-color: rgba(255, 255, 255, 0.2);
     color: white;
 }
 
+#fieldset {
+    position: relative;
+    width:100%;
+    height:100%;
+    padding: 0px 0px;
+}
+
 #createaccount {
-    text-align: center;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-between;   
+    align-items: stretch;
     width: 100%;
 }
 
 #formtitle {
-    text-transform: capitalize;
-    text-align: center;
+    display: block;
 }
 
 button.formsubmit {
@@ -195,7 +216,7 @@ button.formsubmit {
     color: white;
     border: none;
     position: relative;
-    left: center;
+    margin: auto;
     font-size: large;
     font-weight: bold;
 }
@@ -364,7 +385,7 @@ button.loginsubmit:hover {
     top: 22px;
     width: 0;
     z-index: 1;
-    left: 30px;
+    left: 0px;
     border: medium solid rgba(0, 0, 0, 0.6);
     border-width: 10px 10px 10px 0;
     border-color: transparent rgba(0, 0, 0, 0.6) transparent transparent;
@@ -416,7 +437,7 @@ button.loginsubmit:hover {
     }
 }
 
-/* style the accordion */
+/* style the accordions */
 .accordion {
     background-color: rgba(0, 0, 0, 0.2);
     color: white;
@@ -461,4 +482,44 @@ button.loginsubmit:hover {
 
 .active:after {
     content: "\00FF0D"; /* Unicode character for "minus" sign (-) */
+}
+
+.accordion2 {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 80%;
+    border: none;
+    text-align: left;
+    font-weight: bold;
+    outline: none;
+    font-size: 20px;
+    transition: 0.4s;
+    position: relative;
+    top: 10px;
+}
+
+.accordion2:hover {
+    background-color: rgba(255, 255, 255, 0.4); 
+}
+
+.panel2 {
+    padding: 0 18px;
+    width: 80%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.2s ease-out;
+    position: relative;
+    top: 10px;
+}
+
+.accordion2:after {
+    content: '\00ff0b'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: white;
+    float: right;
+    margin-left: 5px;
 }
