@@ -1,7 +1,5 @@
 console.log("this works now")
 
-// ------ hide API keys
-const token = config.MAPBOX_TOKEN
 
 // ------ call map
 mapboxgl.accessToken = `pk.eyJ1IjoibGpjMjE3NyIsImEiOiJjbDY4ajRxeXczdmxnM2ttbnRzeXZvZzVvIn0.vlEZl7bSQkTifDB3-M9LfQ`;
