@@ -569,3 +569,13 @@ button.loginsubmit:hover {
     overflow-wrap: break-word;
     overflow-y: scroll;
 }
+
+#lcCommentary {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: block;
+    margin: auto;
+    top: 200px;
+    color: white;
+    width: 80%;
+}
