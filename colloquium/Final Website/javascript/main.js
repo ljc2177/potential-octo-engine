@@ -82,7 +82,7 @@ btn.onclick = function() {
         "<img src='https://raw.githubusercontent.com/ljc2177/potential-octo-engine/main/colloquium/Final%20Website/Side%20View%20(Credit%20-%20Peebles%20Corporation).jpeg.webp' style='width:200px;'>"+
         "<b>Address:</b> 418 11th Avenue, New York, NY <br>"+
         "<b>Anticipated Build Year:</b> 2047 <br>"+
-        "<b>Status: TBD </b><br>"+
+        "<b>Status: Proposed </b><br>"+
         "<b>Type:</b> Multi-Use: Residential & Commercial <br>"+
         "<b>Metrics:</b> <br>"+
         "<select name='metrics' id='metrics'><option id='option1' value='1'>Change In Summer Shade</option>"+
@@ -106,7 +106,7 @@ btn.onclick = function() {
         "<img src='https://raw.githubusercontent.com/ljc2177/potential-octo-engine/main/colloquium/Final%20Website/1x-1.jpg' style='width:200px;'>"+
         "<b>Address:</b> 175 Park Ave, Manhattan, NY 10017 <br>"+
         "<b>Anticipated Build Year:</b> 2050 <br>"+
-        "<b>Status: TBD </b><br>"+
+        "<b>Status: Proposed </b><br>"+
         "<b>Type:</b> Multi-Use: Residential & Commercial <br>"+
         "<b>Metrics:</b> <br>"+
         "<select name='metrics' id='metrics'><option id='option1' value='1'>Change In Summer Shade</option>"+
@@ -127,7 +127,7 @@ btn.onclick = function() {
 
         let popup4 = new mapboxgl.Popup()
         popup4.setHTML(
-        "<img src='https://raw.githubusercontent.com/ljc2177/potential-octo-engine/main/colloquium/Final%20Website/9-DeKalb-Rendering.jpg' style='width:200px;'>"+
+        "<img src='https://raw.githubusercontent.com/ljc2177/potential-octo-engine/main/colloquium/Final%20Website/Cam_03_1.jpg' style='width:200px;'>"+
         "<b>Address:</b> 45 Broad St, New York, NY 10005 <br>"+
         "<b>Anticipated Build Year:</b> 2036 <br>"+
         "<b>Status: Rejected </b><br>"+
@@ -152,8 +152,8 @@ btn.onclick = function() {
         let popup5 = new mapboxgl.Popup()
         popup5.setHTML(
         "<img src='https://raw.githubusercontent.com/ljc2177/potential-octo-engine/main/colloquium/Final%20Website/9-DeKalb-Rendering.jpg' style='width:200px;'>"+
-        "<b>Address:</b> 9 DeKalb Ave, Brooklyn, NY 11201 <br>"+
-        "<b>Anticipated Build Year:</b> 2038 <br>"+
+        "<b>Address:</b> 5 E 51st St, New York, NY 10022 <br>"+
+        "<b>Anticipated Build Year:</b> 2042 <br>"+
         "<b>Status: Approved </b><br>"+
         "<b>Type:</b> Multi-Use: Residential & Commercial <br>"+
         "<b>Metrics:</b> <br>"+
