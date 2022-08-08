@@ -524,6 +524,31 @@ button.loginsubmit:hover {
     margin-left: 5px;
 }
 
+.accordion3 {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    text-align: left;
+    font-weight: bold;
+    outline: none;
+    font-size: 13px;
+    transition: 0.4s;
+}
+
+.accordion3:hover {
+    background-color: lightblue; 
+}
+
+.accordion3:after {
+    content: '\002193'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: black;
+    float: right;
+    margin-left: 5px;
+}
+
 .marker {
     background-image: url('mapbox-icon.png');
     background-size: cover;
@@ -535,6 +560,7 @@ button.loginsubmit:hover {
 
 .mapboxgl-popup {
     max-width: 200px;
+    overflow-y: scroll;
 }
 
 .mapboxgl-popup-content {

@@ -55,14 +55,22 @@ btn.onclick = function() {
 
         let popup1 = new mapboxgl.Popup()
         popup1.setHTML(
-        "<img src=''>"+
+        "<img src='https://raw.githubusercontent.com/ljc2177/potential-octo-engine/main/colloquium/Final%20Website/9-DeKalb-Rendering.jpg' style='width:200px;'>"+
         "<b>Address:</b> 9 DeKalb Ave, Brooklyn, NY 11201 <br>"+
         "<b>Anticipated Build Year:</b> 2038 <br>"+
         "<b>Status: Approved </b><br>"+
         "<b>Type:</b> Multi-Use: Residential & Commercial <br>"+
         "<b>Metrics:</b> <br>"+
-        "<b>Representatives in Favor:</b> <br>"+
-        "<b>Representatives Not in Favor:</b>")
+        "<select name='metrics' id='metrics'><option id='option1' value='1'>Change In Summer Shade</option>"+
+        "<option id='option2' value='2'>Change in Winter Sunlight</option>"+
+        "<option id='option3' value='3'>Estimated Rent Increase</option>"+
+        "<option id='option4' value='4'>Change in Avg Local Building Age</option></select>"+
+        "<div id='answer1'>Answer 1 content</div>"+
+        "<div id='answer2' hidden>Answer 2 content</div>"+
+        "<div id='answer3' hidden>Answer 3 content</div>"+
+        "<div id='answer4' hidden>Answer 4 content</div>"+
+        "<button class='accordion3' id='reps1'><b>Representatives in Favor:</b></button><div id='reps1a' hidden>Names go here</div>"+
+        "<button class='accordion3' id='reps2'><b>Representatives Not in Favor:</b></button><div id='reps2a' hidden>Names also go here</div>")
         marker1.setPopup(popup1)
 
     let marker2 = new mapboxgl.Marker()
@@ -126,6 +134,45 @@ btn.onclick = function() {
         marker5.setPopup(popup5)
 }
 
+// ------ accordion functionality
+
+$('body').on('click', '#reps1', function( event){
+        $('#reps1a').toggle();
+});
+
+$('body').on('click', '#reps2', function( event){
+        $('#reps2a').toggle();
+});
+
+// ------ popup dropdowns functionality
+$('body').on('change', '#metrics', function( event){
+
+    var selectedValue = $(this).val();
+    if (selectedValue === "1") {
+        $('#answer1').show();
+        $('#answer2').hide();
+        $('#answer3').hide();
+        $('#answer4').hide();
+    } else if (selectedValue === "2") {
+        $('#answer2').show();
+        $('#answer1').hide();
+        $('#answer3').hide();
+        $('#answer4').hide();
+
+    } else if (selectedValue === "3") {
+        $('#answer3').show();
+        $('#answer1').hide();
+        $('#answer2').hide();
+        $('#answer4').hide();
+    } else if (selectedValue === "4") {
+        $('#answer4').show();
+        $('#answer1').hide();
+        $('#answer3').hide();
+        $('#answer2').hide();
+    }
+});
+
+
 span.onclick = function() {
     modal.style.display = "none";
 }
@@ -136,34 +183,6 @@ window.onclick = function(event) {
     }
 }
 
-// ------ create map marker list
-const geojson = {
-    type: 'FeatureCollection',
-    features: [
-        {
-        type: 'Feature',
-        geometry: {
-            type: 'Point',
-            coordinates: [-77.032, 38.913]
-            },
-        properties: {
-            title: 'Mapbox',
-            description: 'Washington, D.C.'
-            }
-        },
-        {
-        type: 'Feature',
-        geometry: {
-            type: 'Point',
-            coordinates: [-122.414, 37.776]
-            },
-        properties: {
-            title: 'Mapbox',
-            description: 'San Francisco, California'
-            }
-        }
-    ]
-};
 
 // ------ save submissions
 window.addEventListener('load',pageLoadFn)
@@ -180,15 +199,24 @@ function pageLoadFn(event) {
     }
 }
 
+
+
 //------- remove buildings past certain timeframe
 setTimeout(() => {
     localStorage.removeItem('building')
     console.log("items have been removed on delay");
 }, "5000")
 
+
+
+
+/*
 // ------ additional info restrictions
 const addInfoEle = document.getElementById('add_info');
 const counterEle = document.getElementById('counter');
+
+alert("uhhh alfffft!")
+
 
 addInfoEle.addEventListener('input', function(e) {
     const target = e.target;
@@ -208,8 +236,12 @@ addInfoEle.addEventListener('input', function(e) {
     }
 });
 
+*/
+
+/*
 // ------ set file size restriction
 var uploadField = document.getElementById("file");
+
 
 uploadField.onchange = function() {
     if(this.files[0].size > 62914560){
@@ -217,6 +249,7 @@ uploadField.onchange = function() {
         this.value = "";
     };
 };
+*/
 
 // ------ post new build to website
 const form = document.querySelector("form");
@@ -230,6 +263,7 @@ const typeInput = document.querySelector("#use");
 const adInInput = document.querySelector('#add_info');
 
 var button = document.querySelector('button');
+
 
 // ------ post submissions
 
@@ -282,3 +316,5 @@ function newBuildPost() {
 }
 
 form.addEventListener("submit", addNewBuild);
+
+
