@@ -4,7 +4,7 @@ console.log("this works now")
 const token = config.MAPBOX_TOKEN
 
 // ------ call map
-mapboxgl.accessToken = `${token}`;
+mapboxgl.accessToken = `pk.eyJ1IjoibGpjMjE3NyIsImEiOiJjbDY4ajRxeXczdmxnM2ttbnRzeXZvZzVvIn0.vlEZl7bSQkTifDB3-M9LfQ`;
 
 const map = new mapboxgl.Map({
     container: 'map',
@@ -151,7 +151,7 @@ btn.onclick = function() {
 
         let popup5 = new mapboxgl.Popup()
         popup5.setHTML(
-        "<img src='https://raw.githubusercontent.com/ljc2177/potential-octo-engine/main/colloquium/Final%20Website/9-DeKalb-Rendering.jpg' style='width:200px;'>"+
+        "<img src='https://raw.githubusercontent.com/ljc2177/potential-octo-engine/main/colloquium/Final%20Website/Tower-Fifth-e1547864911789.png' style='width:200px;'>"+
         "<b>Address:</b> 5 E 51st St, New York, NY 10022 <br>"+
         "<b>Anticipated Build Year:</b> 2042 <br>"+
         "<b>Status: Approved </b><br>"+
@@ -168,6 +168,16 @@ btn.onclick = function() {
         "<button class='accordion3' id='reps1'><b>Representatives in Favor:</b></button><div id='reps1a' hidden>Vickie Reeves<br>Roderick Holt<br>Lee Evans<br>Guadalupe Reyes<br>Otis Day<br>Greg Brock<br>Mack Moss<br>Michael Copeland<br>Carmen Goodman<br>Frankie Griffith<br>Bert Stephens<br>Marlon Wood<br>Cecil Reynolds<br>Lena Moreno<br>Pete Ross<br>Bessie Wallace<br>Kim Walker<br>Katherine Rodriguez<br>Desiree Sims<br>Jesus Zimmerman<br>Rachael Daniel<br>Muriel Gutierrez<br>Rose Riley<br>Alfred Aguilar<br>Genevieve Cole<br>Percy Mendoza<br>Craig Briggs<br>Kristi Wheeler<br>Glen Garza<br>Ada Duncan<br>Tamara Kim<br>Elmer Hall<br>Bertha Benson<br>Brandon Brewer<br>Kerry George<br>Madeline Glover<br>Nora Casey<br>Pamela Woods<br>Andre Hanson<br></div>"+
         "<button class='accordion3' id='reps2'><b>Representatives Not in Favor:</b></button><div id='reps2a' hidden>Elvira Burke<br>Nettie Neal<br>Pedro Nash<br>Denise Moran<br>Amos Mills<br>Gerardo Carson<br>Eileen Myers<br>Rogelio Paul<br>Ramon Burton<br>Charlene Pena<br>Ruben Butler<br></div>")
         marker5.setPopup(popup5)
+
+        let marker6 = new mapboxgl.Marker({"color": "red"})
+        marker6.setLngLat([-73.9753244179129, 40.765499710231865])
+        marker6.addTo(map)
+
+        let popup6 = new mapboxgl.Popup()
+        popup6.setHTML(
+        "ERROR<br>"+
+        "Couldn't load the data for this visual.")
+        marker6.setPopup(popup6)
 }
 
 // ------ accordion functionality
