@@ -69,8 +69,8 @@ btn.onclick = function() {
         "<div id='answer2' hidden>Answer 2 content</div>"+
         "<div id='answer3' hidden>Answer 3 content</div>"+
         "<div id='answer4' hidden>Answer 4 content</div>"+
-        "<button class='accordion3' id='reps1'><b>Representatives in Favor:</b></button><div id='reps1a' hidden>Names go here</div>"+
-        "<button class='accordion3' id='reps2'><b>Representatives Not in Favor:</b></button><div id='reps2a' hidden>Names also go here</div>")
+        "<button class='accordion3' id='reps1'><b>Representatives in Favor:</b></button><div id='reps1a' hidden>Charlene Pena<br>Nora Casey<br>Gerardo Carson<br>Guadalupe Reyes<br>Desiree Sims<br>Bertha Benson<br>Otis Day<br>Andre Hanson<br>Percy Mendoza<br>Rogelio Paul<br>Elvira Burke<br>Alfred Aguilar<br>Frankie Griffith<br>Rose Riley<br>Pete Ross<br>Bessie Wallace<br>Denise Moran<br>Kristi Wheeler<br>Pedro Nash<br>Pamela Woods<br>Bert Stephens<br>Lena Moreno<br>Cecil Reynolds<br>Kim Walker<br>Ada Duncan<br>Ruben Butler<br>Vickie Reeves<br>Craig Briggs<br>Muriel Gutierrez<br>Roderick Holt<br>Kerry George<br>Glen Garza<br>Genevieve Cole<br>Brandon Brewer<br>Mack Moss<br>Amos Mills<br>Madeline Glover<br>Katherine Rodriguez<br>Ramon Burton<br>Carmen Goodman<br>Greg Brock<br>Jesus Zimmerman<br>Nettie Neal<br>Rachael Daniel<br></div>"+
+        "<button class='accordion3' id='reps2'><b>Representatives Not in Favor:</b></button><div id='reps2a' hidden>Tamara Kim<br>Eileen Myers<br>Marlon Wood<br>Michael Copeland<br>Lee Evans<br>Elmer Hall<br></div>")
         marker1.setPopup(popup1)
 
     let marker2 = new mapboxgl.Marker()
@@ -79,13 +79,22 @@ btn.onclick = function() {
 
         let popup2 = new mapboxgl.Popup()
         popup2.setHTML(
-            "<b>Address:</b> 154 Carroll St <br>"+
-            "<b>Anticipated Build Year:</b> Existing <br>"+
-            "<b>Status:</b> I live here <br>"+
-            "<b>Type:</b> I live here <br>"+
-            "<b>Metrics:</b> I live here <br>"+
-            "<b>Representatives in Favor:</b> I live here <br>"+
-            "<b>Representatives Not in Favor:</b> test")
+        "<img src='https://raw.githubusercontent.com/ljc2177/potential-octo-engine/main/colloquium/Final%20Website/9-DeKalb-Rendering.jpg' style='width:200px;'>"+
+        "<b>Address:</b> 9 DeKalb Ave, Brooklyn, NY 11201 <br>"+
+        "<b>Anticipated Build Year:</b> 2038 <br>"+
+        "<b>Status: TBD </b><br>"+
+        "<b>Type:</b> Multi-Use: Residential & Commercial <br>"+
+        "<b>Metrics:</b> <br>"+
+        "<select name='metrics' id='metrics'><option id='option1' value='1'>Change In Summer Shade</option>"+
+        "<option id='option2' value='2'>Change in Winter Sunlight</option>"+
+        "<option id='option3' value='3'>Estimated Rent Increase</option>"+
+        "<option id='option4' value='4'>Change in Avg Local Building Age</option></select>"+
+        "<div id='answer1'>Answer 1 content</div>"+
+        "<div id='answer2' hidden>Answer 2 content</div>"+
+        "<div id='answer3' hidden>Answer 3 content</div>"+
+        "<div id='answer4' hidden>Answer 4 content</div>"+
+        "<button class='accordion3' id='reps1'><b>Representatives in Favor:</b></button><div id='reps1a' hidden>Kim Walker<br>Frankie Griffith<br>Genevieve Cole<br>Desiree Sims<br>Greg Brock<br>Bert Stephens<br>Jesus Zimmerman<br>Vickie Reeves<br>Glen Garza<br>Nora Casey<br>Charlene Pena<br>Roderick Holt<br>Denise Moran<br>Lena Moreno<br>Carmen Goodman<br>Ramon Burton<br>Madeline Glover<br>Rogelio Paul<br>Cecil Reynolds<br>Guadalupe Reyes<br>Brandon Brewer<br>Lee Evans<br>Craig Briggs<br>Pedro Nash<br>Muriel Gutierrez<br>Marlon Wood<br></div>"+
+        "<button class='accordion3' id='reps2'><b>Representatives Not in Favor:</b></button><div id='reps2a' hidden>Bertha Benson<br>Otis Day<br>Bessie Wallace<br>Elmer Hall<br>Percy Mendoza<br>Kerry George<br>Katherine Rodriguez<br>Elvira Burke<br>Kristi Wheeler<br>Eileen Myers<br>Ada Duncan<br>Alfred Aguilar<br>Michael Copeland<br>Andre Hanson<br>Rachael Daniel<br>Amos Mills<br>Pamela Woods<br>Pete Ross<br>Ruben Butler<br>Tamara Kim<br>Nettie Neal<br>Mack Moss<br>Rose Riley<br>Gerardo Carson<br></div>")
         marker2.setPopup(popup2)
     
     let marker3 = new mapboxgl.Marker()
@@ -94,13 +103,22 @@ btn.onclick = function() {
 
         let popup3 = new mapboxgl.Popup()
         popup3.setHTML(
-            "<b>Address:</b> 154 Carroll St <br>"+
-            "<b>Anticipated Build Year:</b> Existing <br>"+
-            "<b>Status:</b> I live here <br>"+
-            "<b>Type:</b> I live here <br>"+
-            "<b>Metrics:</b> I live here <br>"+
-            "<b>Representatives in Favor:</b> I live here <br>"+
-            "<b>Representatives Not in Favor:</b> test")
+        "<img src='https://raw.githubusercontent.com/ljc2177/potential-octo-engine/main/colloquium/Final%20Website/9-DeKalb-Rendering.jpg' style='width:200px;'>"+
+        "<b>Address:</b> 9 DeKalb Ave, Brooklyn, NY 11201 <br>"+
+        "<b>Anticipated Build Year:</b> 2038 <br>"+
+        "<b>Status: TBD </b><br>"+
+        "<b>Type:</b> Multi-Use: Residential & Commercial <br>"+
+        "<b>Metrics:</b> <br>"+
+        "<select name='metrics' id='metrics'><option id='option1' value='1'>Change In Summer Shade</option>"+
+        "<option id='option2' value='2'>Change in Winter Sunlight</option>"+
+        "<option id='option3' value='3'>Estimated Rent Increase</option>"+
+        "<option id='option4' value='4'>Change in Avg Local Building Age</option></select>"+
+        "<div id='answer1'>Answer 1 content</div>"+
+        "<div id='answer2' hidden>Answer 2 content</div>"+
+        "<div id='answer3' hidden>Answer 3 content</div>"+
+        "<div id='answer4' hidden>Answer 4 content</div>"+
+        "<button class='accordion3' id='reps1'><b>Representatives in Favor:</b></button><div id='reps1a' hidden>Marlon Wood<br>Rogelio Paul<br>Greg Brock<br>Frankie Griffith<br>Muriel Gutierrez<br>Cecil Reynolds<br>Lena Moreno<br>Elmer Hall<br>Nora Casey<br>Charlene Pena<br>Desiree Sims<br>Tamara Kim<br>Craig Briggs<br>Percy Mendoza<br>Bertha Benson<br>Vickie Reeves<br>Lee Evans<br>Andre Hanson<br>Roderick Holt<br>Eileen Myers<br>Ruben Butler<br>Ada Duncan<br>Guadalupe Reyes<br>Pamela Woods<br>Kim Walker<br>Rose Riley<br>Glen Garza<br>Kristi Wheeler<br>Elvira Burke<br>Brandon Brewer<br>Nettie Neal<br>Denise Moran<br>Pete Ross<br>Katherine Rodriguez<br>Gerardo Carson<br>Jesus Zimmerman<br>Alfred Aguilar<br>Genevieve Cole<br>Ramon Burton<br>Bessie Wallace<br>Amos Mills<br></div>"+
+        "<button class='accordion3' id='reps2'><b>Representatives Not in Favor:</b></button><div id='reps2a' hidden>Pedro Nash<br>Madeline Glover<br>Michael Copeland<br>Rachael Daniel<br>Mack Moss<br>Otis Day<br>Kerry George<br>Bert Stephens<br>Carmen Goodman<br></div>")
         marker3.setPopup(popup3)
 
     let marker4 = new mapboxgl.Marker()
@@ -109,13 +127,22 @@ btn.onclick = function() {
 
         let popup4 = new mapboxgl.Popup()
         popup4.setHTML(
-            "<b>Address:</b> 154 Carroll St <br>"+
-            "<b>Anticipated Build Year:</b> Existing <br>"+
-            "<b>Status:</b> I live here <br>"+
-            "<b>Type:</b> I live here <br>"+
-            "<b>Metrics:</b> I live here <br>"+
-            "<b>Representatives in Favor:</b> I live here <br>"+
-            "<b>Representatives Not in Favor:</b> test")
+        "<img src='https://raw.githubusercontent.com/ljc2177/potential-octo-engine/main/colloquium/Final%20Website/9-DeKalb-Rendering.jpg' style='width:200px;'>"+
+        "<b>Address:</b> 9 DeKalb Ave, Brooklyn, NY 11201 <br>"+
+        "<b>Anticipated Build Year:</b> 2038 <br>"+
+        "<b>Status: Rejected </b><br>"+
+        "<b>Type:</b> Multi-Use: Residential & Commercial <br>"+
+        "<b>Metrics:</b> <br>"+
+        "<select name='metrics' id='metrics'><option id='option1' value='1'>Change In Summer Shade</option>"+
+        "<option id='option2' value='2'>Change in Winter Sunlight</option>"+
+        "<option id='option3' value='3'>Estimated Rent Increase</option>"+
+        "<option id='option4' value='4'>Change in Avg Local Building Age</option></select>"+
+        "<div id='answer1'>Answer 1 content</div>"+
+        "<div id='answer2' hidden>Answer 2 content</div>"+
+        "<div id='answer3' hidden>Answer 3 content</div>"+
+        "<div id='answer4' hidden>Answer 4 content</div>"+
+        "<button class='accordion3' id='reps1'><b>Representatives in Favor:</b></button><div id='reps1a' hidden>Pete Ross<br>Mack Moss<br>Rogelio Paul<br>Marlon Wood<br>Ada Duncan<br>Brandon Brewer<br>Desiree Sims<br>Ruben Butler<br>Michael Copeland<br>Kristi Wheeler<br>Otis Day<br>Lee Evans<br>Percy Mendoza<br>Eileen Myers<br>Bert Stephens<br>Guadalupe Reyes<br>Muriel Gutierrez<br>Craig Briggs<br>Elvira Burke<br>Vickie Reeves<br>Roderick Holt<br>Madeline Glover<br>Cecil Reynolds<br>Ramon Burton<br>Elmer Hall<br>Carmen Goodman<br></div>"+
+        "<button class='accordion3' id='reps2'><b>Representatives Not in Favor:</b></button><div id='reps2a' hidden>Pamela Woods<br>Denise Moran<br>Greg Brock<br>Andre Hanson<br>Nettie Neal<br>Tamara Kim<br>Glen Garza<br>Pedro Nash<br>Bessie Wallace<br>Frankie Griffith<br>Bertha Benson<br>Jesus Zimmerman<br>Kerry George<br>Gerardo Carson<br>Lena Moreno<br>Alfred Aguilar<br>Rachael Daniel<br>Amos Mills<br>Kim Walker<br>Genevieve Cole<br>Katherine Rodriguez<br>Nora Casey<br>Rose Riley<br>Charlene Pena<br></div>")
         marker4.setPopup(popup4)
 
     let marker5 = new mapboxgl.Marker()
@@ -124,13 +151,22 @@ btn.onclick = function() {
 
         let popup5 = new mapboxgl.Popup()
         popup5.setHTML(
-            "<b>Address:</b> 154 Carroll St <br>"+
-            "<b>Anticipated Build Year:</b> Existing <br>"+
-            "<b>Status:</b> I live here <br>"+
-            "<b>Type:</b> I live here <br>"+
-            "<b>Metrics:</b> I live here <br>"+
-            "<b>Representatives in Favor:</b> I live here <br>"+
-            "<b>Representatives Not in Favor:</b> test")
+        "<img src='https://raw.githubusercontent.com/ljc2177/potential-octo-engine/main/colloquium/Final%20Website/9-DeKalb-Rendering.jpg' style='width:200px;'>"+
+        "<b>Address:</b> 9 DeKalb Ave, Brooklyn, NY 11201 <br>"+
+        "<b>Anticipated Build Year:</b> 2038 <br>"+
+        "<b>Status: Approved </b><br>"+
+        "<b>Type:</b> Multi-Use: Residential & Commercial <br>"+
+        "<b>Metrics:</b> <br>"+
+        "<select name='metrics' id='metrics'><option id='option1' value='1'>Change In Summer Shade</option>"+
+        "<option id='option2' value='2'>Change in Winter Sunlight</option>"+
+        "<option id='option3' value='3'>Estimated Rent Increase</option>"+
+        "<option id='option4' value='4'>Change in Avg Local Building Age</option></select>"+
+        "<div id='answer1'>Answer 1 content</div>"+
+        "<div id='answer2' hidden>Answer 2 content</div>"+
+        "<div id='answer3' hidden>Answer 3 content</div>"+
+        "<div id='answer4' hidden>Answer 4 content</div>"+
+        "<button class='accordion3' id='reps1'><b>Representatives in Favor:</b></button><div id='reps1a' hidden>Vickie Reeves<br>Roderick Holt<br>Lee Evans<br>Guadalupe Reyes<br>Otis Day<br>Greg Brock<br>Mack Moss<br>Michael Copeland<br>Carmen Goodman<br>Frankie Griffith<br>Bert Stephens<br>Marlon Wood<br>Cecil Reynolds<br>Lena Moreno<br>Pete Ross<br>Bessie Wallace<br>Kim Walker<br>Katherine Rodriguez<br>Desiree Sims<br>Jesus Zimmerman<br>Rachael Daniel<br>Muriel Gutierrez<br>Rose Riley<br>Alfred Aguilar<br>Genevieve Cole<br>Percy Mendoza<br>Craig Briggs<br>Kristi Wheeler<br>Glen Garza<br>Ada Duncan<br>Tamara Kim<br>Elmer Hall<br>Bertha Benson<br>Brandon Brewer<br>Kerry George<br>Madeline Glover<br>Nora Casey<br>Pamela Woods<br>Andre Hanson<br></div>"+
+        "<button class='accordion3' id='reps2'><b>Representatives Not in Favor:</b></button><div id='reps2a' hidden>Elvira Burke<br>Nettie Neal<br>Pedro Nash<br>Denise Moran<br>Amos Mills<br>Gerardo Carson<br>Eileen Myers<br>Rogelio Paul<br>Ramon Burton<br>Charlene Pena<br>Ruben Butler<br></div>")
         marker5.setPopup(popup5)
 }
 

@@ -560,10 +560,12 @@ button.loginsubmit:hover {
 
 .mapboxgl-popup {
     max-width: 200px;
-    overflow-y: scroll;
 }
 
 .mapboxgl-popup-content {
     text-align: left;
     font-family: 'Open Sans', sans-serif;
+    height: 400px;
+    overflow-wrap: break-word;
+    overflow-y: scroll;
 }
