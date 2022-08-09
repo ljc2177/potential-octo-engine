@@ -63,7 +63,7 @@ btn.onclick = function() {
         "<option id='option2' value='2'>Change in Winter Sunlight</option>"+
         "<option id='option3' value='3'>Estimated Rent Increase</option>"+
         "<option id='option4' value='4'>Change in Avg Local Building Age</option></select>"+
-        "<div id='answer1'><img id='image1' src='http://dummyimage.com/50/f00/fff&text=a' onclick='toogle(this, ['http://dummyimage.com/50/ab0/fff&text=b']);' /></div>"+
+        "<div id='answer1'><img id='image1' style='width:200px;' src='https://raw.githubusercontent.com/ljc2177/potential-octo-engine/main/colloquium/Final%20Website/Building%20Images/9%20DEKALB%20Summer%201.jpg'; /></div>"+
         "<div id='answer2' hidden>Answer 2 content</div>"+
         "<div id='answer3' hidden>Answer 3 content</div>"+
         "<div id='answer4' hidden>Answer 4 content</div>"+
