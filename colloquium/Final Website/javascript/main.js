@@ -63,10 +63,10 @@ btn.onclick = function() {
         "<option id='option2' value='2'>Change in Winter Sunlight</option>"+
         "<option id='option3' value='3'>Estimated Rent Increase</option>"+
         "<option id='option4' value='4'>Change in Avg Local Building Age</option></select>"+
-        "<div id='answer1'><img id='image1' style='width:200px;' src='https://raw.githubusercontent.com/ljc2177/potential-octo-engine/main/colloquium/Final%20Website/Building%20Images/9%20DEKALB%20Summer%201.jpg'; /></div>"+
-        "<div id='answer2' hidden>Answer 2 content</div>"+
-        "<div id='answer3' hidden>Answer 3 content</div>"+
-        "<div id='answer4' hidden>Answer 4 content</div>"+
+        "<div id='answer1'><img id='image1' style='width:200px;' src='https://raw.githubusercontent.com/ljc2177/potential-octo-engine/main/colloquium/Final%20Website/Building%20Images/9DeKalb/Summer%20GIF.gif'; /><br><b>Max Shade Lost:</b> .73 hours<br><b>Average Shade Change:</b> +.15 hours<br><b>Avg % Difference in Shade:</b> +1%<br><b>Difference in % Below 11 Shaded Hours:</b> -1%</div>"+
+        "<div id='answer2' hidden><img id='image1' style='width:200px;' src='https://raw.githubusercontent.com/ljc2177/potential-octo-engine/main/colloquium/Final%20Website/Building%20Images/9DeKalb/Winter%20GIF.gif'; /><br><b>Max Sunlight Lost:</b> 3.1 hours<br><b>Average Sunlight Change:</b> -.15 hours<br><b>Avg % Difference in Sunlight:</b> -1%<br><b>Difference in % Below 3 Sunlit Hours:</b> 0.7%</div>"+
+        "<div id='answer3' hidden><b>Avg Est Building Rent: </b>$5,000/month<br><b>Avg Est Community Rent Increase: </b>9%<br><b>Avg Est Building Sell: </b>$2.2M<br><b>Avg Est Community Sell Increase: </b>33%<br></div>"+
+        "<div id='answer4' hidden><b>Current Average Age: </b>1965<br><b>New Average Age: </b>1967</div>"+
         "<button class='accordion3' id='reps1'><b>Representatives in Favor:</b></button><div id='reps1a' hidden>Charlene Pena<br>Nora Casey<br>Gerardo Carson<br>Guadalupe Reyes<br>Desiree Sims<br>Bertha Benson<br>Otis Day<br>Andre Hanson<br>Percy Mendoza<br>Rogelio Paul<br>Elvira Burke<br>Alfred Aguilar<br>Frankie Griffith<br>Rose Riley<br>Pete Ross<br>Bessie Wallace<br>Denise Moran<br>Kristi Wheeler<br>Pedro Nash<br>Pamela Woods<br>Bert Stephens<br>Lena Moreno<br>Cecil Reynolds<br>Kim Walker<br>Ada Duncan<br>Ruben Butler<br>Vickie Reeves<br>Craig Briggs<br>Muriel Gutierrez<br>Roderick Holt<br>Kerry George<br>Glen Garza<br>Genevieve Cole<br>Brandon Brewer<br>Mack Moss<br>Amos Mills<br>Madeline Glover<br>Katherine Rodriguez<br>Ramon Burton<br>Carmen Goodman<br>Greg Brock<br>Jesus Zimmerman<br>Nettie Neal<br>Rachael Daniel<br></div>"+
         "<button class='accordion3' id='reps2'><b>Representatives Not in Favor:</b></button><div id='reps2a' hidden>Tamara Kim<br>Eileen Myers<br>Marlon Wood<br>Michael Copeland<br>Lee Evans<br>Elmer Hall<br></div>")
         marker1.setPopup(popup1)
@@ -135,10 +135,10 @@ btn.onclick = function() {
         "<option id='option2' value='2'>Change in Winter Sunlight</option>"+
         "<option id='option3' value='3'>Estimated Rent Increase</option>"+
         "<option id='option4' value='4'>Change in Avg Local Building Age</option></select>"+
-        "<div id='answer1'>Answer 1 content</div>"+
-        "<div id='answer2' hidden>Answer 2 content</div>"+
-        "<div id='answer3' hidden>Answer 3 content</div>"+
-        "<div id='answer4' hidden>Answer 4 content</div>"+
+        "<div id='answer1'><img id='image4' style='width:200px;' src='https://raw.githubusercontent.com/ljc2177/potential-octo-engine/main/colloquium/Final%20Website/Building%20Images/9DeKalb/Summer%20GIF.gif'; /><br><b>Max Shade Lost:</b> 2.19 hours<br><b>Average Shade Change:</b> -0.04 hours<br><b>Avg % Difference in Shade:</b> +0.3%<br><b>Difference in % Below 11 Shaded Hours:</b> -0.3%</div>"+
+        "<div id='answer2' hidden><img id='image4' style='width:200px;' src='https://raw.githubusercontent.com/ljc2177/potential-octo-engine/main/colloquium/Final%20Website/Building%20Images/9DeKalb/Winter%20GIF.gif'; /><br><b>Max Sunlight Lost:</b> 3.1 hours<br><b>Average Sunlight Change:</b> -0.06 hours<br><b>Avg % Difference in Sunlight:</b> -0.4%<br><b>Difference in % Below 3 Sunlit Hours:</b> 0.03%</div>"+
+        "<div id='answer3' hidden><b>Avg Est Building Rent: </b>$5,600/month<br><b>Avg Est Community Rent Increase: </b>11%<br><b>Avg Est Building Sell: </b>$2.8M<br><b>Avg Est Community Sell Increase: </b>6%<br></div>"+
+        "<div id='answer4' hidden><b>Current Average Age: </b>1932<br><b>New Average Age: </b>1934</div>"+
         "<button class='accordion3' id='reps1'><b>Representatives in Favor:</b></button><div id='reps1a' hidden>Pete Ross<br>Mack Moss<br>Rogelio Paul<br>Marlon Wood<br>Ada Duncan<br>Brandon Brewer<br>Desiree Sims<br>Ruben Butler<br>Michael Copeland<br>Kristi Wheeler<br>Otis Day<br>Lee Evans<br>Percy Mendoza<br>Eileen Myers<br>Bert Stephens<br>Guadalupe Reyes<br>Muriel Gutierrez<br>Craig Briggs<br>Elvira Burke<br>Vickie Reeves<br>Roderick Holt<br>Madeline Glover<br>Cecil Reynolds<br>Ramon Burton<br>Elmer Hall<br>Carmen Goodman<br></div>"+
         "<button class='accordion3' id='reps2'><b>Representatives Not in Favor:</b></button><div id='reps2a' hidden>Pamela Woods<br>Denise Moran<br>Greg Brock<br>Andre Hanson<br>Nettie Neal<br>Tamara Kim<br>Glen Garza<br>Pedro Nash<br>Bessie Wallace<br>Frankie Griffith<br>Bertha Benson<br>Jesus Zimmerman<br>Kerry George<br>Gerardo Carson<br>Lena Moreno<br>Alfred Aguilar<br>Rachael Daniel<br>Amos Mills<br>Kim Walker<br>Genevieve Cole<br>Katherine Rodriguez<br>Nora Casey<br>Rose Riley<br>Charlene Pena<br></div>")
         marker4.setPopup(popup4)
