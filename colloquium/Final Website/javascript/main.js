@@ -159,23 +159,13 @@ btn.onclick = function() {
         "<option id='option2' value='2'>Change in Winter Sunlight</option>"+
         "<option id='option3' value='3'>Estimated Rent Increase</option>"+
         "<option id='option4' value='4'>Change in Avg Local Building Age</option></select>"+
-        "<div id='answer1'><img id='image4' style='width:200px;' src='https://raw.githubusercontent.com/ljc2177/potential-octo-engine/main/colloquium/Final%20Website/Building%20Images/45%20Broad/Summer%20GIF.gif'; /><br><b>Max Shade Lost:</b> 2.19 hours<br><b>Average Shade Change:</b> -0.04 hours<br><b>Avg % Difference in Shade:</b> +0.3%<br><b>Difference in % Below 11 Shaded Hours:</b> -0.3%</div>"+
-        "<div id='answer2' hidden><img id='image4' style='width:200px;' src='https://raw.githubusercontent.com/ljc2177/potential-octo-engine/main/colloquium/Final%20Website/Building%20Images/45%20Broad/Winter%20GIF.gif'; /><br><b>Max Sunlight Lost:</b> 3.1 hours<br><b>Average Sunlight Change:</b> -0.06 hours<br><b>Avg % Difference in Sunlight:</b> -0.4%<br><b>Difference in % Below 3 Sunlit Hours:</b> 0.03%</div>"+
+        "<div id='answer1'><img id='image4' style='width:200px;' src='https://raw.githubusercontent.com/ljc2177/potential-octo-engine/main/colloquium/Final%20Website/Building%20Images/E%2051/Summer%20GIF.gif'; /><br><b>Max Shade Lost:</b> 7.3 hours<br><b>Average Shade Change:</b> -0.19 hours<br><b>Avg % Difference in Shade:</b> +1.3%<br><b>Difference in % Below 11 Shaded Hours:</b> -0.6%</div>"+
+        "<div id='answer2' hidden><img id='image4' style='width:200px;' src='https://raw.githubusercontent.com/ljc2177/potential-octo-engine/main/colloquium/Final%20Website/Building%20Images/E%2051/Winter%20GIF.gif'; /><br><b>Max Sunlight Lost:</b> 7.8 hours<br><b>Average Sunlight Change:</b> -0.13 hours<br><b>Avg % Difference in Sunlight:</b> -0.9%<br><b>Difference in % Below 3 Sunlit Hours:</b> 0.8%</div>"+
         "<div id='answer3' hidden><b>Avg Est Building Rent: </b>$6,600/month<br><b>Avg Est Community Rent Increase: </b>21%<br><b>Avg Est Building Sell: </b>$3.4M<br><b>Avg Est Community Sell Increase: </b>18%<br></div>"+
         "<div id='answer4' hidden><b>Current Average Age: </b>1948<br><b>New Average Age: </b>1952</div>"+
         "<button class='accordion3' id='reps1'><b>Representatives in Favor:</b></button><div id='reps1a' hidden>Vickie Reeves<br>Roderick Holt<br>Lee Evans<br>Guadalupe Reyes<br>Otis Day<br>Greg Brock<br>Mack Moss<br>Michael Copeland<br>Carmen Goodman<br>Frankie Griffith<br>Bert Stephens<br>Marlon Wood<br>Cecil Reynolds<br>Lena Moreno<br>Pete Ross<br>Bessie Wallace<br>Kim Walker<br>Katherine Rodriguez<br>Desiree Sims<br>Jesus Zimmerman<br>Rachael Daniel<br>Muriel Gutierrez<br>Rose Riley<br>Alfred Aguilar<br>Genevieve Cole<br>Percy Mendoza<br>Craig Briggs<br>Kristi Wheeler<br>Glen Garza<br>Ada Duncan<br>Tamara Kim<br>Elmer Hall<br>Bertha Benson<br>Brandon Brewer<br>Kerry George<br>Madeline Glover<br>Nora Casey<br>Pamela Woods<br>Andre Hanson<br></div>"+
         "<button class='accordion3' id='reps2'><b>Representatives Not in Favor:</b></button><div id='reps2a' hidden>Elvira Burke<br>Nettie Neal<br>Pedro Nash<br>Denise Moran<br>Amos Mills<br>Gerardo Carson<br>Eileen Myers<br>Rogelio Paul<br>Ramon Burton<br>Charlene Pena<br>Ruben Butler<br></div>")
         marker5.setPopup(popup5)
-
-        let marker6 = new mapboxgl.Marker({"color": "red"})
-        marker6.setLngLat([-73.9753244179129, 40.765499710231865])
-        marker6.addTo(map)
-
-        let popup6 = new mapboxgl.Popup()
-        popup6.setHTML(
-        "ERROR<br>"+
-        "Couldn't load the data for this visual.")
-        marker6.setPopup(popup6)
 }
 
 // ------ accordion functionality
