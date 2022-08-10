@@ -8,9 +8,10 @@ const map = new mapboxgl.Map({
     container: 'map',
     width: '90%', 
     height: '90%',
-    style: 'mapbox://styles/mapbox/dark-v10',
+    style: 'mapbox://styles/ljc2177/cl6nsxfjd000n14nvm08rr5t2',
     center: [-73.990593, 40.740121],
-    zoom: 12
+    zoom: 12,
+    pitch: 45
 });
 
 // ------find yourself on map
