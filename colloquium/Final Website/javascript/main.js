@@ -53,7 +53,7 @@ btn.onclick = function() {
 
         let popup1 = new mapboxgl.Popup()
         popup1.setHTML(
-        "<img src='https://raw.githubusercontent.com/ljc2177/potential-octo-engine/main/colloquium/Final%20Website/9-DeKalb-Rendering.jpg' style='width:200px;'>"+
+        "<img src='https://raw.githubusercontent.com/ljc2177/potential-octo-engine/main/colloquium/Final%20Website/9-DeKalb-Rendering.jpg' style='width:400px;'><br>"+
         "<b>Address:</b> 9 DeKalb Ave, Brooklyn, NY 11201 <br>"+
         "<b>Anticipated Build Year:</b> 2038 <br>"+
         "<b>Status: Approved </b><br>"+
@@ -63,8 +63,8 @@ btn.onclick = function() {
         "<option id='option2' value='2'>Change in Winter Sunlight</option>"+
         "<option id='option3' value='3'>Estimated Rent Increase</option>"+
         "<option id='option4' value='4'>Change in Avg Local Building Age</option></select>"+
-        "<div id='answer1'><img id='image1' style='width:200px;' src='https://raw.githubusercontent.com/ljc2177/potential-octo-engine/main/colloquium/Final%20Website/Building%20Images/9DeKalb/Summer%20GIF.gif'; /><br><b>Max Shade Lost:</b> .73 hours<br><b>Average Shade Change:</b> +.15 hours<br><b>Avg % Difference in Shade:</b> +1%<br><b>Difference in % Below 11 Shaded Hours:</b> -1%</div>"+
-        "<div id='answer2' hidden><img id='image1' style='width:200px;' src='https://raw.githubusercontent.com/ljc2177/potential-octo-engine/main/colloquium/Final%20Website/Building%20Images/9DeKalb/Winter%20GIF.gif'; /><br><b>Max Sunlight Lost:</b> 3.1 hours<br><b>Average Sunlight Change:</b> -.15 hours<br><b>Avg % Difference in Sunlight:</b> -1%<br><b>Difference in % Below 3 Sunlit Hours:</b> 0.7%</div>"+
+        "<div id='answer1'><img id='image1' style='width:400px;' src='https://raw.githubusercontent.com/ljc2177/potential-octo-engine/main/colloquium/Final%20Website/Building%20Images/9DeKalb/Summer%20GIF.gif'; /><br><b>Max Shade Lost:</b> .73 hours<br><b>Average Shade Change:</b> +.15 hours<br><b>Avg % Difference in Shade:</b> +1%<br><b>Difference in % Below 11 Shaded Hours:</b> -1%</div>"+
+        "<div id='answer2' hidden><img id='image1' style='width:400px;' src='https://raw.githubusercontent.com/ljc2177/potential-octo-engine/main/colloquium/Final%20Website/Building%20Images/9DeKalb/Winter%20GIF.gif'; /><br><b>Max Sunlight Lost:</b> 3.1 hours<br><b>Average Sunlight Change:</b> -.15 hours<br><b>Avg % Difference in Sunlight:</b> -1%<br><b>Difference in % Below 3 Sunlit Hours:</b> 0.7%</div>"+
         "<div id='answer3' hidden><b>Avg Est Building Rent: </b>$5,000/month<br><b>Avg Est Community Rent Increase: </b>9%<br><b>Avg Est Building Sell: </b>$2.2M<br><b>Avg Est Community Sell Increase: </b>33%<br></div>"+
         "<div id='answer4' hidden><b>Current Average Age: </b>1965<br><b>New Average Age: </b>1967</div>"+
         "<button class='accordion3' id='reps1'><b>Representatives in Favor:</b></button><div id='reps1a' hidden>Charlene Pena<br>Nora Casey<br>Gerardo Carson<br>Guadalupe Reyes<br>Desiree Sims<br>Bertha Benson<br>Otis Day<br>Andre Hanson<br>Percy Mendoza<br>Rogelio Paul<br>Elvira Burke<br>Alfred Aguilar<br>Frankie Griffith<br>Rose Riley<br>Pete Ross<br>Bessie Wallace<br>Denise Moran<br>Kristi Wheeler<br>Pedro Nash<br>Pamela Woods<br>Bert Stephens<br>Lena Moreno<br>Cecil Reynolds<br>Kim Walker<br>Ada Duncan<br>Ruben Butler<br>Vickie Reeves<br>Craig Briggs<br>Muriel Gutierrez<br>Roderick Holt<br>Kerry George<br>Glen Garza<br>Genevieve Cole<br>Brandon Brewer<br>Mack Moss<br>Amos Mills<br>Madeline Glover<br>Katherine Rodriguez<br>Ramon Burton<br>Carmen Goodman<br>Greg Brock<br>Jesus Zimmerman<br>Nettie Neal<br>Rachael Daniel<br></div>"+
@@ -77,7 +77,7 @@ btn.onclick = function() {
 
         let popup2 = new mapboxgl.Popup()
         popup2.setHTML(
-        "<img src='https://raw.githubusercontent.com/ljc2177/potential-octo-engine/main/colloquium/Final%20Website/Side%20View%20(Credit%20-%20Peebles%20Corporation).jpeg.webp' style='width:200px;'>"+
+        "<img src='https://raw.githubusercontent.com/ljc2177/potential-octo-engine/main/colloquium/Final%20Website/Side%20View%20(Credit%20-%20Peebles%20Corporation).jpeg.webp' style='width:400px;'><br>"+
         "<b>Address:</b> 418 11th Avenue, New York, NY <br>"+
         "<b>Anticipated Build Year:</b> 2047 <br>"+
         "<b>Status: Proposed </b><br>"+
@@ -87,8 +87,8 @@ btn.onclick = function() {
         "<option id='option2' value='2'>Change in Winter Sunlight</option>"+
         "<option id='option3' value='3'>Estimated Rent Increase</option>"+
         "<option id='option4' value='4'>Change in Avg Local Building Age</option></select>"+
-        "<div id='answer1'><img id='image4' style='width:200px;' src='https://raw.githubusercontent.com/ljc2177/potential-octo-engine/main/colloquium/Final%20Website/Building%20Images/Hudson%20Yards/Summer%20GIF.gif'; /><br><b>Max Shade Lost:</b> 0 hours<br><b>Average Shade Change:</b> +0.35 hours<br><b>Avg % Difference in Shade:</b> +2.4%<br><b>Difference in % Below 11 Shaded Hours:</b> -4.8%</div>"+
-        "<div id='answer2' hidden><img id='image4' style='width:200px;' src='https://raw.githubusercontent.com/ljc2177/potential-octo-engine/main/colloquium/Final%20Website/Building%20Images/Hudson%20Yards/Winter%20GIF.gif'; /><br><b>Max Sunlight Lost:</b> 5.2 hours<br><b>Average Sunlight Change:</b> -0.17 hours<br><b>Avg % Difference in Sunlight:</b> -1.2%<br><b>Difference in % Below 3 Sunlit Hours:</b> +1.9%</div>"+
+        "<div id='answer1'><img id='image4' style='width:400px;' src='https://raw.githubusercontent.com/ljc2177/potential-octo-engine/main/colloquium/Final%20Website/Building%20Images/Hudson%20Yards/Summer%20GIF.gif'; /><br><b>Max Shade Lost:</b> 0 hours<br><b>Average Shade Change:</b> +0.35 hours<br><b>Avg % Difference in Shade:</b> +2.4%<br><b>Difference in % Below 11 Shaded Hours:</b> -4.8%</div>"+
+        "<div id='answer2' hidden><img id='image4' style='width:400px;' src='https://raw.githubusercontent.com/ljc2177/potential-octo-engine/main/colloquium/Final%20Website/Building%20Images/Hudson%20Yards/Winter%20GIF.gif'; /><br><b>Max Sunlight Lost:</b> 5.2 hours<br><b>Average Sunlight Change:</b> -0.17 hours<br><b>Avg % Difference in Sunlight:</b> -1.2%<br><b>Difference in % Below 3 Sunlit Hours:</b> +1.9%</div>"+
         "<div id='answer3' hidden><b>Avg Est Building Rent: </b>$5,400/month<br><b>Avg Est Community Rent Increase: </b>5%<br><b>Avg Est Building Sell: </b>$3.1M<br><b>Avg Est Community Sell Increase: </b>10%<br></div>"+
         "<div id='answer4' hidden><b>Current Average Age: </b>1954<br><b>New Average Age: </b>1958</div>"+
         "<button class='accordion3' id='reps1'><b>Representatives in Favor:</b></button><div id='reps1a' hidden>Kim Walker<br>Frankie Griffith<br>Genevieve Cole<br>Desiree Sims<br>Greg Brock<br>Bert Stephens<br>Jesus Zimmerman<br>Vickie Reeves<br>Glen Garza<br>Nora Casey<br>Charlene Pena<br>Roderick Holt<br>Denise Moran<br>Lena Moreno<br>Carmen Goodman<br>Ramon Burton<br>Madeline Glover<br>Rogelio Paul<br>Cecil Reynolds<br>Guadalupe Reyes<br>Brandon Brewer<br>Lee Evans<br>Craig Briggs<br>Pedro Nash<br>Muriel Gutierrez<br>Marlon Wood<br></div>"+
@@ -101,7 +101,7 @@ btn.onclick = function() {
 
         let popup3 = new mapboxgl.Popup()
         popup3.setHTML(
-        "<img src='https://raw.githubusercontent.com/ljc2177/potential-octo-engine/main/colloquium/Final%20Website/1x-1.jpg' style='width:200px;'>"+
+        "<img src='https://raw.githubusercontent.com/ljc2177/potential-octo-engine/main/colloquium/Final%20Website/1x-1.jpg' style='width:400px;'><br>"+
         "<b>Address:</b> 175 Park Ave, Manhattan, NY 10017 <br>"+
         "<b>Anticipated Build Year:</b> 2050 <br>"+
         "<b>Status: Proposed </b><br>"+
@@ -111,8 +111,8 @@ btn.onclick = function() {
         "<option id='option2' value='2'>Change in Winter Sunlight</option>"+
         "<option id='option3' value='3'>Estimated Rent Increase</option>"+
         "<option id='option4' value='4'>Change in Avg Local Building Age</option></select>"+
-        "<div id='answer1'><img id='image4' style='width:200px;' src='https://raw.githubusercontent.com/ljc2177/potential-octo-engine/main/colloquium/Final%20Website/Building%20Images/Grand%20Central/Summer%20GIF.gif'; /><br><b>Max Shade Lost:</b> 0 hours<br><b>Average Shade Change:</b> +0.26 hours<br><b>Avg % Difference in Shade:</b> +1.7%<br><b>Difference in % Below 11 Shaded Hours:</b> -1.2%</div>"+
-        "<div id='answer2' hidden><img id='image4' style='width:200px;' src='https://raw.githubusercontent.com/ljc2177/potential-octo-engine/main/colloquium/Final%20Website/Building%20Images/Grand%20Central/Winter%20GIF.gif'; /><br><b>Max Sunlight Lost:</b> 9.3 hours<br><b>Average Sunlight Change:</b> -0.31 hours<br><b>Avg % Difference in Sunlight:</b> -2.0%<br><b>Difference in % Below 3 Sunlit Hours:</b> +2.5%</div>"+
+        "<div id='answer1'><img id='image4' style='width:400px;' src='https://raw.githubusercontent.com/ljc2177/potential-octo-engine/main/colloquium/Final%20Website/Building%20Images/Grand%20Central/Summer%20GIF.gif'; /><br><b>Max Shade Lost:</b> 0 hours<br><b>Average Shade Change:</b> +0.26 hours<br><b>Avg % Difference in Shade:</b> +1.7%<br><b>Difference in % Below 11 Shaded Hours:</b> -1.2%</div>"+
+        "<div id='answer2' hidden><img id='image4' style='width:400px;' src='https://raw.githubusercontent.com/ljc2177/potential-octo-engine/main/colloquium/Final%20Website/Building%20Images/Grand%20Central/Winter%20GIF.gif'; /><br><b>Max Sunlight Lost:</b> 9.3 hours<br><b>Average Sunlight Change:</b> -0.31 hours<br><b>Avg % Difference in Sunlight:</b> -2.0%<br><b>Difference in % Below 3 Sunlit Hours:</b> +2.5%</div>"+
         "<div id='answer3' hidden><b>Avg Est Building Rent: </b>$4,800/month<br><b>Avg Est Community Rent Increase: </b>14%<br><b>Avg Est Building Sell: </b>$2.7M<br><b>Avg Est Community Sell Increase: </b>9%<br></div>"+
         "<div id='answer4' hidden><b>Current Average Age: </b>1940<br><b>New Average Age: </b>1941</div>"+
         "<button class='accordion3' id='reps1'><b>Representatives in Favor:</b></button><div id='reps1a' hidden>Marlon Wood<br>Rogelio Paul<br>Greg Brock<br>Frankie Griffith<br>Muriel Gutierrez<br>Cecil Reynolds<br>Lena Moreno<br>Elmer Hall<br>Nora Casey<br>Charlene Pena<br>Desiree Sims<br>Tamara Kim<br>Craig Briggs<br>Percy Mendoza<br>Bertha Benson<br>Vickie Reeves<br>Lee Evans<br>Andre Hanson<br>Roderick Holt<br>Eileen Myers<br>Ruben Butler<br>Ada Duncan<br>Guadalupe Reyes<br>Pamela Woods<br>Kim Walker<br>Rose Riley<br>Glen Garza<br>Kristi Wheeler<br>Elvira Burke<br>Brandon Brewer<br>Nettie Neal<br>Denise Moran<br>Pete Ross<br>Katherine Rodriguez<br>Gerardo Carson<br>Jesus Zimmerman<br>Alfred Aguilar<br>Genevieve Cole<br>Ramon Burton<br>Bessie Wallace<br>Amos Mills<br></div>"+
@@ -125,7 +125,7 @@ btn.onclick = function() {
 
         let popup4 = new mapboxgl.Popup()
         popup4.setHTML(
-        "<img src='https://raw.githubusercontent.com/ljc2177/potential-octo-engine/main/colloquium/Final%20Website/Cam_03_1.jpg' style='width:200px;'>"+
+        "<img src='https://raw.githubusercontent.com/ljc2177/potential-octo-engine/main/colloquium/Final%20Website/Cam_03_1.jpg' style='width:400px;'><br>"+
         "<b>Address:</b> 45 Broad St, New York, NY 10005 <br>"+
         "<b>Anticipated Build Year:</b> 2036 <br>"+
         "<b>Status: Rejected </b><br>"+
@@ -135,8 +135,8 @@ btn.onclick = function() {
         "<option id='option2' value='2'>Change in Winter Sunlight</option>"+
         "<option id='option3' value='3'>Estimated Rent Increase</option>"+
         "<option id='option4' value='4'>Change in Avg Local Building Age</option></select>"+
-        "<div id='answer1'><img id='image4' style='width:200px;' src='https://raw.githubusercontent.com/ljc2177/potential-octo-engine/main/colloquium/Final%20Website/Building%20Images/45%20Broad/Summer%20GIF.gif'; /><br><b>Max Shade Lost:</b> 2.19 hours<br><b>Average Shade Change:</b> -0.04 hours<br><b>Avg % Difference in Shade:</b> +0.3%<br><b>Difference in % Below 11 Shaded Hours:</b> -0.3%</div>"+
-        "<div id='answer2' hidden><img id='image4' style='width:200px;' src='https://raw.githubusercontent.com/ljc2177/potential-octo-engine/main/colloquium/Final%20Website/Building%20Images/45%20Broad/Winter%20GIF.gif'; /><br><b>Max Sunlight Lost:</b> 3.1 hours<br><b>Average Sunlight Change:</b> -0.06 hours<br><b>Avg % Difference in Sunlight:</b> -0.4%<br><b>Difference in % Below 3 Sunlit Hours:</b> 0.03%</div>"+
+        "<div id='answer1'><img id='image4' style='width:400px;' src='https://raw.githubusercontent.com/ljc2177/potential-octo-engine/main/colloquium/Final%20Website/Building%20Images/45%20Broad/Summer%20GIF.gif'; /><br><b>Max Shade Lost:</b> 2.19 hours<br><b>Average Shade Change:</b> -0.04 hours<br><b>Avg % Difference in Shade:</b> +0.3%<br><b>Difference in % Below 11 Shaded Hours:</b> -0.3%</div>"+
+        "<div id='answer2' hidden><img id='image4' style='width:400px;' src='https://raw.githubusercontent.com/ljc2177/potential-octo-engine/main/colloquium/Final%20Website/Building%20Images/45%20Broad/Winter%20GIF.gif'; /><br><b>Max Sunlight Lost:</b> 3.1 hours<br><b>Average Sunlight Change:</b> -0.06 hours<br><b>Avg % Difference in Sunlight:</b> -0.4%<br><b>Difference in % Below 3 Sunlit Hours:</b> 0.03%</div>"+
         "<div id='answer3' hidden><b>Avg Est Building Rent: </b>$5,600/month<br><b>Avg Est Community Rent Increase: </b>11%<br><b>Avg Est Building Sell: </b>$2.8M<br><b>Avg Est Community Sell Increase: </b>6%<br></div>"+
         "<div id='answer4' hidden><b>Current Average Age: </b>1932<br><b>New Average Age: </b>1934</div>"+
         "<button class='accordion3' id='reps1'><b>Representatives in Favor:</b></button><div id='reps1a' hidden>Pete Ross<br>Mack Moss<br>Rogelio Paul<br>Marlon Wood<br>Ada Duncan<br>Brandon Brewer<br>Desiree Sims<br>Ruben Butler<br>Michael Copeland<br>Kristi Wheeler<br>Otis Day<br>Lee Evans<br>Percy Mendoza<br>Eileen Myers<br>Bert Stephens<br>Guadalupe Reyes<br>Muriel Gutierrez<br>Craig Briggs<br>Elvira Burke<br>Vickie Reeves<br>Roderick Holt<br>Madeline Glover<br>Cecil Reynolds<br>Ramon Burton<br>Elmer Hall<br>Carmen Goodman<br></div>"+
@@ -149,7 +149,7 @@ btn.onclick = function() {
 
         let popup5 = new mapboxgl.Popup()
         popup5.setHTML(
-        "<img src='https://raw.githubusercontent.com/ljc2177/potential-octo-engine/main/colloquium/Final%20Website/Tower-Fifth-e1547864911789.png' style='width:200px;'>"+
+        "<img src='https://raw.githubusercontent.com/ljc2177/potential-octo-engine/main/colloquium/Final%20Website/Tower-Fifth-e1547864911789.png' style='width:400px;'><br>"+
         "<b>Address:</b> 5 E 51st St, New York, NY 10022 <br>"+
         "<b>Anticipated Build Year:</b> 2042 <br>"+
         "<b>Status: Approved </b><br>"+
@@ -159,13 +159,93 @@ btn.onclick = function() {
         "<option id='option2' value='2'>Change in Winter Sunlight</option>"+
         "<option id='option3' value='3'>Estimated Rent Increase</option>"+
         "<option id='option4' value='4'>Change in Avg Local Building Age</option></select>"+
-        "<div id='answer1'><img id='image4' style='width:200px;' src='https://raw.githubusercontent.com/ljc2177/potential-octo-engine/main/colloquium/Final%20Website/Building%20Images/E%2051/Summer%20GIF.gif'; /><br><b>Max Shade Lost:</b> 7.3 hours<br><b>Average Shade Change:</b> -0.19 hours<br><b>Avg % Difference in Shade:</b> +1.3%<br><b>Difference in % Below 11 Shaded Hours:</b> -0.6%</div>"+
-        "<div id='answer2' hidden><img id='image4' style='width:200px;' src='https://raw.githubusercontent.com/ljc2177/potential-octo-engine/main/colloquium/Final%20Website/Building%20Images/E%2051/Winter%20GIF.gif'; /><br><b>Max Sunlight Lost:</b> 7.8 hours<br><b>Average Sunlight Change:</b> -0.13 hours<br><b>Avg % Difference in Sunlight:</b> -0.9%<br><b>Difference in % Below 3 Sunlit Hours:</b> 0.8%</div>"+
+        "<div id='answer1'><img id='image4' style='width:400px;' src='https://raw.githubusercontent.com/ljc2177/potential-octo-engine/main/colloquium/Final%20Website/Building%20Images/E%2051/Summer%20GIF.gif'; /><br><b>Max Shade Lost:</b> 7.3 hours<br><b>Average Shade Change:</b> -0.19 hours<br><b>Avg % Difference in Shade:</b> +1.3%<br><b>Difference in % Below 11 Shaded Hours:</b> -0.6%</div>"+
+        "<div id='answer2' hidden><img id='image4' style='width:400px;' src='https://raw.githubusercontent.com/ljc2177/potential-octo-engine/main/colloquium/Final%20Website/Building%20Images/E%2051/Winter%20GIF.gif'; /><br><b>Max Sunlight Lost:</b> 7.8 hours<br><b>Average Sunlight Change:</b> -0.13 hours<br><b>Avg % Difference in Sunlight:</b> -0.9%<br><b>Difference in % Below 3 Sunlit Hours:</b> 0.8%</div>"+
         "<div id='answer3' hidden><b>Avg Est Building Rent: </b>$6,600/month<br><b>Avg Est Community Rent Increase: </b>21%<br><b>Avg Est Building Sell: </b>$3.4M<br><b>Avg Est Community Sell Increase: </b>18%<br></div>"+
         "<div id='answer4' hidden><b>Current Average Age: </b>1948<br><b>New Average Age: </b>1952</div>"+
         "<button class='accordion3' id='reps1'><b>Representatives in Favor:</b></button><div id='reps1a' hidden>Vickie Reeves<br>Roderick Holt<br>Lee Evans<br>Guadalupe Reyes<br>Otis Day<br>Greg Brock<br>Mack Moss<br>Michael Copeland<br>Carmen Goodman<br>Frankie Griffith<br>Bert Stephens<br>Marlon Wood<br>Cecil Reynolds<br>Lena Moreno<br>Pete Ross<br>Bessie Wallace<br>Kim Walker<br>Katherine Rodriguez<br>Desiree Sims<br>Jesus Zimmerman<br>Rachael Daniel<br>Muriel Gutierrez<br>Rose Riley<br>Alfred Aguilar<br>Genevieve Cole<br>Percy Mendoza<br>Craig Briggs<br>Kristi Wheeler<br>Glen Garza<br>Ada Duncan<br>Tamara Kim<br>Elmer Hall<br>Bertha Benson<br>Brandon Brewer<br>Kerry George<br>Madeline Glover<br>Nora Casey<br>Pamela Woods<br>Andre Hanson<br></div>"+
         "<button class='accordion3' id='reps2'><b>Representatives Not in Favor:</b></button><div id='reps2a' hidden>Elvira Burke<br>Nettie Neal<br>Pedro Nash<br>Denise Moran<br>Amos Mills<br>Gerardo Carson<br>Eileen Myers<br>Rogelio Paul<br>Ramon Burton<br>Charlene Pena<br>Ruben Butler<br></div>")
         marker5.setPopup(popup5)
+
+        let fakeMarker1 = new mapboxgl.Marker()
+        fakeMarker1.setLngLat([-73.95362889775818, 40.77867159187565])
+        fakeMarker1.addTo(map)
+
+        let fakeMarker2 = new mapboxgl.Marker()
+        fakeMarker2.setLngLat([-73.96493734818185, 40.7989526709602])
+        fakeMarker2.addTo(map)
+
+        let fakeMarker3 = new mapboxgl.Marker()
+        fakeMarker3.setLngLat([-73.98364052379338, 40.78182000689194])
+        fakeMarker3.addTo(map)
+
+        let fakeMarker4 = new mapboxgl.Marker()
+        fakeMarker4.setLngLat([-74.00255530518989, 40.74265911912759])
+        fakeMarker4.addTo(map)
+
+        let fakeMarker5 = new mapboxgl.Marker()
+        fakeMarker5.setLngLat([-73.95549186537265, 40.72605349844376])
+        fakeMarker5.addTo(map)
+
+        let fakeMarker6 = new mapboxgl.Marker()
+        fakeMarker6.setLngLat([-73.94996108809444, 40.71136786337622])
+        fakeMarker6.addTo(map)
+
+        let fakeMarker7 = new mapboxgl.Marker()
+        fakeMarker7.setLngLat([-73.96818338908739, 40.6994763470459])
+        fakeMarker7.addTo(map)
+
+        let fakeMarker8 = new mapboxgl.Marker()
+        fakeMarker8.setLngLat([-73.98063646494849, 40.72535380236884])
+        fakeMarker8.addTo(map)
+
+        let fakeMarker9 = new mapboxgl.Marker()
+        fakeMarker9.setLngLat([-73.99494303863699, 40.739689787821895])
+        fakeMarker9.addTo(map)
+
+        let fakeMarker10 = new mapboxgl.Marker()
+        fakeMarker10.setLngLat([-73.95132728425276, 40.74615573757044])
+        fakeMarker10.addTo(map)
+
+        let fakeMarker11 = new mapboxgl.Marker()
+        fakeMarker11.setLngLat([-73.96033460401988, 40.73234374450283])
+        fakeMarker11.addTo(map)
+
+        let fakeMarker12 = new mapboxgl.Marker()
+        fakeMarker12.setLngLat([-73.99471010968428, 40.72343149339341])
+        fakeMarker12.addTo(map)
+
+        let fakeMarker13 = new mapboxgl.Marker()
+        fakeMarker13.setLngLat([-73.98109337261424, 40.77028466650163])
+        fakeMarker13.addTo(map)
+
+        let fakeMarker14 = new mapboxgl.Marker()
+        fakeMarker14.setLngLat([-73.94852610381221, 40.79597966291679])
+        fakeMarker14.addTo(map)
+
+        let fakeMarker15 = new mapboxgl.Marker()
+        fakeMarker15.setLngLat([-74.00809407205557, 40.7403882469367])
+        fakeMarker15.addTo(map)
+
+        let fakeMarker16 = new mapboxgl.Marker()
+        fakeMarker16.setLngLat([-73.9911558731559, 40.73641519191837])
+        fakeMarker16.addTo(map)
+
+        let fakeMarker17 = new mapboxgl.Marker()
+        fakeMarker17.setLngLat([-73.93246971445265, 40.85459069515808])
+        fakeMarker17.addTo(map)
+
+        let fakeMarker18 = new mapboxgl.Marker()
+        fakeMarker18.setLngLat([-73.94760351575736, 40.836985011954546])
+        fakeMarker18.addTo(map)
+
+        let fakeMarker19 = new mapboxgl.Marker()
+        fakeMarker19.setLngLat([-73.97049274211467, 40.78485486830759])
+        fakeMarker19.addTo(map)
+
+        let fakeMarker20 = new mapboxgl.Marker()
+        fakeMarker20.setLngLat([-73.98578116843841, 40.6820955254993])
+        fakeMarker20.addTo(map)
 }
 
 // ------ accordion functionality
