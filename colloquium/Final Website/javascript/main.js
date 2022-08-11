@@ -95,6 +95,30 @@ btn.onclick = function() {
         "<button class='accordion3' id='reps1'><b>Representatives in Favor:</b></button><div id='reps1a' hidden>Kim Walker<br>Frankie Griffith<br>Genevieve Cole<br>Desiree Sims<br>Greg Brock<br>Bert Stephens<br>Jesus Zimmerman<br>Vickie Reeves<br>Glen Garza<br>Nora Casey<br>Charlene Pena<br>Roderick Holt<br>Denise Moran<br>Lena Moreno<br>Carmen Goodman<br>Ramon Burton<br>Madeline Glover<br>Rogelio Paul<br>Cecil Reynolds<br>Guadalupe Reyes<br>Brandon Brewer<br>Lee Evans<br>Craig Briggs<br>Pedro Nash<br>Muriel Gutierrez<br>Marlon Wood<br></div>"+
         "<button class='accordion3' id='reps2'><b>Representatives Not in Favor:</b></button><div id='reps2a' hidden>Bertha Benson<br>Otis Day<br>Bessie Wallace<br>Elmer Hall<br>Percy Mendoza<br>Kerry George<br>Katherine Rodriguez<br>Elvira Burke<br>Kristi Wheeler<br>Eileen Myers<br>Ada Duncan<br>Alfred Aguilar<br>Michael Copeland<br>Andre Hanson<br>Rachael Daniel<br>Amos Mills<br>Pamela Woods<br>Pete Ross<br>Ruben Butler<br>Tamara Kim<br>Nettie Neal<br>Mack Moss<br>Rose Riley<br>Gerardo Carson<br></div>")
         marker2.setPopup(popup2)
+
+        let marker5 = new mapboxgl.Marker()
+        marker5.setLngLat([-73.97578662306455, 40.75922487257751])
+        marker5.addTo(map)
+
+        let popup5 = new mapboxgl.Popup()
+        popup5.setHTML(
+        "<img src='https://raw.githubusercontent.com/ljc2177/potential-octo-engine/main/colloquium/Final%20Website/Tower-Fifth-e1547864911789.png' style='width:400px;'><br>"+
+        "<b>Address:</b> 5 E 51st St, New York, NY 10022 <br>"+
+        "<b>Anticipated Build Year:</b> 2042 <br>"+
+        "<b>Status: Approved </b><br>"+
+        "<b>Type:</b> Multi-Use: Residential & Commercial <br>"+
+        "<b>Metrics:</b> <br>"+
+        "<select name='metrics' id='metrics'><option id='option1' value='1'>Change In Summer Shade</option>"+
+        "<option id='option2' value='2'>Change in Winter Sunlight</option>"+
+        "<option id='option3' value='3'>Estimated Rent Increase</option>"+
+        "<option id='option4' value='4'>Change in Avg Local Building Age</option></select>"+
+        "<div id='answer1'><img id='image4' style='width:400px;' src='https://raw.githubusercontent.com/ljc2177/potential-octo-engine/main/colloquium/Final%20Website/Building%20Images/E%2051/Summer%20GIF.gif'; /><br><b>Max Shade Lost:</b> 7.3 hours<br><b>Average Shade Change:</b> -0.19 hours<br><b>Avg % Difference in Shade:</b> +1.3%<br><b>Difference in % Below 11 Shaded Hours:</b> -0.6%</div>"+
+        "<div id='answer2' hidden><img id='image4' style='width:400px;' src='https://raw.githubusercontent.com/ljc2177/potential-octo-engine/main/colloquium/Final%20Website/Building%20Images/E%2051/Winter%20GIF.gif'; /><br><b>Max Sunlight Lost:</b> 7.8 hours<br><b>Average Sunlight Change:</b> -0.13 hours<br><b>Avg % Difference in Sunlight:</b> -0.9%<br><b>Difference in % Below 3 Sunlit Hours:</b> 0.8%</div>"+
+        "<div id='answer3' hidden><b>Avg Est Building Rent: </b>$6,600/month<br><b>Avg Est Community Rent Increase: </b>21%<br><b>Avg Est Building Sell: </b>$3.4M<br><b>Avg Est Community Sell Increase: </b>18%<br></div>"+
+        "<div id='answer4' hidden><b>Current Average Age: </b>1948<br><b>New Average Age: </b>1952</div>"+
+        "<button class='accordion3' id='reps1'><b>Representatives in Favor:</b></button><div id='reps1a' hidden>Vickie Reeves<br>Roderick Holt<br>Lee Evans<br>Guadalupe Reyes<br>Otis Day<br>Greg Brock<br>Mack Moss<br>Michael Copeland<br>Carmen Goodman<br>Frankie Griffith<br>Bert Stephens<br>Marlon Wood<br>Cecil Reynolds<br>Lena Moreno<br>Pete Ross<br>Bessie Wallace<br>Kim Walker<br>Katherine Rodriguez<br>Desiree Sims<br>Jesus Zimmerman<br>Rachael Daniel<br>Muriel Gutierrez<br>Rose Riley<br>Alfred Aguilar<br>Genevieve Cole<br>Percy Mendoza<br>Craig Briggs<br>Kristi Wheeler<br>Glen Garza<br>Ada Duncan<br>Tamara Kim<br>Elmer Hall<br>Bertha Benson<br>Brandon Brewer<br>Kerry George<br>Madeline Glover<br>Nora Casey<br>Pamela Woods<br>Andre Hanson<br></div>"+
+        "<button class='accordion3' id='reps2'><b>Representatives Not in Favor:</b></button><div id='reps2a' hidden>Elvira Burke<br>Nettie Neal<br>Pedro Nash<br>Denise Moran<br>Amos Mills<br>Gerardo Carson<br>Eileen Myers<br>Rogelio Paul<br>Ramon Burton<br>Charlene Pena<br>Ruben Butler<br></div>")
+        marker5.setPopup(popup5)
     
     let marker3 = new mapboxgl.Marker()
         marker3.setLngLat([-73.97633428852295, 40.75231296743869])
@@ -144,109 +168,85 @@ btn.onclick = function() {
         "<button class='accordion3' id='reps2'><b>Representatives Not in Favor:</b></button><div id='reps2a' hidden>Pamela Woods<br>Denise Moran<br>Greg Brock<br>Andre Hanson<br>Nettie Neal<br>Tamara Kim<br>Glen Garza<br>Pedro Nash<br>Bessie Wallace<br>Frankie Griffith<br>Bertha Benson<br>Jesus Zimmerman<br>Kerry George<br>Gerardo Carson<br>Lena Moreno<br>Alfred Aguilar<br>Rachael Daniel<br>Amos Mills<br>Kim Walker<br>Genevieve Cole<br>Katherine Rodriguez<br>Nora Casey<br>Rose Riley<br>Charlene Pena<br></div>")
         marker4.setPopup(popup4)
 
-    let marker5 = new mapboxgl.Marker()
-        marker5.setLngLat([-73.97578662306455, 40.75922487257751])
-        marker5.addTo(map)
+        // let fakeMarker1 = new mapboxgl.Marker()
+        // fakeMarker1.setLngLat([-73.95362889775818, 40.77867159187565])
+        // fakeMarker1.addTo(map)
 
-        let popup5 = new mapboxgl.Popup()
-        popup5.setHTML(
-        "<img src='https://raw.githubusercontent.com/ljc2177/potential-octo-engine/main/colloquium/Final%20Website/Tower-Fifth-e1547864911789.png' style='width:400px;'><br>"+
-        "<b>Address:</b> 5 E 51st St, New York, NY 10022 <br>"+
-        "<b>Anticipated Build Year:</b> 2042 <br>"+
-        "<b>Status: Approved </b><br>"+
-        "<b>Type:</b> Multi-Use: Residential & Commercial <br>"+
-        "<b>Metrics:</b> <br>"+
-        "<select name='metrics' id='metrics'><option id='option1' value='1'>Change In Summer Shade</option>"+
-        "<option id='option2' value='2'>Change in Winter Sunlight</option>"+
-        "<option id='option3' value='3'>Estimated Rent Increase</option>"+
-        "<option id='option4' value='4'>Change in Avg Local Building Age</option></select>"+
-        "<div id='answer1'><img id='image4' style='width:400px;' src='https://raw.githubusercontent.com/ljc2177/potential-octo-engine/main/colloquium/Final%20Website/Building%20Images/E%2051/Summer%20GIF.gif'; /><br><b>Max Shade Lost:</b> 7.3 hours<br><b>Average Shade Change:</b> -0.19 hours<br><b>Avg % Difference in Shade:</b> +1.3%<br><b>Difference in % Below 11 Shaded Hours:</b> -0.6%</div>"+
-        "<div id='answer2' hidden><img id='image4' style='width:400px;' src='https://raw.githubusercontent.com/ljc2177/potential-octo-engine/main/colloquium/Final%20Website/Building%20Images/E%2051/Winter%20GIF.gif'; /><br><b>Max Sunlight Lost:</b> 7.8 hours<br><b>Average Sunlight Change:</b> -0.13 hours<br><b>Avg % Difference in Sunlight:</b> -0.9%<br><b>Difference in % Below 3 Sunlit Hours:</b> 0.8%</div>"+
-        "<div id='answer3' hidden><b>Avg Est Building Rent: </b>$6,600/month<br><b>Avg Est Community Rent Increase: </b>21%<br><b>Avg Est Building Sell: </b>$3.4M<br><b>Avg Est Community Sell Increase: </b>18%<br></div>"+
-        "<div id='answer4' hidden><b>Current Average Age: </b>1948<br><b>New Average Age: </b>1952</div>"+
-        "<button class='accordion3' id='reps1'><b>Representatives in Favor:</b></button><div id='reps1a' hidden>Vickie Reeves<br>Roderick Holt<br>Lee Evans<br>Guadalupe Reyes<br>Otis Day<br>Greg Brock<br>Mack Moss<br>Michael Copeland<br>Carmen Goodman<br>Frankie Griffith<br>Bert Stephens<br>Marlon Wood<br>Cecil Reynolds<br>Lena Moreno<br>Pete Ross<br>Bessie Wallace<br>Kim Walker<br>Katherine Rodriguez<br>Desiree Sims<br>Jesus Zimmerman<br>Rachael Daniel<br>Muriel Gutierrez<br>Rose Riley<br>Alfred Aguilar<br>Genevieve Cole<br>Percy Mendoza<br>Craig Briggs<br>Kristi Wheeler<br>Glen Garza<br>Ada Duncan<br>Tamara Kim<br>Elmer Hall<br>Bertha Benson<br>Brandon Brewer<br>Kerry George<br>Madeline Glover<br>Nora Casey<br>Pamela Woods<br>Andre Hanson<br></div>"+
-        "<button class='accordion3' id='reps2'><b>Representatives Not in Favor:</b></button><div id='reps2a' hidden>Elvira Burke<br>Nettie Neal<br>Pedro Nash<br>Denise Moran<br>Amos Mills<br>Gerardo Carson<br>Eileen Myers<br>Rogelio Paul<br>Ramon Burton<br>Charlene Pena<br>Ruben Butler<br></div>")
-        marker5.setPopup(popup5)
+        // let fakeMarker2 = new mapboxgl.Marker()
+        // fakeMarker2.setLngLat([-73.96493734818185, 40.7989526709602])
+        // fakeMarker2.addTo(map)
 
-        let fakeMarker1 = new mapboxgl.Marker()
-        fakeMarker1.setLngLat([-73.95362889775818, 40.77867159187565])
-        fakeMarker1.addTo(map)
+        // let fakeMarker3 = new mapboxgl.Marker()
+        // fakeMarker3.setLngLat([-73.98364052379338, 40.78182000689194])
+        // fakeMarker3.addTo(map)
 
-        let fakeMarker2 = new mapboxgl.Marker()
-        fakeMarker2.setLngLat([-73.96493734818185, 40.7989526709602])
-        fakeMarker2.addTo(map)
+        // let fakeMarker4 = new mapboxgl.Marker()
+        // fakeMarker4.setLngLat([-74.00255530518989, 40.74265911912759])
+        // fakeMarker4.addTo(map)
 
-        let fakeMarker3 = new mapboxgl.Marker()
-        fakeMarker3.setLngLat([-73.98364052379338, 40.78182000689194])
-        fakeMarker3.addTo(map)
+        // let fakeMarker5 = new mapboxgl.Marker()
+        // fakeMarker5.setLngLat([-73.95549186537265, 40.72605349844376])
+        // fakeMarker5.addTo(map)
 
-        let fakeMarker4 = new mapboxgl.Marker()
-        fakeMarker4.setLngLat([-74.00255530518989, 40.74265911912759])
-        fakeMarker4.addTo(map)
+        // let fakeMarker6 = new mapboxgl.Marker()
+        // fakeMarker6.setLngLat([-73.94996108809444, 40.71136786337622])
+        // fakeMarker6.addTo(map)
 
-        let fakeMarker5 = new mapboxgl.Marker()
-        fakeMarker5.setLngLat([-73.95549186537265, 40.72605349844376])
-        fakeMarker5.addTo(map)
+        // let fakeMarker7 = new mapboxgl.Marker()
+        // fakeMarker7.setLngLat([-73.96818338908739, 40.6994763470459])
+        // fakeMarker7.addTo(map)
 
-        let fakeMarker6 = new mapboxgl.Marker()
-        fakeMarker6.setLngLat([-73.94996108809444, 40.71136786337622])
-        fakeMarker6.addTo(map)
+        // let fakeMarker8 = new mapboxgl.Marker()
+        // fakeMarker8.setLngLat([-73.98063646494849, 40.72535380236884])
+        // fakeMarker8.addTo(map)
 
-        let fakeMarker7 = new mapboxgl.Marker()
-        fakeMarker7.setLngLat([-73.96818338908739, 40.6994763470459])
-        fakeMarker7.addTo(map)
+        // let fakeMarker9 = new mapboxgl.Marker()
+        // fakeMarker9.setLngLat([-73.99494303863699, 40.739689787821895])
+        // fakeMarker9.addTo(map)
 
-        let fakeMarker8 = new mapboxgl.Marker()
-        fakeMarker8.setLngLat([-73.98063646494849, 40.72535380236884])
-        fakeMarker8.addTo(map)
+        // let fakeMarker10 = new mapboxgl.Marker()
+        // fakeMarker10.setLngLat([-73.95132728425276, 40.74615573757044])
+        // fakeMarker10.addTo(map)
 
-        let fakeMarker9 = new mapboxgl.Marker()
-        fakeMarker9.setLngLat([-73.99494303863699, 40.739689787821895])
-        fakeMarker9.addTo(map)
+        // let fakeMarker11 = new mapboxgl.Marker()
+        // fakeMarker11.setLngLat([-73.96033460401988, 40.73234374450283])
+        // fakeMarker11.addTo(map)
 
-        let fakeMarker10 = new mapboxgl.Marker()
-        fakeMarker10.setLngLat([-73.95132728425276, 40.74615573757044])
-        fakeMarker10.addTo(map)
+        // let fakeMarker12 = new mapboxgl.Marker()
+        // fakeMarker12.setLngLat([-73.99471010968428, 40.72343149339341])
+        // fakeMarker12.addTo(map)
 
-        let fakeMarker11 = new mapboxgl.Marker()
-        fakeMarker11.setLngLat([-73.96033460401988, 40.73234374450283])
-        fakeMarker11.addTo(map)
+        // let fakeMarker13 = new mapboxgl.Marker()
+        // fakeMarker13.setLngLat([-73.98109337261424, 40.77028466650163])
+        // fakeMarker13.addTo(map)
 
-        let fakeMarker12 = new mapboxgl.Marker()
-        fakeMarker12.setLngLat([-73.99471010968428, 40.72343149339341])
-        fakeMarker12.addTo(map)
+        // let fakeMarker14 = new mapboxgl.Marker()
+        // fakeMarker14.setLngLat([-73.94852610381221, 40.79597966291679])
+        // fakeMarker14.addTo(map)
 
-        let fakeMarker13 = new mapboxgl.Marker()
-        fakeMarker13.setLngLat([-73.98109337261424, 40.77028466650163])
-        fakeMarker13.addTo(map)
+        // let fakeMarker15 = new mapboxgl.Marker()
+        // fakeMarker15.setLngLat([-74.00809407205557, 40.7403882469367])
+        // fakeMarker15.addTo(map)
 
-        let fakeMarker14 = new mapboxgl.Marker()
-        fakeMarker14.setLngLat([-73.94852610381221, 40.79597966291679])
-        fakeMarker14.addTo(map)
+        // let fakeMarker16 = new mapboxgl.Marker()
+        // fakeMarker16.setLngLat([-73.9911558731559, 40.73641519191837])
+        // fakeMarker16.addTo(map)
 
-        let fakeMarker15 = new mapboxgl.Marker()
-        fakeMarker15.setLngLat([-74.00809407205557, 40.7403882469367])
-        fakeMarker15.addTo(map)
+        // let fakeMarker17 = new mapboxgl.Marker()
+        // fakeMarker17.setLngLat([-73.93246971445265, 40.85459069515808])
+        // fakeMarker17.addTo(map)
 
-        let fakeMarker16 = new mapboxgl.Marker()
-        fakeMarker16.setLngLat([-73.9911558731559, 40.73641519191837])
-        fakeMarker16.addTo(map)
+        // let fakeMarker18 = new mapboxgl.Marker()
+        // fakeMarker18.setLngLat([-73.94760351575736, 40.836985011954546])
+        // fakeMarker18.addTo(map)
 
-        let fakeMarker17 = new mapboxgl.Marker()
-        fakeMarker17.setLngLat([-73.93246971445265, 40.85459069515808])
-        fakeMarker17.addTo(map)
+        // let fakeMarker19 = new mapboxgl.Marker()
+        // fakeMarker19.setLngLat([-73.97049274211467, 40.78485486830759])
+        // fakeMarker19.addTo(map)
 
-        let fakeMarker18 = new mapboxgl.Marker()
-        fakeMarker18.setLngLat([-73.94760351575736, 40.836985011954546])
-        fakeMarker18.addTo(map)
-
-        let fakeMarker19 = new mapboxgl.Marker()
-        fakeMarker19.setLngLat([-73.97049274211467, 40.78485486830759])
-        fakeMarker19.addTo(map)
-
-        let fakeMarker20 = new mapboxgl.Marker()
-        fakeMarker20.setLngLat([-73.98578116843841, 40.6820955254993])
-        fakeMarker20.addTo(map)
+        // let fakeMarker20 = new mapboxgl.Marker()
+        // fakeMarker20.setLngLat([-73.98578116843841, 40.6820955254993])
+        // fakeMarker20.addTo(map)
 }
 
 // ------ accordion functionality
