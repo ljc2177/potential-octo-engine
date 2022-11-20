@@ -1,0 +1,1000 @@
+﻿Lname,Fname,Alias,Gender,Age,Color,Day,Month,Year,City,County,State,Children,Literate,Armed,Transportation,Enslaver,Reward,Long,Lat
+Williams,Henderson,null,M,32,null,4,Jul,1856,Norfolk,Norfolk,VA,null,null,null,Schooner,A. Briggs,null,-76.28514,36.84686
+Fisher,Jonathan,null,M,19,null,null,Jan,1856,null,null,MD,null,null,null,null,A. Rybold,null,0,0
+Wines,Moses,null,M,null,B,6,May,1854,Portsmouth,Norfolk,VA,null,null,null,Steamer,Abigail Wheeler,null,-76.29771,36.83273
+Smith,Julia,null,M,30,B,29,Jan,1854,Richmond,Henrico,VA,null,null,null,Steamer,A. Judson Crane,null,-77.43367,37.54068
+Foster,Turner,null,M,21,null,null,null,1859,Richmond,Henrico,VA,null,null,null,null,"A.A. Mosen, Esq.",null,-77.43367,37.54068
+Collins,Mary Ellen,null,F,20,B,null,null,1857,Cambridge,Dorchester,MD,null,null,null,null,Abrahm Wilson,null,-76.07806,38.56312
+Carr,John Thompson,null,M,null,null,null,null,1858,Richmond,Henrico,VA,null,null,null,null,Albert Lewis,null,-77.43367,37.54068
+Nicholson,Adam,John Wynkoop,M,null,B,12,Apr,1854,Hedgesville,Berkeley,VA,null,null,null,Foot,Alexander Hill,null,-77.99512,39.55387
+White,Miles,null,M,21,null,12,Jun,1854,Elizabeth City,Pasquotan,NC,null,null,null,Boat,Albert Kern,1500,-76.21976,36.3015
+Bowler,null,null,null,null,null,null,null,1858,Richmond,Henrico,VA,X,null,null,null,Alexander Royster,null,-77.43367,37.54068
+Snowden,Lewis,Lewis Williams,M,28,null,20,Jun,1854,Washington,null,DC,null,null,null,null,A. Nayton,null,-77.03196,38.89037
+Bowler,null,null,null,null,null,null,null,1858,Richmond,Henrico,VA,X,null,null,null,Alexander Royster,null,-77.43367,37.54068
+Bowler,Nancy,null,F,null,null,null,null,1858,Richmond,Henrico,VA,null,null,null,null,Alexander Royster,null,-77.43367,37.54068
+Ennets,null,null,null,3 mos,null,null,null,1860,null,Dorchester,MD,X,null,null,null,Alginer Pearcy,null,0,0
+Ennets,Amanda,null,F,4,null,null,null,1860,null,Dorchester,MD,X,null,null,null,Alginer Pearcy,null,0,0
+Ennets,Harriet,null,F,6,null,null,null,1860,null,Dorchester,MD,X,null,null,null,Alginer Pearcy,null,0,0
+Ennets,Maria,null,F,null,null,null,null,1860,null,Dorchester,MD,null,null,null,null,Alginer Pearcy,null,0,0
+Bowler,William,null,M,41,B,null,null,1858,Richmond,Henrico,VA,null,null,null,null,Alexander Royster,null,-77.43367,37.54068
+McCoy,Eliza,Ellen Saunders,F,38,M,1,Nov,1854,Norfolk,Norfolk,VA,null,X,null,Steamer,Andrew Ligany,null,-76.28514,36.84686
+Wheeler,Henry,null,M,21,null,null,null,1859,Havre de Grace,Harford,MD,null,null,null,null,Amos Barnes,null,-76.09566,39.54867
+Jones,John,Henry Clark,M,25,null,2,Sept,1854,Middletown,New Castle,DE,null,null,null,null,Amos Lynch,null,-75.71684,39.45028
+Lambert,Elizabeth,null,F,null,null,null,null,1856,Middletown,New Castle,DE,null,null,null,null,Andrew Peterson,null,-75.71684,39.45028
+Lambert,Horace,null,M,null,null,null,null,1856,Middletown,New Castle,DE,X,null,null,null,Andrew Peterson,null,-75.71684,39.45028
+Lambert,Mary,null,F,null,null,null,null,1856,Middletown,New Castle,DE,X,null,null,null,Andrew Peterson,null,-75.71684,39.45028
+Turner,Isaac,null,M,28,B,null,Dec,1857,Petersburg,Dinwiddle,VA,null,null,null,Foot,Ann Coley,null,-77.40348,37.22815
+Turner,Jackson,null,M,27,B,null,May,1857,Petersburg,Dinwiddle,VA,null,null,null,Foot,Ann Coley,null,-77.40348,37.22815
+Turner,Edmundson,null,M,25,B,null,Dec,1857,Petersburg,Dinwiddle,VA,null,X,null,Foot,Ann Coley,null,-77.40348,37.22815
+Lambert,William Henry,null,M,null,null,null,null,1856,Middletown,New Castle,DE,X,null,null,null,Andrew Peterson,null,-75.71684,39.45028
+Gooseberry,George W.,Isaac Stout,M,23,null,19,Jan,1856,null,New Castle,DE,null,null,null,null,Anthony Ryebold,null,0,0
+Anderson,Thomas,Jonathan Fisher,M,19,null,30,Jan,1856,Sassafras Neck,Cecil,MD,null,null,null,null,Anthony Rybold,null,-75.80258,39.3732
+Morris,James,null,M,27,null,null,Jul,1856,South End,Camden,NC,null,X,null,Schooner,Ann McCourt,null,-93.26211,31.12963
+Henry,John,Samuel Full (?),M,21,null,30,Jan,1856,Sassafras Neck,Cecil,MD,null,null,null,null,Anthony Ryebold,null,-75.80258,39.3732
+Carlisle,William,null,M,null,B,4,Jul,1859,null,null,MD,null,null,null,null,Aquila Cain,null,0,0
+Heath,Charles,null,M,25,B,4,July,1859,null,null,MD,null,null,null,null,Aquila Cain,null,0,0
+Maxwell,Thomas,null,M,21,B,4,Jul,1859,Eastern Shore,null,MD,null,null,null,null,Aquila Cain,null,-80.1356,25.9337
+Smith,Samuel,null,M,null,null,4,Jul,1859,Eastern Shore,null,MD,null,null,null,null,Aquila Cain,null,-80.1356,25.9337
+Jasper,Elias,null,M,32,B,22,Jun,1855,Norfolk,Norfolk,VA,null,null,null,Schooner,Bayham,null,-76.28514,36.84686
+Smith,Josephine,null,F,null,null,null,null,null,Washington,null,DC,null,null,null,null,Anna Maria Warren,null,-77.03196,38.89037
+Hall,Charles,null,M,null,null,8,Apr,1856,Baltimore,Baltimore,MD,null,null,null,null,Atwood Blunt,null,-76.60926,39.29058
+Burrell,Peter,null,M,null,null,21,Apr,1856,Alexandria,Fairfax,VA,null,null,null,null,Bejamin Johnson Hall,null,-77.04341,38.8046
+Gilbert,Charles,null,M,null,M,11,Nov,1854,Richmond,Henrico,VA,null,null,null,Steamer,Benjamin Davis,null,-77.43367,37.54068
+Gardener,Priscilla,null,F,30,B,null,null,1858,Richmond,Henrico,VA,null,null,null,null,Benjamin Hilliard,null,-77.43367,37.54068
+Washington,Samuel,James Moore,M,35,null,27,Feb,1855,Norfolk,Norfolk,VA,null,null,null,null,Benjamin Smith,null,-76.28514,36.84686
+Reed,Isaac,James Reed,M,null,null,28,Jul,1856,Eastern Shore,null,MD,null,null,null,null,Benjamin Franklin Houston,null,-80.1356,25.9337
+Brown,John,null,M,null,null,null,null,1859,null,null,null,null,null,null,null,Benjamin Thorn,null,0,0
+Davis,Singleton,William Snowden,M,38,null,4,May,1853,Columbia,null,null,null,null,null,null,Augustus Riggs,null,-81.04537,33.99882
+Washington,George,null,M,15,B,null,null,1857,Perryville,Caroline,MD,null,null,null,Foot,Benjamin Sylves,null,-76.07142,39.56008
+Clinton,Thomas,null,M,21,B,null,null,1856,Baltimore,Baltimore,MD,null,X,null,null,Benjamin Walmsly,null,-76.60926,39.29058
+Nole,Charles,null,M,null,M,null,Oct,1858,null,Culpepper,VA,null,null,null,null,Blooker W. Hansborough,null,0,0
+Hilliard,Frances,null,M,29,M,30,Aug,1855,Richmond,Henrico,VA,null,X,null,Steamer,Beverly Blair,null,-77.43367,37.54068
+Ennells,Noah,null,M,19,B,24,Oct,1857,Cambridge,Dorchester,MD,null,null,null,null,Black Head Bill LeCount,null,-76.07806,38.56312
+Hall,Edward,null,M,20,null,null,null,1859,null,null,DE,null,null,null,null,Booth,null,0,0
+Dade,Jack,null,M,22,B,null,null,1857,Washington,Washington,VA,null,null,null,null,Benjamin R. Chambers,null,-78.16032,38.71181
+Chion,Emma,null,F,null,null,null,null,1860,null,Dorchester,MD,null,null,null,null,Bushong Blake,null,0,0
+Thorton,Alfred S.,null,M,22,B,null,null,1858,null,null,VA,null,null,null,null,C.F. Shinn,null,0,0
+Ellis,Joe,null,M,23,B,null,null,1857,Cabin Point,Surrey,VA,null,null,null,null,Bolling Ellis,null,-77.03182,37.18485
+Cornish,Joseph,null,M,40,B,25,Dec,1855,null,Dorchester,MD,null,null,null,null,Capt. Samuel Lecount,null,0,0
+Bishop,Elijah,null,M,28,B,null,null,1858,Baltimore,Baltimore,MD,null,null,null,null,Campbell,null,-76.60926,39.29058
+Giles,Charlotte,null,F,23,null,31,May,1856,Baltimore,Baltimore,MD,null,null,null,Railroad,Capt. William Applegarth,null,-76.60926,39.29058
+Freeland,George W.,null,M,25,B,5,Jun,1854,Petersburg,Dinwiddle,VA,null,X,null,Steamer,Capt. John Pollard,null,-77.40348,37.22815
+Delaney,James Henry,null,M,26,null,25,May,1854,Seaford,Sussex,DE,null,null,null,null,Captain Martin,null,-75.60905,38.64374
+Lewis,Edward,William Brady,M,36,B,7,Nov,1857,null,Franklin,NC,null,X,null,null,Carter Gay,100,0,0
+Joiner,Maria,null,F,33,M,23,Jun,1855,Norfolk,Norfolk,VA,null,null,null,Schooner,Catharine Gordon,null,-76.28514,36.84686
+Carroll,George,null,M,24,B,null,null,1857,Washington,null,DC,null,null,null,null,C.C. Hirara,null,-77.03196,38.89037
+null,Richard,null,M,30,B,22,Mar,1857,New Kent,null,null,null,null,null,Foot,Captain Tucker,100 in state,-76.97829,37.51805
+Viney,Joseph,null,M,40,B,24,Oct,1857,Alexandria,Fairfax,VA,null,null,null,Foot,Charles Bryant,null,-77.04341,38.8046
+Mead,Zechariah,John Williams,M,20,null,25,Feb,1855,null,null,MD,null,null,null,null,Charles C. Owens,null,0,0
+Royan,William,null,M,35,null,null,null,1857,Washington,null,DC,null,null,null,null,Captain Cunningham,null,-77.03196,38.89037
+Johnson,Perry,null,M,28,null,21,Nov,1853,Elkton,Cecil,MD,null,null,null,null,Charles Johnson,null,-75.83041,39.60923
+Harris,James,null,M,null,M,null,Nov,1856,Middletown,New Castle,DE,null,null,null,null,Catharine Odine,null,-75.71684,39.45028
+Cooper,Charles Henry,null,M,22,null,4,Aug,1856,Middletown,New Castle,DE,null,null,null,null,Catherine Medine,null,-75.71684,39.45028
+Langhorn,Henry,William Scott,M,null,M,null,Dec,1858,Richmond,Henrico,VA,null,X,null,Steamer,Charles L. Hobson,null,-77.43367,37.54068
+Williams,Edward,Henry Johnson,M,null,null,3,Apr,1853,Baltimore,Baltimore,MD,null,null,null,Foot,Charles Moondo,null,-76.60926,39.29058
+Conner,James,null,M,43,null,27,Jul,1857,New Orleans,Orleans,LA,null,null,null,null,Charles Parlange,100,-90.07775,29.9537
+null,Hannah,null,F,23,null,17,Oct,1857,Marshall Hope,Caroline,MD,null,null,null,Foot,Charles Peters,null,-94.35011,32.54634
+Snivley,David,null,M,26,B,null,null,1860,Frederick,Frederick,MD,null,null,null,null,Charles Preston,null,-77.41203,39.41574
+Blackson,James Henry,null,M,25,null,26,May,1854,null,null,null,null,null,null,null,Charles Wright,null,0,0
+William,Mary,null,F,null,null,null,null,1860,Fredericksburg,Spotsylvania,VA,null,null,null,null,Christian Thomas,null,-77.45933,38.30118
+Weems,Maria,Joe Wright/Ellen Capron,F,15,B,25,Nov,1855,Washington,null,DC,X,null,null,Carriage,Charles M. Price,500,-77.03196,38.89037
+Hickman,Charles,Charles Robinson,M,null,null,7,Aug,1855,Indian River,Sussex,DE,null,null,null,null,Charles Henry Hickman,null,-75.17052,38.57264
+Johnson,null,null,M,7,null,null,Jul,1855,null,null,NC,X,null,null,Carriage,Col. John H. Wheeler,null,0,0
+Green,Christopher,null,M,null,B,null,null,1857,Baltimore,Baltimore,MD,null,null,null,null,Clayton Wright,null,-76.60926,39.29058
+Johnson,null,null,M,11,null,null,Jul,1855,null,null,NC,X,null,null,Carriage,Col. John H. Wheeler,null,0,0
+Johnson,Jane,null,F,null,B,null,Jul,1855,null,null,NC,null,null,null,Carriage,Col. John H. Wheeler,null,0,0
+Smith,Jesse,null,M,34,null,12,Dec,1854,Norfolk,Norfolk,VA,null,null,null,null,Cornelius Herman,null,-76.28514,36.84686
+Airs,Peter,Peter Johnson,M,30,null,21,Nov,1854,Berlin,Worcester,MD,null,null,null,null,Comfort & Betsy Airs,null,-75.21836,38.3222
+Williams,Isaac,null,M,26,null,21,Dec,1854,Hampsted,King George,VA,null,null,null,Foot,D. Fitchhugh,null,-77.13368,38.33586
+Scott,null,null,null,null,null,25,Nov,1853,Havana,null,MD,X,null,null,null,Daniel Coolby,null,-90.06082,40.29792
+Scott,null,null,null,null,null,25,Nov,1853,Havana,null,MD,X,null,null,null,Daniel Coolby,null,-90.06082,40.29792
+Grey,John Boice,null,M,19,B,null,Jan,1858,Lewes,Sussex,DE,null,null,null,Skiff,Daivd Henry Houston,null,-75.1308,38.78043
+Brown,Robert,Thomas Jones,M,25,M,25,Dec,1856,Martinsburg,Henry,VA,null,null,null,Horseback,Col. John F. Fraic,null,-77.96477,39.45641
+Scott,Hetty,Margaret Duncans,F,null,null,25,Nov,1853,Havana,null,MD,null,null,null,null,Daniel Coolby,null,-90.06082,40.29792
+Scott,Priscilla,Priscilla Duncans,F,null,null,25,Nov,1853,Havana,null,MD,X,null,null,null,Daniel Coolby,null,-90.06082,40.29792
+Unidentified,null,null,M,null,null,25,Nov,1853,Havana,null,MD,null,null,null,null,Daniel Coolby,null,-90.06082,40.29792
+Unidentified,null,null,F,null,null,25,Nov,1853,Havana,null,MD,null,null,null,null,Daniel Coolby,null,-90.06082,40.29792
+Jackson,William,null,M,50,null,null,null,1857,Alexandria,Fairfax,VA,null,null,null,null,Daniel Minne,null,-77.04341,38.8046
+Carter,Charles,null,M,30,M,10,Apr,1856,Richmond,Henrico,VA,null,X,null,null,Daniel Delaplain,null,-77.43367,37.54068
+Huges,William,null,M,22,null,29,Dec,1856,Eastern Shore,null,MD,null,null,null,null,Daniel Cox,null,-80.1356,25.9337
+Smith,John Wesley,null,M,26,null,null,null,null,Cambridge,Dorchester,MD,null,null,null,null,Daniel Hubert,null,-76.07806,38.56312
+Paeden,Celia,null,F,null,null,27,Mar,1853,Norfolk,Norfolk,VA,null,null,null,Boat,David Baines,null,-76.28514,36.84686
+Apeden,Harriet,null,F,null,null,27,Mar,1853,Norfolk,Norfolk,VA,null,null,null,Boat,David Baines,null,-76.28514,36.84686
+null,Celia,null,F,null,null,27,Mar,1854,Norfolk,Norfolk,VA,null,null,null,null,David Baines,null,-76.28514,36.84686
+Scott,Jack,null,M,36,B,3,Nov,1857,Richmond,Henrico,VA,null,null,null,Foot,"David B. Turner, Esq.",null,-77.43367,37.54068
+Wellington,Jane,Jane Johnson,F,null,null,12,Jun,1856,Hagarstown,Washington,MD,null,null,null,null,David Beiller,null,-77.71758,39.6425
+Bird,Charles,null,M,24,B,3,Jun,1856,Hagerstown,Washington,MD,null,null,X,Horseback,David Claggert,null,-77.71758,39.6425
+Bolice,Henry,null,M,null,null,null,Jan,1858,Lewes,Sussex,DE,null,null,null,Skiff,David Henry Houston,null,-75.1308,38.78043
+Harris,Joseph,null,M,23,null,null,Jun,1855,Plymouth,null,NC,null,null,null,null,David Morris,null,-76.74956,35.86629
+Moore,John Henry,null,M,24,B,null,null,1857,Arlington,Baltimore,MD,null,null,null,null,David Mitchell,null,-76.68324,39.34857
+Solomon,George,null,M,33,M,null,Sept,1856,Washington,null,DC,null,null,null,Foot,Daniel Minor,null,-77.03196,38.89037
+Mills,Cornelius,null,M,27,null,null,null,1860,null,null,MD,null,null,null,null,David Snively,null,0,0
+Mills,Jerry,null,M,65,null,null,null,1860,null,null,MD,null,null,null,null,David Snively,null,0,0
+Mills,Diana,null,F,57,null,null,null,1860,null,null,MD,null,null,null,null,David Snively,null,0,0
+Mills,Margaret,null,F,17,null,null,null,1860,null,null,MD,null,null,null,null,David Snively,null,0,0
+Mills,Susan,null,F,15,null,null,null,1860,null,null,MD,X,null,null,null,David Snively,null,0,0
+Congo,Charles,null,M,28,B,null,null,null,null,null,MD,null,null,null,null,David Stewart,1200 in state,0,0
+Congo,Margaret,null,F,28,B,null,null,null,null,null,MD,null,null,null,null,David Stewart,500 in state,0,0
+Unidentified,null,null,M,null,B,null,null,1856,null,Kent,DE,null,null,null,null,Denny,null,0,0
+Laws,George,null,M,null,B,null,null,1858,null,Kent,DE,null,null,null,null,Denny,null,0,0
+Thompson,James Henry,Milton Brown,M,28,B,null,null,1858,Johnsonville,null,MD,null,null,null,null,Dennis Mannard,null,-79.44926,33.81758
+Fuller,Cornelius,null,M,null,null,null,null,1859,null,Kent,MD,null,null,null,null,Diden,null,0,0
+Pennington,Bob,null,M,null,null,null,May,1854,Washington,null,DC,null,null,null,null,David Smith & Jacob Grove,null,-77.03196,38.89037
+Pennington,Stephen,null,M,null,null,null,May,1854,Washington,null,DC,null,null,null,null,David Smith & Jacob Grove,null,-77.03196,38.89037
+Ross,Benjamin,null,M,null,null,null,Jun,1857,Eastern Shore,Caroline,MD,null,null,null,null,Dr. Anthony Thompson,null,-80.1356,25.9337
+Ross,Harriet,null,F,null,null,null,Jun,1857,Eastern Shore,Caroline,MD,null,null,null,null,Dr. Anthony Thompson,null,-80.1356,25.9337
+Smith,John,null,M,19,M,null,null,1856,Marshall District,Harford,MD,null,null,null,null,Dr. Abraham Street,null,-77.93518,38.8312
+Nixon,Samuel,Dr. Thomas Bayne,M,31,B,13,Mar,1855,Norfolk,Norfolk,VA,null,X,null,Schooner,Dr. C.F. Martin,1000,-76.28514,36.84686
+Salter,Charles Henry,null,M,30,null,null,null,null,Baltimore,Baltimore,MD,null,null,null,Foot,Dr. B. Crain,null,-76.60926,39.29058
+Washington,William Henry,null,M,20,null,null,null,null,Baltimore,Baltimore,MD,null,null,null,Foot,Dr. B. Crain,null,-76.60926,39.29058
+Grantham,Nancy,null,F,19,M,null,null,1858,Richmond,Henrico,VA,null,null,null,Boat,Dr. Christian,null,-77.43367,37.54068
+Johnson,Roseanna,Catherine Brice,F,null,B,11,Jan,1857,Deer Creek,Harford,MD,null,X,null,null,Dr. Abraham Street,null,-76.45885,39.04011
+Barlow,Archer,Emit Robins,M,31,M,null,null,1853,Norfolk,Norfolk,VA,null,null,null,Steamer,Dr. George Wilson,null,-76.28514,36.84686
+Boyce,Andrew Jackson,null,M,26,B,null,null,1858,Lewes,Sussex,DE,null,null,null,null,Dr. David Houston,null,-75.1308,38.78043
+Shaw,Nace,null,M,23,M,null,null,1858,Baltimore,Baltimore,MD,null,null,null,null,Dr. Ephraim Bell,null,-76.60926,39.29058
+Booce,Richard J.,null,M,22,B,null,null,1857,null,null,MD,null,null,null,null,Dr. Hughes,null,0,0
+Todd,Isaac,null,M,23,M,null,null,1857,Unionville,Frederick,MD,null,null,null,null,Dr. Granberry Sappington,null,-77.18593,39.475
+Thorton,Lawrence,null,M,23,B,null,null,1857,Alexandria,Fairfax,VA,null,null,null,null,Dr. Isaac Winslow,null,-77.04341,38.8046
+Banks,Henry,null,M,19,null,21,Dec,1854,null,King George,VA,null,null,null,Foot,Dr. James,null,0,0
+Penwell,Elizabeth,null,F,22,null,20,Jul,1854,Little Caroline,null,MD,null,null,null,null,Dr. Clift,null,-88.89299,44.72103
+Ringgold,Charles,null,M,18,B,4,Jul,1859,Eastern Shore,null,MD,null,null,null,null,Dr. Jacob Preston,null,-80.1356,25.9337
+Davis,William,null,M,32,B,29,Mar,1854,Emmitsburg,Frederick,MD,null,null,null,null,Dr. James Shoul,null,-77.32663,39.70465
+Myers,John,null,M,null,null,null,null,1857,null,Harford,MD,null,null,null,null,Dr. Joshua R. Nelson,null,0,0
+Allen,Henry,null,M,18,null,14,Nov,1854,Wilmington,New Castle,DE,null,null,null,null,Dr. Johnson,null,-75.55084,39.74023
+Diggs,David,null,M,37,B,null,null,1857,Rockville,Montgomery,MD,null,null,null,null,Dr. Josiah Harding,null,-77.15118,39.08196
+Spires,Valentine,Jonathan Wesley,M,null,null,28,July,1856,Petersburg,Norfolk,VA,null,null,null,null,Dr. Jesse Squires,null,-77.40348,37.22815
+Young,Murray,null,M,21,B,null,null,null,null,New Castle,DE,null,null,null,null,Dr. Lober,null,0,0
+Green,Samuel,Wesley Kinnard,M,25,null,28,Aug,1854,Indian Creek,Chester,MD,null,X,null,null,Dr. James Muse,null,-76.60997,39.06261
+Camp,Joseph H.,null,M,20,null,16,Nov,1853,Richmond,Henrico,VA,null,null,null,Steamer,Dr. K. Clark,null,-77.43367,37.54068
+Paeden,Edward,null,M,44,B,27,Mar,1853,Norfolk,Norfolk,VA,null,null,null,Boat,Dr. Price,null,-76.28514,36.84686
+Camp,null,null,F,null,null,null,null,1853,Richmond,Henrico,VA,null,null,null,null,Dr. K. Clark,null,-77.43367,37.54068
+Hall,John,John Simpson,M,32,null,12,July,1854,Charleston,Charleston,SC,null,null,null,Foot & Boat,Dr. Philip Mazyk,null,-79.9316,32.78115
+Roach,Lamby,null,F,null,null,null,null,1859,Seaford,Sussex,DE,null,null,null,Foot,Dr. Shipley,null,-75.60905,38.64374
+Bow-Legs,Jim,Bill Paul,M,null,null,25,Oct,1855,Lexington,Oglethorpe,GA,null,null,null,Foot,Dr. Thomas Stephens,500,-83.11437,33.87103
+Hill,George,null,M,24,B,null,null,1857,Arlington,Baltimore,MD,null,null,null,null,Dr. Savington,null,-76.68324,39.34857
+Brown,Charles Henry,null,M,27,null,5,Feb,1856,Cambridge,Dorchester,MD,null,null,null,null,Dr. Richard Dorsey,null,-76.07806,38.56312
+Wilson,William,null,M,42,null,null,Nov,1856,null,null,NC,null,null,null,Schooner,Dr. Thomas Warren,null,0,0
+Wilson,Franklin,null,M,18,null,24,Oct,1855,null,null,DE,null,null,null,null,Dr. William Daniels,null,0,0
+Upsher,George,null,M,null,null,7,Nov,1857,Richmond,Henrico,VA,null,X,null,null,Dr. Thomas W. Upsher,100,-77.43367,37.54068
+Johnson,Talbot,null,M,35,B,10,Sept,1858,null,null,MD,null,null,null,null,Duke Bond,200 in State/100 out,0,0
+Townsend,Henry,null,M,21,B,17,Feb,1857,Purnell P.O. Box,Caroline,MD,null,null,null,null,E. Townsend,null,0,0
+Matthews,Tom,null,M,25,B,4,Apr,1856,Bladensburg,Prince Georges,MD,null,null,null,null,E.A. Jones,33,-76.93295,38.94269
+Morris,John,null,M,21,B,null,Jun,1855,Norfolk,Norfolk,VA,null,null,null,null,Edward Bloomer,null,-76.28514,36.84686
+Madden,Thomas,null,M,22,null,9,Oct,1854,Easton,Talbot,MD,null,null,null,null,Ed Ray,null,-76.07475,38.7739
+North,null,null,null,null,null,22,Mar,1856,null,null,null,X,null,null,null,Edward C. Dyer,null,0,0
+Jones,James,Henry Rider,M,32,M,4,Apr,1856,King Georges,null,MD,null,null,null,null,Dr. William Stewart,null,-77.18406,38.26833
+North,Harry,Lanney,M,12,null,22,May,1856,null,null,null,X,null,null,null,Edward C. Dyer,null,0,0
+White,Emanuel T.,null,M,25,M,null,null,1857,Norfolk,Norfolk,VA,null,X,null,Steamer,Edward H. Hubert,null,-76.28514,36.84686
+Emory,Robert,William Kemp,M,null,null,1,Jun,1855,null,Talbot,MD,null,null,null,null,Edward Lloyd,null,0,0
+Burrell,Lewis,null,M,null,null,21,Apr,1856,Alexandria,Fairfax,VA,null,null,null,null,Edward M. Clark,null,-77.04341,38.8046
+Roberts,Emory,William Kemp,M,null,null,1,Jun,1855,Prest Rock,Talbot,MD,null,null,null,null,Edward Lloyd,null,-77.13047,39.07599
+Parker,Ann,null,F,null,null,14,Nov,1856,null,Dorchester,MD,null,null,null,null,Edward Wiley,null,0,0
+Dorsey,Luther,null,M,19,B,null,null,null,Sairsville Mills,Frederick,MD,null,null,null,null,Edward Schriner,null,0,0
+Parker,Henry,null,M,null,null,14,Nov,1856,null,Dorchester,MD,null,null,null,null,Edward Wiley,null,0,0
+Parker,Lydia Ann,null,F,null,null,14,Nov,1856,null,Dorchester,MD,null,null,null,null,Edward Wiley,null,0,0
+Dorsey,Anna,null,F,22,M,4,Aug,1856,null,Howard,MD,null,null,null,null,Eli Molesworth,null,0,0
+Wilmer,George,null,M,null,null,5,Sept,1856,Georget'n Crossroads,Kent,MD,null,null,null,null,Eben Welch,null,-88.71499,30.8856
+Heines,Peter,null,M,21,M,null,July,1856,Eatontown,Chowan,NC,null,null,null,Schooner,"Elias Heines, Esq.",null,-74.05791,40.30554
+Hines,Peter,null,M,21,null,21,Jul,1856,Eatontown,Chowan,NC,null,null,null,Schooner,Elias Hines,null,-74.05791,40.30554
+Hollon,Alfred,null,M,28,B,null,null,1857,Baltimore,Baltimore,MD,null,null,null,null,Elijah J. Johnson,null,-76.60926,39.29058
+Rogers,Charles,null,M,null,null,null,null,1857,Baltimore,Baltimore,MD,null,null,X,null,Elijah J. Johnson,null,-76.60926,39.29058
+Dade,Mary Ann,null,F,null,null,null,null,1857,Washington,Washington,VA,null,null,null,null,Elias Rhoads,null,-78.16032,38.71181
+Rogers,George,null,M,26,B,null,null,1857,Baltimore,Baltimore,MD,null,null,X,null,Elijah J. Johnson,null,-76.60926,39.29058
+Whitney,Israel,null,M,36,null,null,Oct,1857,Alexandria,Fairfax,VA,null,null,null,Foot,Elijah Money,null,-77.04341,38.8046
+Tucker,Henry,null,M,null,B,null,null,1858,Arabella Creek Place,Baltimore,MD,null,null,null,null,Elias Sneveley,null,0,0
+Lee,Ordee,null,F,35,B,null,null,1857,null,null,MD,null,null,null,null,Elijah Thompson,null,0,0
+Malary,John,null,M,null,null,21,Oct,1854,Norfolk,Norfolk,VA,null,null,null,null,Eliza Ann Anderson,null,-76.28514,36.84686
+Williams,Samuel,John Williams,M,32,B,null,Mar,1857,Cumberland,Alleganey,MD,null,null,null,Foot,Elivina Duncans,null,-78.76333,39.65177
+Ross,Henry,Levin Stewart,M,22,null,29,Dec,1854,Bucktown,Dorchester,MD,null,null,null,null,Eliza Ann Brodins,null,-76.05248,38.45695
+Ross,Benjamin,James Stewart,M,28,B,29,Dec,1854,Bucktown,Dorchester,MD,null,null,null,null,Eliza Ann Brodins,null,-76.05248,38.45695
+Murray,Robert,null,M,null,null,null,null,null,null,Loudon,VA,null,null,null,null,Eliza Brooks,null,0,0
+Ross,Robert,John Stewart,M,35,B,29,Dec,1854,Bucktown,Dorchester,MD,null,null,null,null,Eliza Ann Brodins,null,-76.05248,38.45695
+Jones,Eliza,null,F,40,B,2,Aug,1855,Petersburg,Dinwiddle,VA,null,null,null,null,Eliza H. Riche,null,-77.40348,37.22815
+Graham,Montgomery,null,M,null,M,13,null,1857,Alexandria,Fairfax,VA,null,null,null,null,Elizabeth Gordon,100 in state/200 out,-77.04341,38.8046
+Walker,George,Austin Valentine,M,43,null,18,Jan,1855,Petersburg,Dinwiddle,VA,null,null,null,Steamer,Eliza Jones,null,-77.40348,37.22815
+Wise,Harry,null,M,24,B,null,Aug,1857,null,Harford,MD,null,null,null,null,Elliott Burwell,50 in State/100 Out,0,0
+Jones,Henry,null,M,41,B,null,null,1859,Richmond,Henrico,VA,null,null,null,null,Elizabeth Mann,null,-77.43367,37.54068
+Green,David,George Taylor,M,null,null,28,Jul,1856,Leesburg,Loudon,VA,null,null,null,null,Elliott Curlett,null,-77.56578,39.1158
+Tudle,Henry,null,M,null,null,13,null,1860,Fredericksburg,Spotsylvania,VA,null,null,null,null,Ezra Houpt,null,-77.45933,38.30118
+Robinson,Josephine,null,F,null,null,null,null,1858,Washington,null,DC,null,null,null,null,Eliza Hambleton,null,-77.03196,38.89037
+Hipkins,Wiliam Henry,null,M,23,M,null,null,1857,Arlington,Baltimore,MD,null,null,null,null,Ephraim Swart,null,-76.68324,39.34857
+Holladay,Charles,null,M,28,null,31,Aug,1855,Baltimore,Baltimore,MD,null,null,null,null,F. Smith,null,-76.60926,39.29058
+Goulden,Alfred,null,M,23,B,null,null,null,null,null,null,null,null,null,Foot,Fletcher Jackson,null,0,0
+Thompson,Charles,null,M,25,B,null,null,1857,Richmond,Henrico,VA,null,null,null,Foot,Fleming Bibbs,null,-77.43367,37.54068
+Laminson,William H.,null,M,21,null,null,null,1855,null,New Castle,DE,null,null,null,null,Francis Haskins,null,0,0
+Derrix,Townsend,null,M,null,null,null,null,1857,Alexandria,Fairfax,VA,null,null,null,null,Gallipappick,null,-77.04341,38.8046
+Levinson,William Henry,null,M,21,null,15,Jan,1856,New Castle,New Castle,DE,null,null,null,null,Frances Hawkins,null,-75.56394,39.65977
+Wood,Moses,null,M,null,null,null,null,1857,Georgetown,null,DC,null,null,null,null,General Briscoe,null,-77.0628,38.90502
+Taylor,James,null,M,20,M,null,null,1859,Fredericksburg,Spotsylvania,VA,null,null,null,null,George Ailer,null,-77.45933,38.30118
+Forman,Isaac,null,M,50,B,4,Jul,1856,Norfolk,Norfolk,VA,null,null,null,Schooner,George Brown,null,-76.28514,36.84686
+Wilkins,James Andy,null,M,null,null,null,null,1859,Cecil,Cecil,MD,null,null,null,null,George Biddle,null,-80.18365,40.33017
+Nickless,Kit,null,M,45,null,21,Dec,1854,King Georges,King George,VA,null,null,null,Foot,General Washington,null,-77.18406,38.26833
+Haley,Elizabeth,Sarah Richardson,F,21,null,26,Apr,1854,Havre de Grace,Harford,MD,null,null,null,null,George C. Davis,null,-76.09566,39.54867
+Bennett,George,null,M,1,null,1,Jun,1855,Aldie P.O.,Loudon,VA,X,null,null,null,George Carter,null,-77.6513,38.97842
+Haley,Harriet,Ann Richardson,F,19,null,26,Apr,1854,Havre de Grace,Harford,MD,null,null,null,null,George C. Davis,null,-76.09566,39.54867
+Bennett,null,null,F,1 mos,null,1,Jun,1855,Aldie P.O.,Loudon,VA,X,null,null,null,George Carter,null,-77.6513,38.97842
+Bennett,Martha,Martha Washington,F,27,null,1,Jun,1855,Leesburg,Loudon,VA,null,null,null,null,George Carter,1200,-77.56578,39.1158
+Green,George,null,M,23,B,29,Jun,1855,Baltimore,Baltimore,MD,null,null,null,null,George Chambers,null,-76.60926,39.29058
+Green,Richard,William Smith,M,25,B,29,Jun,1855,Baltimore,Baltimore,MD,null,null,null,null,George Chambers,null,-76.60926,39.29058
+Clagart,John,null,M,22,M,null,null,1857,Fairfax,Fairfax,VA,null,null,null,null,George Coleman,null,-77.30905,38.84185
+Dunagan,Sarah,Anna Elizabeth Kingslow,F,18,M,30,Jan,1855,Wilmington,New Castle,DE,null,null,null,null,George Churchman,null,-75.55084,39.74023
+Wilkins,Charles,null,M,3,null,null,null,1859,Cecil,Cecil,MD,X,null,null,null,George Ford,null,-80.18365,40.33017
+Wilkins,Lucinda,null,F,21,B,null,null,1859,Cecil,Cecil,MD,null,null,null,null,George Ford,null,-80.18365,40.33017
+Robinson,Joseph,null,M,30,B,1,Mar,1855,Richmond,Henrico,VA,null,X,null,Schooner,George E. Sadler,null,-77.43367,37.54068
+Alexander,John,null,M,44,B,null,null,1857,null,Kent,null,null,null,null,null,George Handy,null,0,0
+Skinner,Thomas Edward,null,M,18,M,11,Apr,1858,Baltimore,Baltimore,MD,null,null,null,null,George H. Carman,null,-76.60926,39.29058
+Alligood,George,null,M,22,null,null,null,1858,null,Sussex,DE,null,null,X,null,George M. Davis,null,0,0
+Smith,John,null,M,20,B,null,null,1857,Hoopesville,Dorchester,MD,null,null,null,null,George Morgan,null,-76.18293,38.26493
+Hooper,Miles,null,M,23,null,null,Aug,1855,Federal Mills,null,NC,null,null,null,null,George Montigue,null,-85.00549,32.98596
+Dorsey,Maria,null,F,40,B,null,Sept,1856,Washington,null,DC,null,null,null,null,George Parker,200,-77.03196,38.89037
+Brown,Albert,null,M,null,M,3,Jun,1856,Hagerstown,Washington,MD,null,null,X,Horseback,George Shaffer,null,-77.71758,39.6425
+Neall,Daniel,null,M,23,M,null,Sept,1856,Washington,null,DC,null,null,null,Foot,George Parker,200,-77.03196,38.89037
+Fowler,Arthur,Benjamin Johnson,M,30,B,29,Dec,1854,Spring Hill,Charles,MD,null,null,null,null,Edward Fowler,null,-77.07229,39.00367
+Brown,Angeline,null,F,null,M,3,Jun,1856,Hagerstown,Washington,MD,null,null,null,Horseback,George Shaffer,null,-77.71758,39.6425
+Brown,Charles,null,M,null,null,3,Jun,1856,Hagerstown,Washington,MD,null,null,X,Horseback,George Shaffer,null,-77.71758,39.6425
+Fineer,Abe,null,M,23,B,14,May,1856,Norfolk,Norfolk,VA,null,null,null,null,George Spencer,null,-76.28514,36.84686
+Dorsey,George,null,M,null,M,3,Jun,1856,Hagerstown,Washington,MD,null,null,X,null,George Shaffer,null,-77.71758,39.6425
+Scott,Jane,null,F,14,B,3,Jun,1856,Hagarstown,Washington,MD,X,null,null,Horseback,George Shaffer,null,-77.71758,39.6425
+Brown,Harriet,Jane Wooton,F,null,null,3,Apr,1853,Baltimore,Baltimore,MD,null,null,null,Foot,George Stewart,null,-76.60926,39.29058
+Lee,Charles,Thomas Bushier,M,null,null,3,Apr,1853,Baltimore,Baltimore,MD,null,null,null,Foot,George Stewart,null,-76.60926,39.29058
+Whiting,Ralph,null,M,26,B,null,Jun,1855,Norfolk,Norfolk,VA,null,null,null,null,"George W. Kemp, Esq.",null,-76.28514,36.84686
+Murray,Gracie,Sophia Sims,F,null,null,3,Apr,1853,Baltimore,Baltimore,MD,null,null,null,Foot,George Stewart,null,-76.60926,39.29058
+Jordan,William,William Price,M,null,null,25,Dec,1854,null,Bertie,NC,X,null,null,Foot,Governor Badger of North Caroina,null,0,0
+Pipkins,Louisa,Elizabeth Brit,F,null,null,3,Apr,1853,Baltimore,Baltimore,MD,null,null,null,Foot,George Stewart,null,-76.60926,39.29058
+Henry,Joseph,null,M,17,null,null,null,1860,null,Queen Annes,MD,X,null,null,null,Greenberry Parker,null,0,0
+Jackson,Peter,Staunch Tilghman,M,null,null,29,Dec,1854,Bucktown,Dorchester,MD,null,null,null,null,George Wenthrop,null,-76.05248,38.45695
+Waters,John,null,M,40,B,null,null,1859,Tapps' Neck,null,MD,null,null,null,null,H. Lynch,null,0,0
+Wilson,Lewis,null,M,50,null,null,null,1859,Tapps' Neck,null,MD,null,null,null,null,H. Lynch,null,0,0
+Dungy,John William,null,M,27,B,null,Feb,1860,Richmond,Henrico,VA,null,null,null,null,Governor Gregory,null,-77.43367,37.54068
+Smith,Stafford,null,M,null,null,null,null,1860,null,Westmoreland,VA,null,null,null,null,Harriet Parker,null,0,0
+Campbell,Frank,null,M,null,B,null,null,1858,null,null,null,null,null,null,null,Henry Campbell,null,0,0
+White,William B.,null,M,36,B,23,Apr,1854,Richmond,Henrico,VA,null,null,null,Steamer,H.B. Dickinson,null,-77.43367,37.54068
+Fidget,Isaac,null,M,30,B,17,Nov,1855,Berlin,Worcester,MD,null,null,null,null,Henry Fidget,null,-75.21836,38.3222
+Allen,William,William Parnet,M,null,null,10,Feb,1853,Perryville,Caroline,MD,null,null,null,null,Henry Chamberlin,null,-76.07142,39.56008
+Piner,Abe,null,M,23,null,14,May,1856,Georget'n Crossroads,Kent,MD,null,null,null,null,George Spencer,null,-88.71499,30.8856
+Taylor,Benjamin,null,M,null,null,null,Mar,1856,Haggerstown,Washington,MD,null,null,null,Horse & Carriage,Henry Fiery,null,-77.71758,39.6425
+Taylor,Otho,null,M,null,null,null,Mar,1856,Haggerstown,Washington,MD,null,null,null,Horse & Carriage,Henry Fiery,null,-77.71758,39.6425
+White,Robert,null,M,35,null,25,Sept,1854,Norfolk,Norfolk,VA,null,null,null,null,Henry Handy,null,-76.28514,36.84686
+Russell,George,null,M,null,B,null,null,1858,Baltimore,Baltimore,MD,null,null,null,null,Henry Harris,null,-76.60926,39.29058
+Taylor,Owen,null,M,31,null,null,Mar,1856,Haggerstown,Washington,MD,null,null,null,Horse & Carriage,Henry Fiery,null,-77.71758,39.6425
+Graff,Evan,null,M,25,B,null,null,1860,null,Frederick,MD,null,null,null,null,Henry Heart,null,0,0
+Anderson,George,Henry Jones,M,19,null,16,Dec,1854,Herberts Crossroads,null,null,null,null,null,null,Harom Stump,100 in state,-76.24551,39.56122
+Scott,Cornelius,null,M,23,M,null,Mar,1857,Salvington,Stafford,VA,null,null,null,Foot,Henry L. Brooke,null,-75.86744,39.404
+Camper,James,null,M,24,B,24,Oct,1857,Cambridge,Dorchester,MD,null,null,X,null,Henry Hooper,null,-76.07806,38.56312
+Miles,Samuel,Robert King,M,31,null,15,Aug,1855,Revel's Neck,Somerset,MD,null,X,null,null,Henry Miles,null,-76.52126,39.04341
+Stewart,Susan,null,F,null,B,null,null,null,Washington,null,DC,null,null,null,null,Henry Harley,null,-77.03196,38.89037
+Gross,Charles Henry,null,M,null,null,null,null,1859,Baltimore,Baltimore,MD,null,null,null,null,Henry Slaughter,null,-76.60926,39.29058
+Ringgold,William,null,M,null,null,null,null,null,Baltimore,Baltimore,MD,null,null,null,Foot,Henry Wallace,null,-76.60926,39.29058
+Thompson,John,null,M,19,M,null,null,1857,Huntsville,Madison,AL,null,X,null,Railroad,Hezekiah Thompson,null,-86.5851,34.72929
+Fletcher,Benjamin R.,null,M,27,B,null,Sept,1856,Washington,null,DC,null,null,null,Foot,Henry Martin,null,-77.03196,38.89037
+Boile,Susan,null,F,null,null,null,null,1857,Georgetown,Kent,MD,null,null,null,null,Hezekiah Masten,null,-76.76368,39.14257
+Davis,Daniel,David Smith,M,20,B,12,Apr,1854,Hedgesville,Berkeley,VA,null,null,null,Foot,Hon. Charles J. Fortner,null,-77.99512,39.55387
+Bacon,Abe,null,M,22,B,null,null,1857,null,Cecil,MD,null,null,null,null,Hon. L. McLane,null,0,0
+Hunt,Orlando J.,null,M,29,B,null,null,1858,Richmond,Henrico,VA,null,null,null,null,High Holser,null,-77.43367,37.54068
+Scott,Bill,null,M,21,null,null,null,1857,null,Cecil,MD,null,null,null,null,Hon. L. McLane,null,0,0
+Pennington,Tom,null,M,25,B,null,null,1857,null,Cecil,MD,null,null,null,null,Hon. L. McLane,null,0,0
+Scott,Jim,null,M,19,B,null,null,1857,null,Cecil,MD,null,null,null,null,Hon. L. McLane,null,0,0
+Scott,Sam,null,M,22,null,null,null,1857,null,Cecil,MD,null,null,null,null,Hon. L. McLane,null,0,0
+Brown,James,null,M,null,null,null,null,1859,North Point,Baltimore,MD,null,null,null,null,Henry Jones,null,-76.47745,39.27692
+Handay,Joshua John,Hamilton Hamby,M,27,null,28,Sept,1856,Eastern Shore,null,MD,null,null,null,null,Isaac Harris,null,-80.1356,25.9337
+Williams,George,null,M,null,null,31,Aug,1855,St. Louis,St. Louis,MO,null,null,null,null,Isaac Hill,null,-90.19956,38.62775
+Tonnell,null,null,M,7,null,null,Dec,1853,Georgetown,Sussex,DE,X,null,null,null,Isaac Tom,null,-75.38674,38.69072
+Tonnell,Rose Anna,Maria Hide,F,null,null,null,Dec,1853,Georgetown,Sussex,DE,null,null,null,null,Isaac Tom,null,-75.38674,38.69072
+Johnson,Nelson,Jackson Hall,M,25,null,17,Jul,1854,Deer Creek,Harford,MD,null,null,null,null,Isaac Stansberry,null,-76.45885,39.04011
+Unidentified,null,null,F,null,null,3,Mar,1854,Georgetown,Sussex,DE,null,null,null,null,Isaac Tom,null,-75.38674,38.69072
+Unidentified,null,null,M,null,null,3,Mar,1854,Georgetown,Sussex,DE,null,null,null,null,Isaac Tom,null,-75.38674,38.69072
+Smith,Adam,null,M,30,B,22,Aug,1857,Beltsville,Prince Georges,MD,null,null,null,null,Isacc Scaggs,null,-76.91857,39.03525
+Henson,James,David Caldwell,M,32,null,null,Aug,1855,Elkton,Cecil,MD,null,null,null,null,Jacob Johnson,null,-75.83041,39.60923
+Houston,George,Charles Robinson,M,null,null,7,Aug,1855,Indian River,Sussex,DE,null,null,null,null,Isaac Houston,null,-75.17052,38.57264
+Williams,Wesley,null,M,null,null,3,Jan,1857,Warrick,null,MD,null,null,null,null,Jack Jones,null,-75.7767,39.41789
+Hinson,James,David Coldwell,M,32,null,15,Aug,1855,null,Cecil,MD,null,null,null,null,Jacob Johnson,null,0,0
+Hopkins,Sidney,null,M,null,null,null,null,1859,Havre de Grace,Harford,MD,null,null,null,null,Jacob Hoag,null,-76.09566,39.54867
+Kneeland,Joeseph (sic),Joseph Hudson,M,26,B,14,Nov,1853,null,null,null,null,null,null,null,Jacob Kneeland,null,0,0
+Patty,Elizabeth,null,F,null,null,16,May,1856,Norfolk,Norfolk,VA,X,null,null,null,Jacob Shuster,null,-76.28514,36.84686
+Patty,Winnie,null,F,22,B,16,May,1856,Norfolk,Norfolk,VA,null,null,null,null,Jacob Shuster,null,-76.28514,36.84686
+Hall,John,null,M,null,null,null,null,1859,null,null,DE,null,null,null,null,James B. Rodgers,null,0,0
+Davis,Enoch,null,M,null,null,null,null,1859,Baltimore,Baltimore,MD,null,null,null,null,James Armstrong,null,-76.60926,39.29058
+Molock,Francis,Thomas Jackson,M,21,B,28,Sept,1856,Cambridge,Dorchester,MD,null,null,null,null,James A. Waddell,null,-76.07806,38.56312
+Johnson,Samuel W.,null,M,27,null,6,Mar,1854,Richmond,Henrico,VA,null,X,null,Steamer,James B. Fsoter,null,-77.43367,37.54068
+Mayo,Harriet,null,F,22,null,1,Jun,1855,Petersburg,Dinwiddle,VA,null,null,null,Schooner,James Cuthbert,null,-77.40348,37.22815
+Hall,John,null,M,31,M,27,Apr,1855,Richmond,Henrico,VA,null,X,null,Schooner,James Dunlap,null,-77.43367,37.54068
+Brown,John,null,M,null,null,null,null,1859,Frederick Mills,Montgomery,MD,null,null,null,null,James Edward Stevens,null,-77.41203,39.41574
+Nelson,Peter,null,M,29,M,null,null,1858,null,Stafford,VA,null,null,null,null,James Ford,null,0,0
+Smith,Daniel M.,null,M,null,M,11,Sept,1858,Alexandria,Fairfax,VA,null,null,null,null,James Garnett,null,-77.04341,38.8046
+Davis,Samuel,null,M,30,B,14,May,1856,Norfolk,Norfolk,VA,null,null,null,null,James Hurst,null,-76.28514,36.84686
+White Lady,null,null,F,null,null,null,null,null,Leesburg,Loudon,VA,null,null,null,null,James Hodges,null,-77.56578,39.1158
+Ringgold,Charles H.,null,M,null,null,31,May,1856,Baltimore,Baltimore,MD,null,null,null,Railroad,James Hodges,1300,-76.60926,39.29058
+Richards,John Henry,null,M,24,null,31,May,1856,Baltimore,Baltimore,MD,null,null,null,Railroad,James Hodges,null,-76.60926,39.29058
+Brown,George W.,James White,M,17,null,8,Sept,1854,null,null,MD,X,null,null,null,James Kinny,null,0,0
+Stewart,Henry,null,M,23,null,19,Jun,1855,Plymouth,Washington,NC,null,null,null,null,James Monroe Woodhouse,null,-76.74956,35.86629
+Mitchell,Cyrus,John Steel,M,26,B,28,Sept,1856,Cambridge,Dorchester,MD,null,null,null,Foot,James K. Lewis,null,-76.07806,38.56312
+Smith,Jeremiah,null,M,26,B,29,Jan,1854,Richmond,Henrico,VA,null,null,null,Steamer,James Kinard,null,-77.43367,37.54068
+Hill,John Henry,null,M,25,B,1,Jan,1853,Richmond,Henrico,VA,null,X,null,Steamer,James Mitchell,null,-77.43367,37.54068
+Massey,James,null,M,25,B,null,Apr,1857,null,Queen Annes,MD,null,X,X,Foot,James Pittman,null,0,0
+Green,Lear,null,F,18,B,27,null,null,Baltimore,Baltimore,MD,null,null,null,Chest,James Noble,50 in state/150 out,-76.60926,39.29058
+Trusty,Perry Henry,null,M,31,B,null,null,1857,null,Caroline,null,null,X,null,Foot,James Pittman,null,0,0
+Green,Anna Maria,null,F,37,null,null,null,1857,Baltimore,Baltimore,MD,null,null,null,null,James Pipper,null,-76.60926,39.29058
+Green,Nathaniel,null,M,20,null,null,null,1857,Baltimore,Baltimore,MD,null,null,null,null,James Pipper,null,-76.60926,39.29058
+Mitchell,Lemuel,null,M,35,B,2,Feb,1858,null,null,null,null,null,null,null,James R. Lewis,null,0,0
+Atkinson,John,null,M,31,M,28,Aug,1854,Portsmouth,Norfolk,VA,null,X,null,Steamer,James Ray,null,-76.29771,36.83273
+Forman,James H.,null,M,23,M,null,un,1855,Norfolk,Norfolk,VA,null,X,null,null,"James Saunders, Esq.",null,-76.28514,36.84686
+Hall,Charles,null,M,null,null,null,null,1859,null,null,DE,null,null,null,null,"James Rogers, Sr.",null,0,0
+Bell,Harrison,null,M,40,null,10,Apr,1854,Norfolk,Norfolk,VA,null,null,null,Boat,James Snyder,null,-76.28514,36.84686
+Thomas,Alice,null,F,null,null,26,Mar,1853,null,Frederick,MD,null,null,null,null,James Short,null,0,0
+Watson,James Henry,null,M,20,B,11,Apr,1856,Snowhill,Worcester,MD,null,null,null,null,James Purnell,null,-75.394,38.17843
+Bennett,Daniel,Henry Washington,M,32,null,1,Jun,1855,Leesburg,Loudon,VA,null,null,null,null,James Taylor,null,-77.56578,39.1158
+Taylor,Stephen,null,M,20,null,null,null,null,Sandy Hook,Harford,MD,null,null,null,Foot,James Smithen,null,-77.69815,39.32865
+Hill,Joseph Henry,null,M,28,null,null,null,1859,Richmond,Henrico,VA,null,null,null,null,"James Thomas, Jr.",null,-77.43367,37.54068
+Banks,Elizabeth,null,F,25,B,17,Aug,1855,Easton,Talbot,MD,null,null,null,null,James Tomlinson,null,-76.07475,38.7739
+Griffen,William,null,M,34,null,24,Oct,1857,Cambridge,Dorchester,MD,null,null,X,null,"James Waters, Esq.",null,-76.07806,38.56312
+Wright,Elizabeth,null,F,32,null,null,null,1857,Laurel,Sussex,MD,null,null,null,null,Jane Cooper,null,-76.86567,39.10507
+Wood,Edward,null,M,null,null,null,null,1859,Drummerstown,Accomac,VA,null,null,null,null,James White,null,-72.57181,42.93674
+Davis,Isaac D.,null,M,null,null,1,Feb,1855,null,null,MD,null,null,null,null,Jesse Clark,null,0,0
+Atkinson,Henry,null,M,null,null,23,Apr,1854,Norfolk,Norfolk,VA,null,null,null,null,Jesse Hendrian,null,-76.28514,36.84686
+Grimes,Harry,null,M,46,null,7,Nov,1857,null,null,null,null,null,null,null,Jesse Moore,null,0,0
+Blockson,Jacob,null,M,27,null,null,null,1858,null,Sussex,DE,null,X,null,null,Jesse W. Paten,null,0,0
+Brown,Albert,null,M,27,null,7,Sept,1855,Tanners Creek,Norfolk,VA,null,null,null,Boat,John & Henry Holland,null,-76.25022,36.91737
+Brown,Anthony,null,M,29,null,7,Sept,1855,Tanners Creek,Norfolk,VA,null,null,null,Boat,John & Henry Holland,null,-76.25022,36.91737
+Cary,Harrison,null,M,28,M,null,null,null,Washington,null,DC,null,null,null,null,Jane E. Ashley,null,-77.03196,38.89037
+Williams,Richard,null,M,null,null,null,null,1859,Richmond,Henrico,VA,null,null,null,null,John A. Smith,null,-77.43367,37.54068
+Boon,Richmond,null,M,22,null,8,Sept,1854,Norfolk,Norfolk,VA,null,null,null,null,John Bodun,null,-76.28514,36.84686
+Lee,John Edward,null,M,null,null,null,null,1859,null,Harford,MD,null,null,null,null,John B. Slade,null,0,0
+Johnson,William,null,M,19,B,null,null,1859,Gun Powder Neck,Baltimore,MD,null,null,null,null,John Bosley,null,-76.2967,39.40139
+Green,Zebulon,Samuel Hill,M,18,B,18,Apr,1856,Duck Creek,Baltimore,MD,null,null,null,null,John Appleton,null,-96.63888,32.91262
+Edwards,Alfred,null,M,22,B,null,null,1859,Tapps' Neck,null,VA,null,null,null,null,John Bryant,null,0,0
+Buchanan,Jenny,null,F,45,M,null,null,1860,Rockbridge,null,VA,null,null,null,null,John Bower,null,-79.40866,37.89997
+Cain,James,null,M,35,B,null,null,1857,Hoopesville,Dorchester,MD,null,null,null,null,John Burnham,null,-76.18293,38.26493
+Carr,Daniel,null,M,38,M,20,Nov,1855,Norfolk,Norfolk,VA,null,null,null,Schooner,John C. McBole,null,-76.28514,36.84686
+Bailey,William,null,M,null,B,15,Nov,1856,Easton,Talbot,MD,null,null,null,null,John C. Henry,300 in state,-76.07475,38.7739
+Conner,Charles,null,M,27,null,null,null,1857,null,Sussex,DE,null,null,null,null,John Chipman,null,0,0
+Chase,John,Daniel Floyd,M,20,B,29,Dec,1854,Cambridge,Dorchester,MD,null,null,null,null,John Campbell Henry,null,-76.07806,38.56312
+Hudson,Ephraim,John Spy,M,22,null,28,Sept,1856,Cambridge,Dorchester,MD,null,null,null,null,John Campbell Henry,null,-76.07806,38.56312
+Washington,Mark,William Wilson,M,27,null,2,Sept,1854,Hall's Crossroads,null,MD,null,null,null,null,James Worthington,null,-76.16412,39.50956
+Harper,Thomas,null,M,null,null,null,null,1857,Alexandria,Fairfax,VA,null,null,null,null,John Cowling,null,-77.04341,38.8046
+Eglin,Harriet,null,F,29,null,31,May,1856,Baltimore,Baltimore,MD,null,X,null,null,John Delahay,null,-76.60926,39.29058
+Derrickson,Peter,null,M,24,null,1,Jan,1855,Berlin,Worcester,MD,null,null,null,null,John Derrickson,null,-75.21836,38.3222
+Purnell,Charles,null,M,26,null,1,Jan,1855,Berlin,Worcester,MD,null,null,null,null,John Derrickson,null,-75.21836,38.3222
+Fisher,Robert,null,M,30,B,28,Dec,1854,null,Anne Arundel,MD,null,null,null,null,John Edward Jackson,null,0,0
+Harris,Nathan,null,M,21,null,28,Dec,1854,null,Anne Arundel,MD,null,null,null,null,John Edward Jackson,null,0,0
+Jones,Hill,null,M,19,B,null,null,1856,Middletown,New Castle,DE,null,null,null,null,John Cochran,null,-75.71684,39.45028
+Boggs,Alexander,Johnson Henson,M,50,B,3,Apr,1854,Baltimore,Baltimore,MD,null,null,null,null,John Emie,null,-76.60926,39.29058
+Ennis,Louisa Caroline,Louisa Hemmin,F,3,null,10,Mar,1854,Georgetown,Sussex,DE,X,null,null,null,John Ennis,null,-75.38674,38.69072
+Ennis,Lydia Ann,Lydia Ann Hemmin,F,7,null,10,Mar,1854,Georgetown,Sussex,DE,X,null,null,null,John Ennis,null,-75.38674,38.69072
+Bell,Harriet Ann,null,F,14,null,10,Apr,1854,Norfolk,Norfolk,VA,X,null,null,Boat,John G. Hodgson,null,-76.28514,36.84686
+Robinson,William,Thomas Harred,M,28,null,19,Mar,1853,null,Fauguer,VA,null,null,null,null,"John G. Beal, Esq.",null,0,0
+Freeman,William Thomas,Ezekiel Chambers,M,16,B,2,Dec,1855,Chestertown,Kent,MD,X,null,null,Railroad,John Dwa,null,-76.06615,39.2131
+Hackett,Lloyd,Perry Watkins,M,55,M,1,Jan,1855,null,null,MD,null,null,null,Foot,John Griffin,null,0,0
+Johnson,Wililam H.,John Wesley,M,24,M,1,Jan,1855,null,null,MD,null,null,null,Foot,John Hall,null,0,0
+Armstead,Moses,null,M,24,B,null,null,1857,Norfolk,Norfolk,VA,null,null,null,null,John Halters,null,-76.28514,36.84686
+Ennis,Mary,Licia Hemmin,F,33,null,10,Mar,1854,Georgetown,Sussex,DE,null,null,null,null,John Ennis,null,-75.38674,38.69072
+Hall,Romulus,George Weems,M,null,null,null,Mar,1857,Benedict,Charles,MD,null,null,null,Foot,John Henry Southern,null,-76.67917,38.51483
+Harris,Thomas,null,M,27,null,7,Sept,1857,null,null,VA,null,null,null,null,"John Hatten, Esq.",null,0,0
+Harris,Abram,null,M,18,null,null,Mar,1857,Benedict,Charles,MD,null,X,null,Foot,John Henry Southern,null,-76.67917,38.51483
+Pierce,William,null,M,23,B,null,null,null,null,null,MD,null,null,null,null,John Hickol,null,0,0
+Jones,Arthur,null,M,41,B,null,Jun,1855,Norfolk,Norfolk,VA,null,null,null,null,John Jones,null,-76.28514,36.84686
+Ennets,Stephen,null,M,null,null,null,null,1860,null,Dorchester,MD,null,null,null,null,John Kaiger,null,0,0
+Ross,Major,null,M,null,null,null,null,1857,Havre de Grace,Harford,MD,null,null,null,Foot,John Jay,null,-76.09566,39.54867
+Latham,Major,null,M,44,M,null,Nov,1856,null,null,MC,null,null,null,Schooner,John Latham,null,0,0
+Caroll,Edward,null,M,21,null,null,null,1858,null,Sussex,MD,null,null,X,null,John Lewis,null,0,0
+Banks,Jim,null,M,29,M,null,null,1858,Georgetown,null,DC,null,null,null,null,John J. Richards,null,-77.0628,38.90502
+Dunmore,Henry,null,M,35,B,null,null,1860,Elkton,Cecil,MD,null,null,null,null,John Maldon,null,-75.83041,39.60923
+Edmonds,David,null,M,30,null,15,Jan,1855,Petersburg,Dinwiddle,VA,null,null,null,null,John J. Slater,null,-77.40348,37.22815
+Harper,Ruth,null,F,null,null,null,null,1858,Frederick,Frederick,MD,null,null,null,null,John McPherson,null,-77.41203,39.41574
+Clexton,Perry,null,M,25,B,null,null,1858,Georgetown,null,DC,null,null,null,null,John M. Williams,null,-77.0628,38.90502
+Amby,Nat,null,M,null,B,17,Oct,1857,Cambridge,Dorchester,MD,null,null,X,Foot,John Muir,null,-76.07806,38.56312
+Rhoads,null,null,null,8 mos,null,null,null,1857,Perryville,Caroline,MD,X,null,null,Foot,John P. Dellum,null,-76.07142,39.56008
+Rhoads,George,null,M,25,B,null,null,1857,Perryville,Caroline,MD,null,null,null,Foot,John P. Dellum,null,-76.07142,39.56008
+Rhoads,James,null,M,23,B,null,null,1857,Perryville,Caroline,MD,null,null,null,Foot,John P. Dellum,null,-76.07142,39.56008
+Smith,William Israel,null,M,21,null,4,Aug,1856,Middletown,New Castle,DE,null,null,null,null,John P. Cather,null,-75.71684,39.45028
+Rhoads,Sarah Elizabeth,null,F,17,B,null,null,1857,Perryville,Caroline,MD,null,null,null,Foot,John P. Dellum,null,-76.07142,39.56008
+Pitts,Catherine,null,F,null,null,15,Nov,1855,Boslier,null,MD,null,null,null,null,John Pitts,null,-105.69771,41.58075
+Brooks,Adam,William Smith,M,null,B,20,Jan,1855,Hardtown,Montgomery,MD,null,null,null,null,John Phillips,null,-90.56068,42.53556
+Quantence,Pascal,null,M,null,M,null,null,1857,null,Rappahannock,VA,null,null,null,null,John Quantence,100,0,0
+Thompson,Robert,null,M,39,null,null,null,1858,Higherstown,null,null,null,null,null,null,John R. Laten,null,-77.71758,39.6425
+Davis,Samuel,Benjamin Johnson,M,35,null,21,Nov,1854,Fairfax,Fairfax,VA,null,null,null,null,John Reed,null,-77.30905,38.84185
+Williams,William,null,M,null,null,30,Apr,1856,Haven Manor,null,MD,null,null,null,null,John Peak,null,-73.70899,40.84258
+Williams,null,null,F,null,null,30,Apr,1856,Haven Manor,null,MD,null,null,null,null,John Peak,null,-73.70899,40.84258
+Amos,Anna Elizabeth,Anna Elizabeth Johnson,F,12,null,null,May,1854,Baltimore,Baltimore,MD,X,null,null,null,John S. Giddings,null,-76.60926,39.29058
+Amos,Ann Rebecca,Aann Rebecca Johnson,F,26,null,12,May,1854,Baltimore,Baltimore,MD,null,null,null,null,John S. Giddings,null,-76.60926,39.29058
+Amos,Harriet,Mary Jane Johnson,F,null,M,12,May,1854,Baltimore,Baltimore,MD,null,null,null,Foot,John S. Giddings,null,-76.60926,39.29058
+Amos,Mary Ellen,Mary Ellen Johnson,F,null,null,12,May,1854,Baltimore,Baltimore,MD,X,null,null,null,John S. Giddings,null,-76.60926,39.29058
+Amos,Stephen,Henry Johnson,M,null,null,12,May,1854,null,Prince Georges,MD,null,null,null,Foot,John S. Giddings,null,0,0
+Bowles,Reuben,Rebuen Cunnigan,M,null,null,12,Apr,1854,Hedgesville,Berkeley,VA,null,null,null,Foot,John Sabbard,null,-77.99512,39.55387
+Amos,William H.,William H. Johnson,M,null,null,12,May,1854,Baltimore,Baltimore,MD,X,null,null,null,John S. Giddings,null,-76.60926,39.29058
+Stanton,Philip,null,M,22,null,null,null,null,null,null,MD,null,null,null,null,John Smith,null,0,0
+Wilson,Perry,Henry Wilson,M,22,null,10,Oct,1854,Baltimore,Baltimore,MD,null,null,null,null,John Talbot,null,-76.60926,39.29058
+Edwards,David,null,M,30,B,null,Jan,1855,Petersburg,Dinwiddle,MD,null,null,null,null,John Slater,null,-75.86106,38.60555
+Allison,Edenezer,null,M,null,M,null,null,1858,Richmond,Henrico,VA,null,null,null,null,John Tilghman Foster,null,-77.43367,37.54068
+Burton,Perry,null,M,27,B,null,null,1857,Indian River,Sussex,DE,null,null,null,Foot,John R. Burton,null,-75.17052,38.57264
+Homer,Alfred,null,M,22,null,16,Jun,1856,Rockville,Montgomery,MD,null,null,null,null,John W. Anderson,50 in state/100 out,-77.15118,39.08196
+Holden,Levin,null,M,null,null,null,null,1859,Laurel,Sussex,DE,null,null,null,null,Jonathan Bailey,null,-75.56292,38.55627
+Petty,Peter,null,M,24,null,20,Nov,1855,Norfolk,Norfolk,VA,null,null,null,Schooner,Joseph Boukley,null,-76.28514,36.84686
+Hollis,Charles Henry,null,M,20,B,null,null,null,Sandy Hook,Harford,MD,null,null,null,Foot,John Webster,null,-77.69815,39.32865
+Garrett,Lucy,Julia Wood,F,19,null,12,May,1854,Western Shore,null,VA,null,null,null,null,John Williams,null,-76.51134,38.49151
+Jackson,Anna Maria,null,F,40,B,null,Nov,1858,Milford,Sussex,DE,null,null,null,null,Joseph Brown,null,-75.42854,38.9107
+Jackson,Ebenezer T.,null,M,null,null,null,Nov,1858,Milford,Sussex,DE,X,null,null,null,Joseph Brown,null,-75.42854,38.9107
+Jackson,Frances,null,F,null,null,null,Nov,1858,Milford,Sussex,DE,X,null,null,null,Joseph Brown,null,-75.42854,38.9107
+Jackson,John E.,null,M,null,null,null,Nov,1858,Milford,Sussex,DE,X,null,null,null,Joseph Brown,null,-75.42854,38.9107
+Jackson,Mary Ann,null,F,null,null,null,Nov,1858,Milford,Sussex,DE,X,null,null,null,Joseph Brown,null,-75.42854,38.9107
+Jackson,Wilhelmina,null,F,null,null,null,Nov,1858,Milford,Sussex,DE,X,null,null,null,Joseph Brown,null,-75.42854,38.9107
+Jackson,William Albert,null,M,null,null,null,Nov,1858,Milford,Sussex,DE,X,null,null,null,Joseph Brown,null,-75.42854,38.9107
+Jackson,William Henry,null,M,null,null,null,Nov,1858,Milford,Sussex,DE,X,null,null,null,Joseph Brown,null,-75.42854,38.9107
+Stinger,John,null,M,40,M,24,Oct,1857,Portsmouth,Norfolk,VA,null,null,null,Skiff,Joseph Carter,null,-76.29771,36.83273
+Jackson,James Henry,null,M,17,null,10,Sept,1858,Frederica,Kent,DE,X,null,null,null,Joseph Brown,200 in state/100 out,-75.46459,39.01124
+Swan,Stebney,null,M,34,M,24,Oct,1857,Portsmouth,Norfolk,VA,null,X,null,Skiff,Joseph Carter,null,-76.29771,36.83273
+Gross,Peter,null,M,39,B,10,Sept,1858,null,Culbert,MD,null,null,null,null,Joseph Griffiss,null,0,0
+Janney,John,null,M,22,null,10,Sept,1858,null,Culbert,MD,null,null,null,null,Joseph Griffiss,200 in state/100 out,0,0
+Mills,Sarah Ann,null,F,16,null,null,null,1859,Haggerstown,Washington,MD,X,null,null,null,Joseph O'Neil,null,-77.71758,39.6425
+Edwards,David,null,M,24,B,null,null,1860,Patapsco River,Howard,MD,null,null,null,null,Joseph Bryant,null,-76.68991,39.21466
+Peck,Lewis,null,M,null,B,null,null,1860,Patapsco River,Howard,MD,null,null,null,null,Joseph Bryant,null,-76.68991,39.21466
+Dauphus,Etna Elizabeth,null,F,20,B,null,null,1858,null,Queen Annes,MD,null,null,null,null,Joshua Duvall,null,0,0
+Davis,William,null,M,31,M,13,Dec,1853,Portsmouth,Norfolk,VA,null,null,null,null,Joseph Reynolds,null,-76.29771,36.83273
+Jones,William Henry,null,M,2,null,null,null,1858,null,Queen Annes,MD,X,null,null,null,Joshua Duvall,null,0,0
+Jones,Catharine,null,F,24,B,null,null,1858,null,Queen Annes,MD,null,null,null,null,Joshua Duvall,null,0,0
+Brown,John,Jacob Williams,M,null,null,3,Apr,1854,Frederickstown,Cecil,MD,null,null,null,null,Joseph Postly,null,-75.88508,39.36564
+Washington,George Nelson,null,M,19,null,null,null,1858,null,Queen Annes,MD,null,null,null,null,Joshua Duvall,null,0,0
+Gross,Samuel,null,M,40,null,10,Sept,1858,George Island,Port Republic,MD,null,null,null,null,Joseph Griffiss,null,-75.39067,38.04872
+Roach,John,null,M,33,null,null,null,1859,Seaford,Sussex,DE,null,null,null,Foot,Joshua O'Bear,null,-75.60905,38.64374
+Atkinson,Anthony,null,M,36,M,1,Aug,1855,Norfolk,Norfolk,VA,null,null,null,null,Josiah Wells,null,-76.28514,36.84686
+null,David,null,M,27,null,31,May,1856,Leesburg,Loudon,VA,null,null,null,Horse & Carriage,Joshua Pusey,null,-77.56578,39.1158
+Lewis,David,null,M,27,null,3,Jun,1856,Leesburg,Loudon,VA,null,null,null,null,Joshua Pussey,null,-77.56578,39.1158
+Griffin,James,Thomas Brown,M,31,B,20,Dec,1855,Baltimore,Baltimore,MD,null,null,null,null,Joshua Hitch,null,-76.60926,39.29058
+Wood,John,null,M,28,null,null,null,1857,Unionville,Frederick,MD,null,X,null,null,Judge Birch,null,-77.18593,39.475
+Collins,Nathaniel,null,M,25,B,null,null,1857,Cambridge,Dorchester,MD,null,null,null,null,Josiah Wilson,null,-76.07806,38.56312
+Henry,Thomas,null,M,26,B,null,null,1857,Cambridge,Dorchester,MD,null,null,null,Foot,Josian Wilson,null,-76.07806,38.56312
+Wooden,William,William Nelson,M,23,B,21,May,1854,Georgetown,Sussex,DE,null,null,null,null,Judge Wooden,null,-75.38674,38.69072
+Fuller,Harriet,null,F,null,null,null,null,1859,Chestertown,Kent,MD,null,null,null,null,Judge Chambers,null,-76.06615,39.2131
+Weems,John,Jack Herring,M,null,null,null,null,1858,null,null,DE,null,null,null,null,Kendall B. Herring,null,0,0
+Brown,Stepney,null,M,34,B,null,null,1859,Richmond,Henrico,VA,null,null,null,null,Julia A. Mitchell,null,-77.43367,37.54068
+Mason,James,null,M,24,null,null,null,1858,Petersburg,Dinwiddle,VA,null,X,null,null,Judith Burton,null,-77.40348,37.22815
+Lazarus,James,null,M,null,null,null,null,1859,Laurel,Sussex,DE,null,null,null,null,Kendall Major Lewis,null,-75.56292,38.55627
+Conner,null,null,F,null,null,null,null,1859,Laurel,Sussex,DE,null,null,null,null,Kendall Major Llewis,null,-75.56292,38.55627
+Conner,Major Lewis,null,M,null,null,null,null,1859,Laurel,Sussex,DE,null,null,null,null,Kendall Major Llewis,null,-75.56292,38.55627
+Conner,null,null,null,null,null,null,null,1859,Laurel,Sussex,DE,X,null,null,null,Kendall Major Llewis,null,-75.56292,38.55627
+Conner,Dennis B.,null,M,null,null,null,null,1859,Laurel,Sussex,DE,null,null,null,null,Kendall Major Llewis,null,-75.56292,38.55627
+Conner,Peter,null,M,null,null,null,null,1859,Laurel,Sussex,DE,null,null,null,null,Kendall Major Llewis,null,-75.56292,38.55627
+Bell,Louisa,null,F,28,B,22,Jun,1855,Norfolk,Norfolk,VA,null,null,null,Schooner,L. Stasson,null,-76.28514,36.84686
+Conner,William J.,null,M,null,null,null,null,1859,Laurel,Sussex,DE,null,null,null,null,Kendall Major Llewis,null,-75.56292,38.55627
+Hall,Rebecca,null,F,17,null,4,Aug,1855,Baltimore,Baltimore,MD,X,null,null,null,Lawyer Magill,null,-76.60926,39.29058
+Cannon,Ansel,null,M,25,B,null,null,1859,New Market,Dorchester,MD,null,null,null,null,Kitty Cannon,null,-77.27232,39.38279
+Parker,Levin,null,M,22,B,24,Oct,1857,Cambridge,Dorchester,MD,null,null,null,null,Lawrence G. Colson,null,-76.07806,38.56312
+Brown,Jacob,null,M,20,B,null,null,1856,null,null,NC,null,null,null,Boat,Lewis Brown,null,0,0
+Moor,Henry,null,M,30,B,24,Oct,1857,Cambridge,Dorchester,MD,null,null,X,Foot,Levin Dale,null,-76.07806,38.56312
+Chiles,Lewis,null,M,null,null,2,Jun,1855,Richmond,Henrico,VA,null,null,null,null,Lewis Hill,null,-77.43367,37.54068
+Williams,Hanson,null,M,40,B,11,Sept,1858,Washington,null,DC,null,null,null,null,Levi Pumphrey,100,-77.03196,38.89037
+Hogg,William,John Smith,M,25,null,26,Apr,1854,Baltimore,Baltimore,MD,null,null,null,Foot,Lewis Roberts,null,-76.60926,39.29058
+Young,Gusta,null,M,21,B,11,Sept,1858,Washington,null,DC,null,null,X,null,Levi Pumphrey,100,-77.03196,38.89037
+Tatum,Alan,null,M,30,B,20,Nov,1855,Norfolk,Norfolk,VA,null,null,null,Schooner,Lovey White,null,-76.28514,36.84686
+Lee,John,null,M,null,null,10,Aug,1854,Fayetteville,null,NC,null,null,null,null,Luke Gaines,null,-78.87727,35.05534
+Wanzer,Frank,Robert Scott,M,25,M,24,Dec,1855,Alder,Loudon,VA,null,null,X,Horse & Carriage,Luther Sullivan,null,-77.07192,38.2743
+Brown,William,null,M,36,null,null,null,1860,Baltimore,Baltimore,MD,null,null,null,null,Lynchum,null,-76.60926,39.29058
+Ross,George,John Brown,M,26,null,29,Dec,1854,Horses Crossroads,null,DE,null,null,null,null,Lewis N. Wright,null,-75.67799,38.70873
+Hilton,Elijah,null,M,27,null,14,Jul,1857,null,Chesterfield,VA,null,X,null,Foot,Major Edward Johnson,500,0,0
+Thompson,William,null,M,null,null,29,Dec,1854,Horses Crossroads,null,DE,null,null,null,null,Lewis N. Wright,null,-75.67799,38.70873
+White,Tucker,null,M,null,null,null,Dec,1854,Dinwiddle,Dinwiddle,VA,null,null,null,null,Major Isaac Rooney,null,-77.58644,37.07828
+Payne,Daniel,null,M,null,null,1,Jun,1855,Richmond,Henrico,VA,null,null,null,null,M.M. Morris,null,-77.43367,37.54068
+Hall,Jacob,Henry Thomas,M,20,null,8,Dec,1855,Ladies Manor,Haverford,MD,null,null,null,Horseback,Major William Hutchins,null,-76.95581,39.49316
+King,Charles,null,M,23,null,25,Sept,1854,Norfolk,Norfolk,VA,null,null,null,null,Martha M. Hope,null,-76.28514,36.84686
+Brown,Solomon,null,M,22,B,13,Feb,1854,Norfolk,Norfolk,VA,null,null,null,Steamer,Mary A. Ely,null,-76.28514,36.84686
+Johnson,Cornelius Henry,null,M,26,B,null,null,1859,Richmond,Henrico,VA,null,null,null,null,Mars. Mary F. Price,null,-77.43367,37.54068
+Govan,William,null,M,33,B,null,Aug,1855,Petersburg,Dinwiddle,VA,null,null,null,Schooner,"Mark Davis, Esq.",null,-77.40348,37.22815
+Bennett,John,Joseph Pant,M,27,null,22,Feb,1857,St. Michaels,null,MD,null,null,null,null,Mary C. Gibson,null,-76.22403,38.78442
+Brown,Chaskey,null,M,24,B,null,null,null,Chestertown,Kent,MD,null,null,null,Foot,Major James H. Gales,1200,-76.06615,39.2131
+Payne,Oscar,null,M,30,M,null,null,1857,Alexandria,Fairfax,VA,null,null,null,null,Mary Dade,150 in state/200 out,-77.04341,38.8046
+Pinket,John,null,M,27,B,null,null,1859,New Market,Dorchester,MD,null,null,null,null,Mary Brown,null,-77.27232,39.38279
+Piney,Benjamin,null,M,20,B,null,null,1856,Baltimore,Baltimore,MD,null,null,null,null,Mary Hawkins,null,-76.60926,39.29058
+Douglass,Thomas,null,M,25,B,null,null,null,null,null,MD,null,null,null,null,Mary Howard,null,0,0
+Grant,Joseph,null,M,27,B,22,Feb,1857,Eastern Shore,null,MD,null,null,null,Foot & Boat,Mary Gibson & others,null,-80.1356,25.9337
+Moore,Hannah,Aunt Hannah,F,57,null,null,null,1854,null,null,MO,null,null,null,null,Mary Moore,null,0,0
+Bell,Garret,null,M,8 mos,null,null,null,null,null,Kent,MD,X,null,null,null,Massey,null,0,0
+Bell,Sarah Jane,null,F,25,M,null,null,null,null,Kent,MD,null,null,null,null,Massey,null,0,0
+Sparks,John,null,M,null,null,22,Feb,1857,Eastern Shore,null,MD,null,null,null,Foot & Boat,Mary Gibson & Others,null,-80.1356,25.9337
+Young,Anna Elizabeth,null,F,24,B,null,null,null,null,Kent,MD,null,null,null,null,Massey,null,0,0
+Young,Sarah Catharine,null,F,19 mos,null,null,null,null,null,Kent,MD,X,null,null,null,Massey,null,0,0
+Hubert,Alfred,null,M,28,B,null,null,1857,null,null,VA,null,null,null,Foot,Matilda Niles,null,0,0
+Ennis,Ephraim,null,M,null,null,null,null,1858,null,Kent,MD,null,null,null,null,Michael Newbold,null,0,0
+Taylor,Benjamin,null,M,20,null,null,null,1858,Alexandria,Fairfax,VA,null,null,X,null,Meed,null,-77.04341,38.8046
+Irwin,Asbury,null,M,40,B,null,null,1858,null,Kent,MD,null,null,null,null,Michael Newbold,null,0,0
+Harding,Louisa,Rebecca Hall,F,17,M,1,Aug,1855,Baltimore,Baltimore,MD,X,null,null,null,"McGill, Esq.",null,-76.60926,39.29058
+Johns,Lydia Ann,null,F,22,B,null,null,1858,null,Kent,MD,null,null,null,null,Michael Newbold,null,0,0
+Pettifoot,John Henry,Sydney,M,26,M,null,null,1858,Richmond,Henrico,VA,null,X,null,Steamer,McHenry & McCulloch,100,-77.43367,37.54068
+Benjamin,Dickinson,null,M,28,B,23,Mar,1856,null,null,null,null,null,null,Schooner,Miss Ann Blunte,null,0,0
+Mitchell,John,null,M,24,B,2,Feb,1858,Viana,null,null,null,null,null,null,Miss Catharine Cornwell,null,-84.03833,37.83628
+Galloway,Abram,null,M,21,M,null,null,null,Wilmington,New Hanover,NC,null,null,null,Schooner,Milton Hawkins,null,-77.946,34.23497
+Dickerson,Benjamin,null,M,28,null,25,Mar,1856,Eatontown,Chowan,NC,null,null,null,null,Miss Anna Blunt,null,-74.05791,40.30554
+Ford,Sheridan,null,M,28,null,29,Jan,1855,Portsmouth,Norfolk,VA,null,null,null,Steamer,Miss Elizabeth Brown,null,-76.29771,36.83273
+Judah,John,null,M,32,M,1,Jun,1855,Petersburg,Dinwiddle,VA,null,null,null,Schooner,Miss Eliza Lambert,null,-77.40348,37.22815
+Ball,Joe,null,M,34,M,null,null,1857,Alexandria,Fairfax,VA,null,X,null,null,Miss Elizabeth Gordon,null,-77.04341,38.8046
+Ball,Oscar D.,John Delaney,M,20,B,13,null,1857,Alexandria,Fairfax,VA,null,X,null,null,Miss Elizabeth Gordon,"100 in state, 200 out",-77.04341,38.8046
+Dowling,Carter,null,M,null,null,null,null,1858,Alexandria,Fairfax,VA,null,null,X,null,Miss Maria Fitzhugh,null,-77.04341,38.8046
+Nixon,Thomas,null,M,19,B,20,Nov,1855,Norfolk,Norfolk,VA,null,null,null,Schooner,Mr. Bockover,null,-76.28514,36.84686
+Purnell,Oliver,null,M,26,B,17,Nov,1855,Berlin,Worcester,MD,null,null,null,null,Moses Purnell,null,-75.21836,38.3222
+Rister,Amarian Lucretia,null,F,21,M,null,null,1857,Westminster,Carroll,MD,null,null,null,null,Mr. Boile,null,-76.99225,39.57467
+Johnson,George,null,M,25,B,22,Aug,1857,Washington,Washington,DC,null,null,null,null,Miss Eleanor J. Conway,100 in state/300 out,-77.03196,38.89037
+Nixon,Frederick,null,M,35,null,20,Nov,1855,Norfolk,Norfolk,VA,null,null,null,Schooner,Mr. Brockover,null,-76.28514,36.84686
+Logan,John W.,null,M,null,null,10,Apr,1856,Little Georgetown,Berkley,VA,null,null,null,null,Miss Cox,null,-77.73249,38.82317
+Combash,John Wesley,null,M,32,B,11,Apr,1858,null,null,MD,null,null,null,null,Mr. Johnson,null,0,0
+Chion,William,null,M,27,B,null,null,1860,null,Dorchester,MD,null,null,null,null,Mr. Tubman,null,0,0
+Walker,John,null,M,25,null,13,Sept,1853,Clarksville,Mecklenburg,VA,null,null,null,null,Mr. Easley,null,-78.55679,36.62455
+Giles,Lewis,null,M,null,null,2,Jun,1855,Richmond,Henrico,VA,null,null,null,null,Mr. Lewis Hill,null,-77.43367,37.54068
+Triplett,William,null,M,23,B,null,null,1857,Alexandria,Fairfax,VA,null,null,null,null,Mrs. A.B. Fairfax,null,-77.04341,38.8046
+Taylor,Roberta,null,F,23,M,null,null,1858,Baltimore,Baltimore,MD,null,X,null,null,Mrs. & Mrs. McCoy,null,-76.60926,39.29058
+Davis,Clarissa,Mary D. Armstead,F,20,B,22,May,1854,Portsmouth,Norfolk,VA,null,X,null,Steamer,Mrs. Brown & Mrs. Burkley,1000,-76.29771,36.83273
+Nichols,Randolph,null,M,20,null,null,null,null,null,null,MD,null,null,null,null,Mrs. Caroline Brang,null,0,0
+Millburn,Mary,Louisa F. Jones,F,null,null,null,May,1858,Norfolk,Norfolk,VA,null,X,null,null,Mrs. Chapman,null,-76.28514,36.84686
+Francis,Lewis,Lewis Johnson,M,27,null,30,Dec,1855,Abingdon,Harford,MD,null,null,null,null,Mrs. Delinas,null,-76.27846,39.46367
+Clayton,John,null,M,20,M,26,Feb,1854,Richmond,Henrico,VA,null,X,null,null,Mrs. Clayton,null,-77.43367,37.54068
+Goins,Luke,null,M,null,null,null,null,1860,Harpers Ferry,null,VA,null,null,null,null,Mrs. Carroll,null,-91.15331,43.20291
+Johnson,Henry,null,M,19,B,4,Jun,1857,Abingdon,Harford,MD,null,null,null,null,Mrs. Elizabeth Brown,500,-76.27846,39.46367
+Colburn,Jeremiah,William Cooper,M,null,M,null,null,1857,Charleston,Charleston,SC,null,null,null,null,Mrs. E. Williamson,null,-79.9316,32.78115
+Morgan,Edward,null,M,21,B,4,Jun,1857,Abingdon P.O.,Harford,MD,null,null,null,null,Mrs. Elizabeth Brown,500,-76.27846,39.46367
+Chapman,Emeline,null,F,25,B,30,Aug,1856,Washington,null,DC,null,null,null,Foot,Mrs. Emily Thompson,300 in state,-77.03196,38.89037
+Scott,Anna,null,F,null,null,null,Dec,1855,Cecil Cross Roads,null,MD,null,null,null,null,Mrs. Ann Elizabeth Lushy,null,-75.86744,39.404
+Chapman,John Henry,null,M,7 mos,M,30,Aug,1856,Washington,null,DC,X,null,null,Foot,Mrs. Emily Thompson,null,-77.03196,38.89037
+Chapman,Margaret Ann,null,F,2,B,30,Aug,1856,Washington,null,DC,X,null,null,Foot,Mrs. Emily Thompson,null,-77.03196,38.89037
+Forman,Ellen,Elizabeth Young,F,30,B,16,May,1854,Baltimore,Baltimore,MD,null,null,null,null,Mrs. Johnson,null,-76.60926,39.29058
+Loney,Cordelia,null,F,57,M,30,Mar,1859,Fredericksburg,Spotsylvania,VA,null,null,null,Foot,Mrs. Joseph Cahell,null,-77.45933,38.30118
+Logan,George,null,M,23,B,10,Apr,1856,Georgetown,Northumberland,VA,null,null,null,null,Mrs. Jane Coultson,null,-76.44662,37.8313
+Hillis,John,null,M,null,null,null,null,1859,New Market,Dorchester,MD,null,null,null,Schooner,Mrs. Louisa Lecount,null,-77.27232,39.38279
+Epps,Mary,Emma Brown,F,45,B,1,Mar,1855,Petersburg,Dinwiddle,VA,null,X,null,null,Mrs. Littleton Reeves,null,-77.40348,37.22815
+Jones,Mary,null,F,null,null,null,null,1858,Washington,null,DC,null,null,null,null,Mrs. Henry Harding,null,-77.03196,38.89037
+Bell,Susan,null,F,4,null,null,null,1858,Washington,Washington,DC,X,null,null,null,Mrs. Henry Harding,null,-77.03196,38.89037
+Sheldon,James,null,M,null,null,7,Sept,1857,Norfolk,Norfolk,VA,null,X,null,null,Mrs. Maria Hansford,null,-76.28514,36.84686
+Oliver,William,null,M,26,B,null,null,1859,null,Prince Georges,MD,null,null,null,null,Mrs. Marshall,null,0,0
+Jackson,null,null,F,null,null,null,null,1858,Georgetown,null,DC,X,null,null,null,Mrs. Margaret Dick,null,-77.0628,38.90502
+Jackson,Rebecca,null,F,37,M,null,null,1858,Georgetown,null,DC,null,null,null,null,Mrs. Margaret Dick,null,-77.0628,38.90502
+Jackson,Robert,null,M,null,null,null,null,1858,null,null,DE,null,null,null,null,Mrs. Mary Hickman,null,0,0
+Henson,James,null,M,null,null,null,null,1860,Baltimore,Baltimore,MD,null,null,null,null,Mrs. Maria Thomas,null,-76.60926,39.29058
+Dulton,Charles,William Robinson,M,22,null,28,Sept,1856,null,null,MD,null,null,null,null,Mrs. Mary Hurley,null,0,0
+Forman,Isaac,null,M,23,M,null,Dec,1853,Norfolk,Norfolk,VA,null,X,null,Steamer,Mrs. Sanders,null,-76.28514,36.84686
+Allen,Andrew,null,M,24,B,null,null,1857,Norfolk,Norfolk,VA,null,null,null,null,Mrs. Sarah Twyne,null,-76.28514,36.84686
+Carney,William,null,M,51,B,null,null,1857,Norfolk,Norfolk,VA,null,null,null,null,Mrs. Sarah Twyne,null,-76.28514,36.84686
+Dalton,Charles,William Robinson,M,22,null,28,Sept,1854,Cambridge,Dorchester,MD,null,null,null,null,Mrs. Mary Hurley,null,-76.07806,38.56312
+Eden,Richard,null,M,25,null,null,null,null,Wilmington,New Castle,NC,null,null,null,null,Mrs. Mary Loren,null,-77.946,34.23497
+Robinson,Miles,null,M,22,null,null,null,1859,Richmond,Henrico,VA,null,null,null,null,Mrs. Roberts,null,-77.43367,37.54068
+Mackey,William,null,M,null,null,null,null,1858,Norfolk,Norfolk,VA,null,null,null,null,Mrs. Tunis,null,-76.28514,36.84686
+Cannon,Plymouth,null,M,42,M,2,Feb,1858,null,null,null,null,null,null,null,Nat Horsey,null,0,0
+Pry,Sauney,null,M,27,B,null,null,1856,null,Loudon,VA,null,null,null,null,Nathan Clapton,null,0,0
+Mercer,James,null,M,19,B,26,Feb,1854,Richmond,Henrico,VA,null,X,null,Steamer,Mrs. T.E. White,null,-77.43367,37.54068
+Gilliam,William H.,null,M,20,B,26,Feb,1854,Richmond,Henrico,VA,null,X,null,Steamer,Mrs. T.E. White,null,-77.43367,37.54068
+Cooper,Mary,null,F,20,B,null,null,1857,null,null,DE,null,null,null,null,Nathaniel Herne,null,0,0
+Taylor,Caroline,null,F,null,M,23,Mar,1856,Norfolk,Norfolk,VA,null,null,null,Schooner,"Peter March, Esq.",null,-76.28514,36.84686
+Smith,Vincent,John Jackson,M,23,B,18,Aug,1856,Alder,Loudon,VA,null,X,null,Foot,Nathan Skinner,null,-77.07192,38.2743
+Taylor,Mary,null,F,9,null,23,Mar,1856,Norfolk,Norfolk,VA,X,null,null,Schooner,"Peter March, Esq.",null,-76.28514,36.84686
+Taylor,Nancy,null,F,11,null,23,Mar,1856,Norfolk,Norfolk,VA,X,null,null,Schooner,"Peter March, Esq.",null,-76.28514,36.84686
+Sperryman,George,Thomas Johnson,M,null,null,28,July,1856,Richmond,Henrico,VA,null,null,null,null,Nicholas Templeman,null,-77.43367,37.54068
+Cotton,Henry,null,M,24,null,null,null,1860,Newton,Somerset,MD,null,null,null,null,Nathaniel Dixon,null,-75.92852,38.75703
+Howard,Henry,null,M,27,null,1,Jun,1855,Ladies Manor,Haverford,MD,null,null,null,null,Phillip Garrison,null,-76.95581,39.49316
+Matterson,null,null,M,null,null,2,Nov,1853,Martinsburg,Henry,VA,null,null,X,Foot & Carriage,Philip Pendelton,null,-77.96477,39.45641
+Matterson,null,null,M,null,null,2,Nov,1853,Martinsburg,Henry,VA,null,null,X,Foot & Carriage,Philip Pendelton,null,-77.96477,39.45641
+Matterson,null,null,M,null,null,2,Nov,1853,Martinsburg,Henry,VA,null,null,X,Foot & Carriage,Philip Pendelton,null,-77.96477,39.45641
+Kane,Jane,Catherine Kane,F,22,null,29,Dec,1854,null,Dorchester,MD,null,null,null,null,Rash Jones,null,0,0
+Williamson,William,null,M,24,null,null,null,1858,Perrymanville,Cecil,MD,null,null,null,null,Rebecca Davidge,null,-76.2044,39.46955
+Unidentified,null,null,F,null,null,14,Aug,1854,null,null,DE,null,null,null,null,Rebecca Johnson,null,0,0
+Kelley,Henson,null,M,null,null,null,null,1860,Baltimore,Baltimore,MD,null,null,null,null,Reason Hastell,null,-76.60926,39.29058
+Harris,Wesley,Robert Jackson,M,22,B,2,Nov,1853,Martinsburg,Henry,VA,null,null,X,Foot & Carriage,Phillip Pendelton,null,-77.96477,39.45641
+Cornish,null,null,null,null,null,24,Oct,1857,Cambridge,Dorchester,MD,X,null,null,null,Reuben E. Phillips,null,-76.07806,38.56312
+Cornish,Daffney,null,F,null,null,24,Oct,1857,Cambridge,Dorchester,MD,null,null,null,null,Reuben E. Phillips,200 in state/300 out,-76.07806,38.56312
+Cornish,Edward J.,null,M,null,null,24,Oct,1857,Cambridge,Dorchester,MD,X,null,null,null,Reuben E. Phillips,null,-76.07806,38.56312
+Cornish,George A.,null,M,null,null,24,Oct,1857,Cambridge,Dorchester,MD,X,null,null,null,Reuben E. Phillips,null,-76.07806,38.56312
+Cornish,Joseph,null,M,null,null,24,Oct,1857,Cambridge,Dorchester,MD,X,null,null,null,Reuben E. Phillips,null,-76.07806,38.56312
+Cornish,Solomon,null,M,null,null,24,Oct,1857,Cambridge,Dorchester,MD,X,null,null,Foot,Reuben E. Phillips,null,-76.07806,38.56312
+Cornish,Perry L.,null,M,null,null,24,Oct,1857,Cambridge,Dorchester,MD,X,null,null,null,Reuben E. Phillips,null,-76.07806,38.56312
+Smith,Page,null,F,9,null,10,May,1854,Wilmington,New Castle,DE,X,null,null,null,Rev. A.D. Pollock,null,-75.55084,39.74023
+Smith,Sarah,Mildred Page,F,30,B,10,May,1854,Wilmington,New Castle,DE,null,null,null,null,Rev. A.D. Pollock,null,-75.55084,39.74023
+Cornish,Aaron,null,M,38,B,24,Oct,1857,Cambridge,Dorchester,MD,null,null,null,null,Rev. Levi D. Traverse,200 in state/300 out,-76.07806,38.56312
+Booze,Jacob Mathias,null,M,20,null,7,Feb,1855,Annapolis,Anne Arundel,MD,null,null,null,null,Richard Carmen,null,-76.49014,38.97678
+Boyer,Jacob Mathias,null,M,20,B,null,null,1855,Annapolis,Anne Arundel,ML,null,null,null,null,Richard Carman,null,-76.49014,38.97678
+Menia,Jane Matilda,Mary Parker,F,null,null,6,Apr,1853,Annapolis,Anne Arundel,MD,null,null,null,null,Richard Ducke,null,-76.49014,38.97678
+Saunders,Sarah,null,F,null,null,4,Jul,1856,Norfolk,Norfolk,VA,null,null,null,Schooner,Richard Gatewood,null,-76.28514,36.84686
+Dickson,John,null,M,30,null,7,Oct,1854,Dawson,Allegany,MD,null,null,null,null,Richard Kaigh,null,-78.9438,39.47693
+Harris,Benjamin F.,Benjamin Franklin,M,30,null,24,Aug,1854,Baltimore,Baltimore,MD,null,null,null,null,Richard Farmer,null,-76.60926,39.29058
+Harris,Franklin,null,M,6,null,24,Aug,1854,Baltimore,Baltimore,MD,X,null,null,null,Richard Farmer,null,-76.60926,39.29058
+Huges,Daniel,null,M,null,B,null,Mar,1857,Bucktown,Dorchester,MD,null,null,null,Foot,Richard Meredith,null,-76.05248,38.45695
+Elliot,Thomas,null,M,23,B,null,Mar,1857,Bucktown,Dorchester,MD,null,null,null,null,Richard Meredith,null,-76.05248,38.45695
+Wiggins,Daniel,null,M,29,null,16,Mar,1854,Norfolk,Norfolk,VA,null,X,null,null,Richard Scott,null,-76.28514,36.84686
+Good,Beverley,null,M,24,null,18,Jan,1855,Petersburg,Dinwiddle,VA,null,null,null,Steamer,Richard Perry,null,-77.40348,37.22815
+Beesly,Dick,null,M,null,B,null,null,null,Wheldon,Halifax,NC,null,null,null,null,Richard Smallwood,null,-77.59765,36.42677
+Stanly,Daniel,null,M,35,null,17,Oct,1857,Cambridge,Dorchester,MD,null,null,null,Foot,Robert Calender,null,-76.07806,38.56312
+Stanly,"Daniel, Jr.",null,M,null,null,17,Oct,1857,Cambridge,Dorchester,MD,X,null,null,Foot,Robert Calender,null,-76.07806,38.56312
+Wright Crossroads,Leeds,null,M,null,null,null,null,1857,Georget'n Crossroads,Kent,MD,null,null,null,null,Rev. John Wesley Pearson,null,-88.71499,30.8856
+Branson,Randolph,null,M,31,B,null,null,1857,Washington,null,DC,null,null,null,null,Richard Reed,null,-77.03196,38.89037
+Smith,Edward,null,M,17,null,null,null,1858,Belleair,Harford,MD,X,null,null,null,Robert Hollan,null,-76.1719,39.22261
+Smith,Henry,null,M,23,B,null,null,1858,Belleair,Harford,MD,null,null,null,null,Robert Hollan,null,-76.1719,39.22261
+Peel,William,"William ""Box"" Jones",M,23,B,null,Apr,1859,Baltimore,Baltimore,MD,null,null,null,Steamer,Robert Carr,null,-76.60926,39.29058
+Smith,James,null,M,null,null,null,null,1858,Belleair,Harford,MD,X,null,null,null,Robert Hollan,null,-76.1719,39.22261
+Smith,Julius,null,M,25,B,null,null,1858,Belleair,Harford,MD,null,null,null,null,Robert Hollan,null,-76.1719,39.22261
+Smith,Mary,null,F,null,null,null,null,1858,Belleair,Harford,MD,null,null,null,null,Robert Hollan,null,-76.1719,39.22261
+Robinson,Robert N.,null,M,22,null,1,Mar,1855,Richmond,Henrico,VA,null,null,null,Schooner,Robert Slater,null,-77.43367,37.54068
+Ross,Charles,null,M,23,null,null,null,1859,Greensborough,Caroline,MD,null,null,null,null,Rodgers,null,-75.80493,38.97372
+Casting,Edward,null,M,17,null,null,null,1860,Duck Creek,Baltimore,MD,X,null,null,null,Robert Moore,null,-96.63888,32.91262
+Bayne,Richard,null,M,23,M,null,null,1858,Alexandria,Fairfax,VA,null,null,X,null,Rudolph Massey,null,-77.04341,38.8046
+Redick,Willis,null,M,32,B,13,Dec,1853,Portsmouth,Norfolk,VA,null,null,null,null,S.J. Wilson,null,-76.29771,36.83273
+Davis,Jane,null,F,60-70,null,null,null,1857,Eastern Shore,null,MD,null,null,null,Foot,Roger McZant,null,-80.1356,25.9337
+Bradley,Richard,null,M,27,null,1,June,1855,Richmond,Henrico,VA,null,null,null,Schooner,Samuel Ball,null,-77.43367,37.54068
+Johnson,Eliza Jane,null,F,23,B,null,null,1857,Georgetown,Sussex,DE,null,null,null,null,Sally Siser,null,-75.38674,38.69072
+Stanly,null,null,F,null,null,17,Oct,1857,Cambridge,Dorchester,MD,null,null,null,Foot,Samuel Count,null,-76.07806,38.56312
+Stanly,Caroline,null,F,null,null,17,Oct,1857,Cambridge,Dorchester,MD,X,null,null,Foot,Samuel Count,null,-76.07806,38.56312
+Stanly,John,null,M,null,null,17,Oct,1857,Cambridge,Dorchester,MD,X,null,null,Foot,Samuel Count,null,-76.07806,38.56312
+null,Perry,null,M,25,B,20,Sept,1856,Mount Airy,Carroll,MD,null,null,null,null,Robert Dade,"250 in state, 500 out",-77.15479,39.37648
+Stanly,Josiah,null,M,null,null,17,Oct,1857,Cambridge,Dorchester,MD,X,null,null,Foot,Samuel Count,null,-76.07806,38.56312
+Johnson,William,null,M,null,null,29,Jul,1855,null,Dorchester,MD,null,null,null,null,Samuel Harrington,null,0,0
+Stanly,Miller,null,M,null,null,17,Oct,1857,Cambridge,Dorchester,MD,X,null,null,Foot,Samuel Count,null,-76.07806,38.56312
+Winston,Joe,null,M,23,B,6,Jun,1857,Richmond,Henrico,VA,null,null,null,Steamer,Samuel Ellis,200 in State/500 Out,-77.43367,37.54068
+Lewis,George,null,M,40,null,null,null,1858,null,Sussex,DE,null,null,null,null,Samuel Laws,null,0,0
+null,Charles,null,M,22,B,20,Sept,1856,Mount Airy,Carroll,MD,null,null,null,null,Robert Dade,"250 in state, 100 out",-77.15479,39.37648
+Johnson,Anna,null,F,24,B,null,null,1857,Cambridge,Dorchester,MD,null,null,null,Foot,Samuel Harrington,null,-76.07806,38.56312
+Handy,James Edward,Daniel Canon,M,26,null,25,May,1854,Seaford,Sussex,DE,null,null,null,null,Samuel Lewis,null,-75.60905,38.64374
+Hodges,Henry,null,M,23,null,null,Jun,1855,Plymouth,Washington,NC,null,null,null,null,Samuel Simmons,null,-76.74956,35.86629
+Nixon,Isaiah,null,M,22,B,null,Jun,1855,Plymouth,Washington,NC,null,null,null,null,Samuel Simmons,null,-76.74956,35.86629
+Cobb,Lewis,null,M,null,M,null,null,1856,Richmond,Henrico,VA,null,X,null,null,Samuel Myers,null,-77.43367,37.54068
+Viney,Susan,null,F,35,B,24,Oct,1857,Cambridge,Dorchester,MD,null,null,null,Foot,Samuel Pattison,null,-76.07806,38.56312
+Baddums,Matthew,null,M,23,null,21,Jul,1856,Plymouth,Washington,NC,null,null,null,Schooner,Samuel Simmons,null,-76.74956,35.86629
+Robinson,George,null,M,21,B,null,null,1857,Elkton,Cecil,MD,null,null,null,null,Samuel Smith,null,-75.83041,39.60923
+Bodams,Matthew,null,M,23,B,null,Jul,1856,Plymouth,Washington,NC,null,null,null,Schooner,Samuel Simmons,null,-76.74956,35.86629
+Shepherd,Perry,Richard Reed,M,null,null,28,Jul,1856,Eastern Shore,null,MD,null,null,null,null,Sarah Ann Burgess,null,-80.1356,25.9337
+Williams,Elizabeth,null,F,20,B,null,null,1857,Wrightstown,Baltimore,MD,null,null,null,null,Samuel Ward,null,-88.09023,44.33727
+Hall,null,null,M,null,null,8,Dec,1855,Ladies Manor,Haverford,MD,null,null,null,Horseback,Sarah Ann McGough,null,-76.95581,39.49316
+Hall,Henrietta,null,F,null,null,8,Dec,1855,Ladies Manor,Haverford,MD,X,null,null,Horseback,Sarah Ann McGough,null,-76.95581,39.49316
+Shaw,James,null,M,45,B,11,Sept,1858,Marlboro,Prince Georges,MD,null,null,null,null,Sarah Ann Talburtt,null,-76.74969,38.81595
+Francis,Elizabeth,Ellen Saunders,F,22,M,null,Oct,1854,Norfolk,Norfolk,VA,null,X,null,null,Sarah Shepperd,null,-76.28514,36.84686
+Tilson,Abram,null,M,null,null,null,null,1857,Georget'n Crossroads,Kent,MD,null,null,null,null,Samuel Jarman,null,-88.71499,30.8856
+Smallwood,John,null,M,null,null,9,Feb,1857,Ellicott's Mills,Howard,MD,null,null,null,null,Samuel Simons,null,-76.79831,39.26733
+Washington,Henry,Anthony Hanley,M,50,null,19,Jun,1855,Norfolk,Norfolk,VA,null,null,null,null,Seth March,null,-76.28514,36.84686
+Carpenter,William,null,M,null,null,null,null,1858,null,null,VA,null,null,null,null,Senator Mason,null,0,0
+Burton,Handy,null,M,null,null,null,null,1858,null,null,DE,null,null,null,null,Shepherd Burton,null,0,0
+Cope,William Thomas,null,M,24,M,null,Jan,1858,Lewes,Sussex,DE,null,null,null,null,Shepherd P. Houston,null,-75.1308,38.78043
+Collins,Theophilus,null,M,24,B,null,null,1858,Lewes,Sussex,DE,null,null,null,null,Shepherd P. Houston,null,-75.1308,38.78043
+Gooseberry,Thomas Jervis,Ezekiel Chambers,M,17,B,2,Dec,1855,Chestertown,Kent,MD,X,null,null,Railroad,Sarah Maria Perkins,null,-76.06615,39.2131
+Jackson,General Andrew,null,M,27,B,null,null,1857,Lewistown,Sussex,DE,null,null,null,null,Shepherd Houston,null,-75.13935,38.77456
+Somlor,Washington,James Moore,M,32,null,null,null,1855,Norfolk,Norfolk,VA,null,X,X,Steamer,Smith,null,-76.28514,36.84686
+Long,Silas,null,M,27,B,null,null,1857,Cambridge,Dorchester,MD,null,null,X,null,Sheriff Robert Bell,null,-76.07806,38.56312
+Anderson,Joshua John,null,M,22,B,null,null,1858,Alexandria,Baltimore,MD,null,null,null,null,Skelton Price,null,-77.04341,38.8046
+Johns,Sue Ann,null,F,23,B,null,null,1858,null,Cecil,MD,null,null,null,null,Susan Flinthrew,null,0,0
+Rickets,John H.,Ed Henry Waples,M,22,null,8,Sept,1854,Lewistown,Sussex,DE,null,null,null,null,Stephen Houston,null,-75.13935,38.77456
+Brown,Rebecca,Helen Parker,F,null,null,6,Apr,1853,Annapolis,Anne Arundel,MD,null,null,null,null,T.C. Howard,null,-76.49014,38.97678
+Haines,Edward,null,M,44,B,7,Sept,1857,null,null,VA,null,X,null,null,Tabby & Eliza Fortlock,null,0,0
+Haines,Joseph,null,M,20,M,7,Sept,1857,null,null,VA,null,null,null,null,Tabby & Eliza Fortlock,null,0,0
+Scott,William,null,M,24,null,null,null,1857,Stafford,Harford,MD,null,null,null,Foot,Susan Fox,null,-76.16547,39.62389
+Wodders,Abram,null,M,35,B,null,null,1857,Norfolk,Norfolk,VA,null,null,null,null,Taylor Sewell,50,-76.28514,36.84686
+McCoy,Robert,William Donar,M,32,M,1,Oct,1854,Norfolk,Norfolk,VA,null,X,null,null,The Trader Hall,null,-76.28514,36.84686
+Gassway,Caroline,null,F,27,B,null,null,1859,Mount Airy,Carroll,MD,null,null,null,null,Summersett Walters,null,-77.15479,39.37648
+Nelson,Susan,Susan Bell,F,30,B,22,Jun,1855,Norfolk,Norfolk,VA,null,null,null,Schooner,Thomas Baltimore,null,-76.28514,36.84686
+Nelson,William Thomas,null,M,null,null,22,Jun,1855,Norfolk,Norfolk,VA,null,X,null,Schooner,Thomas Baltimore,null,-76.28514,36.84686
+Ducket,Benjamin,null,M,23,B,null,null,1856,Bell Mountain,Prince Georges,MD,null,null,null,null,Sicke Perry,null,-117.20711,34.62114
+White,Isaac,null,M,22,B,null,Jan,1858,Lewes,Sussex,DE,null,null,null,Skiff,Thomas Carper,null,-75.1308,38.78043
+Brooks,Susan,null,F,40,B,23,Apr,1854,Norfolk,Norfolk,VA,null,null,null,Steamer,"Thomas Eckles, Esq.",null,-76.28514,36.84686
+Atkins,Susan,null,F,40,B,null,null,1854,Richmond,Henrico,VA,null,null,null,Steamer,"Thomas Eckels, Esq",null,-77.43367,37.54068
+Harris,Darius,null,M,21,null,null,null,1858,Dunwoody,Dinwiddle,VA,null,null,null,Foot,Thomas H. Hamlin,null,-84.33625,33.92621
+Dotson,Isaac,null,M,19,M,20,Sept,1856,Mount Airy,Carroll,MD,null,null,null,null,Thomas B. Owings,500,-77.15479,39.37648
+Sims,Samuel,null,M,30,B,20,Sept,1856,Mount Airy,Carroll,MD,null,null,null,null,Thomas B. Owings,null,-77.15479,39.37648
+Mitchell,Josiah,null,M,23,null,2,Feb,1858,null,null,null,null,null,null,null,Thomas J. Hodgson,null,0,0
+Wilkinson,Horatio,null,M,44,M,2,Feb,1858,null,null,null,null,null,null,null,Thomas J. Hodgson,null,0,0
+Duncans,Benjamin,Geroge Scott,M,25,B,27,Apr,1854,null,null,null,null,null,null,null,Thomas Jeffries,null,0,0
+Mackintosh,John,null,M,44,null,4,Aug,1855,Darien,McIntosh,GA,null,null,null,null,Thomas MacIntosh,null,-81.43424,31.37114
+Chambers,John,David Green,M,26,B,30,Jan,1856,null,null,MD,null,null,null,Foot,Thomas Murphy,null,0,0
+Butler,James,null,M,21,B,4,Jun,1857,Abingdon P.O.,Harford,MD,null,null,null,null,Thomas Johnson,500,-76.27846,39.46367
+Butler,Stephen,null,M,22,B,4,Jun,1857,Abingdon P.O.,Harford,MD,null,null,null,null,Thomas Johnson,null,-76.27846,39.46367
+Jackson,Andrew,Henry Johnson,M,23,null,29,Dec,1856,Cecil,Cecil,DE,null,null,null,null,Thomas Palmer,null,-80.18365,40.33017
+Jones,Lewis,null,M,52,M,null,null,1857,null,null,VA,null,null,null,null,Thomas Sydan,null,0,0
+Kell,James,null,M,24,B,4,Jul,1859,Eastern Shore,null,MD,null,null,null,null,Thomas Murphy,null,-80.1356,25.9337
+Dixon,Thomas Edward,null,M,18,B,null,null,1859,The Trap,null,DE,null,null,null,null,Thomas W.M. McCracken,null,-75.64965,39.4915
+Jones,Robert,null,M,35,B,2,Aug,1855,Petersburg,Dinwiddle,VA,null,X,null,null,Thomas N. Lee,null,-77.40348,37.22815
+Johnson,James,William Gilbert,M,35,null,28,Jul,1856,null,Prince Georges,MD,null,null,null,null,Thomas Wallace,null,0,0
+Mercer,Verenea,null,F,41,B,1,Jan,1855,Richmond,Henrico,VA,null,null,null,null,Thomas W. Quales,null,-77.43367,37.54068
+Aldridge,Bazil,null,M,17,M,null,null,1857,Unionville,Frederick,MD,X,null,null,null,Thorton Pool,null,-77.18593,39.475
+Aldridge,Caroline,null,F,23,M,null,null,1857,Unionville,Frederick,MD,null,null,null,null,Thorton Pool,null,-77.18593,39.475
+Shidon,James,null,M,null,null,10,Jan,1854,Georgetown,null,DC,null,null,null,null,Thomas Young,null,-77.0628,38.90502
+Todd,null,null,F,null,null,null,null,1857,Unionville,Frederick,MD,null,null,null,null,Thorton Pool,null,-77.18593,39.475
+Nelson,William,Thomas Russell,M,40,B,22,Jun,1855,Norfolk,Norfolk,VA,null,null,null,Schooner,Turner & White,null,-76.28514,36.84686
+Grigby,Mary Elizabeth,Elizabeth Boyer,F,24,B,24,Dec,1855,Alder,Loudon,VA,null,null,X,Horse & Carriage,Townsend McVee,null,-77.07192,38.2743
+Foster,Emily,Ann Wood,F,22,null,24,Dec,1855,Alder,Loudon,VA,null,null,X,Horse & Carriage,Townsend McVee,null,-77.07192,38.2743
+null,Hanson,null,M,47,B,5,Sept,1857,null,Howard,MD,null,null,null,null,W. Baker & Hammond Dorsey,"100 in state, 200 out",0,0
+Jones,Mary,null,F,null,null,23,Mar,1856,Norfolk,Norfolk,VA,X,null,null,Schooner,W.W. Davidson,null,-76.28514,36.84686
+Cole,Bill,null,M,37,B,5,Sept,1857,null,Howard,MD,null,null,null,null,W. Baker & Hammond Dorsey,200 in state/300 out,0,0
+Jones,Rebecca,null,F,28,M,23,Mar,1856,Norfolk,Norfolk,VA,null,X,null,Schooner,W.W. Davidson,150,-76.28514,36.84686
+Jones,Rebecca,null,F,null,null,23,Mar,1856,Norfolk,Norfolk,VA,X,null,null,Schooner,W.W. Davidson,null,-76.28514,36.84686
+Jones,Sarah Frances,null,F,null,null,23,Mar,1856,Norfolk,Norfolk,VA,X,null,null,Schooner,W.W. Davidson,null,-76.28514,36.84686
+Bailey,Josiah,null,M,29,B,15,Nov,1856,Easton,Talbot,MD,null,null,null,null,W.R. Hughlett,"1500 in state, 2000 out",-76.07475,38.7739
+Taylor,William N.,null,M,35,B,2,Jun,1857,Hanover,Hanover,VA,null,null,null,Foot,Walter H. Tyler,100,-77.3712,37.7698
+Smallwood,Henry,null,M,36,B,null,null,1859,null,null,MD,null,null,null,null,Washington Bonafont,null,0,0
+Loney,Anthony,William Armstead,M,25,B,null,May,1857,Richmond,Henrico,VA,null,null,null,Foot,Warring Talvert,null,-77.43367,37.54068
+Graham,George,Henry Washington,M,24,B,16,Jan,1856,Alexandria,Fairfax,VA,null,null,null,Foot,Widow Beverly,null,-77.04341,38.8046
+Melvin,Mary Frances,null,F,23,M,null,null,1858,Norfolk,Norfolk,VA,null,null,null,null,Widow Chapman,null,-76.28514,36.84686
+Stewart,Robert,Gasberry Robinson,M,30,B,18,Aug,1856,Alder,Loudon,VA,null,X,null,Foot,Widow Hutchinson,null,-77.07192,38.2743
+Smith,Betsy,Fanny Jackson,F,27,B,18,Aug,1856,Alder,Loudon,VA,null,null,X,Foot,Widow Hutchinson's daughter,null,-77.07192,38.2743
+Bell,Dianna,null,F,30,null,30,Jun,1856,Liberty District,null,null,null,null,null,null,Walker Simpson,null,-85.96665,36.00839
+Blow,Anthony,Henry Levison,M,null,B,1,Nov,1854,Norfolk,Norfolk,VA,null,null,null,Steamer,Widow Peters,null,-76.28514,36.84686
+Lewis,Laura,null,F,25,M,16,Aug,1855,Louisville,Jefferson,KY,null,null,null,null,Widow Lewis,null,-85.76666,38.25489
+Carr,Robert,null,M,null,null,26,Dec,1857,West River,Anne Arundel,MD,null,X,null,null,Thomas J. Richardson,125 in state/300 out,-76.5614,38.8269
+Pipkins,Jefferson,David Jones,M,null,null,3,Apr,1853,Baltimore,Baltimore,MD,null,X,null,Foot,Widow Pipkins,null,-76.60926,39.29058
+Fields,Henry,null,M,18,M,null,null,null,Port Deposit,null,null,null,null,null,null,Washington Glasby,null,-76.11466,39.60414
+Thompson,Charles,null,M,40,null,21,Oct,1854,Richmond,Henrico,VA,null,null,null,null,Widow Thorton,null,-77.43367,37.54068
+Harris,Nelson,Charles Wilson,M,27,null,25,Oct,1853,Richmond,Henrico,VA,null,null,null,null,William B. Beale,null,-77.43367,37.54068
+Cornish,William,null,M,null,null,5,Sept,1856,Cambridge,Dorchester,MD,null,null,null,null,William B. Dale,null,-76.07806,38.56312
+Stewart,Mary Eliza,null,F,8,null,null,null,1857,Washington,null,DC,X,null,null,Foot,William A. Linton,null,-77.03196,38.89037
+Johnson,John,null,M,27,M,null,null,1857,Washington,Washington,DC,null,null,null,null,Willam Stone,null,-77.03196,38.89037
+Stewart,Harriet,null,F,29,B,null,null,1857,Washington,null,DC,null,null,null,Foot,William A. Linton,null,-77.03196,38.89037
+Brister,Nancy,null,F,null,B,null,null,1856,Richmond,Henrico,VA,null,null,null,Boat,William Bears,null,-77.43367,37.54068
+Benton,Samuel,null,M,26,B,null,null,1857,null,Kent,null,null,null,null,null,William Campbell,null,0,0
+Johns,Robert,null,M,null,B,null,null,1858,null,Cecil,MD,null,null,null,null,William Casey,null,0,0
+Butcher,William,William T. Mitchell,M,28,B,29,Nov,1854,Georgetown,Kent,MD,null,null,null,null,William Boyer,null,-76.76368,39.14257
+Gaskins,Madison,null,M,null,null,null,null,null,Middleburg,Louden,VA,null,null,null,null,William Burns,300,-77.73618,38.96967
+Waters,Jacob,null,M,21,B,null,null,null,Frederick,Frederick,MD,null,null,null,Foot,William Dorsey,null,-77.41203,39.41574
+Brown,William,null,M,null,B,20,Dec,1855,null,Prince Georges,MD,null,null,null,null,William Elliott,null,0,0
+Washington,George,James Williams,M,19,null,5,Dec,1854,Bellair,Harford,MD,null,null,null,null,William Fernandus,null,-76.34829,39.53594
+Grinage,John,null,M,20,B,null,null,1859,Middle Neck,Cecil,MD,null,null,null,null,William Flintham,null,-75.54742,38.39901
+Waples,Hansel,null,M,null,null,30,Dec,1853,"Hillsboro, Indian R.",null,null,null,null,null,null,William E. Burton,null,-122.99044,45.52268
+Alligood,James,null,M,null,null,null,null,1858,null,Sussex,DE,null,null,null,null,William Gray,null,0,0
+Butler,John Alexander,null,M,29,B,null,null,1857,Arlington,Baltimore,MD,null,null,null,null,William Ford,null,-76.68324,39.34857
+Bivans,null,null,F,null,null,null,null,1857,null,null,null,X,null,null,null,William H. Hyson,null,0,0
+Christian,James H.,null,M,null,M,null,null,null,Richmond,Henrico,VA,null,X,null,null,"William H. Christian, Esq.",null,-77.43367,37.54068
+Bivans,null,null,F,null,null,null,null,1857,null,null,null,X,null,null,null,William H. Hyson,null,0,0
+Bivans,Belinda,null,F,30,B,null,null,1857,null,null,null,null,null,null,null,William H. Hyson,null,0,0
+Unidentified,null,null,null,null,null,null,null,1857,null,null,null,null,null,null,null,William H. Hyson,null,0,0
+Unidentified,null,null,null,null,null,null,null,1857,null,null,null,null,null,null,null,William H. Hyson,null,0,0
+Unidentified,null,null,null,null,null,null,null,1857,null,null,null,null,null,null,null,William H. Hyson,null,0,0
+Emerson,Robert,null,M,19,M,24,Oct,1857,Portsmouth,Norfolk,VA,null,X,null,null,William H. Wilson,null,-76.29771,36.83273
+Moody,William Henry,null,M,20,B,null,null,1857,null,null,null,null,null,null,Horse & Carriage,William Henry Hyson,null,0,0
+Smith,Robert,null,M,24,null,31,May,1856,Baltimore,Baltimore,MD,null,null,null,Railroad,William H. Normis,null,-76.60926,39.29058
+Bush,Samuel,William Olebee,M,33,M,16,Nov,1853,null,null,VA,null,null,null,null,William Hoyle,null,0,0
+Green,Murdoch,null,M,null,null,20,Sept,1856,Mount Airy,Carroll,MD,null,null,null,null,William Dorsey,null,-77.15479,39.37648
+Moduck,Green,null,M,null,null,20,Sept,1856,Mount Airy,Carroll,MD,null,null,null,null,William Dorsey,null,-77.15479,39.37648
+Crummel,James,null,M,null,null,1,Jun,1855,Ladies Manor,Haverford,MD,null,null,null,null,William Hutchins,null,-76.95581,39.49316
+Hitchens,C.,null,M,22,null,null,null,1857,Milford,Sussex,DE,null,null,null,Foot,William Hill,null,-75.42854,38.9107
+Ballard,George Henry,null,M,26,null,2,Feb,1858,null,null,null,null,X,null,null,William Jackson,null,0,0
+Jones,Tolbert,null,M,null,null,1,Jun,1855,Ladies Manor,Haverford,MD,null,null,null,null,William Hutchins,null,-76.95581,39.49316
+Jones,Samuel,null,M,null,null,1,Jun,1855,Ladies Manor,Haverford,MD,null,null,null,null,William Hutchins,null,-76.95581,39.49316
+Taylor,Jacob,null,M,20,B,11,Apr,1858,Baltimore,Washington,MD,null,null,null,null,William J.B. Parlett,50 in State/200 Out,-76.60926,39.29058
+Wells,Jack,null,M,null,B,null,null,1857,null,Cecil,MD,null,null,null,null,William Knight,null,0,0
+Johnson,Joseph G.,null,M,23,B,null,null,1860,Baltimore,Baltimore,MD,null,null,null,null,William Jones,null,-76.60926,39.29058
+Slater,Samuel,Patterson Smith,M,30,B,3,Apr,1854,Power Bridge,null,MD,null,X,null,null,William Martin,null,-75.77216,38.69428
+Gross,Albert,null,M,20,null,null,null,1859,null,Cecil,MD,null,null,null,null,William Price,null,0,0
+White,George,null,M,null,null,null,null,1860,null,Cecil,MD,null,null,null,null,William Parker,null,0,0
+White,Albert,null,M,null,null,null,null,1860,null,Cecil,MD,null,null,null,null,William Parker,null,0,0
+Airs,Sarah,null,F,25,null,26,Oct,1854,null,Worcester,MD,null,null,null,Foot,William Purnell,null,0,0
+Crummel,Henry,null,M,25,null,18,Jul,1855,Goughingstown,Baltimore,MD,null,null,null,null,William Roberts,null,0,0
+Mahoney,Matilda,null,F,21,null,24,May,1854,Frederick,Frederick,MD,null,null,null,null,William Reigard,null,-77.41203,39.41574
+Cromwell,Henry,null,M,25,B,null,Jun,1855,Baltimore,Baltimore,MD,null,null,null,null,William Roberts,null,-76.60926,39.29058
+Stewart,James,William Jackson,M,21,null,26,Apr,1854,null,Fauguer,VA,null,null,null,null,William Rose,null,0,0
+Grigby,Barnaby,John Boyer,M,26,M,24,Dec,1855,Alder,Loudon,VA,null,null,X,Horse & Carriage,William Rogers,null,-77.07192,38.2743
+Chambers,Henry,James Green,M,24,B,30,Jan,1856,Sassafras Neck,Cecil,MD,null,null,null,Foot,William Rybold,null,-75.80258,39.3732
+Fall,Samuel,John Henry,M,21,B,null,Jan,1856,null,null,MD,null,null,null,Foot,William Rybold,null,0,0
+Johnson,James,null,M,null,null,9,Apr,1856,Deer Creek,Harford,MD,null,null,null,null,William Raulty,null,-76.45885,39.04011
+Wright,John,null,M,30,B,null,null,1857,null,Sussex,MD,null,null,null,null,William S. Phelps,null,0,0
+Pennington,Jake,null,M,null,null,null,May,1854,Washington,null,DC,null,null,null,null,William Rigard,null,-77.03196,38.89037
+Johnson,Harriet,Harriet Gilbert,F,25,null,28,Jul,1856,null,Prince Georges,MD,null,null,null,null,William T. Wood,null,0,0
+Scott,Winfield,null,M,null,null,4,Jul,1856,Norfolk,Norfolk,VA,null,null,null,Schooner,William Taylor,null,-76.28514,36.84686
+Seymour,Elijah,null,M,34,B,4,Jul,1856,Norfolk,Norfolk,VA,null,null,null,Schooner,William Taylor,null,-76.28514,36.84686
+Lee,Lewis,null,M,25,M,null,null,1859,Fairfax,Fairfax,VA,null,null,null,null,William Watkins,null,-77.30905,38.84185
+Kelly,Mary,Charlotte Spriggs,F,null,null,7,Apr,1853,Baltimore,Baltimore,MD,null,null,null,null,William Watkins,null,-76.60926,39.29058
+Smith,Thomas,null,M,null,null,22,Aug,1857,Washington,null,DC,null,null,null,null,William Rowe,100,-77.03196,38.89037
+Henderson,Eliza,null,F,28,B,null,null,1858,Richmond,Henrico,VA,null,null,null,null,William Waverton,null,-77.43367,37.54068
+Davis,Gordon,John Canon,M,31,null,2,Nov,1854,Cedar Neck,Charles,MD,null,null,null,null,William Watson,null,-75.94377,39.60846
+Brown,Charles,null,M,25,B,null,null,null,Sandy Hook,Harford,MD,null,null,null,Foot,William Wheeling,null,-77.69815,39.32865
+Light,Solomon,null,M,23,null,null,null,1857,Cambridge,Dorchester,MD,null,null,null,null,Willis Branick,null,-76.07806,38.56312
+Robinson,John,null,M,null,null,1,Jan,1855,"Black Bird, Newcastle",null,MD,null,null,null,null,William Wilson,null,-75.66061,39.37056
+Pennington,Peter,null,M,25,B,15,Nov,1856,Easton,Talbot,MD,null,null,null,null,Wright,800,-76.07475,38.7739
+Lee,William,null,M,27,M,null,null,1857,null,null,MD,null,null,null,null,Zecharia Merica,null,0,0
+Belle,Jim,null,M,26,B,null,null,1857,Upper Marlboro,Prince Georges,MD,null,null,null,null,Zachariah Berry,100,-76.7506,38.81857
+Weems,null,null,null,1,null,null,Jul,1857,Washington,null,DC,X,null,null,null,null,null,-77.03196,38.89037
+Weems,Arrah,null,F,null,null,null,Jul,1857,Washington,null,DC,null,null,null,null,null,null,-77.03196,38.89037
+Gibson,John Wesley,null,M,28,M,22,Nov,1854,Taylor's Mount,null,MD,null,null,null,Foot,William Y. Day,null,-76.51818,39.57469
+Matthews,Peter,Samuel Sparrows,M,35,B,7,Oct,1855,Oak Hill,Fairfax,VA,null,null,X,null,William S. Matthews,null,-77.40156,38.9258
+Dade,Henry,null,M,25,null,null,null,1857,Washington,Washington,DC,null,null,null,null,null,null,-77.03196,38.89037
+Thompson,Hannah Jane,null,F,null,null,12,Dec,1853,null,Sussex,DE,null,null,null,null,null,null,0,0
+Dade,John,null,M,20,null,null,null,1857,Washington,Washington,DC,null,X,null,null,null,null,-77.03196,38.89037
+Harris,Charlotte,null,F,null,null,20,Jul,1853,Wilmington,New Castle,DE,null,null,null,null,null,null,-75.55084,39.74023
+Garrison,Thomas,null,M,9,null,20,July,1853,Wilmington,New Castle,DE,X,null,null,null,null,null,-75.55084,39.74023
+Garrison,William H.,null,M,null,null,20,July,1853,Wilmington,New Castle,DE,null,null,null,null,null,null,-75.55084,39.74023
+Unidentified,null,null,null,null,null,null,null,1859,Washington,null,DC,X,null,null,null,null,null,-77.03196,38.89037
+Unidentified,null,null,null,2,null,null,null,1859,Washington,null,DC,X,null,null,null,null,null,-77.03196,38.89037
+Mountain,null,null,null,1,null,null,null,1858,null,null,DE,X,null,null,null,null,null,0,0
+Oberne,Henry,null,M,21,B,null,null,1857,Seaford,Sussex,DE,null,null,null,Foot,null,null,-75.60905,38.64374
+Mountain,Ann,null,F,22,null,null,null,1858,null,null,DE,null,null,null,null,null,null,0,0
+Bolden,Andrew,null,M,18,null,null,null,null,Newark,New Castle,DE,null,null,null,null,null,null,-75.76162,39.67819
+Davis,Edward,null,M,null,null,12,Mar,1854,Savannah,Chatham,GA,null,null,null,Steamship,null,null,-81.09119,32.08091
+Wilson,Thomas,null,M,null,null,8,Feb,1853,null,null,MD,null,null,null,null,null,null,0,0
+Moore,George,null,M,null,null,1,Mar,1853,Cantwells Bridge,null,DE,null,null,null,null,null,null,-75.66132,39.45733
+Unidentified,null,null,M,17,null,16,Aug,1853,Eastern Shore,null,MD,X,null,null,null,null,null,-80.1356,25.9337
+Unidentified,null,null,M,null,null,6,Jan,1853,null,null,MD,null,null,null,null,null,null,0,0
+Unidentified,null,null,M,null,null,6,Jan,1853,null,null,MD,null,null,null,null,null,null,0,0
+Purnell,Irvin,null,M,null,null,31,Jan,1853,Eastern Shore,null,MD,null,null,null,null,null,null,-80.1356,25.9337
+Houston,Maria Jane,null,F,21,B,null,Aug,1855,Cantwell's Bridge,New Castle,DE,null,null,null,null,null,null,-75.66132,39.45733
+Thompson,null,null,null,null,null,22,Jul,1853,Baltimore,Baltimore,MD,X,null,null,null,null,null,-76.60926,39.29058
+Thompson,Elizabeth,null,F,null,null,22,Jul,1853,Baltimore,Baltimore,MD,null,null,null,null,null,null,-76.60926,39.29058
+Hamlet,Mark,Thomas Goff,M,null,null,27,Oct,1853,Retirement,null,MD,null,null,null,null,null,null,0,0
+Scott,John,Levis Duncans,M,22,null,3,Oct,1853,null,Haverford,MD,null,null,null,null,null,null,0,0
+Gibbs,null,null,M,null,null,31,Mar,1853,Greensbury,null,MD,X,null,null,null,null,null,-77.56783,39.6842
+Gibbs,null,null,M,null,null,31,Mar,1853,Greensbury,null,MD,X,null,null,null,null,null,-77.56783,39.6842
+Brown,John W.,null,M,null,null,10,Sept,1853,Baltimore,Baltimore,MD,null,null,null,null,null,null,-76.60926,39.29058
+Gibbs,James,null,M,null,null,31,Mar,1853,Greensbury,null,MD,null,null,null,null,null,null,-77.56783,39.6842
+Albert,James,null,M,null,null,null,null,1853,Eastern Shore,null,MD,null,null,null,null,null,null,-80.1356,25.9337
+Walters,Mary,null,F,18,null,26,Jul,1854,null,null,MD,null,null,null,null,null,null,0,0
+Unidentified,null,null,F,null,null,24,Aug,1854,Baltimore,Baltimore,MD,null,null,null,null,null,null,-76.60926,39.29058
+Spencer,John,null,M,null,null,null,null,1853,Eastern Shore,null,MD,null,null,null,Foot,null,null,-80.1356,25.9337
+Spencer,William,null,M,null,null,null,null,1853,Eastern Shore,null,MD,null,null,null,Foot,null,null,-80.1356,25.9337
+Pembrooke,Jacob,null,M,19,null,24,May,1854,Sharpsburg,Washington,MD,null,null,null,null,null,null,-77.74644,39.45885
+Belt,Robert,Charles Williams,M,29,null,15,Nov,1854,Baltimore,Baltimore,MD,null,null,null,null,null,null,-76.60926,39.29058
+Pembrooke,Robert,null,M,17,null,24,May,1854,Sharpsburg,Washington,MD,X,null,null,null,null,null,-77.74644,39.45885
+Pembrooke,Stephen,null,M,45,null,24,May,1854,Sharpsburg,Washington,MD,null,null,null,null,null,null,-77.74644,39.45885
+Cale,Ellen,Sarah Johnson,F,18,null,15,Nov,1854,Baltimore,Baltimore,MD,null,null,null,null,null,null,-76.60926,39.29058
+Cale,Mary,Jane Johnson,F,16,null,15,Nov,1854,Baltimore,Baltimore,MD,X,null,null,null,null,null,-76.60926,39.29058
+Smith,Nathaniel,John Hutchins,M,24,null,15,Nov,1854,Baltimore,Baltimore,MD,null,null,null,null,null,null,-76.60926,39.29058
+Davis,John,Adams,M,null,null,14,Sept,1854,Baltimore,Baltimore,MD,null,null,null,null,null,null,-76.60926,39.29058
+Hooper,Henry,null,M,19,null,6,Dec,1855,null,null,MD,null,null,null,null,null,null,0,0
+Curtis,Mary,null,F,19,B,10,Dec,1855,Baltimore,Baltimore,MD,null,null,null,null,null,null,-76.60926,39.29058
+Cornish,Henrietta,null,F,null,null,11,Dec,1855,Eastern Shore,null,MD,null,null,null,null,null,null,-80.1356,25.9337
+Cornish,Delia,null,F,null,null,11,Dec,1855,Eastern Shore,null,MD,null,null,null,null,null,null,-80.1356,25.9337
+Jones,Fenton,null,M,null,null,10,Dec,1855,Frederick,Frederick,MD,null,null,null,null,null,null,-77.41203,39.41574
+Unidentified,null,null,M,null,null,10,Dec,1855,Chestertown,Kent,MD,null,null,null,Horse & Wagon,null,null,-76.06615,39.2131
+Unidentified,null,null,M,null,null,10,Dec,1855,Chestertown,Kent,MD,null,null,null,Horse & Wagon,null,null,-76.06615,39.2131
+Jones,Henry,null,M,19,null,12,Nov,1855,null,null,MD,null,null,null,null,null,null,0,0
+Robinson,Mary Ann,null,F,19,null,1,Jan,1855,"Black Bird, Newcastle",null,MD,null,null,null,null,null,null,-75.66061,39.37056
+Shepherd,Anna Maria,null,F,null,null,8,Nov,1855,Chestertown,Kent,MD,X,null,null,Horse & Carriage,null,null,-76.06615,39.2131
+Shepherd,Edwin,null,M,null,null,8,Nov,1855,Chestertown,Kent,MD,X,null,null,Horse & Carriage,null,null,-76.06615,39.2131
+Shepherd,Eliza Jane,null,F,null,null,8,Nov,1855,Chestertown,Kent,MD,X,null,null,Horse & Carriage,null,null,-76.06615,39.2131
+Shepherd,Harriet,null,F,null,null,8,Nov,1855,Chestertown,Kent,MD,null,null,null,Horse & Carriage,null,null,-76.06615,39.2131
+Shepherd,John Henry,null,M,null,null,8,Nov,1855,Chestertown,Kent,MD,X,null,null,Horse & Carriage,null,null,-76.06615,39.2131
+Scott,Samuel,null,M,null,null,null,Dec,1855,Cecil Cross Roads,null,MD,null,null,null,null,null,null,-75.86744,39.404
+Clark,Emily,null,F,null,null,1,Oct,1855,null,null,MD,null,null,null,null,null,null,0,0
+Freeman,Mary Jane,null,F,null,null,1,Oct,1855,null,null,MD,null,null,null,null,null,null,0,0
+Williams,John,null,M,25,null,6,Oct,1855,null,null,MD,null,null,null,null,null,null,0,0
+Unidentified,null,null,null,null,null,null,Apr,1856,null,null,MD,null,null,null,null,null,null,0,0
+Unidentified,null,null,null,null,null,null,Apr,1856,null,null,MD,null,null,null,null,null,null,0,0
+Unidentified,null,null,null,null,null,null,Apr,1856,null,null,MD,null,null,null,null,null,null,0,0
+Shepherd,Mary Ann,null,F,null,null,8,Nov,1855,Chestertown,Kent,MD,X,null,null,Horse & Carriage,null,null,-76.06615,39.2131
+Unidentified,null,null,null,null,null,null,Apr,1856,null,null,MD,null,null,null,null,null,null,0,0
+Jones,Margaret,null,F,null,null,31,Oct,1855,Baltimore,Baltimore,MD,null,null,null,null,null,null,-76.60926,39.29058
+Graves,Caroline,Julia Little,F,40,null,16,Jan,1856,null,null,MD,null,X,null,null,null,null,0,0
+Anderson,George,null,M,null,null,null,Jul,1856,Elkton,Cecil,MD,null,null,null,Schooner,null,null,-75.83041,39.60923
+Bell,Anna,null,F,null,null,12,Jun,1856,null,null,MD,null,null,null,null,null,null,0,0
+Taylor,null,null,null,null,null,null,Mar,1856,Haggerstown,Washington,MD,X,null,null,Horse & Carriage,null,null,-77.71758,39.6425
+Taylor,Edward,null,M,null,null,null,Mar,1856,Haggerstown,Washington,MD,X,null,null,Horse & Carriage,null,null,-77.71758,39.6425
+Taylor,null,null,null,null,null,null,Mar,1856,Haggerstown,Washington,MD,X,null,null,Horse & Carriage,null,null,-77.71758,39.6425
+Taylor,null,null,F,null,null,null,Mar,1856,Haggerstown,Washington,MD,null,null,null,Horse & Carriage,null,null,-77.71758,39.6425
+Slcum,Jesse,null,M,24,null,16,May,1856,null,Dorchester,MD,null,null,null,null,null,null,0,0
+Tubman,Harriet,null,F,null,null,null,May,1856,null,null,MD,null,null,null,null,null,null,0,0
+Unidentified,null,null,M,null,null,13,May,1856,null,null,MD,null,null,null,null,null,null,0,0
+Taylor,Mary Ann,null,F,null,null,null,Mar,1856,Haggerstown,Washington,MD,null,null,null,Horse & Carriage,null,null,-77.71758,39.6425
+Unidentified,null,null,M,null,null,13,May,1856,null,null,MD,null,null,null,null,null,null,0,0
+Unidentified,null,null,M,null,null,13,May,1856,null,null,MD,null,null,null,null,null,null,0,0
+Unidentified,null,null,M,null,null,13,May,1856,null,null,MD,null,null,null,null,null,null,0,0
+Nokey,Eliza,null,F,null,null,15,Nov,1856,Easton,Talbot,MD,null,null,null,null,null,null,-76.07475,38.7739
+Predo,Henry,null,M,27,B,null,Mar,1857,Bucktown,Dorchester,MD,null,null,null,Foot,null,3000,-76.05248,38.45695
+null,William,null,M,25,B,17,Oct,1857,Cambridge,Dorchester,MD,null,null,null,Foot,null,null,-76.07806,38.56312
+Amby,Lizzy,null,F,28,B,17,Oct,1857,Cambridge,Dorchester,MD,null,null,null,Foot,null,300 in state,-76.07806,38.56312
+Anthony,Adam,null,M,null,null,24,Oct,1857,Cambridge,Dorchester,MD,X,null,null,Foot,null,null,-76.07806,38.56312
+Anthony,Kit,null,M,23,null,24,Oct,1857,Cambridge,Dorchester,MD,null,X,X,Foot,null,null,-76.07806,38.56312
+Anthony,Leah,null,F,28,null,24,Oct,1857,Cambridge,Dorchester,MD,null,null,X,Foot,null,null,-76.07806,38.56312
+Peaker,Thomas,null,M,null,null,14,May,1856,Georget'n Crossroads,Kent,MD,null,null,null,null,null,null,-88.71499,30.8856
+Anthony,Mary Ellen,null,F,null,null,24,Oct,1857,Cambridge,Dorchester,MD,X,null,null,Foot,null,null,-76.07806,38.56312
+Saunders,Henry,null,M,null,null,14,May,1856,Georget'n Crossroads,Kent,MD,null,null,null,null,null,null,-88.71499,30.8856
+Anthony,Murray,null,M,null,null,24,Oct,1857,Cambridge,Dorchester,MD,X,null,null,Foot,null,null,-76.07806,38.56312
+Dutton,Marshall,null,M,null,null,24,Oct,1857,Cambridge,Dorchester,MD,null,null,null,null,null,null,-76.07806,38.56312
+Hill,null,null,F,null,null,24,Oct,1857,Cambridge,Dorchester,MD,null,null,null,Foot,null,null,-76.07806,38.56312
+Dobson,Henrietta,null,F,null,null,17,Oct,1857,Cambridge,Dorchester,MD,null,null,null,Foot,null,null,-76.07806,38.56312
+Hill,Alice,null,F,null,M,24,Oct,1857,Cambridge,Dorchester,MD,null,null,null,Foot,null,null,-76.07806,38.56312
+Hill,Henry,null,M,null,null,24,Oct,1857,Cambridge,Dorchester,MD,X,null,null,Foot,null,null,-76.07806,38.56312
+Hill,Joe,null,M,null,B,24,Oct,1857,Cambridge,Dorchester,MD,null,null,X,Foot,null,1000 in state/2000 out,-76.07806,38.56312
+Light,George,null,M,null,null,24,Oct,1857,Cambridge,Dorchester,MD,null,null,null,Foot,null,null,-76.07806,38.56312
+Peters,Hannah,null,F,null,null,17,Oct,1857,Cambridge,Dorchester,MD,null,null,null,Foot,null,null,-76.07806,38.56312
+Scott,John,null,M,null,null,17,Oct,1857,Cambridge,Dorchester,MD,null,null,null,Foot,null,null,-76.07806,38.56312
+Viney,null,null,M,9 mos,null,24,Oct,1857,Cambridge,Dorchester,MD,X,null,null,Foot,null,null,-76.07806,38.56312
+Viney,null,null,M,8,null,24,Oct,1857,Cambridge,Dorchester,MD,X,null,null,Foot,null,null,-76.07806,38.56312
+Stephenson,Mary,null,F,20,B,null,null,1857,null,Caroline,MD,null,null,null,null,null,null,0,0
+Viney,null,null,M,null,null,24,Oct,1857,Cambridge,Dorchester,MD,X,null,null,Foot,null,null,-76.07806,38.56312
+Perry,Anna,null,F,19,B,null,null,1857,Hoopesville,Dorchester,MD,null,null,null,null,null,null,-76.18293,38.26493
+Viney,null,null,F,null,null,24,Oct,1857,Cambridge,Dorchester,MD,X,null,null,Foot,null,null,-76.07806,38.56312
+Christy,Jack,null,M,null,null,null,null,1858,Belleair,Harford,MD,null,null,null,null,null,null,-76.1719,39.22261
+Archer,Sam,null,M,30,null,null,null,1860,Belleiar,Harford,MD,null,null,null,null,null,null,-82.80373,27.93516
+Woofley,Lavina,null,F,null,null,null,null,1857,Cambridge,Dorchester,MD,null,null,null,Foot,null,null,-76.07806,38.56312
+Quinn,William,null,M,22,B,null,null,1859,Tapps' Neck,null,MD,null,null,null,null,null,null,0,0
+Burkett,Elizabeth,null,F,null,null,null,null,1860,Kunkletown,Worcester,MD,null,null,null,Boat,null,null,-75.44676,40.84827
+Purnell,John,null,M,null,null,null,null,1860,Kunkletown,Worcester,MD,null,null,null,Boat,null,null,-75.44676,40.84827
+Burkett,Henry,null,M,null,null,null,null,1860,Kunkletown,Worcester,MD,null,null,null,Boat,null,null,-75.44676,40.84827
+Burton,Hale,null,M,null,null,null,null,1860,Kunkletown,Worcester,MD,null,null,null,Boat,null,null,-75.44676,40.84827
+Unidentified,null,null,null,null,null,null,null,1860,null,Frederick,MD,null,null,null,null,null,null,0,0
+Unidentified,null,null,null,null,null,null,null,1860,null,Frederick,MD,null,null,null,null,null,null,0,0
+Sipple,Mary Ann,null,F,null,null,null,null,1860,Kunkletown,Worcester,MD,null,null,null,Boat,null,null,-75.44676,40.84827
+Sipple,Thomas,null,M,null,null,null,null,1860,Kunkletown,Worcester,MD,null,null,null,Boat,null,null,-75.44676,40.84827
+Unidentified,null,null,null,null,null,null,null,1860,null,Frederick,MD,null,null,null,null,null,null,0,0
+Unidentified,null,null,null,null,null,null,null,1860,null,Frederick,MD,null,null,null,null,null,null,0,0
+Ringgold,Charles,null,M,19,null,null,null,null,Perrymanville,Cecil,MD,null,null,null,null,null,null,-76.2044,39.46955
+Ellis,Mary,Mary Jones,F,null,null,6,Oct,1853,null,null,NC,null,null,null,null,null,null,0,0
+Thomas,Joseph,null,M,null,null,null,null,null,null,Prince Georges,MD,null,null,null,null,null,null,0,0
+Ellis,William,John Jones,M,null,null,6,Oct,1853,null,null,NC,null,null,null,null,null,null,0,0
+Spence,Arthur,null,M,24,null,23,Mar,1856,null,null,NC,null,null,null,Schooner,null,null,0,0
+Brown,Louisa,null,F,16,M,null,null,null,Baltimore,Baltimore,MD,X,null,null,Foot,null,null,-76.60926,39.29058
+Gorham,Henry,null,M,34,B,null,Nov,1856,null,null,NC,null,null,null,Schooner,null,null,0,0
+Anderson,Henry,William Anderson,M,25,B,null,null,null,Beaufort,Carteret,NC,null,null,null,Foot,null,null,-76.66004,34.7192
+Monroe,James,null,M,null,null,21,Jul,1856,South End,Camden,NC,null,null,null,Schooner,null,null,-93.26211,31.12963
+Shepherd,Andrew,null,M,26,null,null,Nov,1856,South End,Camden,NC,null,null,null,Schooner,null,null,-93.26211,31.12963
+Foster,Henry,null,M,null,null,27,Jul,1853,Richmond,Henrico,VA,null,null,null,null,null,null,-77.43367,37.54068
+Burrell,James,W. Boural,M,32,M,11,Mar,1853,Williamsburg,James City,VA,null,null,null,null,null,null,-76.71029,37.27569
+Briston,John,Charles Steward,M,34,null,25,Oct,1853,Richmond,Henrico,VA,null,null,null,null,null,null,-77.43367,37.54068
+Atkins,William Henry,null,M,28,M,23,Apr,1854,Richmond,Henrico,VA,null,X,null,Steamer,null,null,-77.43367,37.54068
+Johnson,Sarah,null,F,null,null,19,Jun,1854,Norfolk,Norfolk,VA,null,null,null,null,null,null,-76.28514,36.84686
+Unidentified,null,null,M,7,null,1,Dec,1854,Richmond,Henrico,VA,X,null,null,Steamer,null,null,-77.43367,37.54068
+Hodges,Henry,null,M,25,null,1,Aug,1855,Norfolk,Norfolk,VA,null,null,null,null,null,null,-76.28514,36.84686
+Hill,Simon,null,M,25,B,29,Aug,1855,null,null,VA,null,null,null,null,null,null,0,0
+Clayton,Levinia,null,F,null,null,12,Jun,1854,Petersburg,Dinwiddle,VA,null,null,null,null,null,null,-77.40348,37.22815
+Payne,David,null,M,null,null,24,May,1854,Richmond,Henrico,VA,null,null,null,null,null,null,-77.43367,37.54068
+"Hall, Jr.",Joseph,null,M,null,null,null,Jan,1855,Norfolk,Norfolk,VA,null,null,null,null,null,null,-76.28514,36.84686
+Bohm,Henry,null,M,25,null,30,Jul,1855,Norlf,Norfolk,VA,null,null,null,null,null,null,0,0
+Thomas,William,null,M,null,null,22,Jun,1855,Norfolk,Norfolk,VA,null,null,null,Schooner,null,null,-76.28514,36.84686
+Baker,Henry,Charles Lightfoot,M,null,null,13,Mar,1855,Norfolk,Norfolk,VA,null,null,null,null,null,null,-76.28514,36.84686
+Jenkins,null,null,null,35,null,13,Mar,1855,Norfolk,Norfolk,VA,null,null,null,null,null,null,-76.28514,36.84686
+Brown,John,null,M,null,null,20,Nov,1855,Norfolk,Norfolk,VA,null,null,null,Schooner,null,null,-76.28514,36.84686
+Foster,James,null,M,null,null,20,Nov,1855,Norfolk,Norfolk,VA,null,null,null,Schooner,null,null,-76.28514,36.84686
+Freeman,Thomas,null,M,null,null,20,Nov,1855,Norfolk,Norfolk,VA,null,null,null,Schooner,null,null,-76.28514,36.84686
+Gardener,Nathaniel,null,M,null,null,20,Nov,1855,Norfolk,Norfolk,VA,null,null,null,Schooner,null,null,-76.28514,36.84686
+Gault,Phyllis,null,F,30,M,20,Nov,1855,Norfolk,Norfolk,VA,null,null,null,Schooner,null,null,-76.28514,36.84686
+Haines,Francis,null,M,null,null,20,Nov,1855,Norfolk,Norfolk,VA,null,null,null,Schooner,null,null,-76.28514,36.84686
+Anderson,James,null,M,7,null,17,Jan,1855,Petersburg,Dinwiddie,VA,X,null,null,null,null,null,-77.40348,37.22815
+Johnson,David,null,M,null,null,20,Nov,1855,Norfolk,Norfolk,VA,null,null,null,Schooner,null,null,-76.28514,36.84686
+Jones,Alice,null,F,null,null,20,Nov,1855,Norfolk,Norfolk,VA,null,null,null,Schooner,null,null,-76.28514,36.84686
+Munson,Alexander,Samuel Garrett,M,18,B,null,Dec,1855,Martinsburg,Henry,VA,null,null,null,null,null,null,-77.96477,39.45641
+Little,Nancy,null,F,null,null,20,Nov,1855,Norfolk,Norfolk,VA,null,null,null,Schooner,null,null,-76.28514,36.84686
+Scott,Godfrey,null,M,null,null,20,Nov,1855,Norfolk,Norfolk,VA,null,null,null,Schooner,null,null,-76.28514,36.84686
+Smith,John,null,M,null,null,20,Nov,1855,Norfolk,Norfolk,VA,null,null,null,Schooner,null,null,-76.28514,36.84686
+Teamour,Thomas,null,M,null,null,20,Nov,1855,Norfolk,Norfolk,VA,null,null,null,Schooner,null,null,-76.28514,36.84686
+Vaughn,Michael,William Brown,M,31,B,20,Nov,1855,Norfolk,Norfolk,VA,null,X,null,Schooner,null,null,-76.28514,36.84686
+Wilson,Ned,null,M,null,null,20,Nov,1855,Norfolk,Norfolk,VA,null,null,null,Schooner,null,null,-76.28514,36.84686
+Wilson,Sarah E.,null,F,null,null,20,Nov,1855,Norfolk,Norfolk,VA,null,null,null,Schooner,null,null,-76.28514,36.84686
+Wilson,Willis,null,M,null,null,20,Nov,1855,Norfolk,Norfolk,VA,null,null,null,Schooner,null,null,-76.28514,36.84686
+Edwards,William,null,M,22,null,31,Oct,1855,Alexandria,Fairfax,VA,null,null,null,null,null,null,-77.04341,38.8046
+Graham,Jane,Eliza Washington,F,24,null,16,Jan,1856,Alexandria,Fairfax,VA,null,null,null,Foot,null,null,-77.04341,38.8046
+Bird,Mary,null,F,null,null,4,Jul,1856,Norfolk,Norfolk,VA,null,null,null,Schooner,null,null,-76.28514,36.84686
+Hill,Hezekiah,null,M,30,null,1,Dec,1856,Petersburg,Dinwiddle,VA,null,null,null,Steamer,null,null,-77.40348,37.22815
+Cooper,Thomas,null,M,null,null,null,Jul,1856,Portsmouth,Norfolk,VA,null,null,null,null,null,null,-76.29771,36.83273
+Gray,Henry,null,M,12,M,4,Jul,1856,Portsmouth,Norfolk,VA,X,null,null,Schooner,null,null,-76.29771,36.83273
+Gray,Mary,null,F,14,M,4,Jul,1856,Portsmouth,Norfolk,VA,X,null,null,Schooner,null,null,-76.29771,36.83273
+Gray,Sophia,null,F,33,M,4,Jul,1856,Portsmouth,Norfolk,VA,null,null,null,Schooner,null,null,-76.29771,36.83273
+Knight,Mary,null,F,26,B,4,Jul,1856,Norfolk,Norfolk,VA,null,null,null,Schooner,null,null,-76.28514,36.84686
+null,Isaiah,null,M,null,null,7,Sept,1855,Tanner's Creek,Norfolk,VA,null,null,null,Skiff,null,null,-76.25022,36.91737
+Lewey,Rebecca,null,F,28,null,4,Jul,1856,Norfolk,Norfolk,VA,null,null,null,Schooner,null,null,-76.28514,36.84686
+Anderson,Jonas,null,M,null,null,7,Sept,1855,Tanner's Creek,Norfolk,VA,null,null,null,null,null,null,-76.25022,36.91737
+Taylor,Harriet,null,F,null,null,4,Jul,1856,Norfolk,Norfolk,VA,null,null,null,Schooner,null,null,-76.28514,36.84686
+Walker,null,null,F,38,null,4,Jul,1856,Norfolk,Norfolk,VA,null,null,null,Schooner,null,null,-76.28514,36.84686
+Thompson,Charles,null,M,null,null,null,Jul,1856,Portsmouth,Norfolk,VA,null,null,null,Schooner,null,null,-76.29771,36.83273
+Thompson,Charity,null,F,12,null,null,Jul,1856,Portsmouth,Norfolk,VA,X,null,null,Schooner,null,null,-76.29771,36.83273
+Bowser,Nathaniel,null,M,null,null,null,July,1856,Portsmouth,Norfolk,VA,null,null,null,Schooner,null,null,-76.29771,36.83273
+Robinson,Isaiah,null,M,23,M,23,Mar,1856,Norfolk,Norfolk,VA,null,null,null,Schooner,null,250,-76.28514,36.84686
+Parker,Thomas,null,M,null,null,14,May,1856,Norfolk,Norfolk,VA,null,null,null,null,null,null,-76.28514,36.84686
+Thompson,William Henry,null,M,24,B,14,May,1856,Norfolk,Norfolk,VA,null,null,null,null,null,null,-76.28514,36.84686
+Unidentified,null,null,F,null,null,31,May,1856,Leesburg,Loudon,VA,null,null,null,Horse & Carriage,null,null,-77.56578,39.1158
+Unidentified,null,null,F,10,null,31,May,1856,Leesburg,Loudon,VA,X,null,null,Horse & Carriage,null,null,-77.56578,39.1158
+null,Isabella,null,F,null,null,null,Oct,1856,Portsmouth,Norfolk,VA,null,null,null,null,null,null,-76.29771,36.83273
+Pugh,Anthony,null,M,null,null,24,Oct,1857,Portsmouth,Norfolk,VA,null,null,null,Skiff,null,null,-76.29771,36.83273
+Robinson,Daniel,null,M,null,null,23,Mar,1856,Petersburg,Norfolk,VA,null,null,null,Schooner,null,null,-77.40348,37.22815
+Pugh,Isabella,null,F,null,null,24,Oct,1857,Portsmouth,Norfolk,VA,null,null,null,Skiff,null,null,-76.29771,36.83273
+Maddison,Wiley,null,M,19,null,null,Nov,1856,Petersburg,Dinwiddle,VA,null,null,null,Schooner,null,null,-77.40348,37.22815
+Naylor,William,null,M,null,null,6,June,1857,Richmond,Henrico,VA,null,null,null,Steamer,null,null,-77.43367,37.54068
+Derrix,null,null,F,null,null,null,null,1857,Alexandria,Fairfax,VA,null,null,null,null,null,null,-77.04341,38.8046
+Bowen,John,null,M,null,null,17,Dec,1853,null,null,null,null,null,null,null,null,null,0,0
+Johnson,Helen,null,F,null,null,2,Sept,1853,null,null,null,null,null,null,null,null,null,0,0
+Jones,William,null,M,null,null,14,Feb,1854,null,null,null,null,null,null,null,null,null,0,0
+Hill,James,null,M,21,null,null,null,1861,Richmond,Henrico,VA,null,null,null,Steamer,null,null,-77.43367,37.54068
+Green,Samuel,null,M,null,null,11,Dec,1855,null,null,null,null,null,null,null,null,null,0,0
+Unidentified,null,null,M,null,null,1,Nov,1855,null,null,null,null,null,null,null,null,null,0,0
+Newton,Isaac,null,M,30,null,null,null,null,Richmond,Henrico,VA,null,null,null,null,null,null,-77.43367,37.54068
+Unidentified,null,null,M,null,null,1,Nov,1855,null,null,null,null,null,null,null,null,null,0,0
+Unidentified,null,null,F,null,null,1,Nov,1855,null,null,null,null,null,null,null,null,null,0,0
+Unidentified,null,null,F,null,null,1,Nov,1855,null,null,null,null,null,null,null,null,null,0,0
+Unidentified,null,null,F,null,null,1,Nov,1855,null,null,null,null,null,null,null,null,null,0,0
+Jeffries,Mary,null,F,null,null,29,Jan,1856,null,null,null,null,null,null,null,null,null,0,0
+Redden,Mary,null,F,null,null,29,Jan,1856,null,null,null,null,null,null,null,null,null,0,0
+Redden,Sarah,null,F,null,null,29,Jan,1856,null,null,null,null,null,null,null,null,null,0,0
+Cale,null,null,F,null,null,25,Mar,1856,null,null,null,null,null,null,null,null,null,0,0
+Cale,David,null,M,null,null,25,Mar,1856,null,null,null,null,null,null,null,null,null,0,0
+Cole,null,null,F,null,null,23,Mar,1856,null,null,null,null,null,null,null,null,null,0,0
+David,Cole,null,M,null,null,23,Mar,1856,null,null,null,null,null,null,Schooner,null,null,0,0
+Page,Thomas,null,M,18,null,23,Mar,1856,null,null,null,null,X,null,Schooner,null,null,0,0
+,,,,,,,,,,,,,,,,,,0,0
+"The abolitionist William Still organized this data as he aided freedom seekers in Philadelphia. Most records can be found in his 1872 book, The Underground Railroad. Some names are listed in ""Journal C,"" an unpublished manuscript at the Historical Societ","Still's data was later compiled by James A. McGowan and William C. Kashatus and published in William C. Kashatus, William Still: The Underground Railroad and the Angel at Philadelphia (University of Notre Dame Press, 2021).",Data converted to Microsoft Excel Spreadsheet by Public Historian Nick Sacco. Email: pastexplore@gmail.com,,,,,,,,,,,,,,,,0,0
+,,,,,,,,,,,,,,,,,,0,0
+,,,,,,,,,,,,,,,,,,0,0
+Henry,James,null,M,32,null,null,null,1857,null,Kent,null,null,null,null,null,null,null,0,0
+Turner,Samuel,null,M,null,null,null,null,1857,null,null,null,null,null,null,null,null,null,0,0
+Frisley,James Alfred,null,M,24,B,null,null,null,null,null,null,null,null,null,Foot,null,null,0,0

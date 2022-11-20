@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="../favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <title>Letti Campo Data Visualization Fall 2022 Final Project</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src="d3.js"></script>
+<style>
+
+@import url('https://fonts.cdnfonts.com/css/menlo');
+
+    body { 
+        font-size:12px;
+          margin:20;
+          color:#000;
+          position:fixed;
+          top:0;right:0;bottom:0;left:0px;
+          font-family: 'Menlo', sans-serif;
+          background-color: #fefae6;
+       	}
+        #navbar {
+          position: fixed;
+          z-index: 100;
+          right: 20px;
+          top: 20px;
+        }
+        a {
+          text-decoration: none; 
+          color:black;
+        }
+        a:hover {
+          font-weight: bolder;
+        }
+        #container {
+          position: relative;
+          z-index: 90;
+        }
+        .panel {
+          width: 40%;
+          padding-left: 30px;
+          padding-right: 30px;
+          padding-top: 25vh;
+          padding-bottom: 25vh;
+          background-color: rgb(254, 250, 230, 0.9);
+        }
+        .panel:first-child {
+          padding-top:30vh;
+        }
+        .panel:last-child {
+          padding-bottom: 45vh;
+        }
+
+        div.tooltip {
+          position: absolute;
+          text-align: left;
+          padding: .5rem;
+          background: #fefae6;
+          color: #313639;
+          border: 1px solid #000000;
+          pointer-events: none;
+          font-size: 10px;
+        }
+
+</style>
+</head>
+<body>
+<div id="navbar"><a href="scroller.html">Home.</a> &ensp; <a href="data.html">Data.</a></div>
+<div id="sticky"></div>
+
+
+<div id="container" style="height: 100vh; overflow: scroll">
+    <div id="content">
+
+    </div>
+</div>
+
+<script>
+</script>
+    <script src="explore.js"></script>
+</body>
+</html> 

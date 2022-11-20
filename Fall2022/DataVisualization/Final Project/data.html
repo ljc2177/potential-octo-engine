@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="../favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <title>Letti Campo Data Visualization Fall 2022 Final Project</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src="d3.js"></script>
+<style>
+
+@import url('https://fonts.cdnfonts.com/css/menlo');
+
+    body { 
+        font-size:12px;
+          margin:20;
+          color:#000;
+          position:fixed;
+          top:0;right:0;bottom:0;left:0px;
+          font-family: 'Menlo', sans-serif;
+          background-color: #fefae6;
+       	}
+        #navbar {
+          position: fixed;
+          z-index: 100;
+          right: 20px;
+          top: 20px;
+        }
+        a {
+          text-decoration: none; 
+          color:black;
+        }
+        a:hover {
+          font-weight: bolder;
+        }
+        #container {
+          position: relative;
+          z-index: 90;
+        }
+        .panel {
+          width: 40%;
+          padding-left: 30px;
+          padding-right: 30px;
+          padding-top: 25vh;
+          padding-bottom: 25vh;
+          background-color: rgb(254, 250, 230, 0.9);
+        }
+        .panel:first-child {
+          padding-top:30vh;
+        }
+        .panel:last-child {
+          padding-bottom: 45vh;
+        }
+
+</style>
+</head>
+<body>
+<div id="navbar"><a href="explore.html">Explore.</a> &ensp; <a href="scroller.html">Home.</a></div>
+<div id="sticky"></div>
+
+
+<div id="container" style="height: 100vh; overflow: scroll">
+    <div id="content">
+        <div class="panel">
+            <h1>Data Sources</h1>
+            <p>Eric Celeste. “GeoJSON and KML Data for the United States.” Accessed November 18, 2022. <a href="https://eric.clst.org/tech/usgeojson/" style="text-decoration: underline;">https://eric.clst.org/tech/usgeojson/</a>.</p>
+            <p>“The Underground Railroad - US History GeoInquiries™ - Overview.” Accessed November 18, 2022. <a href="https://www.arcgis.com/home/item.html?id=07ad623092b24a05b86d6a340ba27cfd" style="text-decoration: underline;">https://www.arcgis.com/home/item.html?id=07ad623092b24a05b86d6a340ba27cfd</a>.</p>
+            <p>“Uncovering William Still’s Underground Railroad | Historical Society of Pennsylvania.” Accessed November 18, 2022. <a href="https://hsp.org/history-online/digital-history-projects/uncovering-william-stills-underground-railroad" style="text-decoration: underline;">https://hsp.org/history-online/digital-history-projects/uncovering-william-stills-underground-railroad</a>.</p>
+            <p>“What Is the Underground Railroad? - Underground Railroad (U.S. National Park Service).” Accessed November 18, 2022. <a href="https://www.nps.gov/subjects/undergroundrailroad/what-is-the-underground-railroad.htm" style="text-decoration: underline;">https://www.nps.gov/subjects/undergroundrailroad/what-is-the-underground-railroad.htm</a>.</p>
+            <p>“William Still – National Underground Railroad Freedom Center.” Accessed November 18, 2022. <a href="https://freedomcenter.org/heroes/william-still/" style="text-decoration: underline;">https://freedomcenter.org/heroes/william-still/</a>.</p>
+            <p>“William Still’s National Significance · William Still: An African-American Abolitionist.” Accessed November 18, 2022. <a href="http://stillfamily.library.temple.edu/exhibits/show/william-still/historical-perspective/william-still---s-national-sig" style="text-decoration: underline;">http://stillfamily.library.temple.edu/exhibits/show/william-still/historical-perspective/william-still---s-national-sig</a>.</p>
+        </div>
+    </div>
+</div>
+
+<script>
+</script>
+</body>
+</html> 

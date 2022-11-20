@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="../favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <title>Letti Campo Data Visualization Fall 2022 Final Project</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src="d3.js"></script>
+<style>
+
+@import url('https://fonts.cdnfonts.com/css/menlo');
+
+    body { 
+        font-size:12px;
+          margin:20;
+          color:#000;
+          position:fixed;
+          top:0;right:0;bottom:0;left:0px;
+          font-family: 'Menlo', sans-serif;
+          background-color: #fefae6;
+       	}
+        #navbar {
+          position: fixed;
+          z-index: 100;
+          right: 20px;
+          top: 20px;
+        }
+        a {
+          text-decoration: none; 
+          color:black;
+        }
+        a:hover {
+          font-weight: bolder;
+        }
+        #container {
+          position: relative;
+          z-index: 90;
+        }
+        #sticky { 
+          position: absolute; 
+          top: 0; 
+          right: 0;
+          width: 100%;
+          height:100%;
+          z-index: 50;
+        }
+        .panel {
+          width: 40%;
+          padding-left: 30px;
+          padding-right: 30px;
+          padding-top: 25vh;
+          padding-bottom: 25vh;
+          background-color: rgb(254, 250, 230, 0.9);
+        }
+        .panel:first-child {
+          padding-top:30vh;
+        }
+        .panel:last-child {
+          padding-bottom: 45vh;
+        }
+
+</style>
+</head>
+<body>
+<div id="navbar"><a href="explore.html">Explore.</a> &ensp; <a href="data.html">Data.</a></div>
+<div id="sticky"></div>
+
+
+<div id="container" style="height: 100vh; overflow: scroll">
+    <div id="content">
+            <div class="panel">
+            <h1>William Still and the Underground Railroad</h1>
+            <p>Born in Burlington County, New Jersey in 1821, William Still was an abolitionist movement leader who assisted hundreds of enslaved Africans in escaping from slavery along the Underground Railroad. 
+              The youngest of eighteen children, he was raised by his father, Levin Steel, who purchased his own freedom, and his mother Charity Still, who escaped her enslaver on her second try. 
+              Despite established laws prohibiting Blacks, and especially enslaved Africans, from learning to read and to write, out of resistance Still taught himself these skills.
+              He went on to use these skills to document those he helped escape in his self-published book <i>The Underground Railroad</i>, the only first person account of the Underground Railroad written and self-published by an African American. 
+              Through his book, we are able to recognize those who he helped and visualize the true impact of his work.</p>
+            </div>
+
+            <div class="panel">
+              <h1>The Underground Railroad</h1>
+              <p>The Underground Railroad began as a series of paths to freedom for those escaping bondage which later became a robust network of resources for enslaved African Americans to gain their freedom. 
+                While many freedom seekers began their journey unaided and many completed their self-emancipation without assistance, this network was integral to the successful freedom of countless individuals. 
+                Beginning informally, after the Fugitive Slave Act of 1850, the Underground Railroad became deliberate and organized. 
+                Despite the illegality of their participation in this network, people of all backgrounds participated in this civil disobedience. 
+                Those escaping bondage traveled by land and see, by foot and by vehicle, to locations all over the world--such as Canada, Mexico, Spanish Florida, Indian territory, the West, Caribbean islands and Europe-- in order to gain their freedom.
+                Those who attempted to escape faced great personal risk, as did those who assisted these individuals on their journeys, but they took on this risk in the name of freedom and justice for all. 
+              </p>
+            </div>
+
+            <div class="panel">
+              <h1>William Still</h1>
+              <p>William Still was the chairman of Philadelphia's Vigilance Committee, an essential hub of antislavery activity.</p>
+            </div>
+
+            <div class="panel">
+            <h1>Origins</h1>
+            <p>In total, Still helped over 990 individuals from all across the Southern US on their travels along the Underground Railroad.</p>
+            <img src="book_excerpt.jpg" style="width: 90%">
+            </div>
+
+            <div class="panel">
+            <h1>Timeline</h1>
+            <p>His documentation spans from 1953 through at least 1961.</p>
+            </div>
+
+            <div class="panel">
+              <h1>Transportation</h1>
+              <p>Traveling hundreds of miles, many traveled by foot, steamer, and rickshaw.</p>
+            </div>
+  
+            <div class="panel">
+              <h1>Enslavers</h1>
+              <p>Many were escaping the save enslavers, with the top enslaver being ____.</p>
+            </div>
+
+            <div class="panel">
+            <h1>Breakdowns</h1>
+            <p>Of these individuals, XX% were women,...</p>
+            </div>
+
+            <div class="panel">
+            <p>XX% traveled with children,...</p>
+            </div>
+
+            <div class="panel">
+            <p>##% were classified as "literate",...</p>
+            </div>
+
+            <div class="panel">
+            <p>##% were armed,...</p>
+            </div>
+
+            <div class="panel">
+            <p>XX% had a documented reward posted for their capture,...</p>
+            </div>
+
+            <div class="panel">
+              <p>and XX% were captured.</p>
+            </div>
+
+
+            <div class="panel">
+              <h1>Freedom</h1>
+              <p>As a result of his bravery, William Still helped change the lives of countless individuals, and his commitment to learning and documentation allow us to continue to recognize his lasting contributions to our nation's history today.</p>
+            </div>
+    </div>
+</div>
+
+<script>
+</script>
+    <script src="animation.js"></script>
+</body>
+</html> 
