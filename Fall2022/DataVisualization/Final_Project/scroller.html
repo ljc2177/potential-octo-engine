@@ -3,7 +3,6 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="../favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <title>Letti Campo Data Visualization Fall 2022 Final Project</title>
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
     <script src="d3.js"></script>
@@ -12,8 +11,8 @@
 @import url('https://fonts.cdnfonts.com/css/menlo');
 
     body { 
-        font-size:12px;
-          margin:20;
+          font-size:12px;
+          margin:0px;
           color:#000;
           position:fixed;
           top:0;right:0;bottom:0;left:0px;
@@ -54,7 +53,7 @@
           background-color: rgb(254, 250, 230, 0.9);
         }
         .panel:first-child {
-          padding-top:30vh;
+          padding-top:35vh;
         }
         .panel:last-child {
           padding-bottom: 45vh;
@@ -63,7 +62,7 @@
 </style>
 </head>
 <body>
-<div id="navbar"><a href="explore.html">Explore.</a> &ensp; <a href="data.html">Data.</a></div>
+<div id="navbar"><a href="explore.html">Explore.</a> &ensp; <a href="data.html">Sources.</a></div>
 <div id="sticky"></div>
 
 
@@ -71,79 +70,107 @@
     <div id="content">
             <div class="panel">
             <h1>William Still and the Underground Railroad</h1>
-            <p>Born in Burlington County, New Jersey in 1821, William Still was an abolitionist movement leader who assisted hundreds of enslaved Africans in escaping from slavery along the Underground Railroad. 
-              The youngest of eighteen children, he was raised by his father, Levin Steel, who purchased his own freedom, and his mother Charity Still, who escaped her enslaver on her second try. 
+            <p>Born in Burlington County, New Jersey in 1821, William Still was an abolitionist movement leader who assisted hundreds of enslaved Africans in escaping from slavery along the Underground Railroad.
               Despite established laws prohibiting Blacks, and especially enslaved Africans, from learning to read and to write, out of resistance Still taught himself these skills.
               He went on to use these skills to document those he helped escape in his self-published book <i>The Underground Railroad</i>, the only first person account of the Underground Railroad written and self-published by an African American. 
-              Through his book, we are able to recognize those who he helped and visualize the true impact of his work.</p>
+              Through his book, we are able to visualize those who he helped and recognize the true impact of his work.</p>
             </div>
 
             <div class="panel">
               <h1>The Underground Railroad</h1>
-              <p>The Underground Railroad began as a series of paths to freedom for those escaping bondage which later became a robust network of resources for enslaved African Americans to gain their freedom. 
+              <p>The Underground Railroad began as a series of common paths to freedom for those escaping bondage, and later became a robust network of resources for enslaved African Americans to gain their freedom. 
                 While many freedom seekers began their journey unaided and many completed their self-emancipation without assistance, this network was integral to the successful freedom of countless individuals. 
-                Beginning informally, after the Fugitive Slave Act of 1850, the Underground Railroad became deliberate and organized. 
+                Beginning informally, after the Fugitive Slave Act of 1850 the Underground Railroad became deliberate and organized. 
                 Despite the illegality of their participation in this network, people of all backgrounds participated in this civil disobedience. 
-                Those escaping bondage traveled by land and see, by foot and by vehicle, to locations all over the world--such as Canada, Mexico, Spanish Florida, Indian territory, the West, Caribbean islands and Europe-- in order to gain their freedom.
+                Those escaping bondage traveled by land and see, by foot and by vehicle, to locations all over the world--including Canada, Mexico, and Europe-- in order to gain their freedom.
                 Those who attempted to escape faced great personal risk, as did those who assisted these individuals on their journeys, but they took on this risk in the name of freedom and justice for all. 
               </p>
             </div>
 
             <div class="panel">
               <h1>William Still</h1>
-              <p>William Still was the chairman of Philadelphia's Vigilance Committee, an essential hub of antislavery activity.</p>
+              <p>William Still was born in 1821 as the youngest of eighteen children by Levin and Charity Still. 
+                Both parents born into slavery, Still's father purchased his own freedom, and his mother escaped her enslaver on her second try. 
+                In 1844, he moved to Philadelphia and in 1847 married Letitia George, with whom he went on to have four children.
+                Also in 1847, Still was hired as clerk for the Pennsylvania Society for the Abolition of Slavery.  
+                With the passage of the Fugitive Slave Act of 1850, Still was appointed the chairman of Philadelphia's Vigilance Committee, an essential hub of antislavery activity.</p>
             </div>
 
             <div class="panel">
             <h1>Origins</h1>
-            <p>In total, Still helped over 990 individuals from all across the Southern US on their travels along the Underground Railroad.</p>
+            <p>In total, Still helped over 990 individuals from all across the Southern US on their travels along the Underground Railroad.
+              This dataset recognizes 995 freedom-seekers he helped and documented in his book.
+            </p>
             <img src="book_excerpt.jpg" style="width: 90%">
             </div>
 
             <div class="panel">
             <h1>Timeline</h1>
-            <p>His documentation spans from 1953 through at least 1961.</p>
+            <p>Spanning from 1853 through 1861, Still's records help us uncover some of the travel patterns of the Underground Railroad.
+              Notably, Still recorded helping the most individuals seek freedom in 1857.
+              Additionally, beginning in 1855, the total number of freedom-seekers peak in November and December and experience a sharp decline in January and February.
+            </p>
+            <img src="years.png" style="width: 45%">
+            <img src="seasonality.png" style="width: 45%">
             </div>
 
             <div class="panel">
               <h1>Transportation</h1>
-              <p>Traveling hundreds of miles, many traveled by foot, steamer, and rickshaw.</p>
+              <p>
+                Traveling hundreds of miles, this journey was not easy.
+                Transportation methods noted by Still include boat, carriage, foot, horseback, railroad, scooner, skiff, and steamer.</p>
             </div>
   
             <div class="panel">
               <h1>Enslavers</h1>
-              <p>Many were escaping the save enslavers, with the top enslaver being ____.</p>
+              <p>Still also documented the enslaver from which each individual was escaping.
+                Notably, many were escaping the same enslavers, and this dataset helps identify who those individuals were.
+                </p>
             </div>
 
             <div class="panel">
             <h1>Breakdowns</h1>
-            <p>Of these individuals, XX% were women,...</p>
+            <p>
+              Finally, we are also able to identify general trends in freedom-seekers using this dataset.
+              </p>
+              <p>
+              Of these individuals, 24% were women,...</p>
             </div>
 
             <div class="panel">
-            <p>XX% traveled with children,...</p>
+            <p>11% traveled with children,...</p>
             </div>
 
             <div class="panel">
-            <p>##% were classified as "literate",...</p>
+            <p>only 7% were classified as "literate",...</p>
             </div>
 
             <div class="panel">
-            <p>##% were armed,...</p>
+            <p>only 3% were armed,...</p>
             </div>
 
             <div class="panel">
-            <p>XX% had a documented reward posted for their capture,...</p>
+            <p>and 6% had a documented reward posted for their capture.</p>
             </div>
 
             <div class="panel">
-              <p>and XX% were captured.</p>
+              <h1>Hale Burton</h1>
+              <p>One freedom-seeker documented by Still was Hale Burton.
+                In 1860, Hale fled Kunkletown, MD (Worcester County) with fellow freedom-seekers Henry Burkett & Elizabeth Burkett, Thomas Sipple & Mary Ann Sipple, and John Purnell.
+                With a total of thirty dollars between them, the group purchased a small vessel for six dollars and began their journey to Philadelphia, PA.  
+                En route, they encountered a group of white men who attempted to overtake their boat.  
+                Despite being unarmed, the freedom-seekers defended their vessel and continued on.
+                Eventually, the group landed on an island off the coast of Cape May, New Jersey. 
+                Here, they used the rest of their money to have the captain of an oyster boat to take them to Philadelphia.  
+                With the captain's help, they all arrived safely in Philadelphia, where they were forwarded to another agent of the Underground Railroad in Elmira, John W. Jones.  
+                A letter from John W. Jones to Still dated June 6, 1860, details their successful arrival.
+              </p>
             </div>
-
 
             <div class="panel">
               <h1>Freedom</h1>
-              <p>As a result of his bravery, William Still helped change the lives of countless individuals, and his commitment to learning and documentation allow us to continue to recognize his lasting contributions to our nation's history today.</p>
+              <p>As a result of his bravery, William Still helped change the lives of countless individuals.
+                His further commitment to documentation allows us to continue to recognize his lasting contributions to our nation's history today.</p>
             </div>
     </div>
 </div>
