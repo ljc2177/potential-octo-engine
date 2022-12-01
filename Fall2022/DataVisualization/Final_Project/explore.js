@@ -8,7 +8,7 @@ var h = window.innerHeight
 var svg = d3.select("#sticky")
     .append("svg")
     .attr("width", w)
-    .attr("height", h)       
+    .attr("height", h-50)       
     
 var div = d3.select("body").append("div")
     .attr("class", "tooltip")
@@ -32,6 +32,8 @@ Promise.all([d3.json(geoPath),d3.json(geoRoutes),d3.csv(geoPoints),d3.csv(unkPoi
     drawPaths(rts, geo) 
     drawOrigins(pts,geo, "green")
     locationUk(dot)
+    drawPhilly(geo,pts)
+    drawPhlText(geo,pts)
 });
 
 //map, UGRR, and original points drawing
@@ -40,7 +42,7 @@ function drawPaths(rts, geo){
     var padding = 50
 
     var projection = d3.geoMercator()
-        .fitExtent([[-150,100],[w,h-padding]],geo)
+        .fitExtent([[-1450,-350],[w,h+150]],geo)
 
     var path = d3.geoPath()
             .projection(projection)
@@ -53,11 +55,55 @@ function drawPaths(rts, geo){
         
 }
 
+function drawPhilly(geo,pts){
+    var padding = 50
+    
+    var projection = d3.geoMercator()
+        .fitExtent([[-1450,-350],[w,h+150]],geo)
+    
+    svg.selectAll(".phl")
+        .data(pts)
+        .enter()
+        .append("circle")
+        .attr("cx",function(){            
+            return projection([-75.165222,39.952583])[0]
+        })
+        .attr("cy",function(){
+            return projection([-75.165222,39.952583])[1]
+        })
+        .attr("r",4)
+        .attr("fill", "white")
+        .attr("class", "phl")
+        .style('opacity', 1)
+}
+
+function drawPhlText(geo,pts){
+    var padding = 50
+    
+    var projection = d3.geoMercator()
+        .fitExtent([[-1450,-350],[w,h+150]],geo)
+    
+    svg.selectAll(".ptext")
+        .data(pts)
+        .enter()
+        .append("text")
+        .attr("x",function(){            
+            return projection([-78.230694,39.952583])[0]
+        })
+        .attr("y",function(){
+            return projection([-78.230694,39.952583])[1]
+        })
+        .text("Philadelphia, PA")
+        .attr("fill","white")
+        .attr("class", "ptext")
+        .style('opacity', 1)
+}
+
 function drawOrigins(pts,geo,color){
     var padding = 50
     
     var projection = d3.geoMercator()
-        .fitExtent([[-150,100],[w,h-padding]],geo)
+        .fitExtent([[-1450,-350],[w,h+150]],geo)
     
     svg.selectAll(".origins")
         .data(pts)
@@ -74,7 +120,7 @@ function drawOrigins(pts,geo,color){
         .attr("r",3)
         .attr("fill", color)
         .attr("class", "origins")
-        .style('opacity', 1)
+        .style('opacity', 0.5)
 
         //create hover info
         .on('mouseover', function (d, i) {
@@ -87,8 +133,8 @@ function drawOrigins(pts,geo,color){
                     .style("opacity", 1);
             let txt = ("<b>Name:</b> "+ d.Fname +" "+ d.Lname +"<br><b>Alias: </b>"+d.Alias+"<br><b>Gender: </b>"+d.Gender+"<br><b>Age: </b>"+d.Age+"<br><b>Color: </b>"+d.Color+"<br><b>Date: </b>"+d.FullDate+"<br><b>From: </b>"+d.CityState+"<br>"+d.County+"<br><b>Traveling with Children: </b>"+d.Children+"<br><b>Literate: </b>"+d.Literate+"<br><b>Armed: </b>"+d.Armed+"<br><b>Transportation: </b>"+d.Transportation+"<br><b>Enslaver: </b>"+d.Enslaver+"<br><b>Reward: </b>"+d.Reward);
             div.html(txt)
-                .style("left", (d3.event.pageX + 10) + "px")
-                .style("top", (d3.event.pageY - 15) + "px");
+                .style("left", (d3.event.pageX - 190) + "px")
+                .style("top", (d3.event.pageY - 190) + "px");
             })
         .on('mouseout', function (d, i) {
             d3.select(this).transition()
@@ -100,15 +146,13 @@ function drawOrigins(pts,geo,color){
                     .duration('50')
                     .style("opacity", 0);
             })
-        
-        console.log(pts)
 }
 
 function drawOutline(geo){
     var padding = 50
 
     var projection = d3.geoMercator()
-        .fitExtent([[-150,100],[w,h-padding]],geo)
+        .fitExtent([[-1450,-350],[w,h+150]],geo)
 
     var path = d3.geoPath()
         .projection(projection)
@@ -126,7 +170,7 @@ function locationUk(dot){
     var grid = 10
     var columns = 17
     var mt = 5*(window.innerWidth/6)
-    var ml = 2.25*(window.innerHeight/3)
+    var ml = 2.25*((window.innerHeight-50)/3)
     
     svg.selectAll(".bar")
         .data(Object.keys(dot))

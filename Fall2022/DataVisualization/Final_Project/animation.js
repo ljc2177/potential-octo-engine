@@ -1,12 +1,12 @@
-//questions for Jia:
+//Questions for crit:
 //1. what to do about dots on "explore" that are on top of one another
-//2. how to fix "transport" overlaps
-//3. why is the final panel so much taller than all others
-//4. line across map when scrolling from first panel
-//5. use html to create break in children breakdown
+// - google overlap spread
+// - create smaller dots with transparent dots overhead and generate random numbers to add to lat lng to make different
+//2. percents on gender breakdowns never add up to 100 due to math.floor/ceil... how to fix?
 
-//add unknowns
-//update citations
+
+//double check text & EVERYTHING
+
 
 //setup SVG
 
@@ -23,21 +23,24 @@ var svg = d3.select("#sticky")
     .attr("width", w)
     .attr("height", h)    
 
-//call data
+
+    //call data
 
 var geoPath = "us_states.json";
 var geoRoutes = "UGRR.geojson";
 var geoPoints = "GeoData.csv";
 var ptsBurton = "Burton.csv";
 var geoBurton = "BurUGRR.geojson";
+var unkPoints = "NoLocData.csv";
 
-Promise.all([d3.json(geoPath),d3.json(geoRoutes),d3.csv(geoPoints),d3.csv(ptsBurton),d3.json(geoBurton)])
+Promise.all([d3.json(geoPath),d3.json(geoRoutes),d3.csv(geoPoints),d3.csv(ptsBurton),d3.json(geoBurton),d3.csv(unkPoints)])
 .then(function(data) {
     var geo = data[0];
     var rts = data[1];
     var pts = data[2];
     var bur = data[3];
     var bug = data[4];
+    var dot = data[5];
     
     drawOutline(geo)
     drawPaths(rts, geo) 
@@ -47,7 +50,6 @@ Promise.all([d3.json(geoPath),d3.json(geoRoutes),d3.csv(geoPoints),d3.csv(ptsBur
     burtonPt(geo,bur)
     drawBurText(geo,bur)
     drawBUGRR(bug, geo)
-    geoTimeline(geo)
     transport()
     enslavers()
     women()
@@ -55,9 +57,67 @@ Promise.all([d3.json(geoPath),d3.json(geoRoutes),d3.csv(geoPoints),d3.csv(ptsBur
     literate()
     armed()
     reward()
+    locationUk(dot,"green")
 });
 
 //map, UGRR, and original points drawing
+
+function locationUk(dot,color){
+    var grid = 10
+    var columns = 17
+    var mt = 4.75*(window.innerWidth/6)
+    var ml = 2.25*(window.innerHeight/3)
+    
+    svg.selectAll(".bar")
+        .data(dot)
+        .enter()
+        .append("rect")
+        .attr("class","bar")
+        .attr("x",mt-20)
+        .attr("y",ml-40)
+        .attr("height",125)
+        .attr("width",200)
+        .attr("opacity",0)
+        .attr("fill","black")
+
+    svg.selectAll(".unk")
+        .data(dot)
+        .enter()
+        .append("circle")
+        .attr("cx",function(d,i){
+            return i%columns*grid
+        })
+        .attr("cy",0)
+        .attr("r",0)
+        .attr("fill",color)
+        .attr("class","unk")
+        .attr("transform","translate("+mt+","+ml+")")
+
+    d3.selectAll(".unk")
+        .each(function(d,i){
+            d3.select(this).transition().delay(i)
+            .attr("cx",function(){
+                return i%columns*grid
+            })
+            .attr("cy",function(){
+                return Math.floor(i/columns)*grid
+            })
+            .attr("r",grid/4)
+            .attr("transform","translate("+mt+","+ml+")")
+            .attr("opacity",0)
+        }) 
+
+        svg.selectAll(".unktext")
+        .data(dot)
+        .enter()
+        .append("text")
+        .attr("x",mt-3)
+        .attr("y",ml-15)
+        .text("53 Location Unknown")
+        .attr("fill",color)
+        .attr("class", "unktext")
+        .style('opacity', 0)
+}
 
 function drawPaths(rts, geo){
     var padding = 50
@@ -222,64 +282,6 @@ function drawOutline(geo){
         .attr("stroke","#fefae6")
 }
 
-//timeline drawing
-
-function geoTimeline(dataset) {
-var padding = 70;
-
-var dataset, xScale, yScale;  //Empty, for now
-
-var parseTime = d3.timeParse("%m/%e/%Y")
-
-//For converting Dates to strings
-var formatTime = d3.timeFormat("%a %B %e %Z");
-
-var rowConverter = function(d) { 
-    return { 
-    Timeline: parseTime(d.TimelineDate), 
-    }; 
-}
-
-d3.csv("GeoData.csv",rowConverter)
-    .then(function(data) {
-
-//Copy data into global dataset
-    dataset = data;
-
-//Create scale functions
-    var xScale = d3.scaleTime()
-        .domain([
-        d3.min(dataset, function(d) { return d.Timeline; }),
-        d3.max(dataset, function(d) { return d.Timeline; })
-    ])
-        .range([4*w/7+padding, w+padding]);
-
-    svg.selectAll(".tlpt")
-        .data(dataset)
-        .enter()
-        .append("circle")
-        .attr("cx", function(d) {
-            return xScale(d.Timeline)-150;
-        })
-        .attr("cy", function(d,i) {
-            return h/2-10-(i%50)*2
-        })
-        .attr("r", 2)
-        .attr("class","tlpt")
-        .attr("fill","green")
-        .attr("opacity",0)
-
-    var xAxis = d3.axisBottom()
-    .scale(xScale)
-    .ticks(7);
-
-svg.append("g")
-    .attr("class", "tlaxis")
-    .attr("transform","translate(-150,400)")
-    .attr("opacity",0)
-    .call(xAxis);
-});
-}
 
 //setup breakdowns
 
@@ -301,22 +303,22 @@ function transport() {
         st:"Steamer",
         ss:"Steamship"
     }
-    
-    var transData = {
-        bo:{total:17},
-        ca:{total:4},
-        ch:{total:1},
-        fo:{total:121},
-        fb:{total:3},
-        fc:{total:4},
-        hc:{total:22},
-        hw:{total:2},
-        ho:{total:9},
-        ra:{total:7},
-        sc:{total:79},
-        sk:{total:8},
-        st:{total:35},
-        ss:{total:1},
+
+    var groupCount = {
+        bo:2,
+        ca:3,
+        ch:4,
+        fo:9,
+        fb:10,
+        fc:11,
+        hc:13,
+        hw:14,
+        ho:15,
+        ra:16,
+        sc:19,
+        sk:20,
+        st:22,
+        ss:23,
     }
   
     var transBreak = [
@@ -381,29 +383,27 @@ function transport() {
         .attr("x",function(d,i){return i*columns*grid})
         .attr("y",function(d,i){return 100})
   
-        var offset = (columns)*grid
-  
         for(var g in groups){
-            console.log(groupLabels[groups[g]])
+            console.log(Math.ceil(groupCount[groups[g]]/columns))
         d3.selectAll(".s_"+groups[g])
           .each(function(d,i){
               d3.select(this)
               .attr("cx",function(){
-                  return i%columns*grid
+                  return i%columns*-grid
               })
               .attr("cy",function(){
-                  return Math.floor(i/columns)*grid
+                  return Math.floor(i/columns)*-grid-4
               })
-              .attr("transform","translate("+1.75*w/3+","+(50*((parseInt(g+Math.ceil(g.count/columns)))+2))+")")
+              .attr("transform","translate("+2.15*w/3+","+(19*(parseInt(g)+groupCount[groups[g]])+60)+")")
               .attr("opacity",0)
           })
-        
+
           d3.select(".text_"+groups[g])
             .text(groupLabels[groups[g]]+ ": "
             + d3.selectAll(".s_"+groups[g]).size()
             )
             .attr("x",2.25*w/3)
-            .attr("y",(50*((parseInt(g+Math.ceil(g.count/columns)))+2))+5)
+            .attr("y",(19*(parseInt(g)+groupCount[groups[g]])+60))
             .attr("class","transText")
             .attr("fill","green")
             .attr("opacity",0)
@@ -425,20 +425,6 @@ function enslavers() {
         gs:"George Shaffer",
         hm:"Hon. L. McLane",
         ds:"David Snively"
-    }
-    
-    var ensData = {
-        jb:{total:9},
-        rp:{total:7},
-        jg:{total:6},
-        wh:{total:6},
-        kl:{total:6},
-        dc:{total:6},
-        so:{total:5},
-        rh:{total:5},
-        gs:{total:5},
-        hm:{total:5},
-        ds:{total:5}
     }
   
     var ensBreak = [
@@ -500,20 +486,18 @@ function enslavers() {
         .attr("x",function(d,i){return i*columns*grid})
         .attr("y",function(d,i){return 100})
   
-        var offset = (columns)*grid
-  
         for(var g in groups){
             console.log(groupLabels[groups[g]])
         d3.selectAll(".s_"+groups[g])
           .each(function(d,i){
               d3.select(this)
               .attr("cx",function(){
-                  return i%columns*grid
+                  return i%columns*-grid
               })
               .attr("cy",function(){
-                  return Math.floor(i/columns)*grid
+                  return Math.floor(i/columns)*grid-4
               })
-              .attr("transform","translate("+1.75*w/3+","+(50*((parseInt(g+Math.ceil(g.count/columns)))+2)+65)+")")
+              .attr("transform","translate("+2.15*w/3+","+(50*((parseInt(g+Math.ceil(g.count/columns)))+2)+65)+")")
               .attr("opacity",0)
           })
         
@@ -534,20 +518,17 @@ function enslavers() {
 //women breakdown
 
 function women() {
-    var groups = ["wo","ma"]
+    var groups = ["wo","ma","uk"]
     var groupLabels = {
         wo:"Women",
-        ma:"Men"
-    }
-    
-    var womData = {
-        wo:{total:234},
-        ma:{total:733}
+        ma:"Men",
+        uk:"Unknown",
     }
   
     var womBreak = [
       {self:"wo",count:234},
-      {self:"ma",count:733}
+      {self:"ma",count:733},
+      {self:"uk",count:28}
   ]
     
     var dotData = []
@@ -607,14 +588,14 @@ function women() {
               .attr("cy",function(){
                   return Math.floor(i/columns)*grid
               })
-              .attr("transform","translate("+(offset*((parseInt(g))+1)+(2.25*window.innerWidth/5))+","+h/4+")")
+              .attr("transform","translate("+(offset*((parseInt(g))+1)+(1.9*window.innerWidth/5))+","+h/4+")")
               .attr("opacity",0)
           })
   
           d3.select(".text_"+groups[g])
-          .text(d3.selectAll(".s_"+groups[g]).size()+" "+groupLabels[groups[g]]+ " ("+Math.floor(100*(d3.selectAll(".s_"+groups[g]).size()/967))+"%)"
+          .text(d3.selectAll(".s_"+groups[g]).size()+" "+groupLabels[groups[g]]+ " ("+Math.floor(100*(d3.selectAll(".s_"+groups[g]).size()/995))+"%)"
           )
-          .attr("x",(offset*((parseInt(g))+1))+(2.25*window.innerWidth/5))
+          .attr("x",(offset*((parseInt(g))+1))+(1.9*window.innerWidth/5))
           .attr("y",h/4-10)
           .attr("fill","green")
           .attr("class","womText")
@@ -625,20 +606,13 @@ function women() {
 
 //children breakdown
 function children() {
-    var groups = ["ki","nk"]
+    var groups = ["ki"]
     var groupLabels = {
-        ki:"Traveled with Children",
-        nk:"Traveled without Children/Unknown"
-    }
-    
-    var chiData = {
-        ki:{total:114},
-        nk:{total:881}
+        ki:"Traveled with"
     }
   
     var chiBreak = [
-      {self:"ki",count:114},
-      {self:"nk",count:881}
+      {self:"ki",count:114}
   ]
     
     var dotData = []
@@ -685,8 +659,19 @@ function children() {
         .text(function(d,i){return ""})
         .attr("x",function(d,i){return i*columns*grid})
         .attr("y",function(d,i){return 100})
+
+        svg.selectAll(".chiText2")
+        .data(groups)
+        .enter()
+        .append("text")
+        .attr("class",function(d,i){
+            return "animationText text_"+d
+        })
+        .text(function(d,i){return ""})
+        .attr("x",function(d,i){return i*columns*grid})
+        .attr("y",function(d,i){return 100})
   
-        var offset = (columns+10)*grid
+        var offset = (columns+3)*grid
   
         for(var g in groups){
         d3.selectAll(".s_"+groups[g])
@@ -698,17 +683,24 @@ function children() {
               .attr("cy",function(){
                   return Math.floor(i/columns)*grid
               })
-              .attr("transform","translate("+(offset*((parseInt(g))+1)+(1.55*window.innerWidth/5))+","+h/5+")")
+              .attr("transform","translate("+(offset*((parseInt(g))+1)+(2.63*window.innerWidth/5))+","+2.25*h/5+")")
               .attr("opacity",0)
           })
   
           d3.select(".text_"+groups[g])
-          .text(d3.selectAll(".s_"+groups[g]).size()+" "+groupLabels[groups[g]]+ " ("+Math.floor(100*(d3.selectAll(".s_"+groups[g]).size()/967))+"%)"
-          )
-          .attr("x",(offset*((parseInt(g))+1))+(1.55*window.innerWidth/5)-3)
-          .attr("y",h/5-10)
+          .text(d3.selectAll(".s_"+groups[g]).size()+" "+groupLabels[groups[g]])
+          .attr("x",(offset*((parseInt(g))+1))+(2.63*window.innerWidth/5)-3)
+          .attr("y",(2.25*h/5)-25)
           .attr("fill","green")
           .attr("class","chiText")
+          .attr("opacity",0)
+
+          d3.select(".text_"+groups[g])
+          .text("Children ("+Math.floor(100*(d3.selectAll(".s_"+groups[g]).size()/995))+"%)")
+          .attr("x",(offset*((parseInt(g))+1))+(2.63*window.innerWidth/5)-3)
+          .attr("y",(2.25*h/5)-10)
+          .attr("fill","green")
+          .attr("class","chiText2")
           .attr("opacity",0)
         }
   
@@ -716,20 +708,13 @@ function children() {
 
 //literacy breakdown
 function literate() {
-    var groups = ["li","nl"]
+    var groups = ["li"]
     var groupLabels = {
-        li:"Literate",
-        nl:"Illiterate/Unknown"
-    }
-    
-    var chiData = {
-        li:{total:66},
-        nl:{total:929}
+        li:"Literate"
     }
   
     var litBreak = [
-      {self:"li",count:66},
-      {self:"nl",count:929}
+      {self:"li",count:66}
   ]
     
     var dotData = []
@@ -777,7 +762,7 @@ function literate() {
         .attr("x",function(d,i){return i*columns*grid})
         .attr("y",function(d,i){return 100})
   
-        var offset = (columns+10)*grid
+        var offset = (columns+3)*grid
   
         for(var g in groups){
         d3.selectAll(".s_"+groups[g])
@@ -789,15 +774,15 @@ function literate() {
               .attr("cy",function(){
                   return Math.floor(i/columns)*grid
               })
-              .attr("transform","translate("+(offset*((parseInt(g))+1)+(1.55*window.innerWidth/5))+","+h/6+")")
+              .attr("transform","translate("+(offset*((parseInt(g))+1)+(2.63*window.innerWidth/5))+","+2.25*h/5+")")
               .attr("opacity",0)
           })
   
           d3.select(".text_"+groups[g])
-          .text(d3.selectAll(".s_"+groups[g]).size()+" "+groupLabels[groups[g]]+ " ("+Math.floor(100*(d3.selectAll(".s_"+groups[g]).size()/967))+"%)"
+          .text(d3.selectAll(".s_"+groups[g]).size()+" "+groupLabels[groups[g]]+ " ("+Math.floor(100*(d3.selectAll(".s_"+groups[g]).size()/995))+"%)"
           )
-          .attr("x",(offset*((parseInt(g))+1))+(1.55*window.innerWidth/5)-3)
-          .attr("y",h/6-10)
+          .attr("x",(offset*((parseInt(g))+1))+(2.63*window.innerWidth/5)-3)
+          .attr("y",2.25*h/5-10)
           .attr("fill","green")
           .attr("class","litText")
           .attr("opacity",0)
@@ -808,20 +793,13 @@ function literate() {
 
 //armed breakdown
 function armed() {
-    var groups = ["ar","na"]
+    var groups = ["ar"]
     var groupLabels = {
-        ar:"Armed",
-        na:"Unarmed/Unknown"
-    }
-    
-    var armData = {
-        ar:{total:32},
-        na:{total:963}
+        ar:"Armed"
     }
   
     var armBreak = [
-      {self:"ar",count:32},
-      {self:"na",count:963}
+      {self:"ar",count:32}
   ]
     
     var dotData = []
@@ -869,7 +847,7 @@ function armed() {
         .attr("x",function(d,i){return i*columns*grid})
         .attr("y",function(d,i){return 100})
   
-        var offset = (columns+10)*grid
+        var offset = (columns+3)*grid
   
         for(var g in groups){
         d3.selectAll(".s_"+groups[g])
@@ -881,15 +859,15 @@ function armed() {
               .attr("cy",function(){
                   return Math.floor(i/columns)*grid
               })
-              .attr("transform","translate("+(offset*((parseInt(g))+1)+(1.55*window.innerWidth/5))+","+h/6+")")
+              .attr("transform","translate("+(offset*((parseInt(g))+1)+(2.63*window.innerWidth/5))+","+2.25*h/5+")")
               .attr("opacity",0)
           })
   
           d3.select(".text_"+groups[g])
-          .text(d3.selectAll(".s_"+groups[g]).size()+" "+groupLabels[groups[g]]+ " ("+Math.floor(100*(d3.selectAll(".s_"+groups[g]).size()/967))+"%)"
+          .text(d3.selectAll(".s_"+groups[g]).size()+" "+groupLabels[groups[g]]+ " ("+Math.floor(100*(d3.selectAll(".s_"+groups[g]).size()/995))+"%)"
           )
-          .attr("x",(offset*((parseInt(g))+1))+(1.55*window.innerWidth/5)-3)
-          .attr("y",h/6-10)
+          .attr("x",(offset*((parseInt(g))+1))+(2.63*window.innerWidth/5)-3)
+          .attr("y",2.25*h/5-10)
           .attr("fill","green")
           .attr("class","armText")
           .attr("opacity",0)
@@ -900,20 +878,13 @@ function armed() {
 
 //reward breakdown
 function reward() {
-    var groups = ["re","nr"]
+    var groups = ["re"]
     var groupLabels = {
-        re:"Reward Offered",
-        nr:"No/Unknown Reward"
-    }
-    
-    var rewData = {
-        re:{total:60},
-        nr:{total:935}
+        re:"Reward Offered"
     }
   
     var rewBreak = [
-      {self:"re",count:60},
-      {self:"nr",count:935}
+      {self:"re",count:60}
   ]
     
     var dotData = []
@@ -961,7 +932,7 @@ function reward() {
         .attr("x",function(d,i){return i*columns*grid})
         .attr("y",function(d,i){return 100})
   
-        var offset = (columns+10)*grid
+        var offset = (columns+3)*grid
   
         for(var g in groups){
         d3.selectAll(".s_"+groups[g])
@@ -973,24 +944,21 @@ function reward() {
               .attr("cy",function(){
                   return Math.floor(i/columns)*grid
               })
-              .attr("transform","translate("+(offset*((parseInt(g))+1)+(1.55*window.innerWidth/5))+","+h/6+")")
+              .attr("transform","translate("+(offset*((parseInt(g))+1)+(2.63*window.innerWidth/5))+","+2.25*h/5+")")
               .attr("opacity",0)
           })
   
           d3.select(".text_"+groups[g])
-          .text(d3.selectAll(".s_"+groups[g]).size()+" "+groupLabels[groups[g]]+ " ("+Math.floor(100*(d3.selectAll(".s_"+groups[g]).size()/967))+"%)"
+          .text(d3.selectAll(".s_"+groups[g]).size()+" "+groupLabels[groups[g]]+ " ("+Math.floor(100*(d3.selectAll(".s_"+groups[g]).size()/995))+"%)"
           )
-          .attr("x",(offset*((parseInt(g))+1))+(1.55*window.innerWidth/5)-3)
-          .attr("y",h/6-10)
+          .attr("x",(offset*((parseInt(g))+1))+(2.63*window.innerWidth/5)-3)
+          .attr("y",2.25*h/5-10)
           .attr("fill","green")
           .attr("class","rewText")
           .attr("opacity",0)
         }
   
 }
-
-
-//setup unknowns box
 
 
 
@@ -1050,30 +1018,6 @@ function showUGRR(color){
     .duration(1000)
     .style('opacity', 1)
     .attr("stroke",color);
-}
-
-function showTL(){
-    d3.selectAll(".tlaxis")
-    .transition()
-    .duration(1000)
-    .style('opacity', 1)
-
-    d3.selectAll(".tlpt")
-    .transition()
-    .duration(1000)
-    .style('opacity', 1)
-}
-
-function returnTL(){
-    d3.selectAll(".tlaxis")
-    .transition()
-    .duration(1000)
-    .style('opacity', 0)
-
-    d3.selectAll(".tlpt")
-    .transition()
-    .duration(1000)
-    .style('opacity', 0)
 }
 
 function showBurGeo(color){
@@ -1184,6 +1128,48 @@ function showEnsPts(){
     .style("opacity",1)
 }
 
+function showTL(){
+    d3.select(".timeline")
+    .transition()
+    .duration(2500)
+    .style("opacity",1)
+}
+
+function returnTL(){
+    d3.select(".timeline")
+    .transition()
+    .duration(1000)
+    .style("opacity",0)
+}
+
+function showKey(){
+    d3.select(".key")
+    .transition()
+    .duration(1000)
+    .style("opacity",1)
+}
+
+function returnKey(){
+    d3.select(".key")
+    .transition()
+    .duration(1000)
+    .style("opacity",0)
+}
+
+function showKey2(){
+    d3.select(".key2")
+    .transition()
+    .duration(1000)
+    .style("opacity",1)
+}
+
+function returnKey2(){
+    d3.select(".key2")
+    .transition()
+    .duration(1000)
+    .style("opacity",0)
+}
+
 function returnEnsPts(){
     svg.selectAll(".dott")
     .transition()
@@ -1230,6 +1216,11 @@ function returnWChiPts(){
     .transition()
     .duration(1000)
     .style("opacity",0)
+
+    svg.selectAll(".chiText2")
+    .transition()
+    .duration(1000)
+    .style("opacity",0)
 }
 
 function showWChiPts(){
@@ -1239,6 +1230,11 @@ function showWChiPts(){
     .style("opacity",1)
 
     svg.selectAll(".chiText")
+    .transition()
+    .duration(1000)
+    .style("opacity",1)
+
+    svg.selectAll(".chiText2")
     .transition()
     .duration(1000)
     .style("opacity",1)
@@ -1316,6 +1312,44 @@ function returnRewPts(){
     .style("opacity",0)
 }
 
+function showUnkBox(color){
+    svg.selectAll(".bar")
+    .transition()
+    .duration(4000)
+    .style("opacity",1)
+
+    svg.selectAll(".unk")
+    .transition()
+    .duration(1000)
+    .style("fill",color)
+    .style("opacity",1)
+
+    svg.selectAll(".unktext")
+    .transition()
+    .duration(1000)
+    .style("fill",color)
+    .style("opacity",1)
+}
+
+function returnUnkBox(color){
+    svg.selectAll(".bar")
+    .transition()
+    .duration(500)
+    .style("opacity",0)
+
+    svg.selectAll(".unk")
+    .transition()
+    .duration(1000)
+    .style("fill",color)
+    .style("opacity",0)
+
+    svg.selectAll(".unktext")
+    .transition()
+    .duration(1000)
+    .style("fill",color)
+    .style("opacity",0)
+}
+
 //scrolling functionality
 
 function step0(){
@@ -1323,17 +1357,25 @@ function step0(){
     showMap("black")
     showUGRR("grey")
     returnPoints("green")
+    returnUnkBox("green")
     returnPhlTxt("green")
+    returnTL()
     returnPhilly("green")
+    showKey()
+    returnKey2()
 }
 
 function step1(){
     console.log("do step1")
     showMap("black")
     returnPoints("green")
+    returnUnkBox("green")
+    returnTL()
     returnPhlTxt("green")
     showUGRR("green")
     returnPhilly("green") 
+    returnKey()
+    showKey2()
 }
 
 function step2(){
@@ -1341,33 +1383,43 @@ function step2(){
     showPhilly("green")
     showPhlTxt("green")
     returnPoints("green")
+    returnUnkBox("green")
     showUGRR("grey")
-    showMap("black")   
+    showMap("black") 
+    returnTL()
+    showKey() 
+    returnKey2() 
 }
 function step3(){
     console.log("do step3")
     showMap("black")
     showPoints("green")
+    showUnkBox("green")
     showPhilly("white")
     returnPhlTxt("green")
     showUGRR("grey")
     returnTL()
+    showKey()
 }
 function step4(){
     console.log("do step4")
     returnMap("black")
     returnPoints("green")
+    returnUnkBox("green")
     returnPhilly("white")
     returnPhlTxt("green")
     returnUGRR("grey")
     returnTransPts()
     showTL()
+    returnKey()
 }
 function step5(){
     console.log("do step5")
     returnEnsPts()
+    returnUnkBox("green")
     showTransPts()
     returnTL()
+    returnKey()
 }
 
 function step6(){
@@ -1375,6 +1427,9 @@ function step6(){
     returnTransPts()
     showEnsPts()
     returnWomPts()
+    returnTL()
+    returnUnkBox("green")
+    returnKey()
 }
 
 function step7(){
@@ -1382,59 +1437,80 @@ function step7(){
     returnEnsPts()
     returnWChiPts()
     showWomPts()
+    returnTL()
+    returnUnkBox("green")
+    returnKey()
 }
 
 function step8(){
     console.log("do step8") 
     showWChiPts()
     returnLitPts()
-    returnWomPts()   
+    returnWomPts()
+    returnTL()
+    returnUnkBox("green")
+    returnKey()   
 }
 function step9(){
     console.log("do step9")
     returnWChiPts()
     showLitPts()
     returnArmPts()
+    returnTL()
+    returnUnkBox("green")
+    returnKey()
 }
 function step10(){
     console.log("do step10")
     showArmPts()
     returnRewPts()
     returnLitPts()
+    returnTL()
+    returnUnkBox("green")
+    returnKey()
 }
 function step11(){
     console.log("do step11")
     returnMap("black") 
     showRewPts()
+    returnTL()
     returnUGRR("grey")
     returnBurton("green")
     returnBurTxt("green")
     returnBurGeo("green")
     returnPoints("white")
+    returnUnkBox("green")
     returnArmPts()
+    returnKey()
 }
 function step12(){
     console.log("do step12")
     showMap("black") 
     returnRewPts()
+    returnTL()
     showUGRR("grey")
     showPoints("white")
     returnPhilly("green")
     returnPhlTxt("green")
     showBurton("green")
+    showUnkBox("white")
     showBurGeo("green")
     showBurTxt("green")
+    showKey()
 }
 function step13(){
     console.log("do step13")
     showMap("black")
+    returnTL()
     showPoints("white")
     showPhilly("green")
     showPhlTxt("green")
     returnBurton("green")
     returnBurTxt("green")
+    showUnkBox("white")
     returnBurGeo("green")
     showUGRR("grey")
+    showKey()
 }
 
 

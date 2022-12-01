@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Letti Campo Data Visualization Fall 2022 Final Project</title>
+    <title>William Still Visualized</title>
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
     <script src="d3.js"></script>
 <style>
@@ -18,7 +18,7 @@
           top:0;right:0;bottom:0;left:0px;
           font-family: 'Menlo', sans-serif;
           background-color: #fefae6;
-       	}
+       	 }
         #navbar {
           position: fixed;
           z-index: 100;
@@ -44,6 +44,30 @@
           height:100%;
           z-index: 50;
         }
+        #imgcont { 
+          position: absolute; 
+          top: 30vh; 
+          right: 0;
+          width: 50%;
+          height:50%;
+          z-index: 60;
+        }
+        #keycont { 
+          position: absolute; 
+          top: 85vh; 
+          right: 0;
+          width: 50%;
+          height:50%;
+          z-index: 60;
+        }
+        #keycontgr { 
+          position: absolute; 
+          top: 85vh; 
+          right: 0;
+          width: 50%;
+          height:50%;
+          z-index: 60;
+        }
         .panel {
           width: 40%;
           padding-left: 30px;
@@ -56,7 +80,7 @@
           padding-top:35vh;
         }
         .panel:last-child {
-          padding-bottom: 45vh;
+          padding-bottom: 15vh;
         }
 
 </style>
@@ -64,14 +88,17 @@
 <body>
 <div id="navbar"><a href="explore.html">Explore.</a> &ensp; <a href="data.html">Sources.</a></div>
 <div id="sticky"></div>
+<div id="imgcont"><img src="Seasonality.png" style="width: 80%; opacity: 0;" class="timeline"></div>
+<div id="keycont"><img src="UGRRKey.png" style="width: 25%; opacity: 1; top:60vh;" class="key"></div>
+<div id="keycontgr"><img src="Key2.png" style="width: 25%; opacity: 0; top:60vh;" class="key2"></div>
 
 
 <div id="container" style="height: 100vh; overflow: scroll">
     <div id="content">
             <div class="panel">
             <h1>William Still and the Underground Railroad</h1>
-            <p>Born in Burlington County, New Jersey in 1821, William Still was an abolitionist movement leader who assisted hundreds of enslaved Africans in escaping from slavery along the Underground Railroad.
-              Despite established laws prohibiting Blacks, and especially enslaved Africans, from learning to read and to write, out of resistance Still taught himself these skills.
+            <p>Born in Burlington County, New Jersey in 1821, William Still was a leader of the abolitionist movement who assisted hundreds of enslaved Africans in their escape from slavery along the Underground Railroad.
+              Despite established laws prohibiting Black individuals, and especially enslaved Africans, from learning to read and to write, Still taught himself these skills out of resistance.
               He went on to use these skills to document those he helped escape in his self-published book <i>The Underground Railroad</i>, the only first person account of the Underground Railroad written and self-published by an African American. 
               Through his book, we are able to visualize those who he helped and recognize the true impact of his work.</p>
             </div>
@@ -82,59 +109,65 @@
                 While many freedom seekers began their journey unaided and many completed their self-emancipation without assistance, this network was integral to the successful freedom of countless individuals. 
                 Beginning informally, after the Fugitive Slave Act of 1850 the Underground Railroad became deliberate and organized. 
                 Despite the illegality of their participation in this network, people of all backgrounds participated in this civil disobedience. 
-                Those escaping bondage traveled by land and see, by foot and by vehicle, to locations all over the world--including Canada, Mexico, and Europe-- in order to gain their freedom.
+                Those escaping bondage traveled by land and see, by foot and by carriage, to locations all over the world--including Canada, Mexico, and Europe-- in order to gain their freedom.
                 Those who attempted to escape faced great personal risk, as did those who assisted these individuals on their journeys, but they took on this risk in the name of freedom and justice for all. 
               </p>
             </div>
 
             <div class="panel">
               <h1>William Still</h1>
-              <p>William Still was born in 1821 as the youngest of eighteen children by Levin and Charity Still. 
+              <p>William Still was as the youngest of eighteen children by Levin and Charity Still. 
                 Both parents born into slavery, Still's father purchased his own freedom, and his mother escaped her enslaver on her second try. 
-                In 1844, he moved to Philadelphia and in 1847 married Letitia George, with whom he went on to have four children.
+                In 1844, he moved to Philadelphia and in he 1847 married Letitia George, with whom he went on to have four children.
                 Also in 1847, Still was hired as clerk for the Pennsylvania Society for the Abolition of Slavery.  
                 With the passage of the Fugitive Slave Act of 1850, Still was appointed the chairman of Philadelphia's Vigilance Committee, an essential hub of antislavery activity.</p>
             </div>
 
             <div class="panel">
             <h1>Origins</h1>
-            <p>In total, Still helped over 990 individuals from all across the Southern US on their travels along the Underground Railroad.
+            <p>In total, Still helped countless individuals from all across the Southern US on their travels along the Underground Railroad.
               This dataset recognizes 995 freedom-seekers he helped and documented in his book.
             </p>
-            <img src="book_excerpt.jpg" style="width: 90%">
+            <img src="book_excerpt.jpg" style="width: 90%;">
             </div>
 
             <div class="panel">
             <h1>Timeline</h1>
-            <p>Spanning from 1853 through 1861, Still's records help us uncover some of the travel patterns of the Underground Railroad.
-              Notably, Still recorded helping the most individuals seek freedom in 1857.
-              Additionally, beginning in 1855, the total number of freedom-seekers peak in November and December and experience a sharp decline in January and February.
+            <p>Spanning from 1853 through 1861, Still's records help us uncover some of the travel patterns of the Underground Railroad:<br><br>
+              Notably, when analyzing year-by-year <i>(below)</i>, Still recorded helping the most individuals seek freedom in 1857.<br><br>
+              When looking at the data month to month <i>(right)</i>, in 1853 and 1854 there is not much measurable monthly difference in freedom-seekers.
+              But from 1855 on, the total number of freedom-seekers peak in November and December and experience a sharp decline in January and February.
             </p>
-            <img src="Years.png" style="width: 45%">
-            <img src="Seasonality.png" style="width: 45%">
+            <img src="Years.png" style="width: 75%;">
             </div>
 
             <div class="panel">
               <h1>Transportation</h1>
               <p>
                 Traveling hundreds of miles, this journey was not easy.
+                Still was able to collect transportation data from 313 out of the 995 documented freedom-seekers.
                 Transportation methods noted by Still include boat, carriage, foot, horseback, railroad, scooner, skiff, and steamer.</p>
             </div>
   
             <div class="panel">
               <h1>Enslavers</h1>
-              <p>Still also documented the enslaver from which each individual was escaping.
-                Notably, many were escaping the same enslavers, and this dataset helps identify who those individuals were.
+              <p>In the data for 65 freedom-seekers, Still also documented the enslaver from which each individual was escaping.
+                It is notable that there is not much data for this compared to the rest of the dataset.
+                Perhaps this is due to the possibility that many individuals seeking freedom might be afraid to document their enslaver.
+                <br>
+                <br>
+                Despite this, from what we do have, we can see that many freedom-seekers were escaping the same enslavers.
+                Here, we  visualize the enslavers from whom five or more freedom-seekers fled.
                 </p>
             </div>
 
             <div class="panel">
             <h1>Breakdowns</h1>
             <p>
-              Finally, we are also able to identify general trends in freedom-seekers using this dataset.
+              Finally, we are also able to identify general demographic trends using this dataset:
               </p>
               <p>
-              Of these individuals, 24% were women,...</p>
+              Of these individuals, 23% were women,...</p>
             </div>
 
             <div class="panel">
@@ -142,15 +175,16 @@
             </div>
 
             <div class="panel">
-            <p>only 7% were classified as "literate",...</p>
+            <p>only 6% were classified as "literate",...</p>
             </div>
 
             <div class="panel">
-            <p>only 3% were armed,...</p>
+            <p>only 3% were documented as being armed,...</p>
             </div>
 
             <div class="panel">
-            <p>and 6% had a documented reward posted for their capture.</p>
+            <p>and 6% had a documented reward posted for their capture. 
+              Of these, the average award offered was $332.</p>
             </div>
 
             <div class="panel">
@@ -160,7 +194,7 @@
                 With a total of thirty dollars between them, the group purchased a small vessel for six dollars and began their journey to Philadelphia, PA.  
                 En route, they encountered a group of white men who attempted to overtake their boat.  
                 Despite being unarmed, the freedom-seekers defended their vessel and continued on.
-                Eventually, the group landed on an island off the coast of Cape May, New Jersey. 
+                Eventually, the group landed on an island off the coast of Cape May, NJ. 
                 Here, they used the rest of their money to have the captain of an oyster boat to take them to Philadelphia.  
                 With the captain's help, they all arrived safely in Philadelphia, where they were forwarded to another agent of the Underground Railroad in Elmira, John W. Jones.  
                 A letter from John W. Jones to Still dated June 6, 1860, details their successful arrival.
