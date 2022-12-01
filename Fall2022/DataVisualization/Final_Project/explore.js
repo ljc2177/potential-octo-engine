@@ -133,8 +133,8 @@ function drawOrigins(pts,geo,color){
                     .style("opacity", 1);
             let txt = ("<b>Name:</b> "+ d.Fname +" "+ d.Lname +"<br><b>Alias: </b>"+d.Alias+"<br><b>Gender: </b>"+d.Gender+"<br><b>Age: </b>"+d.Age+"<br><b>Color: </b>"+d.Color+"<br><b>Date: </b>"+d.FullDate+"<br><b>From: </b>"+d.CityState+"<br>"+d.County+"<br><b>Traveling with Children: </b>"+d.Children+"<br><b>Literate: </b>"+d.Literate+"<br><b>Armed: </b>"+d.Armed+"<br><b>Transportation: </b>"+d.Transportation+"<br><b>Enslaver: </b>"+d.Enslaver+"<br><b>Reward: </b>"+d.Reward);
             div.html(txt)
-                .style("left", (d3.event.pageX - 190) + "px")
-                .style("top", (d3.event.pageY - 190) + "px");
+                .style("left", (d3.event.pageX) + "px")
+                .style("top", (d3.event.pageY - 185) + "px");
             })
         .on('mouseout', function (d, i) {
             d3.select(this).transition()
