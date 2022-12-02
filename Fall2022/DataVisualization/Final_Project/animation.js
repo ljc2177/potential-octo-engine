@@ -2,10 +2,6 @@
 //1. what to do about dots on "explore" that are on top of one another
 // - google overlap spread
 // - create smaller dots with transparent dots overhead and generate random numbers to add to lat lng to make different
-//2. percents on gender breakdowns never add up to 100 due to math.floor/ceil... how to fix?
-
-
-//double check text & EVERYTHING
 
 
 //setup SVG
@@ -593,7 +589,7 @@ function women() {
           })
   
           d3.select(".text_"+groups[g])
-          .text(d3.selectAll(".s_"+groups[g]).size()+" "+groupLabels[groups[g]]+ " ("+Math.floor(100*(d3.selectAll(".s_"+groups[g]).size()/995))+"%)"
+          .text(d3.selectAll(".s_"+groups[g]).size()+" "+groupLabels[groups[g]]+ " ("+(100*(d3.selectAll(".s_"+groups[g]).size()/995)).toFixed(1)+"%)"
           )
           .attr("x",(offset*((parseInt(g))+1))+(1.9*window.innerWidth/5))
           .attr("y",h/4-10)
@@ -696,7 +692,7 @@ function children() {
           .attr("opacity",0)
 
           d3.select(".text_"+groups[g])
-          .text("Children ("+Math.floor(100*(d3.selectAll(".s_"+groups[g]).size()/995))+"%)")
+          .text("Children ("+(100*(d3.selectAll(".s_"+groups[g]).size()/995)).toFixed(1)+"%)")
           .attr("x",(offset*((parseInt(g))+1))+(2.63*window.innerWidth/5)-3)
           .attr("y",(2.25*h/5)-10)
           .attr("fill","green")
@@ -779,7 +775,7 @@ function literate() {
           })
   
           d3.select(".text_"+groups[g])
-          .text(d3.selectAll(".s_"+groups[g]).size()+" "+groupLabels[groups[g]]+ " ("+Math.floor(100*(d3.selectAll(".s_"+groups[g]).size()/995))+"%)"
+          .text(d3.selectAll(".s_"+groups[g]).size()+" "+groupLabels[groups[g]]+ " ("+(100*(d3.selectAll(".s_"+groups[g]).size()/995)).toFixed(1)+"%)"
           )
           .attr("x",(offset*((parseInt(g))+1))+(2.63*window.innerWidth/5)-3)
           .attr("y",2.25*h/5-10)
@@ -864,7 +860,7 @@ function armed() {
           })
   
           d3.select(".text_"+groups[g])
-          .text(d3.selectAll(".s_"+groups[g]).size()+" "+groupLabels[groups[g]]+ " ("+Math.floor(100*(d3.selectAll(".s_"+groups[g]).size()/995))+"%)"
+          .text(d3.selectAll(".s_"+groups[g]).size()+" "+groupLabels[groups[g]]+ " ("+(100*(d3.selectAll(".s_"+groups[g]).size()/995)).toFixed(1)+"%)"
           )
           .attr("x",(offset*((parseInt(g))+1))+(2.63*window.innerWidth/5)-3)
           .attr("y",2.25*h/5-10)
@@ -949,7 +945,7 @@ function reward() {
           })
   
           d3.select(".text_"+groups[g])
-          .text(d3.selectAll(".s_"+groups[g]).size()+" "+groupLabels[groups[g]]+ " ("+Math.floor(100*(d3.selectAll(".s_"+groups[g]).size()/995))+"%)"
+          .text(d3.selectAll(".s_"+groups[g]).size()+" "+groupLabels[groups[g]]+ " ("+(100*(d3.selectAll(".s_"+groups[g]).size()/995)).toFixed(1)+"%)"
           )
           .attr("x",(offset*((parseInt(g))+1))+(2.63*window.innerWidth/5)-3)
           .attr("y",2.25*h/5-10)
