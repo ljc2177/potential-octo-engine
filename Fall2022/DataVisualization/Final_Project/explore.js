@@ -30,7 +30,7 @@ Promise.all([d3.json(geoPath),d3.json(geoRoutes),d3.csv(geoPoints),d3.csv(unkPoi
     
     drawOutline(geo)
     drawPaths(rts, geo) 
-    drawOrigins(pts,geo, "green")
+    drawOrigins(pts,geo, "blue")
     locationUk(dot)
     drawPhilly(geo,pts)
     drawPhlText(geo,pts)
@@ -140,7 +140,7 @@ function drawOrigins(pts,geo,color){
             d3.select(this).transition()
                     .duration('50')
                     .attr('opacity', '1')
-                    .attr("fill", "green");
+                    .attr("fill", "blue");
             //Makes the new div disappear:
             div.transition()
                     .duration('50')
@@ -192,7 +192,7 @@ function locationUk(dot){
         })
         .attr("cy",0)
         .attr("r",0)
-        .attr("fill","green")
+        .attr("fill","blue")
         .attr("class","dot")
         .attr("transform","translate("+mt+","+ml+")")
 
@@ -227,7 +227,7 @@ function locationUk(dot){
             d3.select(this).transition()
                     .duration('50')
                     .attr('opacity', '1')
-                    .attr("fill", "green");
+                    .attr("fill", "blue");
             //Makes the new div disappear:
             div.transition()
                     .duration('50')
@@ -242,7 +242,7 @@ function locationUk(dot){
         .attr("x",mt-3)
         .attr("y",ml-15)
         .text("53 Location Unknown")
-        .attr("fill","green")
+        .attr("fill","blue")
         .attr("class", "loctext")
         .style('opacity', 1)
 }

@@ -1,0 +1,4 @@
+﻿Lname,Fname,Alias,Gender,Age,Color,Day,Month,Year,Date,FullDate,City,County,State,Children,Literate,Armed,Transportation,Enslaver,Reward,CityState,Long,Lat
+Ballard,George Henry,<i>None/Unknown</i>,Male,26,<i>Unknown</i>,2,Feb,1858,Feb 1858,"February 2, 1858",null,<i>County Unknown</i>,null,No,Yes,No,<i>Unknown</i>,William Jackson,<i>None/Unknown</i>,<i>Unknown</i>,0,0
+Page,Thomas,<i>None/Unknown</i>,Male,18,<i>Unknown</i>,23,Mar,1856,Mar 1856,"March 23, 1856",null,<i>County Unknown</i>,null,No,Yes,No,Schooner,<i>Unknown</i>,<i>None/Unknown</i>,<i>Unknown</i>,0,0
+Trusty,Perry Henry,<i>None/Unknown</i>,Male,31,Black,null,null,1857,null 1857,1857,null,Caroline County,null,No,Yes,No,Foot,James Pittman,<i>None/Unknown</i>,<i>Unknown</i>,0,0
