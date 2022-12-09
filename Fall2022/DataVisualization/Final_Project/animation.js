@@ -87,6 +87,8 @@ Promise.all([d3.json(geoPath),d3.json(geoRoutes),d3.csv(geoPoints),d3.csv(ptsBur
     originsZoom(pts,geo,"white",inin)
     dotZoom(geo,bur,inin)
     bugrrZoom(bug, geo, zin)
+    drawPhlTZoom(geo,pts,inin)
+    drawZPhil(geo,pts,inin)
 });
 
 //map, UGRR, and original points drawing
@@ -659,6 +661,50 @@ function originsZoom(pts,geo,color,projection){
         .attr("r",3)
         .attr("fill", color)
         .attr("class", "zoom6")
+        .style('opacity', 0)
+}
+
+function drawZPhil(geo,pts,projection){
+    var padding = 50
+    
+    var projection = d3.geoMercator()
+        .fitExtent(projection,geo)
+    
+    svg.selectAll(".phlz")
+        .data(pts)
+        .enter()
+        .append("circle")
+        .attr("cx",function(){            
+            return projection([-75.165222,39.952583])[0]
+        })
+        .attr("cy",function(){
+            return projection([-75.165222,39.952583])[1]
+        })
+        .attr("r",4)
+        .attr("fill", "blue")
+        .attr("class", "phlz")
+        .style('opacity', 0)
+}
+
+function drawPhlTZoom(geo,pts,projection){
+    var padding = 50
+    
+    var projection = d3.geoMercator()
+        .fitExtent(projection,geo)
+    
+    svg.selectAll(".pztext")
+        .data(pts)
+        .enter()
+        .append("text")
+        .attr("x",function(){            
+            return projection([-75.080694,40.002583])[0]
+        })
+        .attr("y",function(){
+            return projection([-75.080694,40.002583])[1]
+        })
+        .text("Philadelphia, PA")
+        .attr("fill","blue")
+        .attr("class", "pztext")
         .style('opacity', 0)
 }
 
@@ -1309,6 +1355,16 @@ function zoomMap(){
     .transition()
     .duration(1000)
     .style("opacity",1);
+
+    d3.selectAll(".phlz")
+    .transition()
+    .duration(1000)
+    .style("opacity",1);
+
+    d3.selectAll(".pztext")
+    .transition()
+    .duration(1000)
+    .style("opacity",1);
 }
 
 function expandMap(){
@@ -1333,11 +1389,21 @@ function expandMap(){
         .style("opacity",0)
 
     d3.selectAll(".zoom5")
+    .transition()
+    .duration(1000)
+    .style("opacity",0);
+
+    d3.selectAll(".zoom6")
+    .transition()
+    .duration(1000)
+    .style("opacity",0);
+
+    d3.selectAll(".phlz")
         .transition()
         .duration(1000)
         .style("opacity",0)
 
-    d3.selectAll(".zoom6")
+    d3.selectAll(".pztext")
         .transition()
         .duration(1000)
         .style("opacity",0)
