@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <script src="d3.js"></script>
+    <title>Pregnant Silence</title>
+</head>
+<body>
+
+    <div class="popup" id="popup">
+		<div class="popup-content">
+			<span class="close-btn" onclick="closePopup()">&times;</span>
+			<div class="popup-text">
+				<p>As countless anti-abortion laws are passed throughout the United States, women in more and more locations are losing access to basic healthcare.</p>
+				<p>According to Bloomberg, some women might need to travel up to 552 miles round-trip to get an abortion.</p>
+                <p>To illustrate the immense impacts of these laws without putting any more women at risk, this map uses sound rather than data points to show the relationship of abortion clinics to population of women throughout the country.</p>
+                <p>Zoom in and scroll around to see where women are most at risk.</p>
+                <p>Take note of the pregnant silences.</p>
+                <p><i>Sound On</i></p>
+			</div>
+		</div>
+	</div>
+
+    <div class="sticky"></div>
+
+    <div class="title">
+        <p id="title">Pregnant Silence</p>
+    </div>
+
+    <div class="arrow-buttons">
+        <button id="up-button">&uarr;</button>
+        <button id="right-button">&rarr;</button>
+        <button id="left-button">&larr;</button>
+        <button id="down-button">&darr;</button>
+    </div>
+
+    <div class="zoom-btns">
+        <button id="zoom-in">+</button>
+        <button id="zoom-out">-</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

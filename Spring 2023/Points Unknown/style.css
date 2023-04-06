@@ -1,0 +1,142 @@
+body { 
+    background-color: #000000;
+    z-index: 1;
+    }
+
+#nav {
+    z-index: 100;
+}
+
+.zoom-btns {
+    position: fixed;
+    bottom: 2vh;
+    right: 2vw;
+    z-index: 9999;
+    }
+
+.zoom-btns button {
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+    background-color: #000000;
+    color: #ffffff;
+    text-transform: scale(1);
+    font-size: 1.5em;
+    font-weight: normal;
+    text-align: center;
+    border: 0px solid #ffffff;
+    cursor: pointer;
+    outline: none;
+    }
+
+.zoom-btns button:hover {
+    background-color: #ffffff;
+    color: #000000;
+    }
+
+.arrow-buttons {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+    z-index: 9950;
+    }
+    
+#up-button {
+    position: absolute;
+    top: 1vh;
+    left: 50%;
+    transform: translateX(-50%);
+    }
+    
+#right-button {
+    position: absolute;
+    top: 50%;
+    right: 1vw;
+    transform: translateY(-50%);
+    }
+    
+#left-button {
+    position: absolute;
+    top: 50%;
+    left: 1vw;
+    transform: translateY(-50%);
+    }
+    
+#down-button {
+    position: fixed;
+    bottom: 1vh;
+    left: 50%;
+    transform: translateX(-50%);
+    }
+    
+.arrow-buttons button {
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+    background-color: rgb(0,0,0,0);
+    color: #ffffff;
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: normal;
+    border: 0px solid #ffffff;
+    cursor: pointer;
+    outline: none;
+    margin-bottom: 10px;
+    }
+    
+.arrow-buttons button:hover {
+    background-color: #ffffff;
+    color: #000000;
+    }
+
+.title {
+        position: fixed;
+        transform: scale(1);
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        bottom: 0px;
+        left: 30px;
+        font-size: 30px;
+        color: #ffffff;
+    }
+
+.popup {
+    position: absolute;
+    display: flex;
+    top: 20%;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content {
+        vertical-align: middle;
+        text-align: center;
+        background-color: rgb(0,0,0,0.7);
+        padding: 20px;
+        border-radius: 5px;
+        border: 1px solid #ffffff;
+        max-width: 50%;
+        max-height: 80%;
+        overflow: auto;
+        text-align: center;
+        z-index: 1000000;
+    }
+    
+.close-btn {
+        position: relative;
+        color: #ffffff;
+        top: 0;
+        left: 48%;
+        padding: 10px;
+        cursor: pointer;
+    }
+    
+.popup-text {
+        font-size: 20px;
+        color: #ffffff;
+        text-align: center;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-bottom: 20px;
+    }
