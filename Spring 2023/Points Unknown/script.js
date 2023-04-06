@@ -56,7 +56,7 @@ const zoomOutBtn = document.getElementById('zoom-out');
 var sticky = document.querySelector('.sticky');
 
 zoomInBtn.addEventListener('click', () => {
-    if (sticky.style.zoom < 2.5) {
+    if (sticky.style.zoom < 5) {
     sticky.style.zoom = parseFloat(getComputedStyle(sticky).zoom) + 0.1;
     }
 });
