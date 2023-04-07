@@ -34,7 +34,7 @@ body {
     color: #000000;
     }
 
-.arrow-buttons {
+.arrows {
     position: fixed;
     top: 0;
     left: 0;
@@ -44,35 +44,35 @@ body {
     z-index: 9950;
     }
     
-#up-button {
+.up {
     position: absolute;
     top: 1vh;
     left: 50%;
     transform: translateX(-50%);
     }
     
-#right-button {
+.right {
     position: absolute;
     top: 50%;
     right: 1vw;
     transform: translateY(-50%);
     }
     
-#left-button {
+.left {
     position: absolute;
     top: 50%;
     left: 1vw;
     transform: translateY(-50%);
     }
     
-#down-button {
+.down {
     position: fixed;
     bottom: 1vh;
     left: 50%;
     transform: translateX(-50%);
     }
     
-.arrow-buttons button {
+.arrows button {
     width: 3vw;
     height: 3vw;
     border-radius: 50%;
@@ -87,7 +87,7 @@ body {
     margin-bottom: 10px;
     }
     
-.arrow-buttons button:hover {
+.arrows button:hover {
     background-color: #ffffff;
     color: #000000;
     }
