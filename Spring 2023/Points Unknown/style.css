@@ -12,7 +12,7 @@ body {
     bottom: 2vh;
     right: 2vw;
     z-index: 9999;
-    }
+}
 
 .zoom-btns button {
     width: 3vw;
@@ -27,12 +27,12 @@ body {
     border: 0px solid #ffffff;
     cursor: pointer;
     outline: none;
-    }
+}
 
 .zoom-btns button:hover {
     background-color: #ffffff;
     color: #000000;
-    }
+}
 
 .arrows {
     position: fixed;
@@ -40,38 +40,37 @@ body {
     left: 0;
     bottom: 0;
     right: 0;
-
     z-index: 9950;
-    }
-    
+}
+
 .up {
     position: absolute;
     top: 1vh;
     left: 50%;
     transform: translateX(-50%);
-    }
-    
+}
+
 .right {
     position: absolute;
     top: 50%;
     right: 1vw;
     transform: translateY(-50%);
-    }
-    
+}
+
 .left {
     position: absolute;
     top: 50%;
     left: 1vw;
     transform: translateY(-50%);
-    }
-    
+}
+
 .down {
     position: fixed;
     bottom: 1vh;
     left: 50%;
     transform: translateX(-50%);
-    }
-    
+}
+
 .arrows button {
     width: 3vw;
     height: 3vw;
@@ -85,12 +84,12 @@ body {
     cursor: pointer;
     outline: none;
     margin-bottom: 10px;
-    }
-    
+}
+
 .arrows button:hover {
     background-color: #ffffff;
     color: #000000;
-    }
+}
 
 .title {
         position: fixed;
@@ -100,7 +99,7 @@ body {
         left: 30px;
         font-size: 30px;
         color: #ffffff;
-    }
+}
 
 .popup {
     position: absolute;
@@ -122,8 +121,8 @@ body {
         overflow: auto;
         text-align: center;
         z-index: 1000000;
-    }
-    
+}
+
 .close-btn {
         position: relative;
         color: #ffffff;
@@ -131,12 +130,12 @@ body {
         left: 48%;
         padding: 10px;
         cursor: pointer;
-    }
-    
+}
+
 .popup-text {
         font-size: 20px;
         color: #ffffff;
         text-align: center;
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         margin-bottom: 20px;
-    }
+}

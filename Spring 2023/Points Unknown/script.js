@@ -27,17 +27,103 @@ var div = d3.select("body").append("div")
 var geoPath1 = "us_states.json";
 var geoPath2 = 'alaska.geojson';
 var geoPath3 = 'hawaii.geojson';
+var MLPoints = "ClinicData.csv";
+var AKPoints = "ClinicDataAK.csv";
+var HIPoints = "ClinicDataHI.csv";
 
-Promise.all([d3.json(geoPath1),d3.json(geoPath2),d3.json(geoPath3)])
+Promise.all([d3.json(geoPath1),d3.json(geoPath2),d3.json(geoPath3),d3.csv(MLPoints),d3.csv(AKPoints),d3.csv(HIPoints)])
 .then(function(data) {
     var geo1 = data[0];
     var geo2=data[1];
     var geo3=data[2];
+    var points1=data[3];
+    var points2=data[4];
+    var points3=data[5];
     
     drawOutline1(geo1)
     drawOutline2(geo2)
     drawOutline3(geo3)
+    drawPoints(points1,geo1, "blue")
+    drawAlaska(points2,geo2, "blue")
+    drawHawaii(points3,geo3, "blue")
 });
+
+// add points
+
+function drawPoints(pts,geo,color){
+    var padding = 50
+    
+    var projection = d3.geoMercator()
+        .fitExtent([[150,40],[w-80,h-80]],geo)
+    
+    svg.selectAll(".data-point")
+        .data(pts)
+        .enter()
+        .append("circle")
+        .attr("cx",function(d,i){
+            var lat = d.Lat
+            var lng = d.Long                
+            return projection([lng,lat])[0]
+        })
+        .attr("cy",function(d,i){
+            return projection([d.Long,d.Lat])[1]
+        })
+        .attr("r",3)
+        .attr("fill", color)
+        .attr("class", "data-point")
+        .attr("id","data-point")
+        .style('opacity', 1)
+}
+
+function drawAlaska(pts,geo,color){
+    var padding = 50
+    
+    var projection = d3.geoMercator()
+        .fitExtent([[120,0],[w+300,h+450]],geo)
+    
+    svg.selectAll(".data-point-ak")
+        .data(pts)
+        .enter()
+        .append("circle")
+        .attr("cx",function(d,i){
+            var lat = d.Lat
+            var lng = d.Long                
+            return projection([lng,lat])[0]
+        })
+        .attr("cy",function(d,i){
+            return projection([d.Long,d.Lat])[1]
+        })
+        .attr("r",3)
+        .attr("fill", color)
+        .attr("class", "data-point-ak")
+        .attr("id","data-point")
+        .style('opacity', 1)
+}
+
+function drawHawaii(pts,geo,color){
+    var padding = 50
+    
+    var projection = d3.geoMercator()
+        .fitExtent([[350,0],[w-850,h+450]],geo)
+    
+    svg.selectAll(".data-point-hi")
+        .data(pts)
+        .enter()
+        .append("circle")
+        .attr("cx",function(d,i){
+            var lat = d.Lat
+            var lng = d.Long                
+            return projection([lng,lat])[0]
+        })
+        .attr("cy",function(d,i){
+            return projection([d.Long,d.Lat])[1]
+        })
+        .attr("r",3)
+        .attr("fill", color)
+        .attr("class", "data-point-hi")
+        .attr("id","data-point")
+        .style('opacity', 1)
+}
 
 // draw base maps
 
@@ -285,3 +371,73 @@ document.addEventListener('touchend', (event) => {
 function updateZoom() {
     sticky.style.zoom = initialZoom;
 }
+
+
+// create data sounds
+
+document.addEventListener('click', function() {
+
+    const audioContext = new AudioContext();
+    audioContext.resume();
+
+    function playTone(){
+
+        const dataPoints = document.querySelectorAll('.data-point');
+
+        dataPoints.forEach((point,index) => {
+            const oscillatorNode = audioContext.createOscillator();
+            const gainNode = audioContext.createGain();
+
+            oscillatorNode.type = 'square'; // change to desired waveform (sine, square, sawtooth, triangle)
+            oscillatorNode.frequency.value = 400 + (index * 120); // change to desired frequency
+
+            gainNode.gain.value = 0.1; // change to desired amplitude
+
+            oscillatorNode.connect(gainNode);
+            gainNode.connect(audioContext.destination);
+
+            oscillatorNode.start();
+        })
+    }
+
+    function stopTone(){
+
+        const dataPoints = document.querySelectorAll('.data-point');
+
+        dataPoints.forEach((point,index) => {
+            oscillator.stop(audioContext.currentTime)
+        })
+    }
+
+    function getVisibleDataPoints() {
+        const visibleDataPoints = [];
+        const dataPoints = document.querySelectorAll('.data-point');
+
+        dataPoints.forEach((dataPoint) => {
+            const boundingRect = dataPoint.getBoundingClientRect();
+                if (boundingRect.top >= 0 && boundingRect.bottom <= window.innerHeight) {
+                visibleDataPoints.push(dataPoint);
+                if (!dataPoint.classList.contains('selected')) {
+                    dataPoint.classList.add('selected');
+                }
+                } else {
+                if (dataPoint.classList.contains('selected')) {
+                    dataPoint.classList.remove('selected');
+                }
+                }
+        });
+
+        return visibleDataPoints;
+    }
+
+    setInterval(function() {
+        const visibleDataPoints = getVisibleDataPoints();
+        console.log(`There are ${visibleDataPoints.length} visible data points.`);
+
+        if (visibleDataPoints.length > 0) {
+            playTone();
+        } else {
+            stopTone();
+        }
+    }, 500);
+});
