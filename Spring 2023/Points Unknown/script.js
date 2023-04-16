@@ -104,7 +104,7 @@ function drawHawaii(pts,geo,color){
     var padding = 50
     
     var projection = d3.geoMercator()
-        .fitExtent([[350,0],[w-850,h+450]],geo)
+        .fitExtent([[w/4+(50500/w),0],[(w-((w/1.55))),h*1.6]],geo)
     
     svg.selectAll(".data-point-hi")
         .data(pts)
@@ -154,7 +154,7 @@ function drawOutline2(geo){
 
     svg.append("path")
         .attr("d", path(geo))
-        .attr("class", "map")
+        .attr("class", "mapak")
         .attr("fill", "black")
         .attr("stroke","white")
 }
@@ -163,14 +163,14 @@ function drawOutline3(geo){
     var padding = 50
 
     var projection = d3.geoMercator()
-        .fitExtent([[350,0],[w-850,h+450]],geo)
+        .fitExtent([[w/4+(50500/w),0],[(w-((w/1.55))),h*1.6]],geo)
 
     var path = d3.geoPath()
         .projection(projection)
 
     svg.append("path")
         .attr("d", path(geo))
-        .attr("class", "map")
+        .attr("class", "maphi")
         .attr("fill", "black")
         .attr("stroke","white")
 }
@@ -375,69 +375,63 @@ function updateZoom() {
 
 // create data sounds
 
-document.addEventListener('click', function() {
+document.querySelector(".close-btn").addEventListener('click', function() {
 
     const audioContext = new AudioContext();
     audioContext.resume();
 
-    function playTone(){
+    function getVisibleDataPoints() {
+        const visibleDataPoints = []
+        const dataPoints = document.querySelectorAll('.data-point','.data-point-ak','.data-point-hi');
 
-        const dataPoints = document.querySelectorAll('.data-point');
+        // Loop through each data point and play a tone if it's within the viewport
+        dataPoints.forEach(dataPoint => {
+            const dataPointRect = dataPoint.getBoundingClientRect();
+            if (
+                dataPointRect.top >= (visualViewport.pageTop/sticky.style.zoom) &&
+                dataPointRect.bottom <= (visualViewport.height/sticky.style.zoom)+(visualViewport.pageTop/sticky.style.zoom) &&
+                dataPointRect.left >= (visualViewport.pageLeft/sticky.style.zoom) &&
+                dataPointRect.right <= (visualViewport.width/sticky.style.zoom)+(visualViewport.pageLeft/sticky.style.zoom)
+            ) { 
+                    visibleDataPoints.push(dataPoint)
+                } else {
 
-        dataPoints.forEach((point,index) => {
+                }
+        });
+
+        return visibleDataPoints;
+    }   
+
+    function playTone(data) {
+
+        data.forEach(() => {
             const oscillatorNode = audioContext.createOscillator();
             const gainNode = audioContext.createGain();
 
-            oscillatorNode.type = 'square'; // change to desired waveform (sine, square, sawtooth, triangle)
-            oscillatorNode.frequency.value = 400 + (index * 120); // change to desired frequency
+            oscillatorNode.type = 'sine'; // change to desired waveform (sine, square, sawtooth, triangle)
+            oscillatorNode.frequency.value = 400 + ((Math.random()* 10) * 120); // change to desired frequency
 
-            gainNode.gain.value = 0.1; // change to desired amplitude
+            gainNode.gain.value = 0.05; // change to desired amplitude
 
             oscillatorNode.connect(gainNode);
             gainNode.connect(audioContext.destination);
 
             oscillatorNode.start();
-        })
-    }
 
-    function stopTone(){
-
-        const dataPoints = document.querySelectorAll('.data-point');
-
-        dataPoints.forEach((point,index) => {
-            oscillator.stop(audioContext.currentTime)
-        })
-    }
-
-    function getVisibleDataPoints() {
-        const visibleDataPoints = [];
-        const dataPoints = document.querySelectorAll('.data-point');
-
-        dataPoints.forEach((dataPoint) => {
-            const boundingRect = dataPoint.getBoundingClientRect();
-                if (boundingRect.top >= 0 && boundingRect.bottom <= window.innerHeight) {
-                visibleDataPoints.push(dataPoint);
-                if (!dataPoint.classList.contains('selected')) {
-                    dataPoint.classList.add('selected');
-                }
-                } else {
-                if (dataPoint.classList.contains('selected')) {
-                    dataPoint.classList.remove('selected');
-                }
-                }
+            oscillatorNode.stop(audioContext.currentTime + 1);
         });
-
-        return visibleDataPoints;
     }
 
-    setInterval(function() {
+    function updateTones() {
         const visibleDataPoints = getVisibleDataPoints();
         console.log(`There are ${visibleDataPoints.length} visible data points.`);
+        console.log(visualViewport.pageTop/sticky.style.zoom,` `,visualViewport.pageLeft/sticky.style.zoom,` `,(visualViewport.height/sticky.style.zoom)+(visualViewport.pageTop/sticky.style.zoom),` `,(visualViewport.width/sticky.style.zoom)+(visualViewport.pageLeft/sticky.style.zoom));
 
         if (visibleDataPoints.length > 0) {
-            playTone();
-        } else {
-            stopTone();
+            playTone(visibleDataPoints);
         }
-    }, 500);
+    }
+
+    setInterval(updateTones, 1000);
 });
+
