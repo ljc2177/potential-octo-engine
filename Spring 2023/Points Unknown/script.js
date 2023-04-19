@@ -291,15 +291,20 @@ const zoomInBtn = document.getElementById('zoom-in');
 const zoomOutBtn = document.getElementById('zoom-out');
 
 let initialZoom = 1;
+let count = 1;
 
 zoomInBtn.addEventListener('click', () => {
     initialZoom = Math.min(initialZoom + 0.1, 6);
+    count = count + 1;
     updateZoom();
+    return count
 });
 
 zoomOutBtn.addEventListener('click', () => {
     initialZoom = Math.max(initialZoom - 0.1, 1);
+    count = count - 1;
     updateZoom();
+    return count
 });
 
 document.addEventListener('wheel', (event) => {
@@ -382,16 +387,17 @@ document.querySelector(".close-btn").addEventListener('click', function() {
 
     function getVisibleDataPoints() {
         const visibleDataPoints = []
-        const dataPoints = document.querySelectorAll('.data-point','.data-point-ak','.data-point-hi');
+        const dataPointRects = []
+        const dataPoints = document.querySelectorAll('.data-point-ak');
 
         // Loop through each data point and play a tone if it's within the viewport
         dataPoints.forEach(dataPoint => {
             const dataPointRect = dataPoint.getBoundingClientRect();
             if (
-                dataPointRect.top >= (visualViewport.pageTop/sticky.style.zoom) &&
-                dataPointRect.bottom <= (visualViewport.height/sticky.style.zoom)+(visualViewport.pageTop/sticky.style.zoom) &&
-                dataPointRect.left >= (visualViewport.pageLeft/sticky.style.zoom) &&
-                dataPointRect.right <= (visualViewport.width/sticky.style.zoom)+(visualViewport.pageLeft/sticky.style.zoom)
+                dataPointRect.top >= visualViewport.pageTop*(1-(0.1*(count-1))) &&
+                dataPointRect.bottom <= (visualViewport.pageTop*(1-(0.1*(count-1))))+(visualViewport.height*(1-(0.1*(count-1)))) &&
+                dataPointRect.left >= visualViewport.pageLeft*(1-(0.1*(count-1))) &&
+                dataPointRect.right <= (visualViewport.pageLeft*(1-(0.1*(count-1))))+(visualViewport.width*(1-(0.1*(count-1))))
             ) { 
                     visibleDataPoints.push(dataPoint)
                 } else {
@@ -411,7 +417,7 @@ document.querySelector(".close-btn").addEventListener('click', function() {
             oscillatorNode.type = 'sine'; // change to desired waveform (sine, square, sawtooth, triangle)
             oscillatorNode.frequency.value = 400 + ((Math.random()* 10) * 120); // change to desired frequency
 
-            gainNode.gain.value = 0.05; // change to desired amplitude
+            gainNode.gain.value = 0.1; // change to desired amplitude
 
             oscillatorNode.connect(gainNode);
             gainNode.connect(audioContext.destination);
@@ -425,7 +431,8 @@ document.querySelector(".close-btn").addEventListener('click', function() {
     function updateTones() {
         const visibleDataPoints = getVisibleDataPoints();
         console.log(`There are ${visibleDataPoints.length} visible data points.`);
-        console.log(visualViewport.pageTop/sticky.style.zoom,` `,visualViewport.pageLeft/sticky.style.zoom,` `,(visualViewport.height/sticky.style.zoom)+(visualViewport.pageTop/sticky.style.zoom),` `,(visualViewport.width/sticky.style.zoom)+(visualViewport.pageLeft/sticky.style.zoom));
+        console.log((visualViewport.pageLeft*(1-(0.1*(count-1))))+(visualViewport.width*(1-(0.1*(count-1)))),visualViewport.width)
+        console.log((visualViewport.pageTop*(1-(0.1*(count-1))))+(visualViewport.height*(1-(0.1*(count-1)))),visualViewport.height)
 
         if (visibleDataPoints.length > 0) {
             playTone(visibleDataPoints);
@@ -434,4 +441,3 @@ document.querySelector(".close-btn").addEventListener('click', function() {
 
     setInterval(updateTones, 1000);
 });
-
