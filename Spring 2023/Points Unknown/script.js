@@ -387,19 +387,30 @@ document.querySelector(".close-btn").addEventListener('click', function() {
 
     function getVisibleDataPoints() {
         const visibleDataPoints = []
-        const dataPointRects = []
+        const stickyBoundingRect = sticky.getBoundingClientRect();
         const dataPoints = document.querySelectorAll('.data-point-ak');
+        //&&'.data-point-hi'&&'.data-point'
 
         // Loop through each data point and play a tone if it's within the viewport
         dataPoints.forEach(dataPoint => {
             const dataPointRect = dataPoint.getBoundingClientRect();
+
+            var scaleHeight = d3.scaleLinear()
+                .domain([0, visualViewport.height])
+                .range([0, 814]);
+
+            var scaleWidth = d3.scaleLinear()
+                .domain([0, visualViewport.width])
+                .range([0, 833]);
+
             if (
-                dataPointRect.top >= visualViewport.pageTop*(1-(0.1*(count-1))) &&
-                dataPointRect.bottom <= (visualViewport.pageTop*(1-(0.1*(count-1))))+(visualViewport.height*(1-(0.1*(count-1)))) &&
-                dataPointRect.left >= visualViewport.pageLeft*(1-(0.1*(count-1))) &&
-                dataPointRect.right <= (visualViewport.pageLeft*(1-(0.1*(count-1))))+(visualViewport.width*(1-(0.1*(count-1))))
+                dataPointRect.top >= visualViewport.pageTop &&
+                dataPointRect.bottom <= visualViewport.height-visualViewport.pageTop &&
+                dataPointRect.left >= visualViewport.pageLeft &&
+                dataPointRect.right <= visualViewport.width-visualViewport.pageLeft
             ) { 
                     visibleDataPoints.push(dataPoint)
+                    // console.log(visualViewport.width, visualViewport.height)
                 } else {
 
                 }
@@ -431,8 +442,6 @@ document.querySelector(".close-btn").addEventListener('click', function() {
     function updateTones() {
         const visibleDataPoints = getVisibleDataPoints();
         console.log(`There are ${visibleDataPoints.length} visible data points.`);
-        console.log((visualViewport.pageLeft*(1-(0.1*(count-1))))+(visualViewport.width*(1-(0.1*(count-1)))),visualViewport.width)
-        console.log((visualViewport.pageTop*(1-(0.1*(count-1))))+(visualViewport.height*(1-(0.1*(count-1)))),visualViewport.height)
 
         if (visibleDataPoints.length > 0) {
             playTone(visibleDataPoints);
