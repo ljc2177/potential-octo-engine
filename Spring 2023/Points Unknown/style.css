@@ -14,6 +14,11 @@ body {
     z-index: 9999;
 }
 
+/* #sticky {
+    width: 100vw;
+    height: 100vh;
+} */
+
 .zoom-btns button {
     width: 3vw;
     height: 3vw;

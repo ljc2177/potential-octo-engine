@@ -72,7 +72,7 @@ function drawPoints(pts,geo,color){
         .attr("fill", color)
         .attr("class", "data-point")
         .attr("id","data-point")
-        .style('opacity', 1)
+        .style('opacity', 0)
 }
 
 function drawAlaska(pts,geo,color){
@@ -97,7 +97,7 @@ function drawAlaska(pts,geo,color){
         .attr("fill", color)
         .attr("class", "data-point-ak")
         .attr("id","data-point")
-        .style('opacity', 1)
+        .style('opacity', 0)
 }
 
 function drawHawaii(pts,geo,color){
@@ -122,7 +122,7 @@ function drawHawaii(pts,geo,color){
         .attr("fill", color)
         .attr("class", "data-point-hi")
         .attr("id","data-point")
-        .style('opacity', 1)
+        .style('opacity', 0)
 }
 
 // draw base maps
@@ -175,244 +175,68 @@ function drawOutline3(geo){
         .attr("stroke","white")
 }
 
-// add click-and-drag & arrow scroll functionality
-
-const arrows = document.querySelector(".arrows");
-
-let isDragging = false;
-let startX;
-let startY;
-let scrollLeft;
-let scrollTop;
-
-arrows.addEventListener("mousedown", startDragging);
-arrows.addEventListener("mouseup", stopDragging);
-arrows.addEventListener("mouseleave", stopDragging);
-arrows.addEventListener("mousemove", doDragging);
-
-function startDragging(event) {
-    if (event.button !== 0) {
-    return;
-    }
-
-    isDragging = true;
-    startX = event.pageX - arrows.offsetLeft;
-    startY = event.pageY - arrows.offsetTop;
-    scrollLeft = window.scrollX;
-    scrollTop = window.scrollY;
-}
-
-function stopDragging() {
-    isDragging = false;
-}
-
-function doDragging(event) {
-    if (!isDragging) {
-        return;
-    }
-
-    const x = event.pageX - arrows.offsetLeft;
-    const y = event.pageY - arrows.offsetTop;
-
-  const deltaX = (x - startX) * 2;
-  const deltaY = (y - startY) * 2;
-
-    window.scrollTo(scrollLeft - deltaX, scrollTop - deltaY);
-}
-
-arrows.addEventListener("click", onArrowClick);
-
-function onArrowClick(event) {
-    const arrow = event.target;
-
-    if (!arrow.classList.contains("arrow")) {
-        return;
-    }
-
-    event.preventDefault();
-
-    let deltaX = 0;
-    let deltaY = 0;
-
-    switch (arrow.classList[1]) {
-        case "up":
-            deltaY = -50;
-            break;
-        case "down":
-            deltaY = 50;
-            break;
-        case "left":
-            deltaX = -50;
-            break;
-        case "right":
-            deltaX = 50;
-            break;
-    }
-
-    window.scrollBy(deltaX, deltaY);
-}
-
-document.addEventListener("mousedown", startPageDragging);
-document.addEventListener("mouseup", stopPageDragging);
-document.addEventListener("mouseleave", stopPageDragging);
-document.addEventListener("mousemove", doPageDragging);
-
-function startPageDragging(event) {
-    if (event.button !== 0) {
-        return;
-    }
-
-    isDragging = true;
-    startX = event.pageX;
-    startY = event.pageY;
-    scrollLeft = window.scrollX;
-    scrollTop = window.scrollY;
-}
-
-function stopPageDragging() {
-    isDragging = false;
-}
-
-function doPageDragging(event) {
-    if (!isDragging) {
-        return;
-    }
-
-    const deltaX = event.pageX - startX;
-    const deltaY = event.pageY - startY;
-
-    window.scrollTo(scrollLeft - deltaX, scrollTop - deltaY);
-}
-
-// add pinch-to-zoom and zoom buttons functionality
-
-var sticky = document.querySelector('.sticky');
+// add increase radius functionality
 const zoomInBtn = document.getElementById('zoom-in');
 const zoomOutBtn = document.getElementById('zoom-out');
 
-let initialZoom = 1;
-let count = 1;
+let i = 50
 
 zoomInBtn.addEventListener('click', () => {
-    initialZoom = Math.min(initialZoom + 0.1, 6);
-    count = count + 1;
-    updateZoom();
-    return count
+    i = i + 10
 });
 
 zoomOutBtn.addEventListener('click', () => {
-    initialZoom = Math.max(initialZoom - 0.1, 1);
-    count = count - 1;
-    updateZoom();
-    return count
+    i = i - 10
 });
-
-document.addEventListener('wheel', (event) => {
-    event.preventDefault();
-
-    if (event.ctrlKey || event.metaKey) {
-        let newZoom = initialZoom - event.deltaY / 100;
-        newZoom = Math.min(Math.max(1, newZoom), 6);
-
-        initialZoom = newZoom;
-        updateZoom();
-
-        return;
-    }
-
-    sticky.scrollBy(event.deltaX, event.deltaY);
-});
-
-let isPinching = false;
-let initialPinchDistance = 0;
-
-document.addEventListener('touchstart', (event) => {
-    if (event.touches.length !== 2) {
-        return;
-    }
-
-    isPinching = true;
-
-    const touch1 = event.touches[0];
-    const touch2 = event.touches[1];
-
-    initialPinchDistance = Math.hypot(
-        touch2.clientX - touch1.clientX,
-        touch2.clientY - touch1.clientY
-    );
-
-    initialZoom = parseFloat(getComputedStyle(sticky).zoom) || 1;
-});
-
-document.addEventListener('touchmove', (event) => {
-    if (!isPinching || event.touches.length !== 2) {
-        return;
-    }
-
-    event.preventDefault();
-
-    const touch1 = event.touches[0];
-    const touch2 = event.touches[1];
-
-    const currentPinchDistance = Math.hypot(
-        touch2.clientX - touch1.clientX,
-        touch2.clientY - touch1.clientY
-    );
-
-    const deltaPinchDistance = currentPinchDistance - initialPinchDistance;
-    const deltaZoom = deltaPinchDistance / 100;
-
-    let newZoom = initialZoom + deltaZoom;
-    newZoom = Math.min(Math.max(1, newZoom), 6);
-
-    initialZoom = newZoom;
-    updateZoom();
-    });
-
-document.addEventListener('touchend', (event) => {
-    isPinching = false;
-});
-
-function updateZoom() {
-    sticky.style.zoom = initialZoom;
-}
 
 
 // create data sounds
 
 document.querySelector(".close-btn").addEventListener('click', function() {
 
+    var mouseX = 0;
+    var mouseY = 0;
+
+    d3.select('body')
+        .on('mousemove', function() {
+
+            var mouseCoords = d3.mouse(this);
+            mouseX = mouseCoords[0];
+            mouseY = mouseCoords[1];
+            
+            
+            svg.selectAll('ellipse').remove();
+
+            // add a new circle centered on the mouse position
+            svg.append('ellipse')
+                .attr('cx', mouseX)
+                .attr('cy', mouseY)
+                .attr('rx', i)
+                .attr('ry', i)
+                .style('fill', 'none')
+                .style('stroke', 'white');
+        });
+
     const audioContext = new AudioContext();
     audioContext.resume();
 
     function getVisibleDataPoints() {
         const visibleDataPoints = []
-        const stickyBoundingRect = sticky.getBoundingClientRect();
-        const dataPoints = document.querySelectorAll('.data-point-ak');
-        //&&'.data-point-hi'&&'.data-point'
+        const dataPoints = document.querySelectorAll('.data-point-ak'&&'.data-point-hi'&&'.data-point');
 
         // Loop through each data point and play a tone if it's within the viewport
         dataPoints.forEach(dataPoint => {
             const dataPointRect = dataPoint.getBoundingClientRect();
 
-            var scaleHeight = d3.scaleLinear()
-                .domain([0, visualViewport.height])
-                .range([0, 814]);
-
-            var scaleWidth = d3.scaleLinear()
-                .domain([0, visualViewport.width])
-                .range([0, 833]);
-
             if (
-                dataPointRect.top >= visualViewport.pageTop &&
-                dataPointRect.bottom <= visualViewport.height-visualViewport.pageTop &&
-                dataPointRect.left >= visualViewport.pageLeft &&
-                dataPointRect.right <= visualViewport.width-visualViewport.pageLeft
+                dataPointRect.top >= mouseY-i &&
+                dataPointRect.bottom <= mouseY+i &&
+                dataPointRect.left >= mouseX-i &&
+                dataPointRect.right <= mouseX+i
             ) { 
-                    visibleDataPoints.push(dataPoint)
-                    // console.log(visualViewport.width, visualViewport.height)
+                visibleDataPoints.push(dataPoint)
                 } else {
-
+                    console.log(mouseY-i,mouseX-i)
                 }
         });
 
