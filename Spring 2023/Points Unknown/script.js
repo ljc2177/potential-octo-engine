@@ -196,9 +196,14 @@ document.querySelector(".close-btn").addEventListener('click', function() {
 
     var mouseX = 0;
     var mouseY = 0;
+    const distance = d3.select('#distance');
+
 
     d3.select('body')
         .on('mousemove', function() {
+
+            var distanceVar = (i * 2) *3
+            document.getElementById("distance").innerHTML = "Radius: "+ distanceVar+ " miles"
 
             var mouseCoords = d3.mouse(this);
             mouseX = mouseCoords[0];

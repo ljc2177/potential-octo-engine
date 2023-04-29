@@ -14,10 +14,15 @@ body {
     z-index: 9999;
 }
 
-/* #sticky {
-    width: 100vw;
-    height: 100vh;
-} */
+#distance {
+    position: fixed;
+    transform: scale(1);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    top: 2vh;
+    right: 2vw;
+    font-size: 20px;
+    color: #ffffff;
+}
 
 .zoom-btns button {
     width: 3vw;
