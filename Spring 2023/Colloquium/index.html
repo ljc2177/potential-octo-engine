@@ -43,7 +43,7 @@
                 <p>
                     But that wasn't it either. 
                     When I was in high school, my mom set out to add a garden of raised beds among our fruit trees, and in that garden she went on to grow copious amounts of kale, zucchini, squach, blueberries, and so much more.
-                    It is because of the access that I had to all of these fresh foods that I was able to explore and learn how to prepare each item, developing my tastes as well as my ability to cook.
+                    It is because of the access that I had to all of these fresh foods that I was able to explore them and learn how to prepare each item, developing my tastes as well as my ability to cook.
                     Now, access didn't gaurantee that I developed a love for all foods (swiss chard is still a vegetable I would rather avoid), but I am sure looking back that there are some foods I would have never grown to love had I not been able to simply go out and pick them from my backyard.
                 </p>
                 <div style="display:flex; margin:auto; justify-content: center;">
@@ -92,7 +92,7 @@
                         <p>
                             In Portland, ME, the city contracts Cultivating Community<sup>5</sup> to run their farming programs.
                             Through these programs, Cultivating Community provides locations for community gardens where the soil and air quality have been tested and remediation has been performed if necessary.
-                            These locations also are provided with fences, water which is turned on and off by season, a tool shed with communal tools, and a composting area.
+                            These locations also are provided with fences, water (which is turned on and off by season), a tool shed with communal tools, and a composting area.
                         </p>
                         <p>
                             In additon to size, locations which serve communities that are most in need of food access are prioritized, and the distribution of development grants helps facilitate that process.
@@ -131,7 +131,7 @@
                         <p>
                             All urban farms in Washington, D.C. are individually managed, and the majority of participating farmers have been working in the space for over 10 years.
                             This has allowed the District to develop a robust network of urban farmers, which is extremely beneficial to the overall success of the program.
-                            The overall goal of the program is to help build resources for urban farms and agriculture.
+                            The long-term goal of the program is to help build resources for urban farms and agriculture.
                             Current programs in support of this support this goal are:
                             <ul>
                                 <li>An annual grant program</li>
@@ -146,14 +146,14 @@
                             Some notable feedback that the program has received is that when parcels of land embedded in residential neighborhoods weren't first offered to the residents for participation, the community rejects the urban farm.
                         </p>
                         <h3>
-                            In the future, including community members within the process of establishing these locations is a priority in order to ensure equity and respect of a community's interests.
+                            In the future, including community members within the process of establishing these locations is a priority in order to ensure equity and respect for a community's interests.
                         </h3>
                     <h3>Community Members</h3>
                         <p>
-                            I had the immense pleasure of attending this year's Rooting D.C. conference, which afforded me the opportunity to meet with community members and urban farmers within the D.C. area who could speak to the benefits and drawbacks of the program.
+                            I had the immense pleasure of attending this year's Rooting D.C. conference, which afforded me the opportunity to meet with community members and urban farmers within the D.C. area who could speak to the benefits and drawbacks of the city's programs.
                             Overwhelmingly, the focus was on empowerment.
-                            Drawing on the history of urban farms and gardening, participants in this conference reflected on how growing your own food has been used as a form of resistance.
-                            When community gardens became trendy in the 2000s, the friction between trend and need forced many necessary urban agriculture locations out of business.
+                            Drawing on the history of urban farms and gardening, participants in this conference reflected on how growing your own food has been used as a form of resistance in the past.
+                            But when community gardens became trendy in the 2000s, the friction between trend and need forced many necessary urban agriculture locations to pivot towards the trend and away from survival.
                         </p>
                         <p>
                             And when the trend faded and participants dwindled, there was no more food being grown in these locations.
@@ -208,11 +208,11 @@
                             As a result, I was able to finalize my metrics list to the following:
                             <ul>
                                 <li><b>Area:</b> this data was a simple feature calculation done in QGIS. I first calculated the area in square meters which was the dataset's unit of measurement, and then I performed simple math to convert it to acres. These locations were then filtered to only include those greater than or equal to 0.1 acres in order to ensure that they would serve enough individuals to justify their implementation.</li>
-                                <br><li><b>Daily Sunlight Hours:</b> this data took some time to compile. The goal was to perform sunlight analysis using Rhino, Grasshopper, and 3D building models of the city. I considered using OSM data, but the radius with which I could import that data into Grasshopper was not even close to large enough to run the analysis for an entire borough. Instead of risking the quality of this data, I took the published 3D models of the city's neighborhoods LINK, joined and meshed them, and then combined them by borough. All-in-all, this process took several weeks, so to prevent anyone else from having to take that time to utilize 3D meshes of the city I have provided a link to the files below.LINK These locations were then filtered to only include locations with 2 or more hours of estimated sunlight per day in order to ensure successful minimum yields in all plots.</li>
+                                <br><li><b>Daily Sunlight Hours:</b> this data took some time to compile. The goal was to perform sunlight analysis using Rhino, Grasshopper, and 3D building models of the city. I considered using OSM data, but the radius with which I could import that data into Grasshopper was not even close to large enough to run the analysis for an entire borough. Instead of risking the quality of this data, I took the published <a href="https://www.nyc.gov/site/planning/data-maps/open-data/dwn-nyc-3d-model-download.page" target="_blank">3D models of the city's neighborhoods</a>, joined and meshed them, and then combined them by borough. All-in-all, this process took several weeks, so to prevent anyone else from having to take that time to utilize 3D meshes of the city I have provided a <a id="link8" href="#section8">link to the files below</a>. These locations were then filtered to only include locations with 2 or more hours of estimated sunlight per day in order to ensure successful minimum yields in all plots.</li>
                                 <br><li><b>Lot Type:</b> this data was included within the PLUTO lot dataset and is important for understanding the overall landscape of potential urban agriculture locations by land use type.</li>
                                 <br><li><b>Open Space Lost:</b> this data was a simple calculation of the total area of the lot divided by the total area of all open spaces within the borough. It is important to note for this that I have deliberately included all parks in the city, including Central Park, Prospect Park, etc. This is not to suggest that they be converted entirely into urban agriculture, but rather that there is potential for urban agriculture within them regardless of scale.</li>
-                                <br><li><b>Proximity to Highways:</b> this data was calculated in QGIS by using the shortest line geoprocessing tool from each lot to the nearest point on a highway. The distances of these lines were then converted into miles and joined into the original dataset.</li>
-                                <br><li><b>Proximity to Low Income Households:</b> for this data, I first needed to join census data to census tracts and remove any census tracts not within the city's established poverty line. LINK Then, a similar process to distance to highways was performed again using shortest lines. This metric is important because food insecurity data is only one way of addressing need, and this project seeks to be comprehensive when considering all potential locations</li>
+                                <br><li><b>Proximity to Highways:</b> this data was calculated in QGIS by using the shortest line geoprocessing tool from each lot to the nearest point on a highway. The distances of these lines were then converted into miles and joined to the original dataset.</li>
+                                <br><li><b>Proximity to Low Income Households:</b> for this data, I first needed to join census data to census tracts and remove any census tracts not within the city's established <a href="https://www.nyc.gov/site/opportunity/poverty-in-nyc/poverty-measure.page" target="_blank">poverty line and poverty threshold</a>. Then, a similar process to distance to highways was performed again using shortest lines. This metric is important because food insecurity data is only one way of addressing need, and this project seeks to be comprehensive when considering all potential locations</li>
                                 <br><li><b>Proximity to Food Insecurity:</b> food insecurity data is calculated differently based on the source of the data and the corresponding model used for assessing food access. For this project I requested the food insecurity data from Feeding America<sup>8</sup> for New York City's census tracts and then performed the same process as I did for proximity to low income households to compile this data.</li>
                                 <br><li><b>Individuals Served:</b> in my conversations with various urban agriculture departments, it was discussed how a single household is served by one 10" by 15" plot. Using those dimensions, as well as accounting for space needed for a shed and other necessities, I use the area of each lot to determine total individuals served. I was admittedly very modest in my calculations for this data, as I wanted to be sure not to overestimate this number.</li>
                                 <br><li><b>Potential to Serve Food Insecurity:</b> this data was calculated by taking the total number of individuals served and multiplying that by a factor of the lot's proximity to food insecurity. For instance, if the lot is directly adjacent to food insecurity, it was estimated that 100% of the individuals served would be food insecure. It is important to note that this number is thus not a fact rather than a general estimation of an incredibly dynamic metric. It is important for it to be included for my project goals, but its limitations must be recognized and will be discussed more thoroughly further on.</li>
@@ -225,15 +225,15 @@
                         <div style="display:flex; margin:auto; justify-content: center;">
                         <h3 style="text-align: right;">
                             <img src="img/Bronx.png" style="height:20vw;">
-                            Bronx: 1,457 locaitons, 6,621 acres<br>
+                            Bronx: 1,457 locations, 6,621 acres<br>
                             <img src="img/Brooklyn.png" style="height:20vw;">
-                            Brooklyn: 1,413 locaitons, 4,583 acres<br>
+                            Brooklyn: 1,413 locations, 4,583 acres<br>
                             <img src="img/Manhattan.png" style="height:20vw;">
-                            Manhattan: 406 locaitons, 3,154 acres<br>
+                            Manhattan: 406 locations, 3,154 acres<br>
                             <img src="img/Queens.png" style="height:20vw;">
-                            Queens: 2,642 locaitons, 8,425 acres<br>
+                            Queens: 2,642 locations, 8,425 acres<br>
                             <img src="img/StatenIsland.png" style="height:20vw;">
-                            Staten Island: 4,177 locaitons, 7,586 acres
+                            Staten Island: 4,177 locations, 7,586 acres
                         </h3>
                         </div>
 
@@ -243,13 +243,15 @@
                             <ul>
                                 <li>Identify all possible locations within the city which could serve as urban farms or community gardens.</li>
                                 <li>Provide metrics on the viability of these locations in regards to both their inherent qualities and effects should they be converted to urban agriculture locations.</li>
-                                <li>Create a computational tool which empowers community members and government officials to explore each of these locations to see how urban agriculture can fit into the greater landscape of better support their communities.</li>
+                                <li>Create a computational tool which empowers community members and government officials to explore each of these locations to see how urban agriculture can fit into the greater landscape of communities and better support their members.</li>
                             </ul>
                         </p>
                         <h3>
                             To achieve these goals, I developed a gamified computational tool called the Little Apple.
-                            This tool allows you to explore each metric yourself on a user-friendly app accompanied by exciting informational popups.
-                            Finally, the tool is just the beginning. 
+                            This tool allows you to explore each metric yourself on a user-friendly app accompanied by exciting informational popups based on the conversations I had throughout this process.
+                        </h3>
+                        <h3>
+                            Finally, this tool is just the beginning. 
                             When you are done exploring locations, you are able to export the full dataset of your filtered locations and further pursue their development into urban farms and community gardens.
                         </h3>
 
@@ -262,32 +264,32 @@
                     <p>
                         No dataset is perfect, and city-scale spatial data is a perfect example of that.
                         The built environment is a dynamic space that cannot be categorized cleanly. 
-                        For instance, what is listed as a vacant lot can also be a giant pit in the ground, as I came to find when I visited one of the potential locations on my list.
+                        For instance, what is listed as a vacant lot can also be a giant pit in the ground, as I came to find when I visited one of the potential locations on my personal list.
                     </p>
                     <div style="display:flex; margin:auto; justify-content: center;">
                     <img src="img/VacantLot.jpeg" style="height:35vw;">
                     </div>
                     <p>
                         This location has been an inactive build site since before I moved to New York City.
-                        Data is a picture of one recorded moment in time, and so this tool will not be able to function similarly this time next year without being updated.
+                        This is a perfect example of how data is a picture of one recorded moment in time, and so it needs constant updating, as will the Little Apple.
                         There is no avoiding the immense amount of work that it would thus take to truly evaluate the possibilities for urban agriculture within the city, however that is not a reason not to do it.
                     </p>
                     <p>
                         In addition to limitations in the nuances of data, I mentioned above my calculation of how much each potential location addresses food insecurity. 
-                        Food insecurity is phrase that is used, but as mentioned above it generalizes a series of complex circumstances.
+                        But food insecurity is just a phrase that generalizes a series of complex circumstances.
                         Similarly, this metric is generalizing by calculating the number of individuals served relative to proximity to measured food insecurity within Feeding America data.
                         This calculation was a series of objective decisions on my part, and as such it must be recognized as imperfect.
                     </p>
                     <p>
-                        Overall outcomes of a location is not just given the possibilities, but given those that step up and get involved.
+                        Finally, overall outcomes of a location are not just given the inherent possibilities within the space, but given the number of individuals who step up and get involved.
                         It is dependent on how much a community gathers around a potential location to integrate it as a vital resource.
-                        And I can't possibly predict the possibilities of that.
+                        Because I can't possibly predict the possibilities of that, it is critical to recognize that there is so much more potential than can be reflected here.
                     </p>
 
                 <h3>Implications</h3>
                     <p>
                     This project does not aim to present a singular solution for NYC’s food system.
-                    Rather, it seeks to support a growing urban agriculture program grounded in community action and need.
+                    Rather, it seeks to support a growing urban agriculture program grounded in community action and established need.
                     The first of its kind, this tool opens the space of spatial analysis to those who don't have the skills to otherwise explore it.
                     </p>
                     <p>
@@ -301,7 +303,7 @@
                     </h3>
                 <h2 class="section" id="section5">Urban Agriculture Resources</h2>
                     <p>
-                        While this project is focused specifically on the identification and evaluation of potential locations for urban agriculture in New York City, throughout my research I have come across several resoures that will be beneficial for individuals pursuing agriculture.
+                        While this project is focused specifically on the identification and evaluation of potential locations for urban agriculture in New York City, throughout my research I have come across several resoures that will be beneficial for individuals pursuing agriculture regardless of location.
                         I am listing them here to accompany the work that I hope follows from the Little Apple:
                         <div style="justify-content:center; margin:auto; line-height:2.5vw;">
                         <a href="https://www.nyc.gov/site/agriculture/index.page" target="_blank">NYC Mayor's Office of Urban Agriculture Website</a><br>
@@ -330,14 +332,14 @@
                     If you change any metrics, that is a bit more work, but completely doable as well.
                 </p>
                 <p>
-                    You can get all of the code to do this on my <a href="https://github.com/ljc2177/the-little-apple" target="_blank">Little Apple GitHub page</a> and transfer the data yourself, or you can reach out to me and I will be happy to help.
-                    All I ask is that if you do you reach out and share with me how you are using the Little Apple!
+                    You can get all of the code to do expand this on my <a href="https://github.com/ljc2177/the-little-apple" target="_blank">Little Apple GitHub page</a> and transfer the data yourself, or you can <a href="mailto:me@letticampo.com">reach out to me</a> and I will be happy to help.
+                    All I ask is that if you do expand this project in any way, please <a href="mailto:me@letticampo.com">reach out and share with me how you are using the Little Apple</a>!
                 </p>
                 <img src="img/CityGardenBG.png" style="height:61vw;">
                 <h2 class="section" id="section8">NYC 3D Models for Use</h2>
                 <p>
-                    As I mention above, simply convering all of the neighborhood 3D models of New York City was a project on its own.
-                    These models are extremely dense, and sunlight analysis using one of them was next to impossible, let alone conducting sunlight analysis on an entire borough.
+                    As I mention above, simply converting all of the neighborhood 3D models of New York City was a project on its own.
+                    These models are extremely dense, and sunlight analysis using one of them before they were meshed and joined was next to impossible, let alone conducting sunlight analysis on an entire borough.
                     But the data needed sunlight, and so I went through the multi-week process of downloading each file, converting all of the surfaces to meshes, joining those meshes, and then combining each mesh by borough in order to create a (still very heavy) much lighter 3D file on which I could run sunlight analysis.
                 </p>
                 <p>
